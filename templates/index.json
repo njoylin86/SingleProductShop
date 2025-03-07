@@ -70,34 +70,233 @@
         "show_text_below": true
       }
     },
-    "collage_zFX9fE": {
-      "type": "collage",
+    "multicolumn_WmY6YP": {
+      "type": "multicolumn",
       "blocks": {
-        "image_XEhXHt": {
-          "type": "image",
-          "settings": {}
+        "column_J3WUwB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         },
-        "image_WjfxJQ": {
-          "type": "image",
-          "settings": {}
+        "column_X9nam8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         },
-        "image_6Wm9Uq": {
-          "type": "image",
-          "settings": {}
+        "column_7c9irT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "image_XEhXHt",
-        "image_WjfxJQ",
-        "image_6Wm9Uq"
+        "column_J3WUwB",
+        "column_X9nam8",
+        "column_7c9irT"
       ],
       "settings": {
-        "heading": "",
+        "title": "",
         "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
         "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Y9gLy9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jMUFfN": {
+          "type": "column",
+          "settings": {
+            "title": "Svenskt företag",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RaJNB3": {
+          "type": "column",
+          "settings": {
+            "title": "Snabba leveranser",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iMLRnT": {
+          "type": "column",
+          "settings": {
+            "title": "Kundservice som kan",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yipfKY": {
+          "type": "column",
+          "settings": {
+            "title": "Brett utbud",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jMUFfN",
+        "column_RaJNB3",
+        "column_iMLRnT",
+        "column_yipfKY"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_PkXC7k": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YijEmr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BMGMax": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HLNQhq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YijEmr",
+        "column_BMGMax",
+        "column_HLNQhq"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_adBMXJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RQMBmX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ajyxLp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NFdMd4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RQMBmX",
+        "column_ajyxLp",
+        "column_NFdMd4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -105,6 +304,9 @@
   },
   "order": [
     "boh_hero_1_ps_hKiMPW",
-    "collage_zFX9fE"
+    "multicolumn_WmY6YP",
+    "multicolumn_Y9gLy9",
+    "multicolumn_PkXC7k",
+    "multicolumn_adBMXJ"
   ]
 }
