@@ -126,6 +126,12 @@
             >
               {{ block.settings.heading }}
             </h2>
+          {%- when 'list_item' -%}
+            <ul>
+              {%- for block in section.blocks -%}
+                <li>{{ block.settings.list_text }}</li>
+              {%- endfor -%}
+            </ul>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
@@ -399,6 +405,17 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "list_item",
+      "name": "List Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "list_text",
+          "label": "Item Text"
         }
       ]
     },
