@@ -126,14 +126,23 @@
             >
               {{ block.settings.heading }}
             </h2>
-          {%- when 'list' -%}
-            <ul>
-              {%- for block in section.blocks -%}
-                {%- if block.type == 'list_item' -%}
-                  <li>{{ block.settings.list_text }}</li>
-                {%- endif -%}
-              {%- endfor -%}
-            </ul>
+            {%- assign has_items = false -%}
+            {%- for block in section.blocks -%}
+              {%- if block.type == 'list_item' -%}
+                {%- assign has_items = true -%}
+              {%- endif -%}
+            {%- endfor -%}
+            
+            {%- if has_items -%}
+              <ul>
+                {%- for block in section.blocks -%}
+                  {%- if block.type == 'list_item' -%}
+                    <li>{{ block.settings.list_text }}</li>
+                  {%- endif -%}
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+            
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
