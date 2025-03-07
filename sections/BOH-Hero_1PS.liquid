@@ -129,7 +129,9 @@
           {%- when 'list_item' -%}
             <ul>
               {%- for block in section.blocks -%}
-                <li>{{ block.settings.list_text }}</li>
+                {%- if block.type == 'list_item' -%}
+                  <li>{{ block.settings.list_text }}</li>
+                {%- endif -%}
               {%- endfor -%}
             </ul>
           {%- when 'text' -%}
