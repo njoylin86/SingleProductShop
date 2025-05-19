@@ -147,12 +147,12 @@
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
             </div>
-                    {% when 'add_product_button' %}
+          {% when 'add_product_button' %}
             {% assign product = all_products[block.settings.product] %}
             {% if product %}
               <form method="post" action="/cart/add">
                 <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-                <button type="submit">{{ block.settings.button_text }}</button>
+                <button class="button" type="submit">{{ block.settings.button_text }}</button>
               </form>
             {% else %}
               <p>Product not found.</p>
