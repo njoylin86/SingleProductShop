@@ -147,6 +147,16 @@
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
             </div>
+                    {% when 'add_product_button' %}
+            {% assign product = all_products[block.settings.product] %}
+            {% if product %}
+              <form method="post" action="/cart/add">
+                <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                <button type="submit">{{ block.settings.button_text }}</button>
+              </form>
+            {% else %}
+              <p>Product not found.</p>
+            {% endif %}
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
