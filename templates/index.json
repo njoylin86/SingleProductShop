@@ -43,17 +43,6 @@
             "product": "the-collection-snowboard-liquid",
             "button_text": "Add to Cart"
           }
-        },
-        "buttons_DU7iVm": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
@@ -61,8 +50,7 @@
         "list_item_6p6xG9",
         "list_item_J8MUiQ",
         "list_item_498dTj",
-        "add_product_button_LdKHaU",
-        "buttons_DU7iVm"
+        "add_product_button_LdKHaU"
       ],
       "settings": {
         "image": "shopify://shop_images/theme_cover_image.jpg",
