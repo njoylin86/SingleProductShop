@@ -9,338 +9,152 @@
  */
 {
   "sections": {
-    "boh_hero_1_ps_hKiMPW": {
-      "type": "BOH-Hero_1PS",
-      "blocks": {
-        "heading_TiUx3H": {
-          "type": "heading",
-          "settings": {
-            "heading": "Världens seniorvänligaste klocka",
-            "heading_size": "h0"
-          }
-        },
-        "list_item_6p6xG9": {
-          "type": "list_item",
-          "settings": {
-            "list_text": "Hello, Hi!"
-          }
-        },
-        "list_item_J8MUiQ": {
-          "type": "list_item",
-          "settings": {
-            "list_text": "Hello, Hi!"
-          }
-        },
-        "list_item_498dTj": {
-          "type": "list_item",
-          "settings": {
-            "list_text": "Hello, Hi!"
-          }
-        },
-        "add_product_button_LdKHaU": {
-          "type": "add_product_button",
-          "settings": {
-            "product": "the-collection-snowboard-liquid",
-            "button_text": "Add to Cart"
-          }
-        }
-      },
-      "block_order": [
-        "heading_TiUx3H",
-        "list_item_6p6xG9",
-        "list_item_J8MUiQ",
-        "list_item_498dTj",
-        "add_product_button_LdKHaU"
-      ],
+    "aurora_hero_fnFAzR": {
+      "type": "aurora-hero",
+      "name": "Aurora Hero",
       "settings": {
-        "image": "shopify://shop_images/theme_cover_image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "multicolumn_WmY6YP": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_J3WUwB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_X9nam8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_7c9irT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_J3WUwB",
-        "column_X9nam8",
-        "column_7c9irT"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "button_label": "",
+        "overlay_opacity": 50,
+        "headline": "Sculpt Atmosphere.",
+        "subheadline": "<p>Introducing Aurora Light: a singular spotlight designed to transform your space with breathtaking prism effects and unparalleled ambient elegance.</p>",
+        "button_label": "Discover the Light",
         "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "text_color": "#FFFFFF",
+        "button_bg_color": "#FFBF00",
+        "button_text_color": "#1D1919"
       }
     },
-    "multicolumn_Y9gLy9": {
-      "type": "multicolumn",
+    "aurora_order_form_TWw4Ee": {
+      "type": "aurora-order-form",
+      "name": "Aurora Order Form",
+      "settings": {
+        "section_bg_color": "#181518",
+        "product_to_feature": "",
+        "heading": "Own the Aurora",
+        "subheading": "<p>Ready to redefine your space? The Aurora Spotlight is available with introductory pricing.</p>",
+        "show_msrp": true,
+        "show_quantity_selector": true,
+        "quantity_selector_label": "Quantity:",
+        "button_label": "Add to Cart & Illuminate",
+        "trust_text": "Secure Checkout | Free Worldwide Shipping | 30-Day Money-Back Guarantee",
+        "show_payment_icons": true,
+        "enable_glassmorphism": true,
+        "card_bg_color": "rgba(29,25,25,0.7)",
+        "card_border_color": "#FFBF00",
+        "card_text_color": "#F3F4F6",
+        "price_text_color": "#FFBF00",
+        "compare_price_text_color": "#A0AEC0",
+        "trust_badge_text_color": "#9CA3AF",
+        "button_bg_color": "#FFBF00",
+        "button_text_color": "#1D1919"
+      }
+    },
+    "aurora_tech_teaser_R4GmPk": {
+      "type": "aurora-tech-teaser",
+      "name": "Aurora Tech Teaser",
+      "settings": {
+        "section_bg_color": "#221E22",
+        "heading": "The Science of Spectacle",
+        "heading_color": "#FFFFFF",
+        "paragraph_1": "<p>At the heart of Aurora lies a precisely engineered optical lens. This isn't just glass; it's a gateway to a spectrum. By carefully angling facets and utilizing high-clarity materials, we've maximized light dispersion to create the most vivid and expansive prism effect possible from a compact source.</p>",
+        "paragraph_2": "<p>The internal LED module is selected for its specific wavelength output, ensuring that when light passes through the lens, the colors are rich, pure, and deeply saturated. It's where physics meets art.</p>",
+        "text_color": "#D1D5DB"
+      }
+    },
+    "aurora_testimonials_aAyxtQ": {
+      "type": "aurora-testimonials",
       "blocks": {
-        "column_jMUFfN": {
-          "type": "column",
+        "testimonial_item_gNcpCq": {
+          "type": "testimonial_item",
           "settings": {
-            "image": "shopify://shop_images/sweden.png",
-            "title": "Svenskt företag",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "quote": "The Aurora light is simply magical. It's transformed my living room into a constantly shifting canvas of color. Absolutely mesmerizing!",
+            "author": "Alex P., Interior Designer"
           }
         },
-        "column_RaJNB3": {
-          "type": "column",
+        "testimonial_item_MBjPJ7": {
+          "type": "testimonial_item",
           "settings": {
-            "image": "shopify://shop_images/delivery.png",
-            "title": "Snabba leveranser",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "quote": "I was looking for a unique statement piece, and this is it. The build quality is superb.",
+            "author": "Sarah K., Tech Enthusiast"
           }
         },
-        "column_iMLRnT": {
-          "type": "column",
+        "testimonial_item_cMfk4j": {
+          "type": "testimonial_item",
           "settings": {
-            "image": "shopify://shop_images/customer-service.png",
-            "title": "Kundservice som kan",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yipfKY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/grocery-cart.png",
-            "title": "Brett utbud",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "quote": "Sleek, modern, and the light it casts is just... wow. My home office has never felt more inspiring.",
+            "author": "Michael B., Architect"
           }
         }
       },
       "block_order": [
-        "column_jMUFfN",
-        "column_RaJNB3",
-        "column_iMLRnT",
-        "column_yipfKY"
+        "testimonial_item_gNcpCq",
+        "testimonial_item_MBjPJ7",
+        "testimonial_item_cMfk4j"
       ],
+      "name": "Aurora Testimonials",
       "settings": {
-        "title": "",
-        "heading_size": "hxl",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
+        "section_bg_color": "rgba(0,0,0,0)",
+        "super_heading": "Echoes of Enchantment",
+        "super_heading_text_color": "#FFFFFF",
+        "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>",
+        "description_text_color": "#a0aec0",
+        "enable_glassmorphism": true,
+        "card_base_color": "rgba(29,25,25,0.5)",
+        "card_border_color": "rgba(255,255,255,0.1)",
+        "quote_text_color": "#D1D5DB",
+        "author_text_color": "#FFBF00"
+      }
+    },
+    "aurora_product_showcase_D63jWq": {
+      "type": "aurora-product-showcase",
+      "blocks": {
+        "feature_item_YT6fwU": {
+          "type": "feature_item",
+          "settings": {
+            "text": "Precision-engineered prism optics",
+            "icon_svg": ""
+          }
+        },
+        "feature_item_7WDhEE": {
+          "type": "feature_item",
+          "settings": {
+            "text": "Premium anodized aluminum body",
+            "icon_svg": ""
+          }
+        },
+        "feature_item_6ph8Hd": {
+          "type": "feature_item",
+          "settings": {
+            "text": "Energy-efficient LED technology",
+            "icon_svg": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_YT6fwU",
+        "feature_item_7WDhEE",
+        "feature_item_6ph8Hd"
+      ],
+      "name": "Aurora Product Showcase",
+      "settings": {
+        "section_bg_color": "rgba(0,0,0,0)",
+        "show_thumbnails": true,
+        "heading": "The Aurora Spotlight",
+        "description_paragraph1": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>",
+        "description_paragraph2": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>",
+        "button_label": "Secure Yours Now",
         "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_PkXC7k": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_YijEmr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/trustpilot-500px.png",
-            "title": "Namn",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BMGMax": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/trustpilot-500px.png",
-            "title": "Namn",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HLNQhq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/trustpilot-500px.png",
-            "title": "Namn",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_YijEmr",
-        "column_BMGMax",
-        "column_HLNQhq"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_adBMXJ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_RQMBmX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ajyxLp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NFdMd4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_RQMBmX",
-        "column_ajyxLp",
-        "column_NFdMd4"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter_yaXYDX": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_facAkA": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_W3mefG": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "email_form_LkRWtT": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_facAkA",
-        "paragraph_W3mefG",
-        "email_form_LkRWtT"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "text_color": "#F3F4F6",
+        "highlight_color": "#FFBF00",
+        "button_bg_color": "#FFBF00",
+        "button_text_color": "#1D1919"
       }
     }
   },
   "order": [
-    "boh_hero_1_ps_hKiMPW",
-    "multicolumn_WmY6YP",
-    "multicolumn_Y9gLy9",
-    "multicolumn_PkXC7k",
-    "multicolumn_adBMXJ",
-    "newsletter_yaXYDX"
+    "aurora_hero_fnFAzR",
+    "aurora_product_showcase_D63jWq",
+    "aurora_order_form_TWw4Ee",
+    "aurora_tech_teaser_R4GmPk",
+    "aurora_testimonials_aAyxtQ"
   ]
 }
