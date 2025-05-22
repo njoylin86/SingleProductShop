@@ -5,111 +5,119 @@
 {% endcomment %}
 
 <style>
-  .font-montserrat { font-family: 'Montserrat', sans-serif; }
-  #shopify-section-{{ section.id }} .tech-teaser-text {
+  .font-montserrat {
+    font-family: 'Montserrat'
+    , sans-serif;
+  }
+  #shopify-section-{{ section.id }}
+  .tech-teaser-text {
     {% if section.settings.text_color != blank %}
       color: {{ section.settings.text_color }};
     {% else %}
-      color: #D1D5DB; /* Default gray-300 */
+      color: #D1D5DB;
+      /* Default gray-300 */
     {% endif %}
   }
-  #shopify-section-{{ section.id }} .tech-teaser-heading {
+  #shopify-section-{{ section.id }}
+  .tech-teaser-heading {
     {% if section.settings.heading_color != blank %}
       color: {{ section.settings.heading_color }};
     {% else %}
-      color: #FFFFFF; /* Default white */
+      color: #FFFFFF;
+      /* Default white */
     {% endif %}
   }
 </style>
 
-<section id="tech-{{ section.id }}" class="section-padding-sm" style="background-color: {{ section.settings.section_bg_color | default: 'rgba(29,25,25,0.8)' }};">
-  <div class="container mx-auto px-6">
-    <div class="flex flex-col md:flex-row items-center gap-12">
-      <div class="md:w-1/2">
-        {% if section.settings.heading != blank %}
-          <h2 class="text-3xl font-montserrat font-semibold mb-6 tech-teaser-heading">{{ section.settings.heading | escape }}</h2>
-        {% endif %}
-        {% if section.settings.paragraph_1 != blank %}
-          <div class="text-lg mb-4 leading-relaxed tech-teaser-text">
-            {{ section.settings.paragraph_1 }}
-          </div>
-        {% endif %}
-        {% if section.settings.paragraph_2 != blank %}
-          <div class="text-lg mb-4 leading-relaxed tech-teaser-text">
-            {{ section.settings.paragraph_2 }}
-          </div>
-        {% endif %}
-      </div>
-      <div class="md:w-1/2">
-        {% if section.settings.image %}
-          <img
-            src="{{ section.settings.image | image_url: width: 600 }}"
-            alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
-            class="rounded-lg shadow-xl w-full"
-            loading="lazy"
-            width="{{ section.settings.image.width }}"
-            height="{{ section.settings.image.height }}"
-          >
-        {% else %}
-          {{ 'image' | placeholder_svg_tag: 'rounded-lg shadow-xl w-full h-64 bg-gray-700 text-gray-400' }}
-        {% endif %}
+<section
+  id="tech-{{ section.id }}"
+  class="section-padding-sm"
+  style="background-color: {{ section.settings.section_bg_color | default: 'rgba(29,25,25,0.8)' }};">
+  <div class="page-width">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/2">
+          {% if section.settings.heading != blank %}
+            <h2 class="text-3xl font-montserrat font-semibold mb-6 tech-teaser-heading">{{ section.settings.heading | escape }}</h2>
+          {% endif %}
+          {% if section.settings.paragraph_1 != blank %}
+            <div class="text-lg mb-4 leading-relaxed tech-teaser-text">
+              {{ section.settings.paragraph_1 }}
+            </div>
+          {% endif %}
+          {% if section.settings.paragraph_2 != blank %}
+            <div class="text-lg mb-4 leading-relaxed tech-teaser-text">
+              {{ section.settings.paragraph_2 }}
+            </div>
+          {% endif %}
+        </div>
+        <div class="md:w-1/2">
+          {% if section.settings.image %}
+            <img
+              src="{{ section.settings.image | image_url: width: 600 }}"
+              alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
+              class="rounded-lg shadow-xl w-full"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'rounded-lg shadow-xl w-full h-64 bg-gray-700 text-gray-400' }}
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 {% schema %}
-{
-  "name": "Aurora Tech Teaser",
-  "tag": "section",
-  "class": "aurora-tech-teaser-section",
-  "settings": [
-    {
-      "type": "color",
-      "id": "section_bg_color",
-      "label": "Section Background",
-      "default": "#221E22"
-    },
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "The Science of Spectacle"
-    },
-    {
-      "type": "color",
-      "id": "heading_color",
-      "label": "Heading Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "richtext",
-      "id": "paragraph_1",
-      "label": "Paragraph 1",
-      "default": "<p>At the heart of Aurora lies a precisely engineered optical lens. This isn't just glass; it's a gateway to a spectrum. By carefully angling facets and utilizing high-clarity materials, we've maximized light dispersion to create the most vivid and expansive prism effect possible from a compact source.</p>"
-    },
-    {
-      "type": "richtext",
-      "id": "paragraph_2",
-      "label": "Paragraph 2 (Optional)",
-      "default": "<p>The internal LED module is selected for its specific wavelength output, ensuring that when light passes through the lens, the colors are rich, pure, and deeply saturated. It's where physics meets art.</p>"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "Text Color",
-      "default": "#D1D5DB"
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Aurora Tech Teaser"
-    }
-  ]
-}
+  {
+    "name": "Aurora Tech Teaser",
+    "tag": "section",
+    "class": "aurora-tech-teaser-section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "section_bg_color",
+        "label": "Section Background",
+        "default": "#221E22"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "The Science of Spectacle"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_1",
+        "label": "Paragraph 1",
+        "default": "<p>At the heart of Aurora lies a precisely engineered optical lens. This isn't just glass; it's a gateway to a spectrum. By carefully angling facets and utilizing high-clarity materials, we've maximized light dispersion to create the most vivid and expansive prism effect possible from a compact source.</p>"
+      }, {
+        "type": "richtext",
+        "id": "paragraph_2",
+        "label": "Paragraph 2 (Optional)",
+        "default": "<p>The internal LED module is selected for its specific wavelength output, ensuring that when light passes through the lens, the colors are rich, pure, and deeply saturated. It's where physics meets art.</p>"
+      }, {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#D1D5DB"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Aurora Tech Teaser"
+      }
+    ]
+  }
 {% endschema %}

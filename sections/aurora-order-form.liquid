@@ -5,11 +5,15 @@
 {% endcomment %}
 
 <style>
-  .font-montserrat { font-family: 'Montserrat', sans-serif; }
+  .font-montserrat {
+    font-family: 'Montserrat'
+    , sans-serif;
+  }
 
-  #shopify-section-{{ section.id }} .order-card {
+  #shopify-section-{{ section.id }}
+  .order-card {
     background: {{ section.settings.card_bg_color | default: 'rgba(29,25,25,0.7)' }};
-    border: 2px solid {{ section.settings.card_border_color | default: '#FFBF00' }};
+    border: 2px solid{{ section.settings.card_border_color | default: '#FFBF00' }};
     color: {{ section.settings.card_text_color | default: '#F3F4F6' }};
     {% if section.settings.enable_glassmorphism %}
       backdrop-filter: blur(10px);
@@ -17,227 +21,230 @@
     {% endif %}
   }
 
-  #shopify-section-{{ section.id }} .order-cta-button {
+  #shopify-section-{{ section.id }}
+  .order-cta-button {
     background-color: {{ section.settings.button_bg_color | default: '#FFBF00' }};
     color: {{ section.settings.button_text_color | default: '#1D1919' }};
   }
-  #shopify-section-{{ section.id }} .order-cta-button:hover {
+  #shopify-section-{{ section.id }}.order-cta-button:hover {
     background-color: {{ section.settings.button_bg_color | color_darken: 10 | default: '#eAA900' }};
   }
-  #shopify-section-{{ section.id }} .price-color {
+  #shopify-section-{{ section.id }}
+  .price-color {
     color: {{ section.settings.price_text_color | default: '#FFBF00' }};
   }
-  #shopify-section-{{ section.id }} .compare-price-color {
-    color: {{ section.settings.compare_price_text_color | default: '#A0AEC0' }}; /* gray-400 */
+  #shopify-section-{{ section.id }}
+  .compare-price-color {
+    color: {{ section.settings.compare_price_text_color | default: '#A0AEC0' }};
+    /* gray-400 */
   }
-  #shopify-section-{{ section.id }} .trust-text-color {
-     color: {{ section.settings.trust_badge_text_color | default: '#9CA3AF' }}; /* gray-500 */
+  #shopify-section-{{ section.id }}
+  .trust-text-color {
+    color: {{ section.settings.trust_badge_text_color | default: '#9CA3AF' }};
+    /* gray-500 */
   }
 </style>
 
-<section id="order-{{ section.id }}" class="section-padding" style="background-color: {{ section.settings.section_bg_color | default: '#110F11' }};">
-  <div class="container mx-auto px-6">
-    <div class="max-w-2xl mx-auto text-center p-6 sm:p-10 rounded-xl order-card">
-      {% if section.settings.heading != blank %}
-        <h2 class="text-4xl font-montserrat font-semibold mb-6">{{ section.settings.heading | escape }}</h2>
-      {% endif %}
-      {% if section.settings.subheading != blank %}
-        <div class="text-lg mb-8">
-          {{ section.settings.subheading }}
-        </div>
-      {% endif %}
+<section
+  id="order-{{ section.id }}"
+  class="section-padding"
+  style="background-color: {{ section.settings.section_bg_color | default: '#110F11' }};">
+  <div class="page-width">
+    <div class="container mx-auto px-6">
+      <div class="max-w-2xl mx-auto text-center p-6 sm:p-10 rounded-xl order-card">
+        {% if section.settings.heading != blank %}
+          <h2 class="text-4xl font-montserrat font-semibold mb-6">{{ section.settings.heading | escape }}</h2>
+        {% endif %}
+        {% if section.settings.subheading != blank %}
+          <div class="text-lg mb-8">
+            {{ section.settings.subheading }}
+          </div>
+        {% endif %}
 
-      {%- assign featured_product = section.settings.product_to_feature -%}
-      {%- if featured_product != blank -%}
-        <div class="mb-6">
-          <span class="text-5xl font-bold font-montserrat price-color">{{ featured_product.price | money }}</span>
-          {% if section.settings.show_msrp and featured_product.compare_at_price > featured_product.price %}
-            <span class="text-gray-400 ml-2 line-through compare-price-color">{{ featured_product.compare_at_price | money }}</span>
-          {% endif %}
-        </div>
-
-        {%- form 'product', featured_product, id: product_form_id, class: 'product-form' -%}
-          <input type="hidden" name="id" value="{{ featured_product.selected_or_first_available_variant.id }}">
-
-          {% if section.settings.show_quantity_selector %}
-            <div class="mb-6">
-              <label for="Quantity-{{ section.id }}" class="block mb-2">{{ section.settings.quantity_selector_label | escape }}</label>
-              <select
-                id="Quantity-{{ section.id }}"
-                name="quantity"
-                class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-amber-500 focus:border-amber-500 block w-full p-2.5"
-              >
-                {% for i in (1..10) %}
-                  <option value="{{ i }}">{{ i }}</option>
-                {% endfor %}
-              </select>
-            </div>
-          {% else %}
-             <input type="hidden" name="quantity" value="1">
-          {% endif %}
-
-          <button
-            type="submit"
-            name="add"
-            class="w-full order-cta-button font-bold py-4 px-6 rounded-lg text-xl cta-button transition-all duration-300 ease-in-out hover:transform hover:-translate-y-0.5 hover:shadow-lg"
-            {% unless featured_product.selected_or_first_available_variant.available %}disabled{% endunless %}
-          >
-            {% if featured_product.selected_or_first_available_variant.available %}
-              {{ section.settings.button_label | escape }}
-            {% else %}
-              {{ 'products.product.sold_out' | t }}
+        {%- assign featured_product = section.settings.product_to_feature -%}
+        {%- if featured_product != blank -%}
+          <div class="mb-6">
+            <span class="text-5xl font-bold font-montserrat price-color">{{ featured_product.price | money }}</span>
+            {% if section.settings.show_msrp and featured_product.compare_at_price > featured_product.price %}
+              <span class="text-gray-400 ml-2 line-through compare-price-color">{{ featured_product.compare_at_price | money }}</span>
             {% endif %}
-          </button>
-        {%- endform -%}
-      {%- else -%}
-        <p>Please select a product in the section settings.</p>
-      {%- endif -%}
+          </div>
 
-      {% if section.settings.trust_text != blank %}
-        <p class="text-xs mt-6 trust-text-color">
-          {{ section.settings.trust_text | escape }}
-        </p>
-      {% endif %}
+          {%- form 'product'
+            , featured_product
+            , id: product_form_id
+            , class: 'product-form' -%}
+            <input
+              type="hidden"
+              name="id"
+              value="{{ featured_product.selected_or_first_available_variant.id }}">
 
-      {% if section.settings.show_payment_icons %}
-        <div class="flex justify-center space-x-4 mt-4">
-          {%- for type in shop.enabled_payment_types -%}
-            {{ type | payment_type_svg_tag: class: 'w-10 h-6 text-gray-400' }}
-          {%- endfor -%}
-        </div>
-      {% endif %}
+            {% if section.settings.show_quantity_selector %}
+              <div class="mb-6">
+                <label for="Quantity-{{ section.id }}" class="block mb-2">{{ section.settings.quantity_selector_label | escape }}</label>
+                <select
+                  id="Quantity-{{ section.id }}"
+                  name="quantity"
+                  class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-amber-500 focus:border-amber-500 block w-full p-2.5">
+                  {% for i in (1..10) %}
+                    <option value="{{ i }}">{{ i }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            {% else %}
+              <input
+                type="hidden"
+                name="quantity"
+                value="1">
+            {% endif %}
+
+            <button
+              type="submit"
+              name="add"
+              class="w-full order-cta-button font-bold py-4 px-6 rounded-lg text-xl cta-button transition-all duration-300 ease-in-out hover:transform hover:-translate-y-0.5 hover:shadow-lg"
+              {% unless featured_product.selected_or_first_available_variant.available %}
+              disabled{% endunless %}>
+              {% if featured_product.selected_or_first_available_variant.available %}
+                {{ section.settings.button_label | escape }}
+              {% else %}
+                {{ 'products.product.sold_out' | t }}
+              {% endif %}
+            </button>
+          {%- endform -%}
+        {%- else -%}
+          <p>Please select a product in the section settings.</p>
+        {%- endif -%}
+
+        {% if section.settings.trust_text != blank %}
+          <p class="text-xs mt-6 trust-text-color">
+            {{ section.settings.trust_text | escape }}
+          </p>
+        {% endif %}
+
+        {% if section.settings.show_payment_icons %}
+          <div class="flex justify-center space-x-4 mt-4">
+            {%- for type in shop.enabled_payment_types -%}
+              {{ type | payment_type_svg_tag: class: 'w-10 h-6 text-gray-400' }}
+            {%- endfor -%}
+          </div>
+        {% endif %}
+      </div>
     </div>
   </div>
 </section>
 
 {% schema %}
-{
-  "name": "Aurora Order Form",
-  "tag": "section",
-  "class": "aurora-order-form-section",
-  "settings": [
-    {
-      "type": "color",
-      "id": "section_bg_color",
-      "label": "Section Background",
-      "default": "#181518"
-    },
-    {
-      "type": "product",
-      "id": "product_to_feature",
-      "label": "Product to Feature"
-    },
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "Own the Aurora"
-    },
-    {
-      "type": "richtext",
-      "id": "subheading",
-      "label": "Subheading",
-      "default": "<p>Ready to redefine your space? The Aurora Spotlight is available with introductory pricing.</p>"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_msrp",
-      "label": "Show Compare At Price (MSRP)",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_quantity_selector",
-      "label": "Show Quantity Selector",
-      "default": true
-    },
-    {
-      "type": "text",
-      "id": "quantity_selector_label",
-      "label": "Quantity Selector Label",
-      "default": "Quantity:"
-    },
-    {
-      "type": "text",
-      "id": "button_label",
-      "label": "Button Label",
-      "default": "Add to Cart & Illuminate"
-    },
-    {
-      "type": "text",
-      "id": "trust_text",
-      "label": "Trust Text",
-      "default": "Secure Checkout | Free Worldwide Shipping | 30-Day Money-Back Guarantee"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_payment_icons",
-      "label": "Show Payment Icons",
-      "default": true
-    },
-    {
-      "type": "header",
-      "content": "Card Styling"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_glassmorphism",
-      "label": "Enable Glassmorphism Effect for Card",
-      "default": true
-    },
-    {
-      "type": "color_background",
-      "id": "card_bg_color",
-      "label": "Card Background Color",
-      "default": "rgba(29,25,25,0.7)"
-    },
-    {
-      "type": "color",
-      "id": "card_border_color",
-      "label": "Card Border Color",
-      "default": "#FFBF00"
-    },
-    {
-      "type": "color",
-      "id": "card_text_color",
-      "label": "Card Text Color",
-      "default": "#F3F4F6"
-    },
-    {
-      "type": "color",
-      "id": "price_text_color",
-      "label": "Price Text Color",
-      "default": "#FFBF00"
-    },
-    {
-      "type": "color",
-      "id": "compare_price_text_color",
-      "label": "Compare At Price Text Color",
-      "default": "#A0AEC0"
-    },
-    {
-      "type": "color",
-      "id": "trust_badge_text_color",
-      "label": "Trust Badge Text Color",
-      "default": "#9CA3AF"
-    },
-    {
-      "type": "color",
-      "id": "button_bg_color",
-      "label": "Button Background Color",
-      "default": "#FFBF00"
-    },
-    {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "Button Text Color",
-      "default": "#1D1919"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Aurora Order Form"
-    }
-  ]
-}
+  {
+    "name": "Aurora Order Form",
+    "tag": "section",
+    "class": "aurora-order-form-section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "section_bg_color",
+        "label": "Section Background",
+        "default": "#181518"
+      },
+      {
+        "type": "product",
+        "id": "product_to_feature",
+        "label": "Product to Feature"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Own the Aurora"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "<p>Ready to redefine your space? The Aurora Spotlight is available with introductory pricing.</p>"
+      }, {
+        "type": "checkbox",
+        "id": "show_msrp",
+        "label": "Show Compare At Price (MSRP)",
+        "default": true
+      }, {
+        "type": "checkbox",
+        "id": "show_quantity_selector",
+        "label": "Show Quantity Selector",
+        "default": true
+      }, {
+        "type": "text",
+        "id": "quantity_selector_label",
+        "label": "Quantity Selector Label",
+        "default": "Quantity:"
+      }, {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label",
+        "default": "Add to Cart & Illuminate"
+      }, {
+        "type": "text",
+        "id": "trust_text",
+        "label": "Trust Text",
+        "default": "Secure Checkout | Free Worldwide Shipping | 30-Day Money-Back Guarantee"
+      }, {
+        "type": "checkbox",
+        "id": "show_payment_icons",
+        "label": "Show Payment Icons",
+        "default": true
+      }, {
+        "type": "header",
+        "content": "Card Styling"
+      }, {
+        "type": "checkbox",
+        "id": "enable_glassmorphism",
+        "label": "Enable Glassmorphism Effect for Card",
+        "default": true
+      }, {
+        "type": "color_background",
+        "id": "card_bg_color",
+        "label": "Card Background Color",
+        "default": "rgba(29,25,25,0.7)"
+      }, {
+        "type": "color",
+        "id": "card_border_color",
+        "label": "Card Border Color",
+        "default": "#FFBF00"
+      }, {
+        "type": "color",
+        "id": "card_text_color",
+        "label": "Card Text Color",
+        "default": "#F3F4F6"
+      }, {
+        "type": "color",
+        "id": "price_text_color",
+        "label": "Price Text Color",
+        "default": "#FFBF00"
+      }, {
+        "type": "color",
+        "id": "compare_price_text_color",
+        "label": "Compare At Price Text Color",
+        "default": "#A0AEC0"
+      }, {
+        "type": "color",
+        "id": "trust_badge_text_color",
+        "label": "Trust Badge Text Color",
+        "default": "#9CA3AF"
+      }, {
+        "type": "color",
+        "id": "button_bg_color",
+        "label": "Button Background Color",
+        "default": "#FFBF00"
+      }, {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Button Text Color",
+        "default": "#1D1919"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Aurora Order Form"
+      }
+    ]
+  }
 {% endschema %}

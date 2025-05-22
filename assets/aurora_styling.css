@@ -1,0 +1,22 @@
+/* This file contains the CSS styles for the Aurora theme */
+/* This file is used to style the Aurora theme */
+:root {
+  --standard_desk_marign: 120px;
+}
+
+@media (max-width: 750px) {
+  :root {
+    --standard_desk_marign: 1.5em;
+  }
+}
+
+/*sections content max width*/
+.page-width {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 750px) {
+  .page-width {
+    padding: 0 var(--standard_desk_marign);
+  }
+}

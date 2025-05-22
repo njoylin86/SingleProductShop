@@ -6,219 +6,216 @@
 {% endcomment %}
 
 <style>
-  .font-montserrat { font-family: 'Montserrat', sans-serif; }
+  .font-montserrat {
+    font-family: 'Montserrat'
+    , sans-serif;
+  }
 
-  #shopify-section-{{ section.id }} .feature-card {
+  #shopify-section-{{ section.id }}
+  .feature-card {
     background: {{ section.settings.card_base_color | default: 'rgba(29, 25, 25, 0.5)' }};
     {% if section.settings.enable_glassmorphism %}
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
-      border: 1px solid {{ section.settings.card_border_color | default: 'rgba(255, 255, 255, 0.1)' }};
+      border: 1px solid{{ section.settings.card_border_color | default: 'rgba(255, 255, 255, 0.1)' }};
     {% else %}
-      border: 1px solid {{ section.settings.card_border_color | default: 'rgba(255, 255, 255, 0.1)' }}; /* Keep border even if glass is off */
+      border: 1px solid{{ section.settings.card_border_color | default: 'rgba(255, 255, 255, 0.1)' }};
+      /* Keep border even if glass is off */
     {% endif %}
     color: {{ section.settings.card_text_color | default: '#F3F4F6' }};
   }
 
-  #shopify-section-{{ section.id }} .feature-icon-background {
+  #shopify-section-{{ section.id }}
+  .feature-icon-background {
     background-color: {{ section.settings.icon_bg_color | default: '#FFBF00' }};
     color: {{ section.settings.icon_color | default: '#1D1919' }};
   }
 
-  #shopify-section-{{ section.id }} .super-heading-color {
+  #shopify-section-{{ section.id }}
+  .super-heading-color {
     color: {{ section.settings.super_heading_text_color | default: '#FFFFFF' }};
   }
-  #shopify-section-{{ section.id }} .description-text-color {
-    color: {{ section.settings.description_text_color | default: '#a0aec0' }}; /* gray-400 */
+  #shopify-section-{{ section.id }}
+  .description-text-color {
+    color: {{ section.settings.description_text_color | default: '#a0aec0' }};
+    /* gray-400 */
   }
 </style>
 
-<section id="features-{{ section.id }}" class="section-padding" style="background-color: {{ section.settings.section_bg_color | default: '#2a262a' }};">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-16">
-      {% if section.settings.super_heading != blank %}
-        <h2 class="text-4xl font-montserrat font-semibold mb-4 super-heading-color">{{ section.settings.super_heading | escape }}</h2>
-      {% endif %}
-      {% if section.settings.section_description != blank %}
-        <div class="text-lg max-w-2xl mx-auto description-text-color">
-          {{ section.settings.section_description }}
+<section
+  id="features-{{ section.id }}"
+  class="section-padding"
+  style="background-color: {{ section.settings.section_bg_color | default: '#2a262a' }};">
+  <div class="page-width">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        {% if section.settings.super_heading != blank %}
+          <h2 class="text-4xl font-montserrat font-semibold mb-4 super-heading-color">{{ section.settings.super_heading | escape }}</h2>
+        {% endif %}
+        {% if section.settings.section_description != blank %}
+          <div class="text-lg max-w-2xl mx-auto description-text-color">
+            {{ section.settings.section_description }}
+          </div>
+        {% endif %}
+      </div>
+
+      {% if section.blocks.size > 0 %}
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {% for block in section.blocks %}
+            <div class="feature-card p-8 rounded-xl shadow-lg hover:shadow-amber-500/20 transition-shadow duration-300" {{ block.shopify_attributes }}>
+              {% if block.settings.icon_svg != blank or section.settings.default_icon_svg != blank %}
+                <div class="flex items-center justify-center w-16 h-16 rounded-full mb-6 feature-icon-background">
+                  {% if block.settings.icon_svg != blank %}
+                    {{ block.settings.icon_svg }}
+                  {% else %}
+                    {{ section.settings.default_icon_svg }}
+                  {% endif %}
+                </div>
+              {% endif %}
+              {% if block.settings.title != blank %}
+                <h3 class="text-2xl font-montserrat font-semibold mb-3 card-text-color">{{ block.settings.title | escape }}</h3>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <div class="leading-relaxed card-text-color">
+                  {{ block.settings.text }}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
         </div>
       {% endif %}
     </div>
-
-    {% if section.blocks.size > 0 %}
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {% for block in section.blocks %}
-          <div
-            class="feature-card p-8 rounded-xl shadow-lg hover:shadow-amber-500/20 transition-shadow duration-300"
-            {{ block.shopify_attributes }}
-          >
-            {% if block.settings.icon_svg != blank or section.settings.default_icon_svg != blank %}
-              <div class="flex items-center justify-center w-16 h-16 rounded-full mb-6 feature-icon-background">
-                {% if block.settings.icon_svg != blank %}
-                  {{ block.settings.icon_svg }}
-                {% else %}
-                  {{ section.settings.default_icon_svg }}
-                {% endif %}
-              </div>
-            {% endif %}
-            {% if block.settings.title != blank %}
-              <h3 class="text-2xl font-montserrat font-semibold mb-3 card-text-color">{{ block.settings.title | escape }}</h3>
-            {% endif %}
-            {% if block.settings.text != blank %}
-              <div class="leading-relaxed card-text-color">
-                {{ block.settings.text }}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
   </div>
 </section>
 
 {% schema %}
-{
-  "name": "Aurora Features",
-  "tag": "section",
-  "class": "aurora-features-section",
-  "max_blocks": 6,
-  "settings": [
-    {
-      "type": "color",
-      "id": "section_bg_color",
-      "label": "Section Background Color",
-      "default": "#221E22"
-    },
-    {
-      "type": "text",
-      "id": "super_heading",
-      "label": "Super Heading",
-      "default": "Engineered for Enchantment"
-    },
-    {
-      "type": "color",
-      "id": "super_heading_text_color",
-      "label": "Super Heading Text Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "richtext",
-      "id": "section_description",
-      "label": "Section Description",
-      "default": "<p>Discover the technology and design philosophy that make the Aurora Spotlight unique.</p>"
-    },
-    {
-      "type": "color",
-      "id": "description_text_color",
-      "label": "Description Text Color",
-      "default": "#a0aec0"
-    },
-    {
-      "type": "header",
-      "content": "Feature Card Styling"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_glassmorphism",
-      "label": "Enable Glassmorphism Effect",
-      "default": true
-    },
-    {
-      "type": "color_background",
-      "id": "card_base_color",
-      "label": "Card Background Color",
-      "default": "rgba(29,25,25,0.5)"
-    },
-    {
-      "type": "color",
-      "id": "card_border_color",
-      "label": "Card Border Color",
-      "default": "rgba(255,255,255,0.1)"
-    },
-    {
-      "type": "color",
-      "id": "card_text_color",
-      "label": "Card Text Color",
-      "default": "#F3F4F6"
-    },
-    {
-      "type": "header",
-      "content": "Feature Icon Styling"
-    },
-    {
-      "type": "html",
-      "id": "default_icon_svg",
-      "label": "Default Icon SVG",
-      "default": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
-      "info": "Used if a block doesn't have its own SVG. Ensure SVGs have `w-8 h-8` classes or similar."
-    },
-    {
-      "type": "color",
-      "id": "icon_bg_color",
-      "label": "Icon Background Color",
-      "default": "#FFBF00"
-    },
-    {
-      "type": "color",
-      "id": "icon_color",
-      "label": "Icon Color (for stroke/fill)",
-      "default": "#1D1919"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "feature_item",
-      "name": "Feature Item",
-      "settings": [
-        {
-          "type": "html",
-          "id": "icon_svg",
-          "label": "Icon SVG (Overrides Default)",
-          "info": "Paste your SVG code here (e.g., from heroicons.com). Ensure it has sizing classes like `w-8 h-8`."
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Dynamic Prism Display"
-        },
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Text",
-          "default": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors, creating a mesmerizing prism effect that evolves with your viewing angle.</p>"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Aurora Features",
-      "blocks": [
-        {
-          "type": "feature_item",
-          "settings": {
-            "title": "Dynamic Prism Display",
-            "text": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors.</p>"
+  {
+    "name": "Aurora Features",
+    "tag": "section",
+    "class": "aurora-features-section",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "color",
+        "id": "section_bg_color",
+        "label": "Section Background Color",
+        "default": "#221E22"
+      },
+      {
+        "type": "text",
+        "id": "super_heading",
+        "label": "Super Heading",
+        "default": "Engineered for Enchantment"
+      },
+      {
+        "type": "color",
+        "id": "super_heading_text_color",
+        "label": "Super Heading Text Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "richtext",
+        "id": "section_description",
+        "label": "Section Description",
+        "default": "<p>Discover the technology and design philosophy that make the Aurora Spotlight unique.</p>"
+      }, {
+        "type": "color",
+        "id": "description_text_color",
+        "label": "Description Text Color",
+        "default": "#a0aec0"
+      }, {
+        "type": "header",
+        "content": "Feature Card Styling"
+      }, {
+        "type": "checkbox",
+        "id": "enable_glassmorphism",
+        "label": "Enable Glassmorphism Effect",
+        "default": true
+      }, {
+        "type": "color_background",
+        "id": "card_base_color",
+        "label": "Card Background Color",
+        "default": "rgba(29,25,25,0.5)"
+      }, {
+        "type": "color",
+        "id": "card_border_color",
+        "label": "Card Border Color",
+        "default": "rgba(255,255,255,0.1)"
+      }, {
+        "type": "color",
+        "id": "card_text_color",
+        "label": "Card Text Color",
+        "default": "#F3F4F6"
+      }, {
+        "type": "header",
+        "content": "Feature Icon Styling"
+      }, {
+        "type": "html",
+        "id": "default_icon_svg",
+        "label": "Default Icon SVG",
+        "default": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
+        "info": "Used if a block doesn't have its own SVG. Ensure SVGs have `w-8 h-8` classes or similar."
+      }, {
+        "type": "color",
+        "id": "icon_bg_color",
+        "label": "Icon Background Color",
+        "default": "#FFBF00"
+      }, {
+        "type": "color",
+        "id": "icon_color",
+        "label": "Icon Color (for stroke/fill)",
+        "default": "#1D1919"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "feature_item",
+        "name": "Feature Item",
+        "settings": [
+          {
+            "type": "html",
+            "id": "icon_svg",
+            "label": "Icon SVG (Overrides Default)",
+            "info": "Paste your SVG code here (e.g., from heroicons.com). Ensure it has sizing classes like `w-8 h-8`."
+          }, {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Dynamic Prism Display"
+          }, {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors, creating a mesmerizing prism effect that evolves with your viewing angle.</p>"
           }
-        },
-        {
-          "type": "feature_item",
-          "settings": {
-            "title": "Sophisticated Ambiance",
-            "text": "<p>Beyond the prism, Aurora provides a warm, inviting glow, perfect for setting the mood.</p>"
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Aurora Features",
+        "blocks": [
+          {
+            "type": "feature_item",
+            "settings": {
+              "title": "Dynamic Prism Display",
+              "text": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors.</p>"
+            }
+          }, {
+            "type": "feature_item",
+            "settings": {
+              "title": "Sophisticated Ambiance",
+              "text": "<p>Beyond the prism, Aurora provides a warm, inviting glow, perfect for setting the mood.</p>"
+            }
+          }, {
+            "type": "feature_item",
+            "settings": {
+              "title": "Minimalist Tech Design",
+              "text": "<p>Inspired by Scandinavian principles, its sleek form factor is both beautiful and unobtrusive.</p>"
+            }
           }
-        },
-        {
-          "type": "feature_item",
-          "settings": {
-            "title": "Minimalist Tech Design",
-            "text": "<p>Inspired by Scandinavian principles, its sleek form factor is both beautiful and unobtrusive.</p>"
-          }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  }
 {% endschema %}
