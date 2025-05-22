@@ -1,0 +1,272 @@
+{% comment %}
+  Shopify Section: Aurora Product Showcase
+
+  Displays the main product with multiple images, descriptive text, and feature list.
+{% endcomment %}
+
+<style>
+  #shopify-section-{{ section.id }} .product-showcase-text {
+    {% if section.settings.text_color != blank %}
+      color: {{ section.settings.text_color }};
+    {% else %}
+      color: #F3F4F6; /* Default light gray */
+    {% endif %}
+  }
+  #shopify-section-{{ section.id }} .product-showcase-highlight {
+    {% if section.settings.highlight_color != blank %}
+      color: {{ section.settings.highlight_color }};
+    {% else %}
+      color: #FFBF00; /* Default amber */
+    {% endif %}
+  }
+  #shopify-section-{{ section.id }} .product-cta-button {
+    {% if section.settings.button_bg_color != blank and section.settings.button_text_color != blank %}
+      background-color: {{ section.settings.button_bg_color }};
+      color: {{ section.settings.button_text_color }};
+    {% else %}
+      background-color: #FFBF00; /* Default amber */
+      color: #1D1919; /* Default dark text */
+    {% endif %}
+  }
+   #shopify-section-{{ section.id }} .product-cta-button:hover {
+    {% if section.settings.button_bg_color != blank %}
+      background-color: {{ section.settings.button_bg_color | color_darken: 10 }};
+    {% else %}
+      background-color: #eAA900; /* Darker amber */
+    {% endif %}
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+
+<section id="product-{{ section.id }}" class="section-padding" style="background-color: {{ section.settings.section_bg_color | default: 'transparent' }};">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/2">
+        {% if section.settings.main_image %}
+          <img
+            height=""
+            width=""
+            src="{{ section.settings.main_image | image_url: width: 600, height: 600, crop: 'center' }}"
+            alt="{{ section.settings.main_image.alt | default: section.settings.heading | escape }}"
+            class="rounded-lg shadow-2xl w-full mb-4"
+            loading="lazy"
+            id="main-product-image-{{ section.id }}"
+          >
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'rounded-lg shadow-2xl w-full mb-4 bg-gray-700 text-gray-400' }}
+        {% endif %}
+
+        {% if section.settings.show_thumbnails %}
+          <div class="mt-4 grid grid-cols-3 gap-4">
+            {% if section.settings.thumb1_image %}
+              <img
+                height=""
+                width=""
+                src="{{ section.settings.thumb1_image | image_url: width: 200, height: 200, crop: 'center' }}"
+                alt="{{ section.settings.thumb1_image.alt | escape }}"
+                class="rounded-md cursor-pointer hover:opacity-80 transition-opacity product-thumbnail"
+                data-main-image-src="{{ section.settings.thumb1_image | image_url: width: 600, height: 600, crop: 'center' }}"
+                onclick="document.getElementById('main-product-image-{{ section.id }}').src = this.dataset.mainImageSrc"
+              >
+            {% endif %}
+            {% if section.settings.thumb2_image %}
+              <img
+                height=""
+                width=""
+                src="{{ section.settings.thumb2_image | image_url: width: 200, height: 200, crop: 'center' }}"
+                alt="{{ section.settings.thumb2_image.alt | escape }}"
+                class="rounded-md cursor-pointer hover:opacity-80 transition-opacity product-thumbnail"
+                data-main-image-src="{{ section.settings.thumb2_image | image_url: width: 600, height: 600, crop: 'center' }}"
+                onclick="document.getElementById('main-product-image-{{ section.id }}').src = this.dataset.mainImageSrc"
+              >
+            {% endif %}
+            {% if section.settings.thumb3_image %}
+              <img
+                height=""
+                width=""
+                src="{{ section.settings.thumb3_image | image_url: width: 200, height: 200, crop: 'center' }}"
+                alt="{{ section.settings.thumb3_image.alt | escape }}"
+                class="rounded-md cursor-pointer hover:opacity-80 transition-opacity product-thumbnail"
+                data-main-image-src="{{ section.settings.thumb3_image | image_url: width: 600, height: 600, crop: 'center' }}"
+                onclick="document.getElementById('main-product-image-{{ section.id }}').src = this.dataset.mainImageSrc"
+              >
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+      <div class="md:w-1/2 product-showcase-text">
+        {% if section.settings.heading != blank %}
+          <h2 class="text-4xl font-montserrat font-semibold mb-6">{{ section.settings.heading | escape }}</h2>
+        {% endif %}
+        {% if section.settings.description_paragraph1 != blank %}
+          <div class="text-lg mb-4 leading-relaxed">
+            {{ section.settings.description_paragraph1 }}
+          </div>
+        {% endif %}
+        {% if section.settings.description_paragraph2 != blank %}
+          <div class="text-lg mb-6 leading-relaxed">
+            {{ section.settings.description_paragraph2 }}
+          </div>
+        {% endif %}
+
+        {% if section.blocks.size > 0 %}
+          <ul class="space-y-3 mb-8">
+            {% for block in section.blocks %}
+              {% if block.type == 'feature_item' and block.settings.text != blank %}
+                <li class="flex items-center">
+                  {% if block.settings.icon_svg != blank %}
+                    <span class="mr-3 product-showcase-highlight">{{ block.settings.icon_svg }}</span>
+                  {% else %}
+                    <svg class="w-5 h-5 mr-3 product-showcase-highlight" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                  {% endif %}
+                  {{ block.settings.text | escape }}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+          <a
+            href="{{ section.settings.button_link }}"
+            class="product-cta-button font-semibold py-3 px-8 rounded-lg text-md cta-button transition-all duration-300 ease-in-out hover:transform hover:-translate-y-0.5 hover:shadow-lg"
+          >
+            {{ section.settings.button_label | escape }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Aurora Product Showcase",
+  "tag": "section",
+  "class": "aurora-product-showcase-section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Product Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_thumbnails",
+      "label": "Show Thumbnails",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "thumb1_image",
+      "label": "Thumbnail 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "thumb2_image",
+      "label": "Thumbnail 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "thumb3_image",
+      "label": "Thumbnail 3"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "The Aurora Spotlight"
+    },
+    {
+      "type": "richtext",
+      "id": "description_paragraph1",
+      "label": "Description Paragraph 1",
+      "default": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "description_paragraph2",
+      "label": "Description Paragraph 2",
+      "default": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Secure Yours Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "header",
+      "content": "Color Settings"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#F3F4F6"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "Highlight Color (Icons)",
+      "default": "#FFBF00"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button Background Color",
+      "default": "#FFBF00"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#1D1919"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature_item",
+      "name": "Feature Item",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Feature Text",
+          "default": "Precision-engineered prism optics"
+        },
+        {
+          "type": "html",
+          "id": "icon_svg",
+          "label": "Icon SVG (Optional)",
+          "info": "Paste your SVG code here. If empty, a default checkmark will be used. Ensure SVG has `w-5 h-5` classes or similar sizing."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Aurora Product Showcase",
+      "blocks": [
+        { "type": "feature_item", "settings": { "text": "Precision-engineered prism optics" }},
+        { "type": "feature_item", "settings": { "text": "Premium anodized aluminum body" }},
+        { "type": "feature_item", "settings": { "text": "Energy-efficient LED technology" }}
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,230 @@
+{% comment %}
+  Shopify Section: Aurora Gallery
+
+  Showcases a gallery of images.
+{% endcomment %}
+
+<style>
+  .font-montserrat { font-family: 'Montserrat', sans-serif; }
+
+  #shopify-section-{{ section.id }} .gallery-image-container {
+    overflow: hidden;
+    border-radius: {{ section.settings.image_border_radius }}px;
+  }
+  #shopify-section-{{ section.id }} .gallery-image {
+    transition: transform 0.5s ease-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image covers the container */
+  }
+  #shopify-section-{{ section.id }} .gallery-image-container:hover .gallery-image {
+    transform: scale({{ section.settings.hover_scale_effect | divided_by: 100.0 }});
+  }
+  #shopify-section-{{ section.id }} .super-heading-color {
+    color: {{ section.settings.super_heading_text_color | default: '#FFFFFF' }};
+  }
+  #shopify-section-{{ section.id }} .description-text-color {
+    color: {{ section.settings.description_text_color | default: '#a0aec0' }}; /* gray-400 */
+  }
+</style>
+
+<section id="gallery-{{ section.id }}" class="section-padding" style="background-color: {{ section.settings.section_bg_color | default: 'transparent' }};">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      {% if section.settings.super_heading != blank %}
+        <h2 class="text-4xl font-montserrat font-semibold mb-4 super-heading-color">{{ section.settings.super_heading | escape }}</h2>
+      {% endif %}
+      {% if section.settings.section_description != blank %}
+        <div class="text-lg max-w-2xl mx-auto description-text-color">
+          {{ section.settings.section_description }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if section.blocks.size > 0 %}
+      <div class="grid md:grid-cols-{{ section.settings.columns_desktop }} sm:grid-cols-{{ section.settings.columns_tablet }} grid-cols-{{ section.settings.columns_mobile }} gap-{{ section.settings.gap_size }}">
+        {% for block in section.blocks %}
+          <div
+            class="gallery-image-container aspect-w-1 aspect-h-1 {% if block.settings.col_span_desktop == 2 %}md:col-span-2{% endif %} {% if block.settings.col_span_desktop == 3 %}md:col-span-3{% endif %}"
+            style="aspect-ratio: {{ block.settings.aspect_ratio | default: '1/1' }};"
+            {{ block.shopify_attributes }}
+          >
+            {% if block.settings.image != blank %}
+              <img
+                src="{{ block.settings.image | image_url: width: 1000 }}"
+                alt="{{ block.settings.image.alt | default: 'Gallery image' | escape }}"
+                class="gallery-image"
+                loading="lazy"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}"
+              >
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'gallery-image bg-gray-700 text-gray-400' }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      {% if request.design_mode %}
+      <div class="text-center py-8">
+        <p class="text-gray-400">Add images to the gallery by configuring this section.</p>
+      </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Aurora Gallery",
+  "tag": "section",
+  "class": "aurora-gallery-section",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "text",
+      "id": "super_heading",
+      "label": "Super Heading",
+      "default": "Transformative Visuals"
+    },
+    {
+      "type": "color",
+      "id": "super_heading_text_color",
+      "label": "Super Heading Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "richtext",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "<p>See how the Aurora Spotlight redefines spaces with its unique light signature.</p>"
+    },
+    {
+      "type": "color",
+      "id": "description_text_color",
+      "label": "Description Text Color",
+      "default": "#a0aec0"
+    },
+    {
+      "type": "header",
+      "content": "Grid Layout"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "label": "Columns on Desktop",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "columns_tablet",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "label": "Columns on Tablet",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "columns_mobile",
+      "min": 1,
+      "max": 2,
+      "step": 1,
+      "label": "Columns on Mobile",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "gap_size",
+      "min": 0,
+      "max": 12,
+      "step": 1,
+      "label": "Gap between images (Tailwind units, e.g., 4=1rem)",
+      "default": 6
+    },
+    {
+      "type": "header",
+      "content": "Image Styling"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Image Border Radius",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "hover_scale_effect",
+      "min": 100,
+      "max": 150,
+      "step": 1,
+      "unit": "%",
+      "label": "Hover Scale Effect",
+      "default": 105,
+      "info": "Set to 100 for no scale."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "gallery_image",
+      "name": "Gallery Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "aspect_ratio",
+          "label": "Aspect Ratio",
+          "options": [
+            { "value": "1/1", "label": "Square (1:1)" },
+            { "value": "16/9", "label": "Widescreen (16:9)" },
+            { "value": "9/16", "label": "Tall (9:16)" },
+            { "value": "4/3", "label": "Standard (4:3)" },
+            { "value": "3/4", "label": "Portrait (3:4)" },
+            { "value": "auto", "label": "Original (Auto)" }
+          ],
+          "default": "1/1"
+        },
+        {
+          "type": "select",
+          "id": "col_span_desktop",
+          "label": "Desktop Column Span",
+           "info": "How many columns this image should span on desktop. Max is based on 'Columns on Desktop' setting.",
+          "options": [
+            { "value": "1", "label": "1 Column" },
+            { "value": "2", "label": "2 Columns" },
+            { "value": "3", "label": "3 Columns" }
+          ],
+          "default": "1"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Aurora Gallery",
+      "blocks": [
+        { "type": "gallery_image" },
+        { "type": "gallery_image" },
+        { "type": "gallery_image" }
+      ]
+    }
+  ]
+}
+{% endschema %}
