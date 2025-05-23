@@ -7,6 +7,8 @@
       background-size: cover;    /* Usually desired for hero images */
       background-position: left; /* Usually desired for hero images */
       /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
+      
+      h1 {font-size: clamp(2rem, 9vw, 119px);}
       p {
         font-size: larger;
         margin: 0;
@@ -16,6 +18,10 @@
       }
       .page-width {
         padding: 0px 7.5rem;
+      }
+      .hero-content {
+        z-index: 3;
+        position: relative;
       }
       .cta-1 {    
         background: var(--main-color);
@@ -47,8 +53,8 @@
 
   data-section-id="{{ section.id }}"
   data-section-type="aurora-hero"
-><div class="overlay"></div>
-  <div class ="align-vertically full-screen-height page-width">
+><div class="overlay">&nbsp;</div>
+  <div class ="hero-content align-vertically full-screen-height page-width">
     <div>
     {% if section.settings.headline != blank %}
       <h1 class="bebas-neue-regular">
