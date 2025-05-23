@@ -30,4 +30,5 @@
 
 .full-screen-height {
   min-height: 100dvh;
+  min-height: calc(100dvh - var(--header-offset));
 }
