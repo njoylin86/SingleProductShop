@@ -14,14 +14,10 @@
       "name": "Aurora Hero",
       "settings": {
         "background_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
-        "overlay_opacity": 55,
         "headline": "Sculpt Atmosphere.",
         "subheadline": "<p>Introducing Aurora Light: a singular spotlight designed to transform your space with breathtaking prism effects and unparalleled ambient elegance.</p>",
         "button_label": "Discover the Light",
-        "button_link": "shopify://products/lustra-mood-glas-orb",
-        "text_color": "#ffffff",
-        "button_bg_color": "#ffbf00",
-        "button_text_color": "#1d1919"
+        "button_link": "shopify://products/lustra-mood-glas-orb"
       }
     },
     "aurora_product_showcase_D63jWq": {
