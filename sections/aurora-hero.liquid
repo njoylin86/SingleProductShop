@@ -27,12 +27,17 @@
         background: var(--main-color);
         padding: 6px 12px;
         border-radius: 2px;
+        outline: 1px solid #ffffffbd;
         color: #3769a0;
         text-transform: uppercase;
         font-size: 15px;
         font-weight: 900;
         text-decoration: unset;
         box-shadow: 1px 1px 4px -1px #554c4c;
+      }
+      .cta-1:hover {
+        box-shadow: 3px 3px 3px 0px #554c4cad !important;
+        outline: 2px solid #8e6c93 !important;
       }
       .overlay {
         position: absolute;
@@ -67,12 +72,19 @@
         {{ section.settings.subheadline }}
       </div>
     {% endif %}
-
-    {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+    <div>
+      {% if section.settings.button_label != blank and section.settings.button_link != blank %}
       <a class="cta-1" href="{{ section.settings.button_link }}">
         {{ section.settings.button_label | escape }}
       </a>
     {% endif %}
+    {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
+      <a class="cta-2" href="{{ section.settings.button_link2 }}">
+        {{ section.settings.button_label2 | escape }}
+      </a>
+    {% endif %}
+    </div>
+    
     </div>
   </div>
 </section>
@@ -104,12 +116,23 @@
       "type": "text",
       "id": "button_label",
       "label": "Button Label",
-      "default": "Discover the Light"
+      "default": "Köp nu"
     },
     {
       "type": "url",
       "id": "button_link",
       "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "button_label2",
+      "label": "Button Label2",
+      "default": "Discover the Light"
+    },
+    {
+      "type": "url",
+      "id": "button_link2",
+      "label": "Button Link2"
     }
 
   ],
