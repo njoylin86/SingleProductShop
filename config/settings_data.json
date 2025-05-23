@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/lustra-wide-logo.jpg",
-    "logo_width": 120,
+    "logo": "shopify://shop_images/lustra-logo-lila.png",
+    "logo_width": 140,
     "favicon": "shopify://shop_images/Lustra.jpg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
