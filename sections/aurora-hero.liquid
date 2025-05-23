@@ -1,34 +1,75 @@
 
+
+{%- if section.settings.background_image -%}
+  <style>
+    #hero-{{ section.id }}.aurora-hero-section { /* Targets this specific instance of the hero section */
+      background-image: url('{{ section.settings.background_image | image_url: width: 1920, height: 1080 }}');
+      background-size: cover;    /* Usually desired for hero images */
+      background-position: left; /* Usually desired for hero images */
+      /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
+      p {
+        font-size: larger;
+        margin: 0;
+        color: var(--main-color);
+        text-shadow: 1px -1px 3px #000000;
+        padding-bottom: 15px;
+      }
+      .page-width {
+        padding: 0px 7.5rem;
+      }
+      .cta-1 {    
+        background: var(--main-color);
+        padding: 6px 12px;
+        border-radius: 2px;
+        color: #3769a0;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 900;
+        text-decoration: unset;
+        box-shadow: 1px 1px 4px -1px #554c4c;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+        z-index: 1;
+      }
+    }
+  </style>
+{%- endif -%}
+
 <section
   id="hero-{{ section.id }}"
-  class="aurora-hero-section page-width"
+  class="aurora-hero-section"
 
   data-section-id="{{ section.id }}"
   data-section-type="aurora-hero"
->
-  <div class ="align-vertically full-screen-height">
+><div class="overlay"></div>
+  <div class ="align-vertically full-screen-height page-width">
+    <div>
     {% if section.settings.headline != blank %}
-      <h1>
+      <h1 class="bebas-neue-regular">
         {{ section.settings.headline | escape }}
       </h1>
     {% endif %}
 
     {% if section.settings.subheadline != blank %}
-      <div>
+      <div class="">
         {{ section.settings.subheadline }}
       </div>
     {% endif %}
 
     {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-      <a href="{{ section.settings.button_link }}">
+      <a class="cta-1" href="{{ section.settings.button_link }}">
         {{ section.settings.button_label | escape }}
       </a>
     {% endif %}
+    </div>
   </div>
 </section>
-<script>
-  
-</script>
 {% schema %}
 {
   "name": "Aurora Hero",
