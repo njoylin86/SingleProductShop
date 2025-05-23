@@ -20,15 +20,31 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "announcement_ELKCtY": {
+          "type": "announcement",
+          "settings": {
+            "text": "Still Here?",
+            "link": ""
+          }
+        },
+        "announcement_q9kVjg": {
+          "type": "announcement",
+          "settings": {
+            "text": "Good bye!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_ELKCtY",
+        "announcement_q9kVjg"
       ],
       "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "color_scheme": "scheme-1",
+        "auto_rotate": true,
+        "change_slides_speed": 4,
+        "color_scheme": "scheme-4",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
@@ -44,14 +60,14 @@
         "menu_type_desktop": "drawer",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "enable_customer_avatar": true,
+        "color_scheme": "scheme-4",
+        "menu_color_scheme": "scheme-4",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": false,
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     }
   },

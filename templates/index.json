@@ -13,11 +13,12 @@
       "type": "aurora-hero",
       "name": "Aurora Hero",
       "settings": {
-        "overlay_opacity": 50,
+        "background_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+        "overlay_opacity": 55,
         "headline": "Sculpt Atmosphere.",
         "subheadline": "<p>Introducing Aurora Light: a singular spotlight designed to transform your space with breathtaking prism effects and unparalleled ambient elegance.</p>",
         "button_label": "Discover the Light",
-        "button_link": "",
+        "button_link": "shopify://products/lustra-mood-glas-orb",
         "text_color": "#ffffff",
         "button_bg_color": "#ffbf00",
         "button_text_color": "#1d1919"
@@ -55,8 +56,12 @@
       ],
       "name": "Aurora Product Showcase",
       "settings": {
-        "section_bg_color": "rgba(0,0,0,0)",
+        "section_bg_color": "#1d191d",
+        "main_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
         "show_thumbnails": true,
+        "thumb1_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+        "thumb2_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+        "thumb3_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
         "heading": "The Aurora Spotlight",
         "description_paragraph1": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>",
         "description_paragraph2": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>",
@@ -103,43 +108,66 @@
       ],
       "name": "Aurora Features",
       "settings": {
-        "section_bg_color": "#221E22",
+        "section_bg_color": "#1d1919",
         "super_heading": "Engineered for Enchantment",
-        "super_heading_text_color": "#FFFFFF",
+        "super_heading_text_color": "#1d1919",
         "section_description": "<p>Discover the technology and design philosophy that make the Aurora Spotlight unique.</p>",
         "description_text_color": "#a0aec0",
         "enable_glassmorphism": true,
         "card_base_color": "rgba(29,25,25,0.5)",
-        "card_border_color": "rgba(255,255,255,0.1)",
-        "card_text_color": "#F3F4F6",
+        "card_border_color": "#ffffff1a",
+        "card_text_color": "#f3f4f6",
         "default_icon_svg": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
-        "icon_bg_color": "#FFBF00",
-        "icon_color": "#1D1919"
+        "icon_bg_color": "#ffbf00",
+        "icon_color": "#1d1919"
       }
     },
-    "aurora_order_form_TWw4Ee": {
-      "type": "aurora-order-form",
-      "name": "Aurora Order Form",
+    "aurora_gallery_kaaHHh": {
+      "type": "aurora-gallery",
+      "blocks": {
+        "gallery_image_rK8cGj": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+            "aspect_ratio": "1/1",
+            "col_span_desktop": "1"
+          }
+        },
+        "gallery_image_hjhhfp": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+            "aspect_ratio": "1/1",
+            "col_span_desktop": "1"
+          }
+        },
+        "gallery_image_wV8WPB": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+            "aspect_ratio": "1/1",
+            "col_span_desktop": "1"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_image_rK8cGj",
+        "gallery_image_hjhhfp",
+        "gallery_image_wV8WPB"
+      ],
+      "name": "Aurora Gallery",
       "settings": {
-        "section_bg_color": "#181518",
-        "product_to_feature": "",
-        "heading": "Own the Aurora",
-        "subheading": "<p>Ready to redefine your space? The Aurora Spotlight is available with introductory pricing.</p>",
-        "show_msrp": true,
-        "show_quantity_selector": true,
-        "quantity_selector_label": "Quantity:",
-        "button_label": "Add to Cart & Illuminate",
-        "trust_text": "Secure Checkout | Free Worldwide Shipping | 30-Day Money-Back Guarantee",
-        "show_payment_icons": true,
-        "enable_glassmorphism": true,
-        "card_bg_color": "rgba(29,25,25,0.7)",
-        "card_border_color": "#ffbf00",
-        "card_text_color": "#f3f4f6",
-        "price_text_color": "#ffbf00",
-        "compare_price_text_color": "#a0aec0",
-        "trust_badge_text_color": "#9ca3af",
-        "button_bg_color": "#ffbf00",
-        "button_text_color": "#1d1919"
+        "section_bg_color": "#1d191d",
+        "super_heading": "Transformative Visuals",
+        "super_heading_text_color": "#1d1919",
+        "section_description": "<p>See how the Aurora Spotlight redefines spaces with its unique light signature.</p>",
+        "description_text_color": "#a0aec0",
+        "columns_desktop": 4,
+        "columns_tablet": 1,
+        "columns_mobile": "1",
+        "gap_size": 0,
+        "image_border_radius": 8,
+        "hover_scale_effect": 105
       }
     },
     "aurora_tech_teaser_R4GmPk": {
@@ -151,7 +179,8 @@
         "heading_color": "#ffffff",
         "paragraph_1": "<p>At the heart of Aurora lies a precisely engineered optical lens. This isn't just glass; it's a gateway to a spectrum. By carefully angling facets and utilizing high-clarity materials, we've maximized light dispersion to create the most vivid and expansive prism effect possible from a compact source.</p>",
         "paragraph_2": "<p>The internal LED module is selected for its specific wavelength output, ensuring that when light passes through the lens, the colors are rich, pure, and deeply saturated. It's where physics meets art.</p>",
-        "text_color": "#d1d5db"
+        "text_color": "#d1d5db",
+        "image": "shopify://shop_images/Lustra.jpg"
       }
     },
     "aurora_testimonials_aAyxtQ": {
@@ -186,7 +215,7 @@
       ],
       "name": "Aurora Testimonials",
       "settings": {
-        "section_bg_color": "rgba(0,0,0,0)",
+        "section_bg_color": "#1d1919",
         "super_heading": "Echoes of Enchantment",
         "super_heading_text_color": "#ffffff",
         "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>",
@@ -197,12 +226,38 @@
         "quote_text_color": "#d1d5db",
         "author_text_color": "#ffbf00"
       }
+    },
+    "aurora_order_form_TWw4Ee": {
+      "type": "aurora-order-form",
+      "name": "Aurora Order Form",
+      "settings": {
+        "section_bg_color": "#181518",
+        "product_to_feature": "",
+        "heading": "Own the Aurora",
+        "subheading": "<p>Ready to redefine your space? The Aurora Spotlight is available with introductory pricing.</p>",
+        "show_msrp": true,
+        "show_quantity_selector": true,
+        "quantity_selector_label": "Quantity:",
+        "button_label": "Add to Cart & Illuminate",
+        "trust_text": "Secure Checkout | Free Worldwide Shipping | 30-Day Money-Back Guarantee",
+        "show_payment_icons": true,
+        "enable_glassmorphism": true,
+        "card_bg_color": "rgba(29,25,25,0.7)",
+        "card_border_color": "#ffbf00",
+        "card_text_color": "#f3f4f6",
+        "price_text_color": "#ffbf00",
+        "compare_price_text_color": "#a0aec0",
+        "trust_badge_text_color": "#9ca3af",
+        "button_bg_color": "#ffbf00",
+        "button_text_color": "#1d1919"
+      }
     }
   },
   "order": [
     "aurora_hero_fnFAzR",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
+    "aurora_gallery_kaaHHh",
     "aurora_tech_teaser_R4GmPk",
     "aurora_testimonials_aAyxtQ",
     "aurora_order_form_TWw4Ee"

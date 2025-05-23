@@ -20,3 +20,14 @@
     padding: 0 var(--standard_desk_marign);
   }
 }
+
+.align-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1em;
+}
+
+.full-screen-height {
+  min-height: 100dvh;
+}

@@ -9,7 +9,9 @@
  */
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify://shop_images/lustra-wide-logo.jpg",
+    "logo_width": 120,
+    "favicon": "shopify://shop_images/Lustra.jpg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -177,7 +179,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#1d191d",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
