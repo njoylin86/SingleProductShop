@@ -72,7 +72,8 @@
         "column_jAmJyz"
       ],
       "custom_css": [
-        ".rte{display:none;}"
+        ".rte {display: none;}",
+        ".inline-richtext {text-align:center;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
