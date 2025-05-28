@@ -194,7 +194,7 @@
         "gallery_image_rK8cGj": {
           "type": "gallery_image",
           "settings": {
-            "image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+            "image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
             "aspect_ratio": "1/1",
             "col_span_desktop": "1"
           }
@@ -202,7 +202,7 @@
         "gallery_image_hjhhfp": {
           "type": "gallery_image",
           "settings": {
-            "image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+            "image": "shopify://shop_images/A5f8a8ee33c274d8cb1e787d2c89521f49.jpg",
             "aspect_ratio": "1/1",
             "col_span_desktop": "1"
           }
@@ -210,7 +210,7 @@
         "gallery_image_wV8WPB": {
           "type": "gallery_image",
           "settings": {
-            "image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+            "image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
             "aspect_ratio": "1/1",
             "col_span_desktop": "1"
           }
@@ -277,16 +277,8 @@
         "testimonial_item_cMfk4j"
       ],
       "settings": {
-        "section_bg_color": "#1d1919",
         "super_heading": "Echoes of Enchantment",
-        "super_heading_text_color": "#ffffff",
-        "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>",
-        "description_text_color": "#a0aec0",
-        "enable_glassmorphism": true,
-        "card_base_color": "rgba(29,25,25,0.5)",
-        "card_border_color": "#ffffff1a",
-        "quote_text_color": "#d1d5db",
-        "author_text_color": "#ffbf00"
+        "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
       }
     },
     "aurora_order_form_TWw4Ee": {
