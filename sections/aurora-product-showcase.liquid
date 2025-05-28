@@ -17,9 +17,22 @@
       
     }
     .product-thumbnail {
-        width: 100%;
-        min-width: 0;
+      width: 100%;
+      min-width: 0;
+    }
+    .checklist {
+      list-style: none;
+      line-height: 1em;
+      align-items: center;
+      li {
+        display: flex;
+        align-items: center;
+        svg {
+        width: 2em;
       }
+      }
+      
+    }
   }
   #shopify-section-{{ section.id }} .product-showcase-text {
     {% if section.settings.text_color != blank %}
@@ -129,7 +142,12 @@
           {% endif %}
 
           {% if section.blocks.size > 0 %}
-            <ul class="space-y-3 mb-8">
+            <ul class="space-y-3 mb-8 checklist">
+              {% if section.settings.show_thumbnails %}
+                <li class="flex items-center">
+                  <span class="mr-3 product-showcase-highlight">Main Product Image</span>
+                </li>
+              {% endif %}
               {% for block in section.blocks %}
                 {% if block.type == 'feature_item' and block.settings.text != blank %}
                   <li class="flex items-center">
