@@ -2,8 +2,10 @@
 /* This file is used to style the Aurora theme */
 :root {
   --standard_desk_marign: 120px;
-  --main-color: #cbbcc4;
+  --main-color: #fbf1f6e8;
+  --secondary-color: #f3bd00;
 }
+
 
 @media (max-width: 750px) {
   :root {
@@ -22,6 +24,14 @@
   }
 }
 
+.full-width {
+  width: 100%;
+}
+
+.flex-1 {
+  flex: 1 0 0;
+}
+
 .align-vertically {
   display: flex;
   flex-direction: column;
@@ -31,6 +41,14 @@
 .full-screen-height {
   min-height: 100dvh;
   min-height: calc(100dvh - var(--header-offset));
+}
+
+.border-top {
+  border-top: 3px solid var(--secondary-color);
+}
+
+.border-bottom {
+  border-bottom: 3px solid var(--secondary-color);
 }
 
 h1,
@@ -48,7 +66,6 @@ h1 {
   font-size: 90px;
   margin: calc(var(--standard_desk_marign) * 0.1) 0;
   line-height: calc(var(--standard_desk_marign)* 0.56);
-  color: #ddcdd5e8;
-  /* color: #4c4247; */
+  color: var(--main-color);
   text-shadow: 1px -1px 0px #4c4247;
 }

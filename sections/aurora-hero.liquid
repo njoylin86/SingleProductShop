@@ -8,7 +8,7 @@
       background-position: left; /* Usually desired for hero images */
       /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
       
-      h1 {font-size: clamp(2rem, 9vw, 119px);}
+      h1 {font-size: clamp(5rem, 11vw, 127px);}
       p {
         font-size: larger;
         margin: 0;
@@ -17,10 +17,10 @@
         padding-bottom: 15px;
       }
       .page-width {
-        padding: 0px 7.5rem;
+        padding: 0px 4.5rem;
       }
       .hero-content {
-        z-index: 3;
+        z-index: 2;
         position: relative;
       }
       .cta-1, .cta-2 {    
@@ -34,8 +34,14 @@
         font-weight: 900;
         text-decoration: unset;
         box-shadow: 1px 1px 4px -1px #554c4c;
+        margin-right: calc(var(--standard_desk_marign)* 0.2);
       }
-      .cta-1:hover {
+      .cta-1 {
+        background: #f9be00;
+        color: #f50dbb8a;
+        outline: 1px solid #f40dbaba;
+      }
+      .cta-1:hover, .cta-2:hover {
         box-shadow: 3px 3px 3px 0px #554c4cad !important;
         outline: 2px solid #8e6c93 !important;
       }
@@ -54,7 +60,7 @@
 
 <section
   id="hero-{{ section.id }}"
-  class="aurora-hero-section"
+  class="aurora-hero-section border-bottom"
 
   data-section-id="{{ section.id }}"
   data-section-type="aurora-hero"
