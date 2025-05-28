@@ -71,6 +71,9 @@
         "column_bdFQ4e",
         "column_jAmJyz"
       ],
+      "custom_css": [
+        ".rte{display:none;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
