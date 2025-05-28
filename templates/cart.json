@@ -22,6 +22,7 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
+          "disabled": true,
           "settings": {}
         },
         "buttons": {
