@@ -89,54 +89,6 @@
         "padding_bottom": 36
       }
     },
-    "aurora_features_Qqy3PU": {
-      "type": "aurora-features",
-      "blocks": {
-        "feature_item_N7ebMW": {
-          "type": "feature_item",
-          "settings": {
-            "icon_svg": "",
-            "title": "Dynamic Prism Display",
-            "text": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors.</p>"
-          }
-        },
-        "feature_item_PVLXyH": {
-          "type": "feature_item",
-          "settings": {
-            "icon_svg": "",
-            "title": "Sophisticated Ambiance",
-            "text": "<p>Beyond the prism, Aurora provides a warm, inviting glow, perfect for setting the mood.</p>"
-          }
-        },
-        "feature_item_tVPpxx": {
-          "type": "feature_item",
-          "settings": {
-            "icon_svg": "",
-            "title": "Minimalist Tech Design",
-            "text": "<p>Inspired by Scandinavian principles, its sleek form factor is both beautiful and unobtrusive.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_item_N7ebMW",
-        "feature_item_PVLXyH",
-        "feature_item_tVPpxx"
-      ],
-      "settings": {
-        "section_bg_color": "#1d1919",
-        "super_heading": "Engineered for Enchantment",
-        "super_heading_text_color": "#1d1919",
-        "section_description": "<p>Discover the technology and design philosophy that make the Aurora Spotlight unique.</p>",
-        "description_text_color": "#a0aec0",
-        "enable_glassmorphism": true,
-        "card_base_color": "rgba(29,25,25,0.5)",
-        "card_border_color": "#ffffff1a",
-        "card_text_color": "#f3f4f6",
-        "default_icon_svg": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
-        "icon_bg_color": "#ffbf00",
-        "icon_color": "#1d1919"
-      }
-    },
     "aurora_product_showcase_D63jWq": {
       "type": "aurora-product-showcase",
       "blocks": {
@@ -183,6 +135,54 @@
         "highlight_color": "#ffbf00",
         "button_bg_color": "#ffbf00",
         "button_text_color": "#1d1919"
+      }
+    },
+    "aurora_features_Qqy3PU": {
+      "type": "aurora-features",
+      "blocks": {
+        "feature_item_N7ebMW": {
+          "type": "feature_item",
+          "settings": {
+            "icon_svg": "",
+            "title": "Dynamic Prism Display",
+            "text": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors.</p>"
+          }
+        },
+        "feature_item_PVLXyH": {
+          "type": "feature_item",
+          "settings": {
+            "icon_svg": "",
+            "title": "Sophisticated Ambiance",
+            "text": "<p>Beyond the prism, Aurora provides a warm, inviting glow, perfect for setting the mood.</p>"
+          }
+        },
+        "feature_item_tVPpxx": {
+          "type": "feature_item",
+          "settings": {
+            "icon_svg": "",
+            "title": "Minimalist Tech Design",
+            "text": "<p>Inspired by Scandinavian principles, its sleek form factor is both beautiful and unobtrusive.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_N7ebMW",
+        "feature_item_PVLXyH",
+        "feature_item_tVPpxx"
+      ],
+      "settings": {
+        "section_bg_color": "#1d1919",
+        "super_heading": "Engineered for Enchantment",
+        "super_heading_text_color": "#1d1919",
+        "section_description": "<p>Discover the technology and design philosophy that make the Aurora Spotlight unique.</p>",
+        "description_text_color": "#a0aec0",
+        "enable_glassmorphism": true,
+        "card_base_color": "rgba(29,25,25,0.5)",
+        "card_border_color": "#ffffff1a",
+        "card_text_color": "#f3f4f6",
+        "default_icon_svg": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
+        "icon_bg_color": "#ffbf00",
+        "icon_color": "#1d1919"
       }
     },
     "aurora_gallery_kaaHHh": {
@@ -315,8 +315,8 @@
   "order": [
     "aurora_hero_fnFAzR",
     "multicolumn_8RcgNk",
-    "aurora_features_Qqy3PU",
     "aurora_product_showcase_D63jWq",
+    "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
     "aurora_tech_teaser_R4GmPk",
     "aurora_testimonials_aAyxtQ",
