@@ -51,6 +51,10 @@
   border-bottom: 3px solid var(--secondary-color);
 }
 
+.gradient {
+  background: #1d191d;
+}
+
 h1,
 h2,
 h3,

@@ -1,54 +1,49 @@
 {% comment %}
   Shopify Section: Aurora Testimonials
-
   Displays customer testimonials.
 {% endcomment %}
 
 <style>
   .font-montserrat {
-    font-family: 'Montserrat'
-    , sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
-  #shopify-section-{{ section.id }}
   .testimonial-card {
-    background: {{ section.settings.card_base_color | default: 'rgba(29, 25, 25, 0.5)' }};
-    {% if section.settings.enable_glassmorphism %}
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid{{ section.settings.card_border_color | default: 'rgba(255, 255, 255, 0.1)' }};
-    {% else %}
-      border: 1px solid{{ section.settings.card_border_color | default: 'rgba(255, 255, 255, 0.1)' }};
-    {% endif %}
+    flex: 1;
+    background: rgba(29, 25, 25, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
-  #shopify-section-{{ section.id }}
+
   .testimonial-quote-color {
-    color: {{ section.settings.quote_text_color | default: '#D1D5DB' }};
+    color: #D1D5DB;
   }
-  #shopify-section-{{ section.id }}
+
   .testimonial-author-color {
-    color: {{ section.settings.author_text_color | default: '#FFBF00' }};
+    color: #FFBF00;
   }
-  #shopify-section-{{ section.id }}
+
   .super-heading-color {
-    color: {{ section.settings.super_heading_text_color | default: '#FFFFFF' }};
+    color: #FFFFFF;
   }
-  #shopify-section-{{ section.id }}
+
   .description-text-color {
-    color: {{ section.settings.description_text_color | default: '#a0aec0' }};
-    /* gray-400 */
+    color: #a0aec0;
   }
 </style>
 
 <section
   id="testimonials-{{ section.id }}"
   class="section-padding"
-  style="background-color: {{ section.settings.section_bg_color | default: 'transparent' }};">
+  style="background-color: transparent;">
   <div class="page-width">
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
         {% if section.settings.super_heading != blank %}
-          <h2 class="text-4xl font-montserrat font-semibold mb-4 super-heading-color">{{ section.settings.super_heading | escape }}</h2>
+          <h2 class="text-4xl font-montserrat font-semibold mb-4 super-heading-color">
+            {{ section.settings.super_heading | escape }}
+          </h2>
         {% endif %}
         {% if section.settings.section_description != blank %}
           <div class="text-lg max-w-2xl mx-auto description-text-color">
@@ -62,10 +57,14 @@
           {% for block in section.blocks %}
             <div class="testimonial-card p-8 rounded-xl shadow-lg" {{ block.shopify_attributes }}>
               {% if block.settings.quote != blank %}
-                <p class="italic mb-4 testimonial-quote-color">"{{ block.settings.quote | escape }}"</p>
+                <p class="italic mb-4 testimonial-quote-color">
+                  "{{ block.settings.quote | escape }}"
+                </p>
               {% endif %}
               {% if block.settings.author != blank %}
-                <p class="font-semibold testimonial-author-color">- {{ block.settings.author | escape }}</p>
+                <p class="font-semibold testimonial-author-color">
+                  - {{ block.settings.author | escape }}
+                </p>
               {% endif %}
             </div>
           {% endfor %}
@@ -76,110 +75,68 @@
 </section>
 
 {% schema %}
-  {
-    "name": "Aurora Testimonials",
-    "tag": "section",
-    "class": "aurora-testimonials-section",
-    "max_blocks": 6,
-    "settings": [
-      {
-        "type": "color",
-        "id": "section_bg_color",
-        "label": "Section Background Color",
-        "default": "rgba(0,0,0,0)"
-      },
-      {
-        "type": "text",
-        "id": "super_heading",
-        "label": "Super Heading",
-        "default": "Echoes of Enchantment"
-      },
-      {
-        "type": "color",
-        "id": "super_heading_text_color",
-        "label": "Super Heading Text Color",
-        "default": "#FFFFFF"
-      },
-      {
-        "type": "richtext",
-        "id": "section_description",
-        "label": "Section Description",
-        "default": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
-      }, {
-        "type": "color",
-        "id": "description_text_color",
-        "label": "Description Text Color",
-        "default": "#a0aec0"
-      }, {
-        "type": "header",
-        "content": "Testimonial Card Styling"
-      }, {
-        "type": "checkbox",
-        "id": "enable_glassmorphism",
-        "label": "Enable Glassmorphism Effect",
-        "default": true
-      }, {
-        "type": "color_background",
-        "id": "card_base_color",
-        "label": "Card Background Color",
-        "default": "rgba(29,25,25,0.5)"
-      }, {
-        "type": "color",
-        "id": "card_border_color",
-        "label": "Card Border Color",
-        "default": "rgba(255,255,255,0.1)"
-      }, {
-        "type": "color",
-        "id": "quote_text_color",
-        "label": "Quote Text Color",
-        "default": "#D1D5DB"
-      }, {
-        "type": "color",
-        "id": "author_text_color",
-        "label": "Author Text Color",
-        "default": "#FFBF00"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "testimonial_item",
-        "name": "Testimonial",
-        "settings": [
-          {
-            "type": "textarea",
-            "id": "quote",
-            "label": "Quote",
-            "default": "The Aurora light is simply magical. It's transformed my living room into a constantly shifting canvas of color. Absolutely mesmerizing!"
-          }, {
-            "type": "text",
-            "id": "author",
-            "label": "Author",
-            "default": "Alex P., Interior Designer"
+{
+  "name": "Aurora Testimonials",
+  "tag": "section",
+  "class": "aurora-testimonials-section",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "super_heading",
+      "label": "Super Heading",
+      "default": "Echoes of Enchantment"
+    },
+    {
+      "type": "richtext",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial_item",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Quote",
+          "default": "The Aurora light is simply magical. It's transformed my living room into a constantly shifting canvas of color. Absolutely mesmerizing!"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author",
+          "default": "Alex P., Interior Designer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Aurora Testimonials",
+      "blocks": [
+        {
+          "type": "testimonial_item"
+        },
+        {
+          "type": "testimonial_item",
+          "settings": {
+            "quote": "I was looking for a unique statement piece, and this is it. The build quality is superb.",
+            "author": "Sarah K., Tech Enthusiast"
           }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Aurora Testimonials",
-        "blocks": [
-          {
-            "type": "testimonial_item"
-          }, {
-            "type": "testimonial_item",
-            "settings": {
-              "quote": "I was looking for a unique statement piece, and this is it. The build quality is superb.",
-              "author": "Sarah K., Tech Enthusiast"
-            }
-          }, {
-            "type": "testimonial_item",
-            "settings": {
-              "quote": "Sleek, modern, and the light it casts is just... wow. My home office has never felt more inspiring.",
-              "author": "Michael B., Architect"
-            }
+        },
+        {
+          "type": "testimonial_item",
+          "settings": {
+            "quote": "Sleek, modern, and the light it casts is just... wow. My home office has never felt more inspiring.",
+            "author": "Michael B., Architect"
           }
-        ]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
