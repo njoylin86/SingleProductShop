@@ -11,7 +11,6 @@
   "sections": {
     "aurora_hero_fnFAzR": {
       "type": "aurora-hero",
-      "name": "Aurora Hero",
       "settings": {
         "background_image": "shopify://shop_images/Namnlos_design.png",
         "headline": "Forma atmosfären.",
@@ -22,53 +21,72 @@
         "button_link2": "shopify://products/lustra-mood-glas-orb"
       }
     },
-    "aurora_product_showcase_D63jWq": {
-      "type": "aurora-product-showcase",
+    "multicolumn_8RcgNk": {
+      "type": "multicolumn",
       "blocks": {
-        "feature_item_YT6fwU": {
-          "type": "feature_item",
+        "column_68nTy7": {
+          "type": "column",
           "settings": {
-            "text": "Precision-engineered prism optics",
-            "icon_svg": ""
+            "image": "shopify://shop_images/sweden.png",
+            "title": "Svenskt företag",
+            "text": "<p>Vi är baserade i Sverige och följer svenska regler och konsumentskydd.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "feature_item_7WDhEE": {
-          "type": "feature_item",
+        "column_P4y9qA": {
+          "type": "column",
           "settings": {
-            "text": "Premium anodized aluminum body",
-            "icon_svg": ""
+            "image": "shopify://shop_images/customer-service.png",
+            "title": "Kundservice",
+            "text": "<p>Har du frågor? Vi finns här för att hjälpa dig.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "feature_item_6ph8Hd": {
-          "type": "feature_item",
+        "column_bdFQ4e": {
+          "type": "column",
           "settings": {
-            "text": "Energy-efficient LED technology",
-            "icon_svg": ""
+            "image": "shopify://shop_images/delivery.png",
+            "title": "Trygga leveranser",
+            "text": "<p>Spårningsnummer och leverans via pålitliga fraktbolag.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jAmJyz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sort.png",
+            "title": "Kvitto & garanti gäller",
+            "text": "<p>Du har rätt att ångra ditt köp – läs våra köpvillkor innan beställning.</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "feature_item_YT6fwU",
-        "feature_item_7WDhEE",
-        "feature_item_6ph8Hd"
+        "column_68nTy7",
+        "column_P4y9qA",
+        "column_bdFQ4e",
+        "column_jAmJyz"
       ],
-      "name": "Aurora Product Showcase",
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "section_bg_color": "#1d191d",
-        "main_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
-        "show_thumbnails": true,
-        "thumb1_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
-        "thumb2_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
-        "thumb3_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
-        "heading": "The Aurora Spotlight",
-        "description_paragraph1": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>",
-        "description_paragraph2": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>",
-        "button_label": "Secure Yours Now",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
         "button_link": "",
-        "text_color": "#f3f4f6",
-        "highlight_color": "#ffbf00",
-        "button_bg_color": "#ffbf00",
-        "button_text_color": "#1d1919"
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "aurora_features_Qqy3PU": {
@@ -104,7 +122,6 @@
         "feature_item_PVLXyH",
         "feature_item_tVPpxx"
       ],
-      "name": "Aurora Features",
       "settings": {
         "section_bg_color": "#1d1919",
         "super_heading": "Engineered for Enchantment",
@@ -118,6 +135,54 @@
         "default_icon_svg": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
         "icon_bg_color": "#ffbf00",
         "icon_color": "#1d1919"
+      }
+    },
+    "aurora_product_showcase_D63jWq": {
+      "type": "aurora-product-showcase",
+      "blocks": {
+        "feature_item_YT6fwU": {
+          "type": "feature_item",
+          "settings": {
+            "text": "Precision-engineered prism optics",
+            "icon_svg": ""
+          }
+        },
+        "feature_item_7WDhEE": {
+          "type": "feature_item",
+          "settings": {
+            "text": "Premium anodized aluminum body",
+            "icon_svg": ""
+          }
+        },
+        "feature_item_6ph8Hd": {
+          "type": "feature_item",
+          "settings": {
+            "text": "Energy-efficient LED technology",
+            "icon_svg": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_YT6fwU",
+        "feature_item_7WDhEE",
+        "feature_item_6ph8Hd"
+      ],
+      "settings": {
+        "section_bg_color": "#1d191d",
+        "main_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+        "show_thumbnails": true,
+        "thumb1_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
+        "thumb2_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+        "thumb3_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+        "heading": "The Aurora Spotlight",
+        "description_paragraph1": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>",
+        "description_paragraph2": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>",
+        "button_label": "Secure Yours Now",
+        "button_link": "",
+        "text_color": "#f3f4f6",
+        "highlight_color": "#ffbf00",
+        "button_bg_color": "#ffbf00",
+        "button_text_color": "#1d1919"
       }
     },
     "aurora_gallery_kaaHHh": {
@@ -153,7 +218,6 @@
         "gallery_image_hjhhfp",
         "gallery_image_wV8WPB"
       ],
-      "name": "Aurora Gallery",
       "settings": {
         "section_bg_color": "#1d191d",
         "super_heading": "Transformative Visuals",
@@ -170,7 +234,6 @@
     },
     "aurora_tech_teaser_R4GmPk": {
       "type": "aurora-tech-teaser",
-      "name": "Aurora Tech Teaser",
       "settings": {
         "section_bg_color": "#221e22",
         "heading": "The Science of Spectacle",
@@ -211,7 +274,6 @@
         "testimonial_item_MBjPJ7",
         "testimonial_item_cMfk4j"
       ],
-      "name": "Aurora Testimonials",
       "settings": {
         "section_bg_color": "#1d1919",
         "super_heading": "Echoes of Enchantment",
@@ -227,7 +289,6 @@
     },
     "aurora_order_form_TWw4Ee": {
       "type": "aurora-order-form",
-      "name": "Aurora Order Form",
       "settings": {
         "section_bg_color": "#181518",
         "product_to_feature": "",
@@ -253,8 +314,9 @@
   },
   "order": [
     "aurora_hero_fnFAzR",
-    "aurora_product_showcase_D63jWq",
+    "multicolumn_8RcgNk",
     "aurora_features_Qqy3PU",
+    "aurora_product_showcase_D63jWq",
     "aurora_gallery_kaaHHh",
     "aurora_tech_teaser_R4GmPk",
     "aurora_testimonials_aAyxtQ",
