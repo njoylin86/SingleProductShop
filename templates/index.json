@@ -12,7 +12,7 @@
     "aurora_hero_fnFAzR": {
       "type": "aurora-hero",
       "settings": {
-        "background_image": "shopify://shop_images/Namnlos_design.png",
+        "background_image": "shopify://shop_images/A09e20a2d0cbc4a3593e01c8eb044195fK.jpg",
         "headline": "Forma atmosfären.",
         "subheadline": "<p>Subtilt ljus – kraftfull känsla. Skapa atmosfär med <strong>Lustra Mood: Ambient Light</strong>.</p>",
         "button_label": "Köp nu",
@@ -73,9 +73,8 @@
       ],
       "custom_css": [
         ".rte {display: none;}",
-        ".inline-richtext {text-align:center;}"
+        ".inline-richtext {text-align: center;}"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "heading_size": "hxl",
@@ -129,7 +128,7 @@
         "show_thumbnails": true,
         "thumb1_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
         "thumb2_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
-        "thumb3_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
+        "thumb3_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
         "heading": "The Aurora Spotlight",
         "description_paragraph1": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>",
         "description_paragraph2": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>",
