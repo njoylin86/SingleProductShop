@@ -11,6 +11,9 @@
   "sections": {
     "aurora_hero_fnFAzR": {
       "type": "aurora-hero",
+      "custom_css": [
+        "section {background-position: center;}"
+      ],
       "settings": {
         "background_image": "shopify://shop_images/A09e20a2d0cbc4a3593e01c8eb044195fK.jpg",
         "headline": "Forma atmosfären.",
