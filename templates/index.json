@@ -78,7 +78,8 @@
         ".rte {display: none;}",
         ".inline-richtext {text-align: center;}",
         "img.multicolumn-card__image {object-fit: contain; height: 80px;}",
-        ".media--transparent {padding-bottom: 51% !important;}"
+        ".media--transparent {padding-bottom: 51% !important;}",
+        ".multicolumn-card__info {padding: 0em 2.5rem 1em 2.5rem;}"
       ],
       "settings": {
         "title": "",
