@@ -76,7 +76,8 @@
       ],
       "custom_css": [
         ".rte {display: none;}",
-        ".inline-richtext {text-align: center;}"
+        ".inline-richtext {text-align: center;}",
+        "img.multicolumn-card__image {object-fit: contain; height: 80px;}"
       ],
       "settings": {
         "title": "",
@@ -90,7 +91,7 @@
         "background_style": "primary",
         "color_scheme": "scheme-4",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
