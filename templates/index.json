@@ -88,7 +88,7 @@
         "button_label": "",
         "button_link": "",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "color_scheme": "scheme-4",
         "columns_mobile": "2",
