@@ -76,7 +76,8 @@
       ],
       "custom_css": [
         ".rte {display: none;}",
-        ".inline-richtext {text-align: center;}"
+        ".inline-richtext {text-align: center;}",
+        "img.multicolumn-card__image {object-fit: contain; height: 80px;}"
       ],
       "settings": {
         "title": "",
