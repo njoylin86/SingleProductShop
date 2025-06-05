@@ -24,6 +24,10 @@
   }
 }
 
+section {
+  overflow: hidden;
+}
+
 .full-width {
   width: 100%;
 }
@@ -52,7 +56,7 @@
 }
 
 .gradient {
-  background: #1d191d;
+  /*background: #1d191d;*/
 }
 
 h1,

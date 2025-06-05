@@ -7,8 +7,13 @@
       background-size: cover;    /* Usually desired for hero images */
       background-position: left; /* Usually desired for hero images */
       /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
-      
-      h1 {font-size: clamp(5rem, 11vw, 127px);}
+      @media (max-width: 990px) {
+        background-position: center;
+      }
+      h1 {
+        font-size: clamp(5rem, 11vw, 127px);
+        font-size: clamp(6rem, 13vw, 127px);
+      }
       p {
         font-size: larger;
         margin: 0;
@@ -40,6 +45,7 @@
         background: #f9be00;
         color: #f50dbb8a;
         outline: 1px solid #f40dbaba;
+        margin-right: 10px;
       }
       .cta-1:hover, .cta-2:hover {
         box-shadow: 3px 3px 3px 0px #554c4cad !important;
