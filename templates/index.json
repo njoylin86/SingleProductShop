@@ -66,6 +66,51 @@
         "show_text_below": true
       }
     },
+    "boh_testimonials_1_ps_qdCP7m": {
+      "type": "BOH-Testimonials_1PS",
+      "blocks": {
+        "testimonial_item_pWtCJW": {
+          "type": "testimonial_item",
+          "settings": {
+            "quote": "The Aurora light is simply magical. It's transformed my living room into a constantly shifting canvas of color. Absolutely mesmerizing!",
+            "author": "Alex P., Interior Designer"
+          }
+        },
+        "testimonial_item_MY8bwf": {
+          "type": "testimonial_item",
+          "settings": {
+            "quote": "I was looking for a unique statement piece, and this is it. The build quality is superb.",
+            "author": "Sarah K., Tech Enthusiast"
+          }
+        },
+        "testimonial_item_znWtz6": {
+          "type": "testimonial_item",
+          "settings": {
+            "quote": "Sleek, modern, and the light it casts is just... wow. My home office has never felt more inspiring.",
+            "author": "Michael B., Architect"
+          }
+        },
+        "testimonial_item_EBfnda": {
+          "type": "testimonial_item",
+          "settings": {
+            "quote": "The Aurora light is simply magical. It's transformed my living room into a constantly shifting canvas of color. Absolutely mesmerizing!",
+            "author": "Alex P., Interior Designer"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_item_pWtCJW",
+        "testimonial_item_MY8bwf",
+        "testimonial_item_znWtz6",
+        "testimonial_item_EBfnda"
+      ],
+      "name": "Aurora Testimonials Carousel",
+      "settings": {
+        "super_heading": "Echoes of Enchantment",
+        "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>",
+        "color_scheme": "scheme-2"
+      }
+    },
     "multicolumn_WmY6YP": {
       "type": "multicolumn",
       "blocks": {
@@ -337,6 +382,7 @@
   },
   "order": [
     "boh_hero_1_ps_hKiMPW",
+    "boh_testimonials_1_ps_qdCP7m",
     "multicolumn_WmY6YP",
     "multicolumn_Y9gLy9",
     "multicolumn_PkXC7k",
