@@ -1,7 +1,7 @@
 {% comment %}
   Shopify Section: Aurora Testimonials Carousel
   Visar kundrecensioner som en carousel med Splide.js
-  -- Alla färger är nu konfigurerbara via Theme settings --
+  – Alla färger följer nu det color scheme du väljer i Theme Editor –
 {% endcomment %}
 
 <!-- Splide CSS -->
@@ -13,10 +13,11 @@
 <style>
   .font-montserrat { font-family: 'Montserrat', sans-serif; }
 
-  /* Använder Liquid-variabler för färgerna */
+  /* Låt sectionen ärva ditt valda color scheme */
   .testimonial-card {
-    background: {{ section.settings.card_bg_color }};
-    border: 1px solid {{ section.settings.card_border_color }};
+    /* Bakgrund och kant följer theme-variablerna för yta & border */
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 1.5rem;
@@ -26,33 +27,28 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .testimonial-quote-color {
-    color: {{ section.settings.quote_text_color }};
+
+  /* Textfärger följer theme-variablerna för text & accent */
+  .testimonial-quote {
+    color: var(--color-foreground);
   }
-  .testimonial-author-color {
-    color: {{ section.settings.author_text_color }};
-  }
-  .super-heading-color {
-    color: {{ section.settings.heading_color }};
-  }
-  .description-text-color {
-    color: {{ section.settings.description_color }};
+  .testimonial-author {
+    color: var(--color-accent);
   }
 </style>
 
 <section
   id="testimonials-{{ section.id }}"
-  class="section-padding"
-  style="background-color: transparent;"
+  class="section-padding {{ section.settings.color_scheme }}"
 >
   <div class="page-width mx-auto px-6 text-center mb-12">
     {% if section.settings.super_heading != blank %}
-      <h2 class="text-4xl font-montserrat font-semibold mb-4 super-heading-color">
+      <h2 class="text-4xl font-montserrat font-semibold mb-4">
         {{ section.settings.super_heading | escape }}
       </h2>
     {% endif %}
     {% if section.settings.section_description != blank %}
-      <div class="text-lg max-w-2xl mx-auto description-text-color">
+      <div class="text-lg max-w-2xl mx-auto">
         {{ section.settings.section_description }}
       </div>
     {% endif %}
@@ -66,12 +62,12 @@
             <li class="splide__slide">
               <div class="testimonial-card">
                 {% if block.settings.quote != blank %}
-                  <p class="italic mb-4 testimonial-quote-color">
+                  <p class="italic mb-4 testimonial-quote">
                     “{{ block.settings.quote | escape }}”
                   </p>
                 {% endif %}
                 {% if block.settings.author != blank %}
-                  <p class="font-semibold testimonial-author-color mt-auto">
+                  <p class="font-semibold testimonial-author mt-auto">
                     – {{ block.settings.author | escape }}
                   </p>
                 {% endif %}
@@ -106,7 +102,7 @@
 
 {% schema %}
 {
-  "name": "BOH Testimonials Carousel",
+  "name": "Boh Testimonials Carousel",
   "max_blocks": 20,
   "settings": [
     {
@@ -122,40 +118,13 @@
       "default": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
     },
     {
-      "type": "color",
-      "id": "card_bg_color",
-      "label": "Card Background Color",
-      "default": "#1D1919"
+      "type": "header",
+      "content": "Color scheme"
     },
     {
-      "type": "color",
-      "id": "card_border_color",
-      "label": "Card Border Color",
-      "default": "rgba(255,255,255,0.1)"
-    },
-    {
-      "type": "color",
-      "id": "quote_text_color",
-      "label": "Quote Text Color",
-      "default": "#D1D5DB"
-    },
-    {
-      "type": "color",
-      "id": "author_text_color",
-      "label": "Author Text Color",
-      "default": "#FFBF00"
-    },
-    {
-      "type": "color",
-      "id": "heading_color",
-      "label": "Heading Text Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "color",
-      "id": "description_color",
-      "label": "Description Text Color",
-      "default": "#A0AEC0"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Välj färgschema"
     }
   ],
   "blocks": [
