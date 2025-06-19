@@ -24,39 +24,6 @@
         "button_link2": "shopify://products/lustra-mood-glas-orb"
       }
     },
-    "aurora_highlighted_features_B3irQa": {
-      "type": "aurora-highlighted-features",
-      "blocks": {
-        "feature_Q8VH8W": {
-          "type": "feature",
-          "settings": {
-            "feature_heading": "Trygg och energieffektiv",
-            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning.",
-            "feature_image": "shopify://shop_images/S5e3b91cb2a96445fa7621eed7183d3c9x.webp"
-          }
-        },
-        "feature_f7p8AT": {
-          "type": "feature",
-          "settings": {
-            "feature_heading": "Passar överallt",
-            "feature_text": "Diskret men stilren design som smälter in i alla typer av hem – från modern minimalism till mysig vintage.",
-            "feature_image": "shopify://shop_images/S45fbb06e6d324d17a48c85cdcf2b85a30.webp"
-          }
-        }
-      },
-      "block_order": [
-        "feature_Q8VH8W",
-        "feature_f7p8AT"
-      ],
-      "name": "Aurora Highlighted Features",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "main_heading": "En liten detalj – en stor skillnad",
-        "main_feature_heading": "Skapa stämning med ett klick",
-        "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
-        "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
-      }
-    },
     "aurora_logo_wall_97AJYW": {
       "type": "aurora-logo-wall",
       "blocks": {
@@ -95,10 +62,46 @@
         "logo_FHNCkm",
         "logo_cMhqy4"
       ],
+      "custom_css": [
+        "section {background-color: #f9fafa;}"
+      ],
       "name": "Aurora Logo Wall",
       "settings": {
         "color_scheme": "",
         "heading": ""
+      }
+    },
+    "aurora_highlighted_features_B3irQa": {
+      "type": "aurora-highlighted-features",
+      "blocks": {
+        "feature_Q8VH8W": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Trygg och energieffektiv",
+            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning.",
+            "feature_image": "shopify://shop_images/S5e3b91cb2a96445fa7621eed7183d3c9x.webp"
+          }
+        },
+        "feature_f7p8AT": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Passar överallt",
+            "feature_text": "Diskret men stilren design som smälter in i alla typer av hem – från modern minimalism till mysig vintage.",
+            "feature_image": "shopify://shop_images/S45fbb06e6d324d17a48c85cdcf2b85a30.webp"
+          }
+        }
+      },
+      "block_order": [
+        "feature_Q8VH8W",
+        "feature_f7p8AT"
+      ],
+      "name": "Aurora Highlighted Features",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "main_heading": "En liten detalj – en stor skillnad",
+        "main_feature_heading": "Skapa stämning med ett klick",
+        "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
+        "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
       }
     },
     "multicolumn_8RcgNk": {
