@@ -1,0 +1,101 @@
+<style>
+.aurora-logo-wall-section {
+  padding: 40px 0;
+  text-align: center;
+}
+.aurora-logo-wall-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+}
+.aurora-logo-wall-logo {
+  flex: 0 1 140px;
+  max-width: 140px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aurora-logo-wall-logo img {
+  max-width: 100%;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.2s, opacity 0.2s;
+}
+.aurora-logo-wall-logo img:hover {
+  filter: none;
+  opacity: 1;
+}
+</style>
+
+<section class="aurora-logo-wall-section color-{{ section.settings.color_scheme | default: 'background-1' }}">
+  {% if section.settings.heading != blank %}
+    <h2>{{ section.settings.heading }}</h2>
+  {% endif %}
+  <div class="aurora-logo-wall-logos">
+    {% for block in section.blocks %}
+      {% if block.settings.logo != blank %}
+        <div class="aurora-logo-wall-logo" {{ block.shopify_attributes }}>
+          <img src="{{ block.settings.logo | img_url: '140x60' }}" alt="{{ block.settings.logo_alt | escape }}">
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Aurora Logo Wall",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Trusted by leading brands"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo image"
+        },
+        {
+          "type": "text",
+          "id": "logo_alt",
+          "label": "Alt text",
+          "default": "Brand logo"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Aurora Logo Wall",
+      "blocks": [
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" }
+      ]
+    }
+  ]
+}
+{% endschema %} 
