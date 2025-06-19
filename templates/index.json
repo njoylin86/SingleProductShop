@@ -30,16 +30,16 @@
         "feature_Q8VH8W": {
           "type": "feature",
           "settings": {
-            "feature_heading": "Sekundär feature",
-            "feature_text": "Detta är en sekundär feature!",
+            "feature_heading": "Trygg och energieffektiv",
+            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning.",
             "feature_image": "shopify://shop_images/A8e624a15ee3c4246a111384bdea827099.jpg"
           }
         },
         "feature_f7p8AT": {
           "type": "feature",
           "settings": {
-            "feature_heading": "Tredje feature",
-            "feature_text": "Detta är min tredje feature!",
+            "feature_heading": "Passar överallt",
+            "feature_text": "Diskret men stilren design som smälter in i alla typer av hem – från modern minimalism till mysig vintage.",
             "feature_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg"
           }
         }
@@ -50,10 +50,10 @@
       ],
       "name": "Aurora Highlighted Features",
       "settings": {
-        "color_scheme": "scheme-2",
-        "main_heading": "Hello Hi!",
-        "main_feature_heading": "Main feature",
-        "main_feature_text": "Detta är en main feature för detta!",
+        "color_scheme": "scheme-4",
+        "main_heading": "En liten detalj – en stor skillnad",
+        "main_feature_heading": "Skapa stämning med ett klick",
+        "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
         "main_feature_image": "shopify://shop_images/A856471431dca48709b12984d4744e244o.jpg"
       }
     },
@@ -124,7 +124,7 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
