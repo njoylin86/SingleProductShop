@@ -50,6 +50,7 @@
       ],
       "name": "Aurora Highlighted Features",
       "settings": {
+        "color_scheme": "scheme-2",
         "main_heading": "Hello Hi!",
         "main_feature_heading": "Main feature",
         "main_feature_text": "Detta är en main feature för detta!",
