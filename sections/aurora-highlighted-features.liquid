@@ -1,15 +1,14 @@
 <style>
-.aurora-highlighted-features.page-width {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
 
 .aurora-highlighted-features__main-feature {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 40px;
+}
+
+.aurora-highlighted-features__main-heading {
+  text-align: center;
 }
 
 .aurora-highlighted-features__main-content {
@@ -79,7 +78,8 @@
 }
 </style>
 
-<section class="aurora-highlighted-features page-width color-{{ section.settings.color_scheme | default: 'background-1' }}">
+<section class="aurora-highlighted-features color-{{ section.settings.color_scheme | default: 'background-1' }}">
+  <div class="page-width">
   {% if section.settings.main_heading != blank %}
     <h2 class="aurora-highlighted-features__main-heading">
       {{ section.settings.main_heading }}
@@ -117,11 +117,13 @@
       {% endfor %}
     </div>
   {% endif %}
+  </div>
 </section>
 
 {% schema %}
 {
   "name": "Aurora HL Features",
+  "tag": "section",
   "settings": [
     {
       "type": "color_scheme",
