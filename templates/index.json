@@ -54,7 +54,7 @@
         "main_heading": "En liten detalj – en stor skillnad",
         "main_feature_heading": "Skapa stämning med ett klick",
         "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
-        "main_feature_image": "shopify://shop_images/A856471431dca48709b12984d4744e244o.jpg"
+        "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
       }
     },
     "multicolumn_8RcgNk": {
@@ -113,7 +113,7 @@
         "img.multicolumn-card__image {object-fit: contain; height: 80px;}",
         ".media--transparent {padding-bottom: 51% !important;}",
         ".multicolumn-card__info {padding: 0em 2.5rem 1em 2.5rem;}",
-        "h1,h2,h3,h4,h5 {font-size:20px}"
+        "h1,h2,h3,h4,h5 {font-size: 20px;}"
       ],
       "settings": {
         "title": "",
