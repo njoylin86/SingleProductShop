@@ -24,6 +24,38 @@
         "button_link2": "shopify://products/lustra-mood-glas-orb"
       }
     },
+    "aurora_highlighted_features_B3irQa": {
+      "type": "aurora-highlighted-features",
+      "blocks": {
+        "feature_Q8VH8W": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Sekundär feature",
+            "feature_text": "Detta är en sekundär feature!",
+            "feature_image": "shopify://shop_images/A8e624a15ee3c4246a111384bdea827099.jpg"
+          }
+        },
+        "feature_f7p8AT": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Tredje feature",
+            "feature_text": "Detta är min tredje feature!",
+            "feature_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "feature_Q8VH8W",
+        "feature_f7p8AT"
+      ],
+      "name": "Aurora Highlighted Features",
+      "settings": {
+        "main_heading": "Hello Hi!",
+        "main_feature_heading": "Main feature",
+        "main_feature_text": "Detta är en main feature för detta!",
+        "main_feature_image": "shopify://shop_images/A856471431dca48709b12984d4744e244o.jpg"
+      }
+    },
     "multicolumn_8RcgNk": {
       "type": "multicolumn",
       "blocks": {
@@ -314,6 +346,7 @@
   },
   "order": [
     "aurora_hero_fnFAzR",
+    "aurora_highlighted_features_B3irQa",
     "multicolumn_8RcgNk",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
