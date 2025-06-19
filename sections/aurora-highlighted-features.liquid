@@ -1,0 +1,96 @@
+<div class="aurora-highlighted-features">
+  {% if section.settings.main_heading != blank %}
+    <h2 class="aurora-highlighted-features__main-heading">
+      {{ section.settings.main_heading }}
+    </h2>
+  {% endif %}
+
+  <div class="aurora-highlighted-features__main-feature">
+    <div class="aurora-highlighted-features__main-content">
+      <h3>{{ section.settings.main_feature_heading }}</h3>
+      <div class="aurora-highlighted-features__main-text">
+        {{ section.settings.main_feature_text }}
+      </div>
+    </div>
+    {% if section.settings.main_feature_image != blank %}
+      <div class="aurora-highlighted-features__main-image">
+        <img src="{{ section.settings.main_feature_image | img_url: '800x' }}" alt="{{ section.settings.main_feature_heading }}">
+      </div>
+    {% endif %}
+  </div>
+
+  {% if section.blocks.size > 0 %}
+    <div class="aurora-highlighted-features__additional-features">
+      {% for block in section.blocks %}
+        <div class="aurora-highlighted-features__feature" {{ block.shopify_attributes }}>
+          <h4>{{ block.settings.feature_heading }}</h4>
+          <div class="aurora-highlighted-features__feature-text">
+            {{ block.settings.feature_text }}
+          </div>
+          {% if block.settings.feature_image != blank %}
+            <div class="aurora-highlighted-features__feature-image">
+              <img src="{{ block.settings.feature_image | img_url: '600x' }}" alt="{{ block.settings.feature_heading }}">
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Aurora HL Features",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading"
+    },
+    {
+      "type": "text",
+      "id": "main_feature_heading",
+      "label": "Main Feature Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "main_feature_text",
+      "label": "Main Feature Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_feature_image",
+      "label": "Main Feature Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Additional Feature",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature_heading",
+          "label": "Feature Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "feature_text",
+          "label": "Feature Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "feature_image",
+          "label": "Feature Image"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 2,
+  "presets": [
+    {
+      "name": "Aurora Highlighted Features"
+    }
+  ]
+}
+{% endschema %} 
