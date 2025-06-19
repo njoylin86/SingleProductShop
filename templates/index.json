@@ -132,6 +132,50 @@
         "padding_bottom": 24
       }
     },
+    "aurora_logo_wall_97AJYW": {
+      "type": "aurora-logo-wall",
+      "blocks": {
+        "logo_w4gKxK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/fictlogo3.jpg",
+            "logo_alt": "Brand logo"
+          }
+        },
+        "logo_8q3f3Y": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/fictlogo2.jpg",
+            "logo_alt": "Brand logo"
+          }
+        },
+        "logo_FHNCkm": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/fictlogo4.jpg",
+            "logo_alt": "Brand logo"
+          }
+        },
+        "logo_cMhqy4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/fictlogo5.jpg",
+            "logo_alt": "Brand logo"
+          }
+        }
+      },
+      "block_order": [
+        "logo_w4gKxK",
+        "logo_8q3f3Y",
+        "logo_FHNCkm",
+        "logo_cMhqy4"
+      ],
+      "name": "Aurora Logo Wall",
+      "settings": {
+        "color_scheme": "",
+        "heading": ""
+      }
+    },
     "aurora_product_showcase_D63jWq": {
       "type": "aurora-product-showcase",
       "blocks": {
@@ -351,6 +395,7 @@
     "aurora_hero_fnFAzR",
     "aurora_highlighted_features_B3irQa",
     "multicolumn_8RcgNk",
+    "aurora_logo_wall_97AJYW",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
