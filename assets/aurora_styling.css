@@ -78,3 +78,8 @@ h1 {
   color: var(--main-color);
   text-shadow: 1px -1px 0px #4c4247;
 }
+
+/*AJUSTMENTS OF STANDARD SECTIONS*/
+.announcement-bar__message {
+  font-size: 15px;
+}
