@@ -157,10 +157,10 @@
       "custom_css": [
         ".rte {display: none;}",
         ".inline-richtext {text-align: center;}",
-        "img.multicolumn-card__image {object-fit: contain; height: 80px;}",
-        ".media--transparent {padding-bottom: 51% !important;}",
+        "img.multicolumn-card__image {object-fit: contain; height: 50px;}",
         ".multicolumn-card__info {padding: 0em 2.5rem 1em 2.5rem;}",
-        "h1,h2,h3,h4,h5 {font-size: 20px;}"
+        "h1,h2,h3,h4,h5 {font-size: 20px;}",
+        ".media--transparent {padding-bottom: 60px !important;}"
       ],
       "settings": {
         "title": "",
@@ -171,12 +171,12 @@
         "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 24,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "aurora_product_showcase_D63jWq": {
@@ -209,6 +209,7 @@
         "feature_item_7WDhEE",
         "feature_item_6ph8Hd"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_bg_color": "#1d191d",
@@ -261,6 +262,7 @@
         "feature_item_PVLXyH",
         "feature_item_tVPpxx"
       ],
+      "disabled": true,
       "settings": {
         "section_bg_color": "#1d1919",
         "super_heading": "Engineered for Enchantment",
@@ -309,6 +311,7 @@
         "gallery_image_hjhhfp",
         "gallery_image_wV8WPB"
       ],
+      "disabled": true,
       "settings": {
         "section_bg_color": "#1d191d",
         "super_heading": "Transformative Visuals",
@@ -325,6 +328,7 @@
     },
     "aurora_tech_teaser_R4GmPk": {
       "type": "aurora-tech-teaser",
+      "disabled": true,
       "settings": {
         "section_bg_color": "#221e22",
         "heading": "The Science of Spectacle",
@@ -364,6 +368,7 @@
         "testimonial_item_MBjPJ7",
         "testimonial_item_cMfk4j"
       ],
+      "disabled": true,
       "settings": {
         "super_heading": "Echoes of Enchantment",
         "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
@@ -371,6 +376,7 @@
     },
     "aurora_order_form_TWw4Ee": {
       "type": "aurora-order-form",
+      "disabled": true,
       "settings": {
         "section_bg_color": "#181518",
         "product_to_feature": "",
