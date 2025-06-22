@@ -218,6 +218,50 @@
         "heading": "Några rader från våra kunder"
       }
     },
+    "aurora_faq_RkQb6Y": {
+      "type": "aurora-faq",
+      "blocks": {
+        "faq_item_dtUgbF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_Y4nFrN": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "We offer a 30-day return policy for all unused items in their original packaging."
+          }
+        },
+        "faq_item_zaHzpH": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
+          }
+        },
+        "faq_item_LQNCRg": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I contact customer service?",
+            "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_dtUgbF",
+        "faq_item_Y4nFrN",
+        "faq_item_zaHzpH",
+        "faq_item_LQNCRg"
+      ],
+      "name": "Aurora FAQ",
+      "settings": {
+        "color_scheme": "",
+        "heading": "FAQ"
+      }
+    },
     "aurora_product_showcase_D63jWq": {
       "type": "aurora-product-showcase",
       "blocks": {
@@ -445,6 +489,7 @@
     "aurora_highlighted_features_B3irQa",
     "multicolumn_8RcgNk",
     "aurora_reviews_4FmgtU",
+    "aurora_faq_RkQb6Y",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
