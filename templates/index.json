@@ -80,7 +80,7 @@
         "img.multicolumn-card__image {object-fit: contain; height: 50px;}",
         ".multicolumn-card__info {padding: 0em 2.5rem 1em 2.5rem;}",
         "h1,h2,h3,h4,h5 {font-size: 20px;}",
-        ".media--transparent {padding-bottom: 80px !important;}"
+        ".media--transparent {padding-bottom: 60px !important;}"
       ],
       "settings": {
         "title": "",
