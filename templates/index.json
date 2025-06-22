@@ -99,6 +99,39 @@
         "padding_bottom": 0
       }
     },
+    "aurora_highlighted_features_B3irQa": {
+      "type": "aurora-highlighted-features",
+      "blocks": {
+        "feature_Q8VH8W": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Trygg och energieffektiv",
+            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning.",
+            "feature_image": "shopify://shop_images/S5e3b91cb2a96445fa7621eed7183d3c9x.webp"
+          }
+        },
+        "feature_f7p8AT": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Passar överallt",
+            "feature_text": "Diskret men stilren design som smälter in i alla typer av hem – från modern minimalism till mysig vintage.",
+            "feature_image": "shopify://shop_images/S45fbb06e6d324d17a48c85cdcf2b85a30.webp"
+          }
+        }
+      },
+      "block_order": [
+        "feature_Q8VH8W",
+        "feature_f7p8AT"
+      ],
+      "name": "Aurora Highlighted Features",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "main_heading": "En liten detalj – en stor skillnad",
+        "main_feature_heading": "Skapa stämning med ett klick",
+        "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
+        "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
+      }
+    },
     "aurora_logo_wall_97AJYW": {
       "type": "aurora-logo-wall",
       "blocks": {
@@ -147,39 +180,6 @@
         "heading": ""
       }
     },
-    "aurora_highlighted_features_B3irQa": {
-      "type": "aurora-highlighted-features",
-      "blocks": {
-        "feature_Q8VH8W": {
-          "type": "feature",
-          "settings": {
-            "feature_heading": "Trygg och energieffektiv",
-            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning.",
-            "feature_image": "shopify://shop_images/S5e3b91cb2a96445fa7621eed7183d3c9x.webp"
-          }
-        },
-        "feature_f7p8AT": {
-          "type": "feature",
-          "settings": {
-            "feature_heading": "Passar överallt",
-            "feature_text": "Diskret men stilren design som smälter in i alla typer av hem – från modern minimalism till mysig vintage.",
-            "feature_image": "shopify://shop_images/S45fbb06e6d324d17a48c85cdcf2b85a30.webp"
-          }
-        }
-      },
-      "block_order": [
-        "feature_Q8VH8W",
-        "feature_f7p8AT"
-      ],
-      "name": "Aurora Highlighted Features",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "main_heading": "En liten detalj – en stor skillnad",
-        "main_feature_heading": "Skapa stämning med ett klick",
-        "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
-        "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
-      }
-    },
     "aurora_product_showcase_D63jWq": {
       "type": "aurora-product-showcase",
       "blocks": {
@@ -210,6 +210,7 @@
         "feature_item_7WDhEE",
         "feature_item_6ph8Hd"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_bg_color": "#1d191d",
@@ -262,6 +263,7 @@
         "feature_item_PVLXyH",
         "feature_item_tVPpxx"
       ],
+      "disabled": true,
       "settings": {
         "section_bg_color": "#1d1919",
         "super_heading": "Engineered for Enchantment",
@@ -310,6 +312,7 @@
         "gallery_image_hjhhfp",
         "gallery_image_wV8WPB"
       ],
+      "disabled": true,
       "settings": {
         "section_bg_color": "#1d191d",
         "super_heading": "Transformative Visuals",
@@ -326,6 +329,7 @@
     },
     "aurora_tech_teaser_R4GmPk": {
       "type": "aurora-tech-teaser",
+      "disabled": true,
       "settings": {
         "section_bg_color": "#221e22",
         "heading": "The Science of Spectacle",
@@ -365,6 +369,7 @@
         "testimonial_item_MBjPJ7",
         "testimonial_item_cMfk4j"
       ],
+      "disabled": true,
       "settings": {
         "super_heading": "Echoes of Enchantment",
         "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
@@ -372,6 +377,7 @@
     },
     "aurora_order_form_TWw4Ee": {
       "type": "aurora-order-form",
+      "disabled": true,
       "settings": {
         "section_bg_color": "#181518",
         "product_to_feature": "",
@@ -398,8 +404,8 @@
   "order": [
     "aurora_hero_fnFAzR",
     "multicolumn_8RcgNk",
-    "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
+    "aurora_logo_wall_97AJYW",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
