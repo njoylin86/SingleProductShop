@@ -1,0 +1,208 @@
+<style>
+.aurora-faq-section {
+  padding: 60px 0;
+}
+
+.aurora-faq-container {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aurora-faq-title {
+  flex: 0 0 300px;
+  text-align: left;
+}
+
+.aurora-faq-title h2 {
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.aurora-faq-title h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: currentColor;
+  opacity: 0.3;
+}
+
+.aurora-faq-accordion {
+  flex: 1;
+}
+
+.aurora-faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 16px;
+}
+
+.aurora-faq-question {
+  position: relative;
+  padding: 20px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.aurora-faq-question::before {
+  content: '+';
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 12px;
+  transition: transform 0.3s ease;
+}
+
+.aurora-faq-question:hover {
+  opacity: 0.8;
+}
+
+.aurora-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 0 0 32px;
+  line-height: 1.6;
+}
+
+/* Accordion functionality using CSS only */
+.aurora-faq-input {
+  display: none;
+}
+
+.aurora-faq-input:checked + .aurora-faq-question::before {
+  content: '–';
+  transform: rotate(0deg);
+}
+
+.aurora-faq-input:checked + .aurora-faq-question + .aurora-faq-answer {
+  max-height: 200px;
+  padding: 0 0 20px 32px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .aurora-faq-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .aurora-faq-title {
+    flex: none;
+    text-align: center;
+  }
+  
+  .aurora-faq-title h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+</style>
+
+<section class="aurora-faq-section color-{{ section.settings.color_scheme | default: 'background-1' }}">
+  <div class="page-width">
+    <div class="aurora-faq-container">
+      <!-- Left side: Title -->
+      <div class="aurora-faq-title">
+        <h2>{{ section.settings.heading | default: 'FAQ Section' }}</h2>
+      </div>
+      
+      <!-- Right side: Accordion -->
+      <div class="aurora-faq-accordion">
+        {% for block in section.blocks %}
+          <div class="aurora-faq-item" {{ block.shopify_attributes }}>
+            <input type="checkbox" id="faq-{{ block.id }}" class="aurora-faq-input">
+            <label for="faq-{{ block.id }}" class="aurora-faq-question">
+              {{ block.settings.question | default: 'Question ' | append: forloop.index }}
+            </label>
+            <div class="aurora-faq-answer">
+              {{ block.settings.answer | default: 'This is a placeholder answer for question ' | append: forloop.index | append: '.' }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Aurora FAQ",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "FAQ Section"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Frequently Asked Question"
+        },
+        {
+          "type": "textarea",
+          "id": "answer",
+          "label": "Answer",
+          "default": "This is the answer to the frequently asked question."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Aurora FAQ",
+      "blocks": [
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "We offer a 30-day return policy for all unused items in their original packaging."
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I contact customer service?",
+            "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %} 
