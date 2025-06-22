@@ -5,13 +5,31 @@
   --main-color: #fbf1f6e8;
   --secondary-color: #f3bd00;
   --font-heading-scale: 2.5;
+  /*--color-foreground: #333131; <--- Not working*/
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('{{ "Inter-VariableFont.ttf" | asset_url }}') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('{{ "Inter-Italic-VariableFont.ttf" | asset_url }}') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
 
 @media (max-width: 750px) {
   :root {
     --standard_desk_marign: 1.5em;
   }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
 }
 
 /*sections content max width*/
@@ -67,6 +85,11 @@ h4,
 h5,
 h6 {
   font-family: "Bebas Neue", sans-serif;
+  /* Fixa följande centralt*/
+  color: #333131;
+
+  margin-block-start: 1em;
+  margin-block-end: 0em;
 }
 
 h1 {
@@ -77,6 +100,11 @@ h1 {
   line-height: calc(var(--standard_desk_marign)* 0.56);
   color: var(--main-color);
   text-shadow: 1px -1px 0px #4c4247;
+  /*margin-block-end: 1em;*/
+}
+
+h2 {
+  margin-block-end: 1em;
 }
 
 /*AJUSTMENTS OF STANDARD SECTIONS*/
