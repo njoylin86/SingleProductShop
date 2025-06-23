@@ -26,6 +26,9 @@
       "block_order": [
         "image_PXe6aP"
       ],
+      "custom_css": [
+        "h2::after {width: 0%;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
