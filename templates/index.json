@@ -262,6 +262,21 @@
         "heading": "Vanliga frågor och svar"
       }
     },
+    "aurora_cta_fW8RpP": {
+      "type": "aurora-cta",
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "CTA Heading",
+        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "button1_text": "Download App",
+        "button1_link": "shopify://products/italian-designer-table-lamp-led-crystal-eye-of-the-sky-free-shipping-egg-shaped-lamps-living-bedroom-decor-light-night-projector",
+        "button2_text": "Download App",
+        "button2_link": "shopify://blogs/news",
+        "image1": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
+        "image2": "shopify://shop_images/Sb3e05f459c6143a3a6130442465976f2v.webp"
+      }
+    },
     "aurora_product_showcase_D63jWq": {
       "type": "aurora-product-showcase",
       "blocks": {
@@ -490,6 +505,7 @@
     "multicolumn_8RcgNk",
     "aurora_reviews_4FmgtU",
     "aurora_faq_RkQb6Y",
+    "aurora_cta_fW8RpP",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
