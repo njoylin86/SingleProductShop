@@ -105,6 +105,19 @@ h1 {
 
 h2 {
   margin-block-end: 1em;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 90%;
+  height: 2px;
+  background: currentColor;
+  opacity: 0.3;
 }
 
 /*AJUSTMENTS OF STANDARD SECTIONS*/
