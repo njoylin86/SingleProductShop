@@ -1,0 +1,96 @@
+<style>
+.aurora-cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.aurora-cta-container {
+  background: #f5f5f5; /* Light background */
+  border-radius: 18px;
+  padding: 40px 32px;
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* Notch using clip-path */
+  clip-path: polygon(
+    0 0, 
+    calc(100% - 60px) 0, 
+    100% 30px, 
+    100% calc(100% - 30px), 
+    calc(100% - 60px) 100%, 
+    0 100%
+  );
+}
+
+.aurora-cta-heading {
+  margin: 0 0 24px 0;
+  text-align: left;
+}
+
+.aurora-cta-placeholder {
+  height: 14px;
+  width: 80%;
+  background: #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.aurora-cta-placeholder.short {
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  .aurora-cta-container {
+    padding: 24px 12px;
+    clip-path: polygon(
+      0 0, 
+      calc(100% - 30px) 0, 
+      100% 15px, 
+      100% calc(100% - 15px), 
+      calc(100% - 30px) 100%, 
+      0 100%
+    );
+  }
+  .aurora-cta-heading {
+    font-size: 1.2em;
+  }
+}
+</style>
+
+<section class="aurora-cta-section color-{{ section.settings.color_scheme | default: 'background-1' }}">
+  <div class="aurora-cta-container">
+    <h2 class="aurora-cta-heading">{{ section.settings.heading | default: "CTA Heading" }}</h2>
+    <div class="aurora-cta-placeholder"></div>
+    <div class="aurora-cta-placeholder"></div>
+    <div class="aurora-cta-placeholder short"></div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Aurora CTA",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "CTA Heading"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Aurora CTA"
+    }
+  ]
+}
+{% endschema %} 

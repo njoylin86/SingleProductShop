@@ -21,17 +21,6 @@
   position: relative;
 }
 
-.aurora-faq-title h2::after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 0;
-  width: 60px;
-  height: 2px;
-  background: currentColor;
-  opacity: 0.3;
-}
-
 .aurora-faq-accordion {
   flex: 1;
 }
@@ -47,8 +36,9 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
-  font-weight: 500;
+  /* justify-content: space-between; */
+  font-weight: 700;
+  font-size: 19px;
 }
 
 .aurora-faq-question::before {
@@ -96,6 +86,7 @@
   .aurora-faq-title {
     flex: none;
     text-align: center;
+    width: 100%;
   }
   
   .aurora-faq-title h2::after {
