@@ -48,6 +48,8 @@
   background: #e0e0e0;
   cursor: pointer;
   /* No color/font styling as requested */
+  text-decoration: none;
+  display: inline-block;
 }
 
 .aurora-cta-images {
@@ -146,13 +148,21 @@
       <h2 class="aurora-cta-heading">{{ section.settings.heading | default: "CTA Heading" }}</h2>
       <p class="aurora-cta-text">{{ section.settings.text | default: "This is a short paragraph of placeholder text for your call-to-action section." }}</p>
       <div class="aurora-cta-buttons">
-        <button class="aurora-cta-button">Download App</button>
-        <button class="aurora-cta-button">Download App</button>
+        {% if section.settings.button1_text != blank and section.settings.button1_link != blank %}
+          <a class="aurora-cta-button" href="{{ section.settings.button1_link }}">{{ section.settings.button1_text }}</a>
+        {% endif %}
+        {% if section.settings.button2_text != blank and section.settings.button2_link != blank %}
+          <a class="aurora-cta-button" href="{{ section.settings.button2_link }}">{{ section.settings.button2_text }}</a>
+        {% endif %}
       </div>
     </div>
     <div class="aurora-cta-images">
-      <img class="aurora-cta-image1" src="https://placehold.co/120x180" alt="Placeholder 1">
-      <img class="aurora-cta-image2" src="https://placehold.co/80x120" alt="Placeholder 2">
+      {% if section.settings.image1 != blank %}
+        <img class="aurora-cta-image1" src="{{ section.settings.image1 | img_url: '240x360' }}" alt="CTA Image 1">
+      {% endif %}
+      {% if section.settings.image2 != blank %}
+        <img class="aurora-cta-image2" src="{{ section.settings.image2 | img_url: '160x240' }}" alt="CTA Image 2">
+      {% endif %}
     </div>
   </div>
 </section>
@@ -178,6 +188,38 @@
       "id": "text",
       "label": "Paragraph text",
       "default": "This is a short paragraph of placeholder text for your call-to-action section."
+    },
+    {
+      "type": "text",
+      "id": "button1_text",
+      "label": "Button 1 Text",
+      "default": "Download App"
+    },
+    {
+      "type": "url",
+      "id": "button1_link",
+      "label": "Button 1 Link"
+    },
+    {
+      "type": "text",
+      "id": "button2_text",
+      "label": "Button 2 Text",
+      "default": "Download App"
+    },
+    {
+      "type": "url",
+      "id": "button2_link",
+      "label": "Button 2 Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image 2"
     }
   ],
   "presets": [
