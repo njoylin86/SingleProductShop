@@ -11,7 +11,7 @@
   flex-direction: row;
   align-items: stretch;
   border-radius: 32px;
-  background: #f5f5f5;
+  background: #00000025;
   max-width: 900px;
   width: 100%;
   overflow: hidden;
@@ -41,15 +41,30 @@
   gap: 16px;
 }
 
-.aurora-cta-button {
-  padding: 12px 28px;
-  border: none;
-  border-radius: 24px;
-  background: #e0e0e0;
-  cursor: pointer;
-  /* No color/font styling as requested */
-  text-decoration: none;
+/* Button styling from aurora-hero */
+.cta-1, .cta-2 {    
+  background: var(--main-color);
+  padding: 9px 5px;
+  border-radius: 2px;
+  outline: 1px solid #ffffffbd;
+  color: #3769a0;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: unset;
+  box-shadow: 1px 1px 4px -1px #554c4c;
+  margin-right: calc(var(--standard_desk_marign)* 0.2);
   display: inline-block;
+}
+.cta-1 {
+  background: #f9be00;
+  color: #f50dbb8a;
+  outline: 1px solid #f40dbaba;
+  margin-right: 10px;
+}
+.cta-1:hover, .cta-2:hover {
+  box-shadow: 3px 3px 3px 0px #554c4cad !important;
+  outline: 2px solid #8e6c93 !important;
 }
 
 .aurora-cta-images {
@@ -149,10 +164,10 @@
       <p class="aurora-cta-text">{{ section.settings.text | default: "This is a short paragraph of placeholder text for your call-to-action section." }}</p>
       <div class="aurora-cta-buttons">
         {% if section.settings.button1_text != blank and section.settings.button1_link != blank %}
-          <a class="aurora-cta-button" href="{{ section.settings.button1_link }}">{{ section.settings.button1_text }}</a>
+          <a class="cta-1" href="{{ section.settings.button1_link }}">{{ section.settings.button1_text }}</a>
         {% endif %}
         {% if section.settings.button2_text != blank and section.settings.button2_link != blank %}
-          <a class="aurora-cta-button" href="{{ section.settings.button2_link }}">{{ section.settings.button2_text }}</a>
+          <a class="cta-2" href="{{ section.settings.button2_link }}">{{ section.settings.button2_text }}</a>
         {% endif %}
       </div>
     </div>
