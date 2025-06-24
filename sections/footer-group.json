@@ -27,11 +27,10 @@
         "image_PXe6aP"
       ],
       "custom_css": [
-        "h2::after {width: 0%;}",
-        "h2 {color:white;}"
+        "h2::after {width: 0%;}"
       ],
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Prenumerera på våra utskick",
         "enable_follow_on_shop": true,
