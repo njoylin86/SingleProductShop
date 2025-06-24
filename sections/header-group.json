@@ -17,29 +17,13 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "announcement_ELKCtY": {
-          "type": "announcement",
-          "settings": {
-            "text": "Still Here?",
-            "link": ""
-          }
-        },
-        "announcement_q9kVjg": {
-          "type": "announcement",
-          "settings": {
-            "text": "Good bye!",
+            "text": "Gratis frakt under sommaren!",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_ELKCtY",
-        "announcement_q9kVjg"
+        "announcement-bar-0"
       ],
       "settings": {
         "auto_rotate": true,
