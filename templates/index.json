@@ -24,79 +24,6 @@
         "button_link2": "shopify://products/lustra-mood-glas-orb"
       }
     },
-    "aurora_logo_wall_97AJYW": {
-      "type": "aurora-logo-wall",
-      "blocks": {
-        "logo_w4gKxK": {
-          "type": "logo",
-          "settings": {
-            "logo_alt": "Brand logo"
-          }
-        },
-        "logo_8q3f3Y": {
-          "type": "logo",
-          "settings": {
-            "logo_alt": "Brand logo"
-          }
-        },
-        "logo_FHNCkm": {
-          "type": "logo",
-          "settings": {
-            "logo_alt": "Brand logo"
-          }
-        },
-        "logo_cMhqy4": {
-          "type": "logo",
-          "settings": {
-            "logo_alt": "Brand logo"
-          }
-        }
-      },
-      "block_order": [
-        "logo_w4gKxK",
-        "logo_8q3f3Y",
-        "logo_FHNCkm",
-        "logo_cMhqy4"
-      ],
-      "custom_css": [
-        "section {background-color: #f9fafa;}"
-      ],
-      "name": "Aurora Logo Wall",
-      "settings": {
-        "color_scheme": "",
-        "heading": ""
-      }
-    },
-    "aurora_highlighted_features_B3irQa": {
-      "type": "aurora-highlighted-features",
-      "blocks": {
-        "feature_Q8VH8W": {
-          "type": "feature",
-          "settings": {
-            "feature_heading": "Enkel att använda.",
-            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning."
-          }
-        },
-        "feature_f7p8AT": {
-          "type": "feature",
-          "settings": {
-            "feature_heading": "Diskret design. Tydlig funktion.",
-            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö."
-          }
-        }
-      },
-      "block_order": [
-        "feature_Q8VH8W",
-        "feature_f7p8AT"
-      ],
-      "name": "Aurora Highlighted Features",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "main_heading": "En tydlig display – ett enklare liv",
-        "main_feature_heading": "Se tiden klart, varje gång",
-        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag"
-      }
-    },
     "multicolumn_8RcgNk": {
       "type": "multicolumn",
       "blocks": {
@@ -170,6 +97,79 @@
         "swipe_on_mobile": false,
         "padding_top": 24,
         "padding_bottom": 0
+      }
+    },
+    "aurora_logo_wall_97AJYW": {
+      "type": "aurora-logo-wall",
+      "blocks": {
+        "logo_w4gKxK": {
+          "type": "logo",
+          "settings": {
+            "logo_alt": "Brand logo"
+          }
+        },
+        "logo_8q3f3Y": {
+          "type": "logo",
+          "settings": {
+            "logo_alt": "Brand logo"
+          }
+        },
+        "logo_FHNCkm": {
+          "type": "logo",
+          "settings": {
+            "logo_alt": "Brand logo"
+          }
+        },
+        "logo_cMhqy4": {
+          "type": "logo",
+          "settings": {
+            "logo_alt": "Brand logo"
+          }
+        }
+      },
+      "block_order": [
+        "logo_w4gKxK",
+        "logo_8q3f3Y",
+        "logo_FHNCkm",
+        "logo_cMhqy4"
+      ],
+      "custom_css": [
+        "section {background-color: #f9fafa;}"
+      ],
+      "name": "Aurora Logo Wall",
+      "settings": {
+        "color_scheme": "",
+        "heading": ""
+      }
+    },
+    "aurora_highlighted_features_B3irQa": {
+      "type": "aurora-highlighted-features",
+      "blocks": {
+        "feature_Q8VH8W": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Enkel att använda.",
+            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning."
+          }
+        },
+        "feature_f7p8AT": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Diskret design. Tydlig funktion.",
+            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö."
+          }
+        }
+      },
+      "block_order": [
+        "feature_Q8VH8W",
+        "feature_f7p8AT"
+      ],
+      "name": "Aurora Highlighted Features",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "main_heading": "En tydlig display – ett enklare liv",
+        "main_feature_heading": "Se tiden klart, varje gång",
+        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag"
       }
     },
     "aurora_reviews_4FmgtU": {
@@ -276,9 +276,9 @@
   },
   "order": [
     "aurora_hero_fnFAzR",
+    "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
-    "multicolumn_8RcgNk",
     "aurora_reviews_4FmgtU",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP"
