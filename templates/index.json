@@ -15,9 +15,9 @@
         "section {background-position: center;}"
       ],
       "settings": {
-        "background_image": "shopify://shop_images/A09e20a2d0cbc4a3593e01c8eb044195fK.jpg",
-        "headline": "Forma atmosfären.",
-        "subheadline": "<p>Subtilt ljus – kraftfull känsla. Skapa atmosfär med <strong>Lustra Mood: Ambient Light</strong>.</p>",
+        "background_image": "shopify://shop_images/Untitled_design_5.jpg",
+        "headline": "Seniorklockan",
+        "subheadline": "<p>Världens mest seniorvänliga klocka, <strong>SENIORKLOCKAN</strong>.</p>",
         "button_label": "Köp nu",
         "button_link": "shopify://products/lustra-mood-glas-orb",
         "button_label2": "Upptäck ljuset",
@@ -30,28 +30,24 @@
         "logo_w4gKxK": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/fictlogo3.jpg",
             "logo_alt": "Brand logo"
           }
         },
         "logo_8q3f3Y": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/fictlogo2.jpg",
             "logo_alt": "Brand logo"
           }
         },
         "logo_FHNCkm": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/fictlogo4.jpg",
             "logo_alt": "Brand logo"
           }
         },
         "logo_cMhqy4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/fictlogo5.jpg",
             "logo_alt": "Brand logo"
           }
         }
@@ -77,17 +73,15 @@
         "feature_Q8VH8W": {
           "type": "feature",
           "settings": {
-            "feature_heading": "Trygg och energieffektiv",
-            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning.",
-            "feature_image": "shopify://shop_images/S5e3b91cb2a96445fa7621eed7183d3c9x.webp"
+            "feature_heading": "Enkel att använda.",
+            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning."
           }
         },
         "feature_f7p8AT": {
           "type": "feature",
           "settings": {
-            "feature_heading": "Passar överallt",
-            "feature_text": "Diskret men stilren design som smälter in i alla typer av hem – från modern minimalism till mysig vintage.",
-            "feature_image": "shopify://shop_images/S45fbb06e6d324d17a48c85cdcf2b85a30.webp"
+            "feature_heading": "Diskret design. Tydlig funktion.",
+            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö."
           }
         }
       },
@@ -98,10 +92,9 @@
       "name": "Aurora Highlighted Features",
       "settings": {
         "color_scheme": "scheme-1",
-        "main_heading": "En liten detalj – en stor skillnad",
-        "main_feature_heading": "Skapa stämning med ett klick",
-        "main_feature_text": "Låt det mjuka skenet från lampan omsluta ditt rum och ge det där lilla extra. Ljuset är varmt, dämpat och designat för att kännas – inte synas.",
-        "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
+        "main_heading": "En tydlig display – ett enklare liv",
+        "main_feature_heading": "Se tiden klart, varje gång",
+        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag"
       }
     },
     "multicolumn_8RcgNk": {
@@ -272,229 +265,7 @@
         "button1_text": "Download App",
         "button1_link": "shopify://products/italian-designer-table-lamp-led-crystal-eye-of-the-sky-free-shipping-egg-shaped-lamps-living-bedroom-decor-light-night-projector",
         "button2_text": "Download App",
-        "button2_link": "shopify://blogs/news",
-        "image1": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
-        "image2": "shopify://shop_images/Sb3e05f459c6143a3a6130442465976f2v.webp"
-      }
-    },
-    "aurora_product_showcase_D63jWq": {
-      "type": "aurora-product-showcase",
-      "blocks": {
-        "feature_item_YT6fwU": {
-          "type": "feature_item",
-          "settings": {
-            "text": "Precision-engineered prism optics",
-            "icon_svg": ""
-          }
-        },
-        "feature_item_7WDhEE": {
-          "type": "feature_item",
-          "settings": {
-            "text": "Premium anodized aluminum body",
-            "icon_svg": ""
-          }
-        },
-        "feature_item_6ph8Hd": {
-          "type": "feature_item",
-          "settings": {
-            "text": "Energy-efficient LED technology",
-            "icon_svg": ""
-          }
-        }
-      },
-      "block_order": [
-        "feature_item_YT6fwU",
-        "feature_item_7WDhEE",
-        "feature_item_6ph8Hd"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "section_bg_color": "#1d191d",
-        "main_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
-        "show_thumbnails": true,
-        "thumb1_image": "shopify://shop_images/44579fe5-ef00-492f-8052-7bb75df4df4e.webp",
-        "thumb2_image": "shopify://shop_images/SKU-01_ee782f16-9eb3-45ba-ba32-a3dbb8c0baed.webp",
-        "thumb3_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
-        "heading": "The Aurora Spotlight",
-        "description_paragraph1": "<p>Meticulously crafted from aerospace-grade aluminum, the Aurora Spotlight is more than just a light source; it's a statement piece. Its minimalist Scandinavian design seamlessly integrates into any modern interior, while its advanced optical system projects a vivid spectrum of light, creating a dynamic prism that dances across your walls.</p>",
-        "description_paragraph2": "<p>Experience a new dimension of ambient lighting that is both sophisticated and captivating.</p>",
-        "button_label": "Secure Yours Now",
-        "button_link": "",
-        "text_color": "#f3f4f6",
-        "highlight_color": "#ffbf00",
-        "button_bg_color": "#ffbf00",
-        "button_text_color": "#1d1919"
-      }
-    },
-    "aurora_features_Qqy3PU": {
-      "type": "aurora-features",
-      "blocks": {
-        "feature_item_N7ebMW": {
-          "type": "feature_item",
-          "settings": {
-            "icon_svg": "",
-            "title": "Dynamic Prism Display",
-            "text": "<p>Our custom-cut crystal lens refracts light into a stunning array of colors.</p>"
-          }
-        },
-        "feature_item_PVLXyH": {
-          "type": "feature_item",
-          "settings": {
-            "icon_svg": "",
-            "title": "Sophisticated Ambiance",
-            "text": "<p>Beyond the prism, Aurora provides a warm, inviting glow, perfect for setting the mood.</p>"
-          }
-        },
-        "feature_item_tVPpxx": {
-          "type": "feature_item",
-          "settings": {
-            "icon_svg": "",
-            "title": "Minimalist Tech Design",
-            "text": "<p>Inspired by Scandinavian principles, its sleek form factor is both beautiful and unobtrusive.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_item_N7ebMW",
-        "feature_item_PVLXyH",
-        "feature_item_tVPpxx"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_bg_color": "#1d1919",
-        "super_heading": "Engineered for Enchantment",
-        "super_heading_text_color": "#1d1919",
-        "section_description": "<p>Discover the technology and design philosophy that make the Aurora Spotlight unique.</p>",
-        "description_text_color": "#a0aec0",
-        "enable_glassmorphism": true,
-        "card_base_color": "rgba(29,25,25,0.5)",
-        "card_border_color": "#ffffff1a",
-        "card_text_color": "#f3f4f6",
-        "default_icon_svg": "<svg class=\"w-8 h-8\" fill=\"none\" stroke=\"currentColor\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\"></path></svg>",
-        "icon_bg_color": "#ffbf00",
-        "icon_color": "#1d1919"
-      }
-    },
-    "aurora_gallery_kaaHHh": {
-      "type": "aurora-gallery",
-      "blocks": {
-        "gallery_image_rK8cGj": {
-          "type": "gallery_image",
-          "settings": {
-            "image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
-            "aspect_ratio": "1/1",
-            "col_span_desktop": "1"
-          }
-        },
-        "gallery_image_hjhhfp": {
-          "type": "gallery_image",
-          "settings": {
-            "image": "shopify://shop_images/A5f8a8ee33c274d8cb1e787d2c89521f49.jpg",
-            "aspect_ratio": "1/1",
-            "col_span_desktop": "1"
-          }
-        },
-        "gallery_image_wV8WPB": {
-          "type": "gallery_image",
-          "settings": {
-            "image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
-            "aspect_ratio": "1/1",
-            "col_span_desktop": "1"
-          }
-        }
-      },
-      "block_order": [
-        "gallery_image_rK8cGj",
-        "gallery_image_hjhhfp",
-        "gallery_image_wV8WPB"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_bg_color": "#1d191d",
-        "super_heading": "Transformative Visuals",
-        "super_heading_text_color": "#1d1919",
-        "section_description": "<p>See how the Aurora Spotlight redefines spaces with its unique light signature.</p>",
-        "description_text_color": "#a0aec0",
-        "columns_desktop": 4,
-        "columns_tablet": 1,
-        "columns_mobile": "1",
-        "gap_size": 0,
-        "image_border_radius": 8,
-        "hover_scale_effect": 105
-      }
-    },
-    "aurora_tech_teaser_R4GmPk": {
-      "type": "aurora-tech-teaser",
-      "disabled": true,
-      "settings": {
-        "section_bg_color": "#221e22",
-        "heading": "The Science of Spectacle",
-        "heading_color": "#ffffff",
-        "paragraph_1": "<p>At the heart of Aurora lies a precisely engineered optical lens. This isn't just glass; it's a gateway to a spectrum. By carefully angling facets and utilizing high-clarity materials, we've maximized light dispersion to create the most vivid and expansive prism effect possible from a compact source.</p>",
-        "paragraph_2": "<p>The internal LED module is selected for its specific wavelength output, ensuring that when light passes through the lens, the colors are rich, pure, and deeply saturated. It's where physics meets art.</p>",
-        "text_color": "#d1d5db"
-      }
-    },
-    "aurora_testimonials_aAyxtQ": {
-      "type": "aurora-testimonials",
-      "blocks": {
-        "testimonial_item_gNcpCq": {
-          "type": "testimonial_item",
-          "settings": {
-            "quote": "The Aurora light is simply magical. It's transformed my living room into a constantly shifting canvas of color. Absolutely mesmerizing!",
-            "author": "Alex P., Interior Designer"
-          }
-        },
-        "testimonial_item_MBjPJ7": {
-          "type": "testimonial_item",
-          "settings": {
-            "quote": "I was looking for a unique statement piece, and this is it. The build quality is superb.",
-            "author": "Sarah K., Tech Enthusiast"
-          }
-        },
-        "testimonial_item_cMfk4j": {
-          "type": "testimonial_item",
-          "settings": {
-            "quote": "Sleek, modern, and the light it casts is just... wow. My home office has never felt more inspiring.",
-            "author": "Michael B., Architect"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_item_gNcpCq",
-        "testimonial_item_MBjPJ7",
-        "testimonial_item_cMfk4j"
-      ],
-      "disabled": true,
-      "settings": {
-        "super_heading": "Echoes of Enchantment",
-        "section_description": "<p>Hear from those who've welcomed Aurora into their spaces.</p>"
-      }
-    },
-    "aurora_order_form_TWw4Ee": {
-      "type": "aurora-order-form",
-      "disabled": true,
-      "settings": {
-        "section_bg_color": "#181518",
-        "product_to_feature": "",
-        "heading": "Own the Aurora",
-        "subheading": "<p>Ready to redefine your space? The Aurora Spotlight is available with introductory pricing.</p>",
-        "show_msrp": true,
-        "show_quantity_selector": true,
-        "quantity_selector_label": "Quantity:",
-        "button_label": "Add to Cart & Illuminate",
-        "trust_text": "Secure Checkout | Free Worldwide Shipping | 30-Day Money-Back Guarantee",
-        "show_payment_icons": true,
-        "enable_glassmorphism": true,
-        "card_bg_color": "rgba(29,25,25,0.7)",
-        "card_border_color": "#ffbf00",
-        "card_text_color": "#f3f4f6",
-        "price_text_color": "#ffbf00",
-        "compare_price_text_color": "#a0aec0",
-        "trust_badge_text_color": "#9ca3af",
-        "button_bg_color": "#ffbf00",
-        "button_text_color": "#1d1919"
+        "button2_link": "shopify://blogs/news"
       }
     }
   },
@@ -505,12 +276,6 @@
     "multicolumn_8RcgNk",
     "aurora_reviews_4FmgtU",
     "aurora_faq_RkQb6Y",
-    "aurora_cta_fW8RpP",
-    "aurora_product_showcase_D63jWq",
-    "aurora_features_Qqy3PU",
-    "aurora_gallery_kaaHHh",
-    "aurora_tech_teaser_R4GmPk",
-    "aurora_testimonials_aAyxtQ",
-    "aurora_order_form_TWw4Ee"
+    "aurora_cta_fW8RpP"
   ]
 }
