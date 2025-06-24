@@ -27,7 +27,8 @@
         "image_PXe6aP"
       ],
       "custom_css": [
-        "h2::after {width: 0%;}"
+        "h2::after {width: 0%;}",
+        "h2 {color:white;}"
       ],
       "settings": {
         "color_scheme": "scheme-4",
