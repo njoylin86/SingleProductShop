@@ -81,7 +81,7 @@
         ".multicolumn-card__info {padding: 0em 2.5rem 1em 2.5rem;}",
         "h1,h2,h3,h4,h5 {font-size: 20px;}",
         ".media--transparent {padding-bottom: 60px !important;}",
-        ".isolate {background: linear-gradient( 180deg, rgba(241, 240, 238, 1) 0%, rgba(253, 242, 238, 1) 100% );}"
+        ".multicolumn {background: linear-gradient( 180deg, rgba(241, 240, 238, 1) 0%, rgba(253, 242, 238, 1) 100% );}"
       ],
       "settings": {
         "title": "",
