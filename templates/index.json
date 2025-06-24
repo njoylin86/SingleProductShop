@@ -261,7 +261,8 @@
     "aurora_cta_fW8RpP": {
       "type": "aurora-cta",
       "custom_css": [
-        ".aurora-cta-card {background: unset;}"
+        ".aurora-cta-card {background: unset;}",
+        "@media (max-width: 750px) {img {display: none; }}"
       ],
       "name": "Aurora CTA",
       "settings": {

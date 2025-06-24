@@ -27,8 +27,7 @@
         "image_PXe6aP"
       ],
       "custom_css": [
-        "h2::after {width: 0%;}",
-        "@media (max-width: 750px) {img {display: none; }}"
+        "h2::after {width: 0%;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
