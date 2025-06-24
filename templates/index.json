@@ -265,7 +265,7 @@
       ],
       "name": "Aurora CTA",
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
         "heading": "CTA Heading",
         "text": "This is a short paragraph of placeholder text for your call-to-action section.",
         "button1_text": "BUTTON",
