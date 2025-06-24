@@ -257,15 +257,20 @@
     },
     "aurora_cta_fW8RpP": {
       "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-card {background: unset;}"
+      ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
         "heading": "CTA Heading",
         "text": "This is a short paragraph of placeholder text for your call-to-action section.",
-        "button1_text": "Download App",
-        "button1_link": "shopify://products/italian-designer-table-lamp-led-crystal-eye-of-the-sky-free-shipping-egg-shaped-lamps-living-bedroom-decor-light-night-projector",
-        "button2_text": "Download App",
-        "button2_link": "shopify://blogs/news"
+        "button1_text": "BUTTON",
+        "button1_link": "shopify://products/the-collection-snowboard-liquid",
+        "button2_text": "BUTTON",
+        "button2_link": "shopify://blogs/news",
+        "image1": "shopify://shop_images/51-vQD3KiXL._AC_SL1001.jpg",
+        "image2": "shopify://shop_images/customer-service.png"
       }
     }
   },
