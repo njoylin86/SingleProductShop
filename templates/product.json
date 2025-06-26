@@ -104,45 +104,54 @@
         "padding_bottom": 28
       }
     },
-    "multicolumn_6FzaDQ": {
-      "type": "multicolumn",
+    "rich_text_nYJbdX": {
+      "type": "rich-text",
       "blocks": {
-        "column_FpJXXT": {
-          "type": "column",
+        "heading_e6wPmU": {
+          "type": "heading",
           "settings": {
-            "title": "Köp nu",
-            "text": "<p>Incitament för att köpa!</p>",
-            "link_label": "",
-            "link": ""
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_UEL9kx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vår demensklocka är utformad för att ge både användaren och anhöriga en ökad känsla av trygghet. Med tydlig digital tidsvisning, datum och veckodag är den enkel att förstå även för personer med minnesproblematik eller kognitiva utmaningar.</p><p><strong>Funktioner:</strong></p><ul><li><strong>Tydlig display</strong></li><li><strong>Påminnelser</strong></li><li><strong>Automatisk ljusstyrka</strong></li><li><strong>Enkel att använda</strong></li><li><strong>Strömförsörjning via eluttag</strong></li></ul>"
+          }
+        },
+        "button_U3PHtU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "column_FpJXXT"
+        "heading_e6wPmU",
+        "text_UEL9kx",
+        "button_U3PHtU"
       ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 1,
-        "column_alignment": "left",
-        "background_style": "primary",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
     "related-products",
-    "multicolumn_6FzaDQ"
+    "rich_text_nYJbdX"
   ]
 }
