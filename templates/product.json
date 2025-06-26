@@ -68,7 +68,7 @@
         "share"
       ],
       "custom_css": [
-        "h1 {font-size: 50px; color: #393a43e8; text-shadow: 0 !important; margin-top:15px;}",
+        "h1 {font-size: 50px; color: #393a43e8; text-shadow: 0 !important; margin-top: 15px;}",
         ".product-form__submit {display: none;}"
       ],
       "settings": {
@@ -81,7 +81,7 @@
         "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "hide_variants": false,
+        "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
