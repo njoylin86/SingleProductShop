@@ -83,7 +83,7 @@
         "h1 {font-size: clamp(53px, 13vw, 90px); color: #393a43e8; text-shadow: 0 !important; margin-top: 15px;}",
         ".product-form__submit {display: none;}",
         ".accordion .svg-wrapper {height: calc(var(--font-heading-scale) * 1rem);}",
-        ".accordion__title {font-size:22.5px;}"
+        ".accordion__title {font-size: 22.5px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -139,8 +139,8 @@
         "button_U3PHtU": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Köp och gå till checkout",
+            "button_link": "/cart/add?id=15277027787139&return_to=/cart",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
