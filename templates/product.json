@@ -41,8 +41,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -52,7 +52,7 @@
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Dela"
           }
         }
       },
@@ -107,35 +107,15 @@
         "column_FpJXXT": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FXpPRA": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_g9mgJb": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Köp nu",
+            "text": "<p>Incitament för att köpa!</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_FpJXXT",
-        "column_FXpPRA",
-        "column_g9mgJb"
+        "column_FpJXXT"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -145,7 +125,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 3,
+        "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "",
