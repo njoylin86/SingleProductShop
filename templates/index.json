@@ -12,7 +12,8 @@
     "aurora_hero_fnFAzR": {
       "type": "aurora-hero",
       "custom_css": [
-        "section {background-position: center;}"
+        "section {background-position: center;}",
+        "button {display: none;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/Untitled_design_16.jpg",
@@ -20,8 +21,8 @@
         "subheadline": "<p>Världens mest seniorvänliga klocka, <strong>SENIORKLOCKAN</strong>.</p>",
         "button_label": "Köp nu",
         "button_link": "shopify://products/the-collection-snowboard-liquid",
-        "button_label2": "",
-        "button_link2": ""
+        "button_label2": "Utforska klockan",
+        "button_link2": "#aurora-highlighted-features"
       }
     },
     "multicolumn_8RcgNk": {
