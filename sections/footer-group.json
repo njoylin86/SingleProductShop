@@ -28,7 +28,8 @@
         "image_PXe6aP"
       ],
       "custom_css": [
-        "h2::after {width: 0%;}"
+        "h2::after {width: 0%;}",
+        ".footer__content-top {display: none;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
