@@ -66,6 +66,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        "h1 {font-size: 50px; color: #393a43e8; text-shadow: 0 !important;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
