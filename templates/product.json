@@ -140,7 +140,7 @@
           "type": "button",
           "settings": {
             "button_label": "Köp och gå till checkout",
-            "button_link": "/cart/add?id=15277027787139&return_to=/cart",
+            "button_link": "/cart/add?id=15277027787139",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
