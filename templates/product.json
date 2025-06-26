@@ -68,7 +68,7 @@
         "share"
       ],
       "custom_css": [
-        "h1 {font-size: 50px; color: #393a43e8; text-shadow: 0 !important; margin-top: 15px;}",
+        "h1 {font-size: clamp(53px, 13vw, 90px); color: #393a43e8; text-shadow: 0 !important; margin-top: 15px;}",
         ".product-form__submit {display: none;}"
       ],
       "settings": {
