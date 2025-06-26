@@ -117,6 +117,7 @@
       "block_order": [
         "column_FpJXXT"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Multicolumn",
