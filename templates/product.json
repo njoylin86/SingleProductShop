@@ -47,8 +47,16 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
+        },
+        "collapsible_tab_fy44La": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Funktioner",
+            "icon": "check_mark",
+            "content": "<p></p><ul><li><strong>Tydlig display</strong></li><li><strong>Påminnelser</strong></li><li><strong>Automatisk ljusstyrka</strong></li><li><strong>Enkel att använda</strong></li><li><strong>Strömförsörjning via eluttag</strong></li></ul>",
+            "page": ""
+          }
         },
         "share": {
           "type": "share",
@@ -65,6 +73,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible_tab_fy44La",
         "share"
       ],
       "custom_css": [
