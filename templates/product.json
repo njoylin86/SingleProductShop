@@ -68,8 +68,8 @@
         "share"
       ],
       "custom_css": [
-        "h1 {font-size: 50px; color: #393a43e8; text-shadow: 0 !important;}",
-        ".product-form__submit {display:none;}"
+        "h1 {font-size: 50px; color: #393a43e8; text-shadow: 0 !important; margin-top:15px;}",
+        ".product-form__submit {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
