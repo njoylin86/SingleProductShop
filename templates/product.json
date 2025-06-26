@@ -45,9 +45,12 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "text_NyRmVc": {
+          "type": "text",
+          "settings": {
+            "text": "Vår demensklocka är utformad för att ge både användaren och anhöriga en ökad känsla av trygghet. Med tydlig digital tidsvisning, datum och veckodag är den enkel att förstå även för personer med minnesproblematik eller kognitiva utmaningar.",
+            "text_style": "body"
+          }
         },
         "collapsible_tab_fy44La": {
           "type": "collapsible_tab",
@@ -72,7 +75,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "text_NyRmVc",
         "collapsible_tab_fy44La",
         "share"
       ],
