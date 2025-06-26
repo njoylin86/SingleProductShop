@@ -15,7 +15,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "digital kalenderklocka",
+            "text": "Den digital kalenderklocka",
             "text_style": "uppercase"
           }
         },
