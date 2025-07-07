@@ -98,7 +98,6 @@ h1 {
   font-size: 90px;
   margin: calc(var(--standard_desk_marign) * 0.1) 0;
   line-height: calc(var(--standard_desk_marign)* 0.56);
-  color: var(--main-color);
   text-shadow: 1px -1px 0px #4c4247;
   /*margin-block-end: 1em;*/
 }
