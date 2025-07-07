@@ -14,31 +14,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "announcement_ELKCtY": {
-          "type": "announcement",
-          "settings": {
-            "text": "Still Here?",
-            "link": ""
-          }
-        },
         "announcement_q9kVjg": {
           "type": "announcement",
           "settings": {
-            "text": "Good bye!",
-            "link": ""
+            "text": "Fri frakt vid köp för minst 500 kr",
+            "link": "shopify://products/italian-designer-table-lamp-led-crystal-eye-of-the-sky-free-shipping-egg-shaped-lamps-living-bedroom-decor-light-night-projector"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_ELKCtY",
         "announcement_q9kVjg"
       ],
       "settings": {
