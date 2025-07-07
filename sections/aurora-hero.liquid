@@ -23,10 +23,29 @@
       }
       .page-width {
         padding: 0px 4.5rem;
+        z-index: 2;
+        position: relative;
       }
       .hero-content {
         z-index: 2;
         position: relative;
+
+        @media (max-width: 990px) {
+          justify-content: flex-end;
+          .positioner {
+            padding: 16px 0px;
+          }
+          .positioner::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+            /* pointer-events: none; */
+          }
+        }
       }
       .cta-1, .cta-2 {    
         background: var(--main-color);
@@ -40,6 +59,9 @@
         text-decoration: unset;
         box-shadow: 1px 1px 4px -1px #554c4c;
         margin-right: calc(var(--standard_desk_marign)* 0.2);
+        display: inline-block;
+        margin-bottom: 23px;
+
       }
       .cta-1 {
         background: #f9be00;
@@ -70,33 +92,34 @@
 
   data-section-id="{{ section.id }}"
   data-section-type="aurora-hero"
-><div class="overlay">&nbsp;</div>
-  <div class ="hero-content align-vertically full-screen-height page-width">
-    <div>
-    {% if section.settings.headline != blank %}
-      <h1 class="bebas-neue-regular">
-        {{ section.settings.headline | escape }}
-      </h1>
-    {% endif %}
-
-    {% if section.settings.subheadline != blank %}
-      <div class="">
-        {{ section.settings.subheadline }}
+>
+<div class="overlay">&nbsp;</div>
+  <div class ="hero-content align-vertically full-screen-height">
+    <div class="positioner">
+      <div class="page-width">
+      {% if section.settings.headline != blank %}
+        <h1 class="bebas-neue-regular">
+          {{ section.settings.headline | escape }}
+        </h1>
+        {% endif %}
+        {% if section.settings.subheadline != blank %}
+          <div class="">
+            {{ section.settings.subheadline }}
+          </div>
+        {% endif %}
+        <div>
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <a class="cta-1" href="{{ section.settings.button_link }}">
+              {{ section.settings.button_label | escape }}
+            </a>
+          {% endif %}
+          {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
+            <a class="cta-2" href="{{ section.settings.button_link2 }}">
+              {{ section.settings.button_label2 | escape }}
+            </a>
+          {% endif %}
+        </div>
       </div>
-    {% endif %}
-    <div>
-      {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-      <a class="cta-1" href="{{ section.settings.button_link }}">
-        {{ section.settings.button_label | escape }}
-      </a>
-    {% endif %}
-    {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
-      <a class="cta-2" href="{{ section.settings.button_link2 }}">
-        {{ section.settings.button_label2 | escape }}
-      </a>
-    {% endif %}
-    </div>
-    
     </div>
   </div>
 </section>
