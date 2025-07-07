@@ -265,6 +265,7 @@
     },
     "aurora_cta_fW8RpP": {
       "type": "aurora-cta",
+      "custom_css": [],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
