@@ -272,6 +272,27 @@
             "question": "Hur lång är leveranstiden?",
             "answer": "När produkten finns i lager skickas den inom 24 timmar. Vid hög efterfrågan är leveranstiden cirka 10 arbetsdagar."
           }
+        },
+        "faq_item_Qw3WPm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Kan jag använda lampan som nattlampa?",
+            "answer": "Ja, lampan är helt tyst i drift och sprider ett mjukt ljus. Många använder den som nattlampa eller för att skapa en lugn atmosfär vid läggdags."
+          }
+        },
+        "faq_item_UPwKzK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Fungerar lampan i andra eluttag än svenska?",
+            "answer": "Lampan drivs via USB, så den fungerar i alla uttag med rätt USB-adapter. Du behöver bara anpassa adaptern till ditt lands elstandard."
+          }
+        },
+        "faq_item_yendw3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Hur starkt lyser lampan?",
+            "answer": "Lampan är inte avsedd som huvudbelysning, utan ger ett behagligt, dekorativt sken som lyser upp ytor med färg och prismamönster."
+          }
         }
       },
       "block_order": [
@@ -281,7 +302,10 @@
         "faq_item_LQNCRg",
         "faq_item_J4TFWm",
         "faq_item_RaT8N3",
-        "faq_item_LtfXrz"
+        "faq_item_LtfXrz",
+        "faq_item_Qw3WPm",
+        "faq_item_UPwKzK",
+        "faq_item_yendw3"
       ],
       "name": "Aurora FAQ",
       "settings": {
