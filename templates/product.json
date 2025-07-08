@@ -45,6 +45,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "collapsible_tab_j7hAGi": {
           "type": "collapsible_tab",
           "settings": {
@@ -57,12 +63,6 @@
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -72,9 +72,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "share",
         "collapsible_tab_j7hAGi",
-        "description",
-        "share"
+        "description"
       ],
       "custom_css": [
         "h1 {font-size: clamp(53px, 13vw, 90px); color: #393a43e8; text-shadow: 0 !important; margin-top: 15px;}"
