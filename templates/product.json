@@ -45,6 +45,15 @@
             "show_gift_card_recipient": true
           }
         },
+        "collapsible_tab_j7hAGi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifikation",
+            "icon": "none",
+            "content": "<p><strong>Storlek: 75 mm * 50 mm, ljustäckningsyta 3–6 m²Ljuskälla:</strong>LED 5W, COB<strong>Dimbar:</strong> Nej<br/><strong>Strömkälla:</strong> AC<br/><strong>Spänning:</strong> 220 V<br/><strong>Garanti:</strong> 1 år<br/><strong>Watt:</strong> 0–5 W<br/><strong>Kontakttyp:</strong> USB<br/><strong>Material:</strong> Kristall + Metall<br/><br/></p>",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -63,6 +72,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "collapsible_tab_j7hAGi",
         "description",
         "share"
       ],
