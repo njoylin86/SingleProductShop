@@ -227,29 +227,50 @@
         "faq_item_dtUgbF": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+            "question": "Hur byter jag färgfilter?",
+            "answer": "Färgfiltren byts enkelt genom att lossa skruvarna på undersidan av lampan. Inga specialverktyg krävs."
           }
         },
         "faq_item_Y4nFrN": {
           "type": "faq_item",
           "settings": {
-            "question": "What is your return policy?",
-            "answer": "We offer a 30-day return policy for all unused items in their original packaging."
+            "question": "Blir lampan varm vid användning?",
+            "answer": "Nej, lampan använder energisnål LED-teknik och blir endast svagt varm. Den är trygg att använda även under längre perioder."
           }
         },
         "faq_item_zaHzpH": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you ship internationally?",
-            "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
+            "question": "Kan jag rikta ljuset åt olika håll?",
+            "answer": "Ja! Du kan vinkla lampan för att rikta prismorna mot vägg, tak, golv eller valfri yta."
           }
         },
         "faq_item_LQNCRg": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I contact customer service?",
-            "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+            "question": "Hur stor yta täcker lampan?",
+            "answer": "Den täcker ungefär 3–6 m² och passar bäst som dekorativ punktbelysning snarare än som huvudljuskälla."
+          }
+        },
+        "faq_item_J4TFWm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Vad ingår i paketet?",
+            "answer": "– 1 st ambient-lampa\n– 4 st färgfilter\n– 1 st minimejsel"
+          }
+        },
+        "faq_item_RaT8N3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Hur drivs lampan?",
+            "answer": "Lampan kopplas via USB och drivs med AC-ström (220 V). Du kan ansluta den till t.ex. en väggadapter, powerbank eller dator."
+          }
+        },
+        "faq_item_LtfXrz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Hur lång är leveranstiden?",
+            "answer": "När produkten finns i lager skickas den inom 24 timmar. Vid hög efterfrågan är leveranstiden cirka 10 arbetsdagar."
           }
         }
       },
@@ -257,7 +278,10 @@
         "faq_item_dtUgbF",
         "faq_item_Y4nFrN",
         "faq_item_zaHzpH",
-        "faq_item_LQNCRg"
+        "faq_item_LQNCRg",
+        "faq_item_J4TFWm",
+        "faq_item_RaT8N3",
+        "faq_item_LtfXrz"
       ],
       "name": "Aurora FAQ",
       "settings": {
