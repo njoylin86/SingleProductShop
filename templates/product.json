@@ -82,10 +82,10 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
         "mobile_thumbnails": "hide",
         "media_position": "left",
         "image_zoom": "lightbox",
@@ -120,8 +120,8 @@
         "column_FpJXXT": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Funktion & användning",
+            "text": "<ul><li><strong>Fyra utbytbara färgfilter</strong></li><li><strong>Projicerar prismor på vägg/tak/golv</strong></li><li><strong>Passar sovrum, barnrum, skrivbord m.m.</strong></li><li><strong>Kan riktas och vinklas fritt</strong></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -129,8 +129,8 @@
         "column_FXpPRA": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Teknik & kvalitet",
+            "text": "<ul><li><strong>LED 5W, COB-ljuskälla</strong></li><li><strong>Tyst drift (ingen fläkt)</strong></li><li><strong>Energisnål</strong></li><li><strong>Lång livslängd</strong></li><li><strong>Låg temperatur</strong></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -138,8 +138,8 @@
         "column_g9mgJb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Praktiskt & specifikationer",
+            "text": "<ul><li><strong>Storlek</strong>: 75 × 50 mm</li><li><strong>Ljustäckningsyta</strong>: 3–6 m²</li><li><strong>USB-anslutning</strong>, AC 220V</li><li><strong>Leveranstid</strong>: ca 10 arbetsdagar</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -152,7 +152,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
