@@ -227,40 +227,41 @@
         "faq_item_dtUgbF": {
           "type": "faq_item",
           "settings": {
-            "question": "Hur byter jag färgfilter?",
-            "answer": "Färgfiltren byts enkelt genom att lossa skruvarna på undersidan av lampan. Inga specialverktyg krävs."
+            "question": "Hur fungerar lampan och hur starkt lyser den?",
+            "answer": "Lampan använder energisnål LED-teknik (5W) som projicerar ett färgstarkt prismamönster mot vägg, tak eller golv. Den är inte avsedd som huvudbelysning, utan skapar ett behagligt och dekorativt ljus över en yta på cirka 3–6 m²."
           }
         },
         "faq_item_Y4nFrN": {
           "type": "faq_item",
           "settings": {
-            "question": "Blir lampan varm vid användning?",
-            "answer": "Nej, lampan använder energisnål LED-teknik och blir endast svagt varm. Den är trygg att använda även under längre perioder."
+            "question": "Blir lampan varm och kan den användas som nattlampa?",
+            "answer": "Lampan blir endast svagt varm vid användning och är helt tyst i drift. Den passar därför bra även som nattlampa – till exempel i barnrum eller sovrum."
           }
         },
         "faq_item_zaHzpH": {
           "type": "faq_item",
           "settings": {
-            "question": "Kan jag rikta ljuset åt olika håll?",
-            "answer": "Ja! Du kan vinkla lampan för att rikta prismorna mot vägg, tak, golv eller valfri yta."
+            "question": "Kan jag rikta lampan och justera färgen på ljuset?",
+            "answer": "Ja! Du kan enkelt vinkla lampan för att rikta ljuset åt olika håll. Den levereras med fyra färgfilter (varmvit, solnedgångsröd, blå-lila och flerfärgad) som byts genom att lossa skruvarna på undersidan."
           }
         },
         "faq_item_LQNCRg": {
           "type": "faq_item",
           "settings": {
-            "question": "Hur stor yta täcker lampan?",
-            "answer": "Den täcker ungefär 3–6 m² och passar bäst som dekorativ punktbelysning snarare än som huvudljuskälla."
+            "question": "Hur drivs lampan och fungerar den i olika eluttag?",
+            "answer": "Lampan drivs via USB och kopplas till vägguttag med valfri USB-adapter (t.ex. från mobiltelefon). Den fungerar överallt där du har tillgång till USB-ström – även i andra länder än Sverige."
           }
         },
         "faq_item_J4TFWm": {
           "type": "faq_item",
           "settings": {
-            "question": "Vad ingår i paketet?",
-            "answer": "– 1 st ambient-lampa\n– 4 st färgfilter\n– 1 st minimejsel"
+            "question": "Hur lång är leveranstiden?",
+            "answer": "När produkten finns i lager skickas den inom 24 timmar. Vid hög efterfrågan är leveranstiden cirka 10 arbetsdagar."
           }
         },
         "faq_item_RaT8N3": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "Hur drivs lampan?",
             "answer": "Lampan kopplas via USB och drivs med AC-ström (220 V). Du kan ansluta den till t.ex. en väggadapter, powerbank eller dator."
@@ -268,6 +269,7 @@
         },
         "faq_item_LtfXrz": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "Hur lång är leveranstiden?",
             "answer": "När produkten finns i lager skickas den inom 24 timmar. Vid hög efterfrågan är leveranstiden cirka 10 arbetsdagar."
@@ -275,6 +277,7 @@
         },
         "faq_item_Qw3WPm": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "Kan jag använda lampan som nattlampa?",
             "answer": "Ja, lampan är helt tyst i drift och sprider ett mjukt ljus. Många använder den som nattlampa eller för att skapa en lugn atmosfär vid läggdags."
@@ -282,6 +285,7 @@
         },
         "faq_item_UPwKzK": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "Fungerar lampan i andra eluttag än svenska?",
             "answer": "Lampan drivs via USB, så den fungerar i alla uttag med rätt USB-adapter. Du behöver bara anpassa adaptern till ditt lands elstandard."
@@ -289,6 +293,7 @@
         },
         "faq_item_yendw3": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "Hur starkt lyser lampan?",
             "answer": "Lampan är inte avsedd som huvudbelysning, utan ger ett behagligt, dekorativt sken som lyser upp ytor med färg och prismamönster."
