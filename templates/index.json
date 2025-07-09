@@ -190,6 +190,7 @@
           "settings": {
             "rating": 5,
             "review_text": "Absolutely love this product! It exceeded all my expectations.",
+            "product_image": "shopify://shop_images/S44c4847512784fb7810ab55effcafbc7H.webp",
             "reviewer_name": "Sarah M."
           }
         },
@@ -198,6 +199,7 @@
           "settings": {
             "rating": 5,
             "review_text": "Best purchase I've made this year. Highly recommend!",
+            "product_image": "shopify://shop_images/S5e3b91cb2a96445fa7621eed7183d3c9x.webp",
             "reviewer_name": "Mike R."
           }
         },
@@ -206,14 +208,25 @@
           "settings": {
             "rating": 4,
             "review_text": "Incredible quality and amazing customer service.",
+            "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
             "reviewer_name": "Emma L."
+          }
+        },
+        "review_eTmGH6": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Amazing product! I love it.",
+            "product_image": "shopify://shop_images/A856471431dca48709b12984d4744e244o.jpg",
+            "reviewer_name": "Happy Customer"
           }
         }
       },
       "block_order": [
         "review_BE7x3K",
         "review_LRMK6d",
-        "review_jzw7xK"
+        "review_jzw7xK",
+        "review_eTmGH6"
       ],
       "name": "Aurora Reviews",
       "settings": {
