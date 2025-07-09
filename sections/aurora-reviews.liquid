@@ -9,8 +9,8 @@
 }
 
 .aurora-reviews-carousel {
+  overflow-x: auto;
   position: relative;
-  overflow: hidden;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -56,11 +56,15 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 15px;
+  flex-direction: column;
 }
-
+.aurora-reviewer-name-block {
+  text-align: left;
+  width: 100%;
+}
 .aurora-review-product-image {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
@@ -99,13 +103,13 @@
   }
 }
 
-.aurora-reviews-track.auto-scroll {
+/*.aurora-reviews-track.auto-scroll {
   animation: scroll 30s linear infinite;
 }
 
 .aurora-reviews-track.auto-scroll:hover {
   animation-play-state: paused;
-}
+}*/
 </style>
 
 <section class="aurora-reviews-section color-{{ section.settings.color_scheme | default: 'background-1' }}">
@@ -134,12 +138,13 @@
               
               {% if block.settings.product_image != blank %}
                 <div class="aurora-review-product">
-                  <div class="aurora-review-product-image">
-                    <img src="{{ block.settings.product_image | img_url: '100x100' }}" alt="{{ block.settings.reviewer_name | escape }}">
-                  </div>
-                  <div>
+                  <div class="aurora-reviewer-name-block">
                     <p class="aurora-reviewer-name">{{ block.settings.reviewer_name }}</p>
                   </div>
+                  <div class="aurora-review-product-image">
+                    <img src="{{ block.settings.product_image | img_url: '500x500' }}" alt="{{ block.settings.reviewer_name | escape }}">
+                  </div>
+                  
                 </div>
               {% else %}
                 <p class="aurora-reviewer-name">{{ block.settings.reviewer_name }}</p>
