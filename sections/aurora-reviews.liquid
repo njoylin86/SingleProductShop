@@ -93,15 +93,35 @@
   }
 }
 
-/* Auto-scroll animation */
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+
+
+
+/*
+
+.aurora-lightbox summary {
+  list-style: none;
+  cursor: zoom-in;
 }
+
+.aurora-lightbox[open] .lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.aurora-lightbox[open] .lightbox-backdrop img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  cursor: zoom-out;
+}
+*/
+
+
 
 /*.aurora-reviews-track.auto-scroll {
   animation: scroll 30s linear infinite;
@@ -122,38 +142,6 @@
       <div class="aurora-reviews-carousel">
         <div class="aurora-reviews-track auto-scroll">
           {% for block in section.blocks %}
-            <div class="aurora-review-card" {{ block.shopify_attributes }}>
-              <div class="aurora-review-rating">
-                {% assign rating = block.settings.rating | default: 5 %}
-                {% for i in (1..5) %}
-                  <span class="star">{% if i <= rating %}★{% else %}☆{% endif %}</span>
-                {% endfor %}
-              </div>
-              
-              {% if block.settings.review_text != blank %}
-                <div class="aurora-review-text">
-                  "{{ block.settings.review_text }}"
-                </div>
-              {% endif %}
-              
-              {% if block.settings.product_image != blank %}
-                <div class="aurora-review-product">
-                  <div class="aurora-reviewer-name-block">
-                    <p class="aurora-reviewer-name">{{ block.settings.reviewer_name }}</p>
-                  </div>
-                  <div class="aurora-review-product-image">
-                    <img src="{{ block.settings.product_image | img_url: '500x500' }}" alt="{{ block.settings.reviewer_name | escape }}">
-                  </div>
-                  
-                </div>
-              {% else %}
-                <p class="aurora-reviewer-name">{{ block.settings.reviewer_name }}</p>
-              {% endif %}
-            </div>
-          {% endfor %}
-          
-          <!-- Duplicate reviews for seamless loop -->
-          {% for block in section.blocks %}
             <div class="aurora-review-card">
               <div class="aurora-review-rating">
                 {% assign rating = block.settings.rating | default: 5 %}
@@ -161,20 +149,20 @@
                   <span class="star">{% if i <= rating %}★{% else %}☆{% endif %}</span>
                 {% endfor %}
               </div>
-              
+          
               {% if block.settings.review_text != blank %}
                 <div class="aurora-review-text">
                   "{{ block.settings.review_text }}"
                 </div>
               {% endif %}
-              
+          
               {% if block.settings.product_image != blank %}
                 <div class="aurora-review-product">
-                  <div class="aurora-review-product-image">
-                    <img src="{{ block.settings.product_image | img_url: '100x100' }}" alt="{{ block.settings.reviewer_name | escape }}">
-                  </div>
-                  <div>
+                  <div class="aurora-reviewer-name-block">
                     <p class="aurora-reviewer-name">{{ block.settings.reviewer_name }}</p>
+                  </div>
+                  <div class="aurora-review-product-image">
+                      <img src="{{ block.settings.product_image | img_url: '500x500' }}" alt="{{ block.settings.reviewer_name | escape }}">
                   </div>
                 </div>
               {% else %}
@@ -186,6 +174,7 @@
       </div>
     {% endif %}
   </div>
+  <p class="aurora-scroll-hint">👉 Scrolla för att se fler recensioner</p>
 </section>
 
 {% schema %}
