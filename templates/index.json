@@ -11,6 +11,45 @@
   "sections": {
     "aurora_hero_fnFAzR": {
       "type": "aurora-hero",
+      "blocks": {
+        "bullet_gjyGbR": {
+          "type": "bullet",
+          "settings": {
+            "text": "Skapar direkt en mysigare och mer inbjudande stämning"
+          }
+        },
+        "bullet_iyNtx6": {
+          "type": "bullet",
+          "settings": {
+            "text": "Lätt att placera på hylla, skrivbord eller fönsterbräda"
+          }
+        },
+        "bullet_gN3xKg": {
+          "type": "bullet",
+          "settings": {
+            "text": "Ljudlös och trygg – perfekt att ha igång även nattetid"
+          }
+        },
+        "bullet_7U4nMQ": {
+          "type": "bullet",
+          "settings": {
+            "text": "Ger nytt liv åt annars oanvänd väggyta"
+          }
+        },
+        "bullet_rG4aFW": {
+          "type": "bullet",
+          "settings": {
+            "text": "En liten lampa med oväntat stor visuell effekt"
+          }
+        }
+      },
+      "block_order": [
+        "bullet_gjyGbR",
+        "bullet_iyNtx6",
+        "bullet_gN3xKg",
+        "bullet_7U4nMQ",
+        "bullet_rG4aFW"
+      ],
       "custom_css": [
         "section {background-position: center;}",
         " /*Center content vertically*/.hero-content {@media (max-width: 990px) {justify-content: center !important; }}",
