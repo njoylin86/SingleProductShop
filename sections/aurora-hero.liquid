@@ -50,7 +50,7 @@
       }
       .cta-1, .cta-2 {    
         background: var(--main-color);
-        padding: 9px 5px;
+        padding: 6px 10px;
         border-radius: 2px;
         outline: 1px solid #ffffffbd;
         color: #3769a0;
@@ -89,16 +89,28 @@
       list-style: none;
       padding: 0;
       margin: 16px 0 24px;
-      font-size: 1.1rem;
-      color: white;
+      font-size: 1.6rem;
+      color: var(--main-color);
+      font-weight: 700;
     }
 
-    .hero-bullets li {
-      margin-bottom: 6px;
+    .custom-bullet {
       display: flex;
-      align-items: center;
-      gap: 8px;
+      align-items: center;  /* Vertikal centrering */
+      margin-bottom: 0.6em;
     }
+
+    .bullet-symbol {
+      color: #f9be00;         /* Ändra till din accentfärg */
+      font-size: 8px;
+      margin-right: 8px;
+      line-height: 1;
+    }
+
+    .bullet-text {
+      line-height: 1.4;
+    }
+
   </style>
 {%- endif -%}
 
@@ -126,7 +138,7 @@
         {% if section.blocks.size > 0 %}
           <ul class="hero-bullets">
             {% for block in section.blocks %}
-              <li>🔹 {{ block.settings.text }}</li>
+              <li class="custom-bullet"> <span class="bullet-symbol">◆</span> {{ block.settings.text }}</li>
             {% endfor %}
           </ul>
         {% endif %}
