@@ -71,11 +71,11 @@ section {
 }
 
 .border-top {
-  border-top: 3px solid var(--secondary-color);
+  border-top: 6px solid var(--secondary-color);
 }
 
 .border-bottom {
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 6px solid var(--secondary-color);
 }
 
 .gradient {
