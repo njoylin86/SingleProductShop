@@ -123,10 +123,10 @@
             {{ section.settings.subheadline }}
           </div>
         {% endif %}
-        {% if section.settings.bullets != blank %}
+        {% if section.blocks.size > 0 %}
           <ul class="hero-bullets">
-            {% for bullet in section.settings.bullets %}
-              <li>🔹 {{ bullet }}</li>
+            {% for block in section.blocks %}
+              <li>🔹 {{ block.settings.text }}</li>
             {% endfor %}
           </ul>
         {% endif %}
