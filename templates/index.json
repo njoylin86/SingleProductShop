@@ -53,7 +53,8 @@
       "custom_css": [
         "section {background-position: center;}",
         " /*Center content vertically*/.hero-content {@media (max-width: 990px) {justify-content: center !important; }}",
-        " /*remove shadow*/.positioner::after {bottom: unset !important;}"
+        " /*remove shadow*/.positioner::after {bottom: unset !important;}",
+        "@media (max-width: 750px) {li {display: none; }}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/A09e20a2d0cbc4a3593e01c8eb044195fK.jpg",
