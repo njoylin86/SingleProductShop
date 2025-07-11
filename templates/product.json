@@ -29,6 +29,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -120,6 +121,7 @@
         "column_FpJXXT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/tella.png",
             "title": "Funktion & användning",
             "text": "<ul><li><strong>Fyra utbytbara färgfilter</strong></li><li><strong>Projicerar prismor på vägg/tak/golv</strong></li><li><strong>Passar sovrum, barnrum, skrivbord m.m.</strong></li><li><strong>Kan riktas och vinklas fritt</strong></li></ul>",
             "link_label": "",
@@ -129,6 +131,7 @@
         "column_FXpPRA": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/fictlogo3.jpg",
             "title": "Teknik & kvalitet",
             "text": "<ul><li><strong>LED 5W, COB-ljuskälla</strong></li><li><strong>Tyst drift (ingen fläkt)</strong></li><li><strong>Energisnål</strong></li><li><strong>Lång livslängd</strong></li><li><strong>Låg temperatur</strong></li></ul>",
             "link_label": "",
@@ -138,6 +141,7 @@
         "column_g9mgJb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Scd1b774651bc4aeba2b1a6e248d1a24ak_3e656312-4f7f-42ff-9d7a-969695836bbd.webp",
             "title": "Praktiskt & specifikationer",
             "text": "<ul><li><strong>Storlek</strong>: 75 × 50 mm</li><li><strong>Ljustäckningsyta</strong>: 3–6 m²</li><li><strong>USB-anslutning</strong>, AC 220V</li><li><strong>Leveranstid</strong>: ca 10 arbetsdagar</li></ul>",
             "link_label": "",
@@ -168,72 +172,19 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_wtjnKf": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bjNJTm": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_kwmcgJ": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_bf37jd": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_bjNJTm",
-        "column_kwmcgJ",
-        "column_bf37jd"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage_Beg4kX": {
       "type": "collage",
       "blocks": {
         "image_JnJpBU": {
           "type": "image",
-          "settings": {}
-        },
-        "product_QXpMAY": {
-          "type": "product",
           "settings": {
-            "product": "the-collection-snowboard-liquid",
-            "second_image": true
+            "image": "shopify://shop_images/tella.png"
+          }
+        },
+        "image_8LJnxC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tella.png"
           }
         },
         "video_37mGVE": {
@@ -246,7 +197,7 @@
       },
       "block_order": [
         "image_JnJpBU",
-        "product_QXpMAY",
+        "image_8LJnxC",
         "video_37mGVE"
       ],
       "name": "t:sections.collage.presets.name",
@@ -300,7 +251,6 @@
     "main",
     "related-products",
     "multicolumn_6FzaDQ",
-    "multicolumn_wtjnKf",
     "collage_Beg4kX",
     "newsletter_Be3C8H"
   ]
