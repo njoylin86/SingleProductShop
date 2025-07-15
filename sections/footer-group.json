@@ -41,7 +41,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Prenumerera på våra utskick",
         "enable_follow_on_shop": false,
         "show_social": false,
