@@ -222,6 +222,20 @@
         "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
       }
     },
+    "aurora_cta_fW8RpP": {
+      "type": "aurora-cta",
+      "custom_css": [],
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "Beställ",
+        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "button1_text": "Gå till produkt",
+        "button1_link": "shopify://products/ambient-ljus",
+        "image1": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
+        "image2": "shopify://shop_images/Sb3e05f459c6143a3a6130442465976f2v.webp"
+      }
+    },
     "aurora_reviews_4FmgtU": {
       "type": "aurora-reviews",
       "blocks": {
@@ -371,9 +385,8 @@
         "heading": "Vanliga frågor och svar"
       }
     },
-    "aurora_cta_fW8RpP": {
+    "aurora_cta_3V77Jb": {
       "type": "aurora-cta",
-      "custom_css": [],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
@@ -611,9 +624,10 @@
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
+    "aurora_cta_fW8RpP",
     "aurora_reviews_4FmgtU",
     "aurora_faq_RkQb6Y",
-    "aurora_cta_fW8RpP",
+    "aurora_cta_3V77Jb",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
