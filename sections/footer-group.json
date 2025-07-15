@@ -18,23 +18,32 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/lustra-logo-lila-full-size.png",
-            "image_width": 100,
+            "image_width": 185,
             "alignment": "center"
+          }
+        },
+        "link_list_qk4p8b": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
-        "image_PXe6aP"
+        "image_PXe6aP",
+        "link_list_qk4p8b"
       ],
       "custom_css": [
         "h2::after {width: 0%;}",
-        "h2 {color: white;}"
+        "h2 {color: white;}",
+        ".footer__blocks-wrapper {flex-flow: row-reverse;}"
       ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": true,
         "newsletter_heading": "Prenumerera på våra utskick",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
