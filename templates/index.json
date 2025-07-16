@@ -388,6 +388,9 @@
     },
     "aurora_cta_3V77Jb": {
       "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-image1 {width: 60%; height: auto;}"
+      ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
