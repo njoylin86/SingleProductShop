@@ -1051,7 +1051,7 @@ class SlideshowComponent extends SliderComponent {
     const slideScrollPosition =
       this.slider.scrollLeft +
       this.sliderFirstItemNode.clientWidth *
-        (this.sliderControlLinksArray.indexOf(event.currentTarget) + 1 - this.currentPage);
+      (this.sliderControlLinksArray.indexOf(event.currentTarget) + 1 - this.currentPage);
     this.slider.scrollTo({
       left: slideScrollPosition,
     });
@@ -1330,3 +1330,28 @@ class CartPerformance {
     );
   }
 }
+
+/*
+Show full screen on product page. Calculates users screen and content height.
+*/
+document.addEventListener('DOMContentLoaded', () => {
+  // Kör bara om vi är på en produktsida
+  if (window.location.pathname.includes('/products/')) {
+    const container = document.querySelector('.product__info-container');
+    const form = container?.querySelector('.product-form');
+    const media = document.querySelector('.product-media-container.constrain-height');
+
+    if (container && form && media) {
+      const formBottomOffset = form.offsetTop + form.offsetHeight;
+
+      // Sätt CSS-variabeln
+      media.style.setProperty('--viewport-offset', `${formBottomOffset}px`);
+
+      // Logga resultat
+      console.log(`formBottomOffset: ${formBottomOffset}px`);
+      console.log(`CSS-variabel --viewport-offset är nu satt till: ${getComputedStyle(media).getPropertyValue('--viewport-offset')}`);
+    } else {
+      console.warn('Ett eller flera element kunde inte hittas.');
+    }
+  }
+});
