@@ -228,12 +228,10 @@
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
-        "heading": "Beställ",
-        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "heading": "Beställ nu",
+        "text": "Lägg en beställning redan idag. 10-14 dagars leveranstid!",
         "button1_text": "Gå till produkt",
-        "button1_link": "shopify://products/ambient-ljus",
-        "image1": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg",
-        "image2": "shopify://shop_images/Sb3e05f459c6143a3a6130442465976f2v.webp"
+        "button1_link": "shopify://products/ambient-ljus"
       }
     },
     "aurora_reviews_4FmgtU": {
