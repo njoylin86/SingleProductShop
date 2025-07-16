@@ -4,7 +4,7 @@
   --standard_desk_marign: 120px;
   --main-color: #fbf1f6e8;
   --secondary-color: #f3bd00;
-  --font-heading-scale: 2.5;
+  --font-heading-scale: 1.5;
   /*--color-foreground: #333131; <--- Not working*/
 }
 
@@ -43,7 +43,7 @@ body {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 var(--standard_desk_marign);
+    padding: unset;
   }
 }
 
