@@ -192,6 +192,7 @@
         "video_37mGVE": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify://shop_images/Screenshot_2025-07-16_163919.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description": "Describe the video"
           }
