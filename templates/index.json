@@ -222,25 +222,11 @@
         "main_feature_image": "shopify://shop_images/Ae7204e79e2b646759390404ef3e4057ej.jpg"
       }
     },
-    "aurora_cta_fW8RpP": {
-      "type": "aurora-cta",
-      "custom_css": [
-        ".aurora-cta-images {display: none;}",
-        "p {text-align: center;}"
-      ],
-      "name": "Aurora CTA",
-      "settings": {
-        "color_scheme": "scheme-4",
-        "heading": "Beställ nu",
-        "text": "Lägg en beställning redan idag. 10-14 dagars leveranstid!",
-        "button1_text": "Gå till produkt",
-        "button1_link": "shopify://products/ambient-ljus"
-      }
-    },
     "aurora_cta_3V77Jb": {
       "type": "aurora-cta",
       "custom_css": [
-        ".aurora-cta-image1 {width: 60%; height: auto;}"
+        ".aurora-cta-image1 {width: 60%; height: auto;}",
+        "@media (max-width:990px) {.aurora-cta-images {display: none; }}"
       ],
       "name": "Aurora CTA",
       "settings": {
@@ -399,6 +385,21 @@
       "settings": {
         "color_scheme": "",
         "heading": "Vanliga frågor och svar"
+      }
+    },
+    "aurora_cta_fW8RpP": {
+      "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-images {display: none;}",
+        "p {text-align: center;}"
+      ],
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "Beställ nu",
+        "text": "Lägg en beställning redan idag. 10-14 dagars leveranstid!",
+        "button1_text": "Gå till produkt",
+        "button1_link": "shopify://products/ambient-ljus"
       }
     },
     "aurora_product_showcase_D63jWq": {
