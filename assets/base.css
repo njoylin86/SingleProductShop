@@ -3595,3 +3595,8 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/*Remove br on paragraphs inside of lists*/
+ul li p {
+  display: inline;
+}
