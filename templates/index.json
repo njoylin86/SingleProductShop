@@ -224,7 +224,10 @@
     },
     "aurora_cta_fW8RpP": {
       "type": "aurora-cta",
-      "custom_css": [],
+      "custom_css": [
+        ".aurora-cta-images {display:none;}",
+        "p {text-align:center;}"
+      ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
