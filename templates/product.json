@@ -39,6 +39,19 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "icon_with_text_Nw93FW": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/Namnlos_600_x_200_px_1.png",
+            "heading_1": "-",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -72,6 +85,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "icon_with_text_Nw93FW",
         "buy_buttons",
         "share",
         "description",
