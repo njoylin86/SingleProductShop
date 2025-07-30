@@ -103,10 +103,10 @@
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "gallery_layout": "thumbnail",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
+        "image_zoom": "none",
+        "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 12,
         "padding_bottom": 12
