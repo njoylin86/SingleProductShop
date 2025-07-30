@@ -131,6 +131,45 @@
         "padding_bottom": 28
       }
     },
+    "aurora_reviews_dnXBzQ": {
+      "type": "aurora-reviews",
+      "blocks": {
+        "review_thaVjw": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Absolutely love this product! It exceeded all my expectations.",
+            "reviewer_name": "Sarah M."
+          }
+        },
+        "review_fzNdCD": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Best purchase I've made this year. Highly recommend!",
+            "reviewer_name": "Mike R."
+          }
+        },
+        "review_hjXnbT": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Incredible quality and amazing customer service.",
+            "reviewer_name": "Emma L."
+          }
+        }
+      },
+      "block_order": [
+        "review_thaVjw",
+        "review_fzNdCD",
+        "review_hjXnbT"
+      ],
+      "name": "Aurora Reviews",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "What Our Customers Say"
+      }
+    },
     "multicolumn_6FzaDQ": {
       "type": "multicolumn",
       "blocks": {
@@ -203,19 +242,17 @@
             "image": "shopify://shop_images/lustra-logo-lila-full-size.png"
           }
         },
-        "video_37mGVE": {
-          "type": "video",
+        "image_VLAUDf": {
+          "type": "image",
           "settings": {
-            "cover_image": "shopify://shop_images/Screenshot_2025-07-16_163919.png",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video"
+            "image": "shopify://shop_images/515495641_122120149094890012_5185350156014948161_n.jpg"
           }
         }
       },
       "block_order": [
         "image_JnJpBU",
         "image_8LJnxC",
-        "video_37mGVE"
+        "image_VLAUDf"
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
@@ -233,6 +270,7 @@
   "order": [
     "main",
     "related-products",
+    "aurora_reviews_dnXBzQ",
     "multicolumn_6FzaDQ",
     "collage_Beg4kX"
   ]
