@@ -286,6 +286,15 @@
             "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
             "reviewer_name": "Happy Customer"
           }
+        },
+        "review_bG7DVy": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Wow! Jag köpte två och de skapar en riktigt härlig effekt på väggen. Fick med små skruvmejslar och färgfilter – allt funkar fint.",
+            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_2.jpg",
+            "reviewer_name": "Mikael"
+          }
         }
       },
       "block_order": [
@@ -293,7 +302,8 @@
         "review_LRMK6d",
         "review_ymcqUh",
         "review_3dVH8p",
-        "review_XxyJfx"
+        "review_XxyJfx",
+        "review_bG7DVy"
       ],
       "name": "Aurora Reviews",
       "settings": {
