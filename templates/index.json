@@ -256,6 +256,10 @@
     },
     "aurora_cta_REN9xb": {
       "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-images {display: none;}",
+        "p {text-align: center;}"
+      ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-4",
