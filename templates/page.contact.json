@@ -19,10 +19,13 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
       "settings": {
         "heading": "Kontakta oss",
         "heading_size": "hxl",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 36
       }
