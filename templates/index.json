@@ -552,7 +552,6 @@
     },
     "aurora_tech_teaser_R4GmPk": {
       "type": "aurora-tech-teaser",
-      "disabled": true,
       "settings": {
         "section_bg_color": "#221e22",
         "heading": "The Science of Spectacle",
