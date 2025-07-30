@@ -139,14 +139,16 @@
           "settings": {
             "rating": 5,
             "review_text": "Absolutely love this product! It exceeded all my expectations.",
+            "product_image": "shopify://shop_images/517503000_122120148662890012_7387843819484993644_n.jpg",
             "reviewer_name": "Sarah M."
           }
         },
         "review_fzNdCD": {
           "type": "review",
           "settings": {
-            "rating": 5,
+            "rating": 4,
             "review_text": "Best purchase I've made this year. Highly recommend!",
+            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_5.jpg",
             "reviewer_name": "Mike R."
           }
         },
@@ -155,6 +157,7 @@
           "settings": {
             "rating": 5,
             "review_text": "Incredible quality and amazing customer service.",
+            "product_image": "shopify://shop_images/515935735_122120148800890012_2574239155526041032_n.jpg",
             "reviewer_name": "Emma L."
           }
         }
@@ -167,7 +170,7 @@
       "name": "Aurora Reviews",
       "settings": {
         "color_scheme": "scheme-4",
-        "heading": "What Our Customers Say"
+        "heading": "Några rader från våra kunder"
       }
     },
     "multicolumn_6FzaDQ": {
