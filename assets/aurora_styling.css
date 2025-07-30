@@ -99,6 +99,7 @@ h6 {
   font-family: "Bebas Neue", sans-serif !important;
   /* Fixa följande centralt*/
   color: #333131;
+  color: var(--main-color);
 
   margin-block-start: 1em;
   margin-block-end: 0em;
