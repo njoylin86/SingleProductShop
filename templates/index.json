@@ -572,13 +572,17 @@
     },
     "aurora_tech_teaser_R4GmPk": {
       "type": "aurora-tech-teaser",
+      "custom_css": [
+        "img {object-fit: cover; width: 100%; height: 100%;}"
+      ],
       "settings": {
         "section_bg_color": "#221e22",
-        "heading": "The Science of Spectacle",
+        "heading": "Vetenskapen bakom skönheten",
         "heading_color": "#ffffff",
-        "paragraph_1": "<p>At the heart of Aurora lies a precisely engineered optical lens. This isn't just glass; it's a gateway to a spectrum. By carefully angling facets and utilizing high-clarity materials, we've maximized light dispersion to create the most vivid and expansive prism effect possible from a compact source.</p>",
-        "paragraph_2": "<p>The internal LED module is selected for its specific wavelength output, ensuring that when light passes through the lens, the colors are rich, pure, and deeply saturated. It's where physics meets art.</p>",
-        "text_color": "#d1d5db"
+        "paragraph_1": "<p>I hjärtat av Lustramood finns en optisk lins som är noggrant konstruerad för att skapa magi. Det här är inte bara glas – det är en portal till ett spektrum. Genom att vinkla fasetterna med precision och använda material med hög klarhet, maximerar vi ljusspridningen för att skapa ett kraftfullt och levande prismasken från en kompakt ljuskälla.</p>",
+        "paragraph_2": "<p>LED-modulen inuti är noga utvald för sitt specifika våglängdsområde – vilket gör att ljuset som passerar genom linsen får en färgpalett som är djup, ren och mättad. Här möts fysik och konst.</p>",
+        "text_color": "#d1d5db",
+        "image": "shopify://shop_images/2.jpg"
       }
     },
     "aurora_testimonials_aAyxtQ": {
@@ -650,12 +654,12 @@
     "aurora_highlighted_features_B3irQa",
     "aurora_cta_3V77Jb",
     "aurora_reviews_4FmgtU",
+    "aurora_tech_teaser_R4GmPk",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
     "aurora_gallery_kaaHHh",
-    "aurora_tech_teaser_R4GmPk",
     "aurora_testimonials_aAyxtQ",
     "aurora_order_form_TWw4Ee"
   ]
