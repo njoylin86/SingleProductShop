@@ -22,6 +22,12 @@
         text-shadow: 1px -1px 3px #000000;
         padding-bottom: 15px;
       }
+      .star-rating-image img {
+        margin-top: 20px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
       .page-width {
         padding: 0px 4.5rem;
         z-index: 2;
@@ -142,6 +148,15 @@
             {{ section.settings.subheadline }}
           </div>
         {% endif %}
+        {% if section.settings.star_rating_image %}
+          <div class="star-rating-image">
+            <img 
+              src="{{ section.settings.star_rating_image | image_url: width: 1000 }}" 
+              alt="Star rating graphic" 
+              loading="lazy"
+            >
+          </div>
+        {% endif %}
         {% if section.blocks.size > 0 %}
           <ul class="hero-bullets">
             {% for block in section.blocks %}
@@ -188,6 +203,12 @@
       "id": "subheadline",
       "label": "Subheadline",
       "default": "<p>Introducing Aurora Light: a singular spotlight designed to transform your space with breathtaking prism effects and unparalleled ambient elegance.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "star_rating_image",
+      "label": "Star rating image",
+      "info": "Valfri bild som visas under subheadlinen, t.ex. betyg eller försäljningsdata."
     },
     {
       "type": "text",
