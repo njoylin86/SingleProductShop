@@ -170,6 +170,9 @@
         "column_FXpPRA",
         "column_g9mgJb"
       ],
+      "custom_css": [
+        "li {margin-bottom: 10px !important;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
