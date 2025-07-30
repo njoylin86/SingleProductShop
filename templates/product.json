@@ -160,12 +160,42 @@
             "product_image": "shopify://shop_images/515935735_122120148800890012_2574239155526041032_n.jpg",
             "reviewer_name": "Emma L."
           }
+        },
+        "review_AWH4MV": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Amazing product! I love it.",
+            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_1.jpg",
+            "reviewer_name": "Happy Customer"
+          }
+        },
+        "review_bepTAk": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Amazing product! I love it.",
+            "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
+            "reviewer_name": "Happy Customer"
+          }
+        },
+        "review_hffQkz": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Amazing product! I love it.",
+            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_2.jpg",
+            "reviewer_name": "Happy Customer"
+          }
         }
       },
       "block_order": [
         "review_thaVjw",
         "review_fzNdCD",
-        "review_hjXnbT"
+        "review_hjXnbT",
+        "review_AWH4MV",
+        "review_bepTAk",
+        "review_hffQkz"
       ],
       "name": "Aurora Reviews",
       "settings": {
