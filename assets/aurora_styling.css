@@ -96,7 +96,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif !important;
   /* Fixa följande centralt*/
   color: #333131;
 
@@ -144,16 +144,16 @@ h2::after {
 }
 
 .aurora-cta-button {
-  padding: 12px 28px;
+  padding: 9px 16px;
   border: none;
-  border-radius: 24px;
+  border-radius: 10px;
   background: #f313bd;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
   color: white;
   font-weight: 700;
-  border: 4px outset #f2e10ea3;
+  border: 2px outset #f2e10ea3;
 }
 
 .aurora-cta-button:hover {
