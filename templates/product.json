@@ -131,6 +131,120 @@
         "padding_bottom": 28
       }
     },
+    "multicolumn_6FzaDQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FpJXXT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Namnlos_design_4.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FXpPRA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g9mgJb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FpJXXT",
+        "column_FXpPRA",
+        "column_g9mgJb"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_9JLhnW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UjHeaM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tella.png",
+            "title": "Funktion & användning",
+            "text": "<ul><li><strong>Fyra utbytbara färgfilter</strong></li><li><strong>Projicerar prismor på vägg/tak/golv</strong></li><li><strong>Passar sovrum, barnrum, skrivbord m.m.</strong></li><li><strong>Kan riktas och vinklas fritt</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xhzKPq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fictlogo3.jpg",
+            "title": "Teknik & kvalitet",
+            "text": "<ul><li><strong>LED 5W, COB-ljuskälla</strong></li><li><strong>Tyst drift (ingen fläkt)</strong></li><li><strong>Energisnål</strong></li><li><strong>Lång livslängd</strong></li><li><strong>Låg temperatur</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fPf8XD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Scd1b774651bc4aeba2b1a6e248d1a24ak_3e656312-4f7f-42ff-9d7a-969695836bbd.webp",
+            "title": "Praktiskt & specifikationer",
+            "text": "<ul><li><strong>Storlek</strong>: 75 × 50 mm</li><li><strong>Ljustäckningsyta</strong>: 3–6 m²</li><li><strong>USB-anslutning</strong>, AC 220V</li><li><strong>Leveranstid</strong>: ca 10 arbetsdagar</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UjHeaM",
+        "column_xhzKPq",
+        "column_fPf8XD"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "aurora_reviews_dnXBzQ": {
       "type": "aurora-reviews",
       "blocks": {
@@ -203,63 +317,6 @@
         "heading": "Några rader från våra kunder"
       }
     },
-    "multicolumn_6FzaDQ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_FpJXXT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/tella.png",
-            "title": "Funktion & användning",
-            "text": "<ul><li><strong>Fyra utbytbara färgfilter</strong></li><li><strong>Projicerar prismor på vägg/tak/golv</strong></li><li><strong>Passar sovrum, barnrum, skrivbord m.m.</strong></li><li><strong>Kan riktas och vinklas fritt</strong></li></ul>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FXpPRA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/fictlogo3.jpg",
-            "title": "Teknik & kvalitet",
-            "text": "<ul><li><strong>LED 5W, COB-ljuskälla</strong></li><li><strong>Tyst drift (ingen fläkt)</strong></li><li><strong>Energisnål</strong></li><li><strong>Lång livslängd</strong></li><li><strong>Låg temperatur</strong></li></ul>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_g9mgJb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Scd1b774651bc4aeba2b1a6e248d1a24ak_3e656312-4f7f-42ff-9d7a-969695836bbd.webp",
-            "title": "Praktiskt & specifikationer",
-            "text": "<ul><li><strong>Storlek</strong>: 75 × 50 mm</li><li><strong>Ljustäckningsyta</strong>: 3–6 m²</li><li><strong>USB-anslutning</strong>, AC 220V</li><li><strong>Leveranstid</strong>: ca 10 arbetsdagar</li></ul>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_FpJXXT",
-        "column_FXpPRA",
-        "column_g9mgJb"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage_Beg4kX": {
       "type": "collage",
       "blocks": {
@@ -303,8 +360,9 @@
   "order": [
     "main",
     "related-products",
-    "aurora_reviews_dnXBzQ",
     "multicolumn_6FzaDQ",
+    "multicolumn_9JLhnW",
+    "aurora_reviews_dnXBzQ",
     "collage_Beg4kX"
   ]
 }
