@@ -160,3 +160,10 @@ h2::after {
 .aurora-cta-button:hover {
   border: 4px solid #f2e10e;
 }
+
+/*Product star rating image settings*/
+.icon-with-text img {
+  height: auto !important;
+  width: 50% !important;
+  object-fit: contain;
+}
