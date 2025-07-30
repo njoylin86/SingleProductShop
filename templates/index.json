@@ -239,76 +239,30 @@
         "image1": "shopify://shop_images/Namnlos_598_x_900_px_Facebook-inlagg_1.jpg"
       }
     },
-    "aurora_reviews_4FmgtU": {
-      "type": "aurora-reviews",
-      "blocks": {
-        "review_BE7x3K": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "review_text": "Jättemysig liten lampa som skapar en mysig känsla. Jag använder den som nattlampa i sovrummet och den ger ett superfint ljus. Leveransen gick snabbt också!",
-            "product_image": "shopify://shop_images/517503000_122120148662890012_7387843819484993644_n.jpg",
-            "reviewer_name": "Emma"
-          }
-        },
-        "review_LRMK6d": {
-          "type": "review",
-          "settings": {
-            "rating": 4,
-            "review_text": "Bästa köpet på länge! Jag har placerat lampan bakom min TV och det ger ett så coolt sken i rummet. Enkel att använda och ger mycket känsla för pengarna.",
-            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_5.jpg",
-            "reviewer_name": "Jo"
-          }
-        },
-        "review_ymcqUh": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "review_text": "Incredible quality and amazing customer service.",
-            "product_image": "shopify://shop_images/515935735_122120148800890012_2574239155526041032_n.jpg",
-            "reviewer_name": "Tim L."
-          }
-        },
-        "review_3dVH8p": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "review_text": "Lampan kom snyggt packad och funkar perfekt. Älskar att man kan byta färgfilter beroende på vilken känsla man vill ha. Bra köp",
-            "product_image": "shopify://shop_images/Namnlos_design_2.jpg",
-            "reviewer_name": "Dina"
-          }
-        },
-        "review_XxyJfx": {
-          "type": "review",
-          "settings": {
-            "rating": 4,
-            "review_text": "Den gör verkligen vad den lovar. Ljuset är kraftigt och skapar en skön atmosfär. Lite omständligt att byta färg, men det är helt okej för priset.",
-            "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
-            "reviewer_name": "HK"
-          }
-        },
-        "review_bG7DVy": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "review_text": "Wow! Jag köpte två och de skapar en riktigt härlig effekt på väggen. Fick med små skruvmejslar och färgfilter – allt funkar fint.",
-            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_2.jpg",
-            "reviewer_name": "Mikael"
-          }
-        }
-      },
-      "block_order": [
-        "review_BE7x3K",
-        "review_LRMK6d",
-        "review_ymcqUh",
-        "review_3dVH8p",
-        "review_XxyJfx",
-        "review_bG7DVy"
+    "aurora_tech_teaser_R4GmPk": {
+      "type": "aurora-tech-teaser",
+      "custom_css": [
+        "img {object-fit: cover; width: 100%; height: 100%;}"
       ],
-      "name": "Aurora Reviews",
       "settings": {
-        "color_scheme": "",
-        "heading": "Några rader från våra kunder"
+        "section_bg_color": "#221e22",
+        "heading": "Vetenskapen bakom skönheten",
+        "heading_color": "#ffffff",
+        "paragraph_1": "<p>I hjärtat av Lustramood finns en optisk lins som är noggrant konstruerad för att skapa magi. Det här är inte bara glas – det är en portal till ett spektrum. Genom att vinkla fasetterna med precision och använda material med hög klarhet, maximerar vi ljusspridningen för att skapa ett kraftfullt och levande prismasken från en kompakt ljuskälla.</p>",
+        "paragraph_2": "<p>LED-modulen inuti är noga utvald för sitt specifika våglängdsområde – vilket gör att ljuset som passerar genom linsen får en färgpalett som är djup, ren och mättad. Här möts fysik och konst.</p>",
+        "text_color": "#d1d5db",
+        "image": "shopify://shop_images/2.jpg"
+      }
+    },
+    "aurora_cta_REN9xb": {
+      "type": "aurora-cta",
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "Beställ",
+        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "button1_text": "Visa produkt",
+        "button1_link": "shopify://products/ambient-ljus"
       }
     },
     "aurora_faq_RkQb6Y": {
@@ -406,6 +360,78 @@
       "settings": {
         "color_scheme": "",
         "heading": "Vanliga frågor och svar"
+      }
+    },
+    "aurora_reviews_4FmgtU": {
+      "type": "aurora-reviews",
+      "blocks": {
+        "review_BE7x3K": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Jättemysig liten lampa som skapar en mysig känsla. Jag använder den som nattlampa i sovrummet och den ger ett superfint ljus. Leveransen gick snabbt också!",
+            "product_image": "shopify://shop_images/517503000_122120148662890012_7387843819484993644_n.jpg",
+            "reviewer_name": "Emma"
+          }
+        },
+        "review_LRMK6d": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Bästa köpet på länge! Jag har placerat lampan bakom min TV och det ger ett så coolt sken i rummet. Enkel att använda och ger mycket känsla för pengarna.",
+            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_5.jpg",
+            "reviewer_name": "Jo"
+          }
+        },
+        "review_ymcqUh": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Incredible quality and amazing customer service.",
+            "product_image": "shopify://shop_images/515935735_122120148800890012_2574239155526041032_n.jpg",
+            "reviewer_name": "Tim L."
+          }
+        },
+        "review_3dVH8p": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Lampan kom snyggt packad och funkar perfekt. Älskar att man kan byta färgfilter beroende på vilken känsla man vill ha. Bra köp",
+            "product_image": "shopify://shop_images/Namnlos_design_2.jpg",
+            "reviewer_name": "Dina"
+          }
+        },
+        "review_XxyJfx": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Den gör verkligen vad den lovar. Ljuset är kraftigt och skapar en skön atmosfär. Lite omständligt att byta färg, men det är helt okej för priset.",
+            "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
+            "reviewer_name": "HK"
+          }
+        },
+        "review_bG7DVy": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Wow! Jag köpte två och de skapar en riktigt härlig effekt på väggen. Fick med små skruvmejslar och färgfilter – allt funkar fint.",
+            "product_image": "shopify://shop_images/Namnlos_598_x_900_px_2.jpg",
+            "reviewer_name": "Mikael"
+          }
+        }
+      },
+      "block_order": [
+        "review_BE7x3K",
+        "review_LRMK6d",
+        "review_ymcqUh",
+        "review_3dVH8p",
+        "review_XxyJfx",
+        "review_bG7DVy"
+      ],
+      "name": "Aurora Reviews",
+      "settings": {
+        "color_scheme": "",
+        "heading": "Några rader från våra kunder"
       }
     },
     "aurora_cta_fW8RpP": {
@@ -570,21 +596,6 @@
         "hover_scale_effect": 105
       }
     },
-    "aurora_tech_teaser_R4GmPk": {
-      "type": "aurora-tech-teaser",
-      "custom_css": [
-        "img {object-fit: cover; width: 100%; height: 100%;}"
-      ],
-      "settings": {
-        "section_bg_color": "#221e22",
-        "heading": "Vetenskapen bakom skönheten",
-        "heading_color": "#ffffff",
-        "paragraph_1": "<p>I hjärtat av Lustramood finns en optisk lins som är noggrant konstruerad för att skapa magi. Det här är inte bara glas – det är en portal till ett spektrum. Genom att vinkla fasetterna med precision och använda material med hög klarhet, maximerar vi ljusspridningen för att skapa ett kraftfullt och levande prismasken från en kompakt ljuskälla.</p>",
-        "paragraph_2": "<p>LED-modulen inuti är noga utvald för sitt specifika våglängdsområde – vilket gör att ljuset som passerar genom linsen får en färgpalett som är djup, ren och mättad. Här möts fysik och konst.</p>",
-        "text_color": "#d1d5db",
-        "image": "shopify://shop_images/2.jpg"
-      }
-    },
     "aurora_testimonials_aAyxtQ": {
       "type": "aurora-testimonials",
       "blocks": {
@@ -653,9 +664,10 @@
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
     "aurora_cta_3V77Jb",
-    "aurora_reviews_4FmgtU",
     "aurora_tech_teaser_R4GmPk",
+    "aurora_cta_REN9xb",
     "aurora_faq_RkQb6Y",
+    "aurora_reviews_4FmgtU",
     "aurora_cta_fW8RpP",
     "aurora_product_showcase_D63jWq",
     "aurora_features_Qqy3PU",
