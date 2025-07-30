@@ -252,18 +252,18 @@
           "type": "review",
           "settings": {
             "rating": 5,
-            "review_text": "Absolutely love this product! It exceeded all my expectations.",
+            "review_text": "Jättemysig liten lampa som verkligen höjer stämningen i rummet. Jag använder den som nattlampa i sovrummet och den ger ett superfint ljus. Leveransen gick snabbt också!",
             "product_image": "shopify://shop_images/517503000_122120148662890012_7387843819484993644_n.jpg",
-            "reviewer_name": "Sarah M."
+            "reviewer_name": "Emma"
           }
         },
         "review_fzNdCD": {
           "type": "review",
           "settings": {
             "rating": 4,
-            "review_text": "Best purchase I've made this year. Highly recommend!",
+            "review_text": "Liten men kraftfull! Ljuset är riktigt starkt trots storleken. Det enda minus är att det blir lite varmt efter en stund, så jag har den inte på för länge åt gången.",
             "product_image": "shopify://shop_images/Namnlos_598_x_900_px_5.jpg",
-            "reviewer_name": "Mike R."
+            "reviewer_name": "Jo"
           }
         },
         "review_hjXnbT": {
@@ -279,7 +279,7 @@
           "type": "review",
           "settings": {
             "rating": 5,
-            "review_text": "Amazing product! I love it.",
+            "review_text": "Lampan kom snyggt packad och funkar perfekt. Älskar att man kan byta färgfilter beroende på vilken känsla man vill ha. Bra köp!",
             "product_image": "shopify://shop_images/Namnlos_598_x_900_px_1.jpg",
             "reviewer_name": "Happy Customer"
           }
@@ -287,8 +287,8 @@
         "review_bepTAk": {
           "type": "review",
           "settings": {
-            "rating": 5,
-            "review_text": "Amazing product! I love it.",
+            "rating": 4,
+            "review_text": "Den gör verkligen vad den lovar. Ljuset är kraftigt och skapar en skön atmosfär. Lite omständligt att byta färg, men det är helt okej för priset.",
             "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
             "reviewer_name": "Happy Customer"
           }
@@ -297,9 +297,9 @@
           "type": "review",
           "settings": {
             "rating": 5,
-            "review_text": "Amazing product! I love it.",
+            "review_text": "Wow! Jag köpte två och de skapar en riktigt härlig effekt på väggen. Fick med små skruvmejslar och färgfilter – allt funkar fint.",
             "product_image": "shopify://shop_images/Namnlos_598_x_900_px_2.jpg",
-            "reviewer_name": "Happy Customer"
+            "reviewer_name": "Mikael"
           }
         }
       },
