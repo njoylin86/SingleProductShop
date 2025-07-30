@@ -260,21 +260,30 @@
             "reviewer_name": "Jo"
           }
         },
-        "review_jzw7xK": {
-          "type": "review",
-          "settings": {
-            "rating": 4,
-            "review_text": "Incredible quality and amazing customer service.",
-            "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
-            "reviewer_name": "Emma L."
-          }
-        },
-        "review_eTmGH6": {
+        "review_ymcqUh": {
           "type": "review",
           "settings": {
             "rating": 5,
-            "review_text": "Amazing product! I love it.",
-            "product_image": "shopify://shop_images/A856471431dca48709b12984d4744e244o.jpg",
+            "review_text": "Incredible quality and amazing customer service.",
+            "product_image": "shopify://shop_images/515935735_122120148800890012_2574239155526041032_n.jpg",
+            "reviewer_name": "Emma"
+          }
+        },
+        "review_3dVH8p": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Lampan kom snyggt packad och funkar perfekt. Älskar att man kan byta färgfilter beroende på vilken känsla man vill ha. Bra köp",
+            "product_image": "shopify://shop_images/Namnlos_design_2.jpg",
+            "reviewer_name": "Happy Customer"
+          }
+        },
+        "review_XxyJfx": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Den gör verkligen vad den lovar. Ljuset är kraftigt och skapar en skön atmosfär. Lite omständligt att byta färg, men det är helt okej för priset.",
+            "product_image": "shopify://shop_images/A1f15971e451144a08f673d0da903a2f4o.jpg",
             "reviewer_name": "Happy Customer"
           }
         }
@@ -282,8 +291,9 @@
       "block_order": [
         "review_BE7x3K",
         "review_LRMK6d",
-        "review_jzw7xK",
-        "review_eTmGH6"
+        "review_ymcqUh",
+        "review_3dVH8p",
+        "review_XxyJfx"
       ],
       "name": "Aurora Reviews",
       "settings": {
