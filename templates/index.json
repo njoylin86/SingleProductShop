@@ -333,6 +333,12 @@
         "buy_buttons_7AWxpx",
         "share_W3H4gK"
       ],
+      "custom_css": [
+        "h1 {font-size: clamp(53px, 13vw, 90px); color: #393a43e8; text-shadow: 0 !important; margin-top: 15px;}",
+        ".product-form__submit {display: none;}",
+        ".accordion .svg-wrapper {height: calc(var(--font-heading-scale) * 1rem);}",
+        ".accordion__title {font-size: 22.5px;}"
+      ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "product": "enkeltid",
