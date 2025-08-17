@@ -15,7 +15,8 @@
         "section {background-position: center;}",
         "button {display: none;}",
         ".full-screen-height {min-height: 100dvh; min-height: calc(100dvh - var(--header-offset) - 270px);}",
-        ".overlay {background: none !important;}"
+        ".overlay {background: none !important;}",
+        ".cta-1 {background: #f82048 !important; color: white !important;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/3.jpg",
