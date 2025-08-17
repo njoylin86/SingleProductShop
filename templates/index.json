@@ -65,9 +65,9 @@
       ],
       "custom_css": [
         ".aurora-reviews-section {padding: 0px 0; text-align: center;}",
-        " .aurora-review-card {flex: 0 0 222px !important; padding: 0px 20px !important; }",
+        ".aurora-review-card {flex: 0 0 422px !important; padding: 0px 20px !important;}",
         ".aurora-review-rating {margin-bottom: 0px !important;}",
-        ".aurora-review-text {margin-bottom: 0px!important; }"
+        ".aurora-review-text {margin-bottom: 0px !important;}"
       ],
       "name": "Aurora Reviews",
       "settings": {
