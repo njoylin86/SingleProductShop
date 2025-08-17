@@ -111,14 +111,6 @@
           {% if section.settings.button_label != blank and section.settings.button_link != blank %}
             <a class="cta-1" href="{{ section.settings.button_link }}">
               {{ section.settings.button_label | escape }}
-              <svg xmlns="http://www.w3.org/2000/svg" 
-                  viewBox="0 0 576 512" 
-                  class="cta-1__icon" aria-hidden="true">
-                <path d="M528.12 301.319l47.273-208A16 16 0 0 0 560 64H128l-12.27-55.55A16 16 0 0 0 100.11 0H16A16 
-                16 0 0 0 0 16v16a16 16 0 0 0 16 16h66.11l61.52 278.06A63.997 63.997 0 1 0 241.5 416h255a64 64 0 
-                1 0 31.62-114.681zM224 464a48 48 0 1 1 48-48 48 48 0 0 1-48 48zm288 0a48 48 0 1 1 48-48 48 48 0 
-                0 1-48 48z" fill="currentColor"/>
-              </svg>
             </a>
           {% endif %}
           {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
