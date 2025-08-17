@@ -537,7 +537,7 @@
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "product": "enkeltid",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "secondary_background": true,
         "media_size": "small",
         "constrain_to_viewport": true,
