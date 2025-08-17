@@ -110,7 +110,7 @@
         <div>
           {% if section.settings.button_label != blank and section.settings.button_link != blank %}
             <a class="cta-1" href="{{ section.settings.button_link }}">
-              {{ section.settings.button_label | escape }}
+              {{ section.settings.button_label | escape }} <img src="https://cdn.shopify.com/s/files/1/0912/6356/6211/files/cart-shopping-solid-full.svg?v=1755458777" alt="Cart" class="cta-1__icon" width="" height="">
             </a>
           {% endif %}
           {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
