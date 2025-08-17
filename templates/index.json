@@ -404,6 +404,74 @@
         "image2": "shopify://shop_images/customer-service.png"
       }
     },
+    "multicolumn_REPkYN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cCaeMr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JJJD4r": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_B9bAfw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9rmrjC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cCaeMr",
+        "column_JJJD4r",
+        "column_B9bAfw",
+        "column_9rmrjC"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured_product_EjTTQw": {
       "type": "featured-product",
       "blocks": {
@@ -481,74 +549,6 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
-    },
-    "multicolumn_REPkYN": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_cCaeMr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_JJJD4r": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/8.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_B9bAfw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/7.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_9rmrjC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_cCaeMr",
-        "column_JJJD4r",
-        "column_B9bAfw",
-        "column_9rmrjC"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -562,7 +562,7 @@
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
-    "featured_product_EjTTQw",
-    "multicolumn_REPkYN"
+    "multicolumn_REPkYN",
+    "featured_product_EjTTQw"
   ]
 }
