@@ -218,6 +218,9 @@
         "feature_Q8VH8W",
         "feature_f7p8AT"
       ],
+      "custom_css": [
+        ".aurora-highlighted-features__main-feature {flex-direction: column;}"
+      ],
       "name": "Aurora Highlighted Features",
       "settings": {
         "color_scheme": "scheme-1",
