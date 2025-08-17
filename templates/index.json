@@ -342,6 +342,7 @@
         },
         "text_C3rYhL": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Vår demensklocka är utformad för att ge både användaren och anhöriga en ökad känsla av trygghet. Med tydlig digital tidsvisning, datum och veckodag är den enkel att förstå även för personer med minnesproblematik eller kognitiva utmaningar.",
             "text_style": "body"
