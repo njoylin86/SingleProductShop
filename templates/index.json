@@ -220,7 +220,7 @@
       ],
       "custom_css": [
         ".aurora-highlighted-features__main-feature {flex-direction: column;}",
-        ".aurora-highlighted-features__main-image img {width: 100%;}"
+        ".aurora-highlighted-features__main-image, .aurora-highlighted-features__main-image img {width: 100%;}"
       ],
       "name": "Aurora Highlighted Features",
       "settings": {
