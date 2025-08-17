@@ -11,13 +11,107 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "aurora_faq_cbmtFG": {
+      "type": "aurora-faq",
+      "blocks": {
+        "faq_item_R8CYUC": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_fmkiGt": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_kw7cmA": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_ipPDqQ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_iryK8i": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_AKegKm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_CHJDtF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+          }
+        },
+        "faq_item_y6eDRk": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "We offer a 30-day return policy for all unused items in their original packaging."
+          }
+        },
+        "faq_item_jEMAtB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
+          }
+        },
+        "faq_item_4PhxaV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I contact customer service?",
+            "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_R8CYUC",
+        "faq_item_fmkiGt",
+        "faq_item_kw7cmA",
+        "faq_item_ipPDqQ",
+        "faq_item_iryK8i",
+        "faq_item_AKegKm",
+        "faq_item_CHJDtF",
+        "faq_item_y6eDRk",
+        "faq_item_jEMAtB",
+        "faq_item_4PhxaV"
+      ],
+      "name": "Aurora FAQ",
+      "settings": {
+        "color_scheme": "",
+        "heading": "FAQ Section"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "aurora_faq_cbmtFG"
   ]
 }
