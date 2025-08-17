@@ -336,7 +336,6 @@
       "blocks": {
         "title_ne98Xx": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "heading_size": "h2"
           }
