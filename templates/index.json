@@ -219,7 +219,8 @@
         "feature_f7p8AT"
       ],
       "custom_css": [
-        "@media (min-width: 900px) {.aurora-highlighted-features__main-feature {flex-direction: column; } .aurora-highlighted-features__main-image, .aurora-highlighted-features__main-image img {width: 100%; }}"
+        "@media (min-width: 900px) {.aurora-highlighted-features__main-feature {flex-direction: column; } .aurora-highlighted-features__main-image, .aurora-highlighted-features__main-image img {width: 100%; }}",
+        "@media (max-width: 900px) {.aurora-highlighted-features__additional-features {flex-direction: unset; gap: 0; }}"
       ],
       "name": "Aurora Highlighted Features",
       "settings": {
