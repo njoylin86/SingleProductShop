@@ -37,6 +37,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header__icons {display:none;}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "mobile_logo_position": "center",
