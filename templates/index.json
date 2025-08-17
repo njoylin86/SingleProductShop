@@ -20,7 +20,7 @@
         ".cta-1,.cta-2 {color: #1c4060 !importan; font-size: 10px !important; border-radius: 10px !important; font-family: \"Montserrat\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", sans-serif !important;}"
       ],
       "settings": {
-        "background_image": "shopify://shop_images/3.jpg",
+        "background_image": "shopify://shop_images/Hero_Picture.jpg",
         "headline": "Inga fler “Vilken dag är det” frågor",
         "subheadline": "<p>Världens seniorvänligaste klocka visar all den tid du behöver</p>",
         "button_label": "Köp nu",
