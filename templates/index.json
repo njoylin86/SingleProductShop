@@ -58,6 +58,9 @@
         "review_LRMK6d",
         "review_jzw7xK"
       ],
+      "custom_css": [
+        ".aurora-reviews-section {padding: 0px 0; text-align: center;}"
+      ],
       "name": "Aurora Reviews",
       "settings": {
         "color_scheme": "",
