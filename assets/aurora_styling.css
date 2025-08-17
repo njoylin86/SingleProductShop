@@ -5,9 +5,11 @@
   --main-color: #fbf1f6e8;
   --secondary-color: #f3bd00;
   --font-heading-scale: 2.1;
+  --anchor-offset: 88px;
   /*--color-foreground: #333131; <--- Not working*/
 }
-
+html { scroll-behavior: smooth; }
+:target { scroll-margin-top: var(--anchor-offset); }
 @font-face {
   font-family: 'Inter';
   src: url('{{ "Inter-VariableFont.ttf" | asset_url }}') format('truetype');
