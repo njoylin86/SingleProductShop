@@ -25,6 +25,45 @@
         "button_link2": "#aurora-highlighted-features"
       }
     },
+    "aurora_reviews_4FmgtU": {
+      "type": "aurora-reviews",
+      "blocks": {
+        "review_BE7x3K": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Absolutely love this product! It exceeded all my expectations.",
+            "reviewer_name": "Sarah M."
+          }
+        },
+        "review_LRMK6d": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "review_text": "Best purchase I've made this year. Highly recommend!",
+            "reviewer_name": "Mike R."
+          }
+        },
+        "review_jzw7xK": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Incredible quality and amazing customer service.",
+            "reviewer_name": "Emma L."
+          }
+        }
+      },
+      "block_order": [
+        "review_BE7x3K",
+        "review_LRMK6d",
+        "review_jzw7xK"
+      ],
+      "name": "Aurora Reviews",
+      "settings": {
+        "color_scheme": "",
+        "heading": ""
+      }
+    },
     "multicolumn_8RcgNk": {
       "type": "multicolumn",
       "blocks": {
@@ -83,7 +122,7 @@
         "h1,h2,h3,h4,h5 {font-size: 20px;}",
         ".media--transparent {padding-bottom: 60px !important;}",
         ".multicolumn {background: linear-gradient( 180deg, rgba(241, 240, 238, 1) 0%, rgba(253, 242, 238, 1) 100% );}",
-        "@media (max-width:750px) {.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {display: none;}}"
+        "@media (max-width: 750px) {.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {display: none; }}"
       ],
       "settings": {
         "title": "",
@@ -178,10 +217,10 @@
         "main_feature_image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg"
       }
     },
-    "aurora_reviews_4FmgtU": {
+    "aurora_reviews_myaqPR": {
       "type": "aurora-reviews",
       "blocks": {
-        "review_BE7x3K": {
+        "review_hx8a8g": {
           "type": "review",
           "settings": {
             "rating": 5,
@@ -189,7 +228,7 @@
             "reviewer_name": "Sarah M."
           }
         },
-        "review_LRMK6d": {
+        "review_zWpiVB": {
           "type": "review",
           "settings": {
             "rating": 5,
@@ -197,7 +236,7 @@
             "reviewer_name": "Mike R."
           }
         },
-        "review_jzw7xK": {
+        "review_fGcLyp": {
           "type": "review",
           "settings": {
             "rating": 4,
@@ -207,10 +246,11 @@
         }
       },
       "block_order": [
-        "review_BE7x3K",
-        "review_LRMK6d",
-        "review_jzw7xK"
+        "review_hx8a8g",
+        "review_zWpiVB",
+        "review_fGcLyp"
       ],
+      "disabled": true,
       "name": "Aurora Reviews",
       "settings": {
         "color_scheme": "",
@@ -359,10 +399,11 @@
   },
   "order": [
     "aurora_hero_fnFAzR",
+    "aurora_reviews_4FmgtU",
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
-    "aurora_reviews_4FmgtU",
+    "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
     "featured_product_EjTTQw"
