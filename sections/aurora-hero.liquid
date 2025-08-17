@@ -110,11 +110,14 @@
         <div>
           {% if section.settings.button_label != blank and section.settings.button_link != blank %}
             <a class="cta-1" href="{{ section.settings.button_link }}">
-              {{ section.settings.button_label | escape }}  <svg xmlns="http://www.w3.org/2000/svg" 
-       viewBox="0 0 24 24" 
-       class="cta-1__icon">
-    <path d="M1 1h4l2.68 13.39a2..." fill="currentColor"/>
-  </svg>
+              {{ section.settings.button_label | escape }}
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                  viewBox="0 0 576 512" 
+                  class="cta-1__icon"
+                  aria-hidden="true">
+                <path d="M0 0h24v24H0z" fill="none"/> <!-- ibland finns en tom path -->
+                <path d="M...hela din ikon-path..." fill="currentColor"/>
+              </svg>
             </a>
           {% endif %}
           {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
