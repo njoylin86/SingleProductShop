@@ -227,6 +227,19 @@
         "main_feature_image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg"
       }
     },
+    "aurora_cta_CexcpM": {
+      "type": "aurora-cta",
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "heading": "CTA Heading",
+        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "button1_text": "Köp nu",
+        "button1_link": "#test",
+        "button2_text": "Download App",
+        "button2_link": ""
+      }
+    },
     "aurora_reviews_myaqPR": {
       "type": "aurora-reviews",
       "blocks": {
@@ -416,6 +429,7 @@
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
+    "aurora_cta_CexcpM",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
