@@ -14,7 +14,8 @@
       "custom_css": [
         "section {background-position: center;}",
         "button {display: none;}",
-        ".full-screen-height {min-height: 100dvh; min-height: calc(100dvh - var(--header-offset) - 270px);}"
+        ".full-screen-height {min-height: 100dvh; min-height: calc(100dvh - var(--header-offset) - 270px);}",
+        ".overlay {background: none !important;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/3.jpg",
