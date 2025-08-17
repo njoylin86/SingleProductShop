@@ -18,7 +18,7 @@
         ".overlay {background: none !important;}",
         ".cta-1 {background: #f82048 !important; color: white !important;}",
         ".cta-2 {background-color: #fff5fae8 !important;}",
-        ".cta-1,.cta-2 {color: #1c4060 !importan; font-size: 10px !important; border-radius: 10px !important; font-family: \"Montserrat\"!important;}"
+        ".cta-1,.cta-2 {color: #1c4060 !importan; font-size: 10px !important; border-radius: 10px !important; font-family: \"Montserrat\" !important;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/3.jpg",
@@ -64,7 +64,10 @@
         "review_jzw7xK"
       ],
       "custom_css": [
-        ".aurora-reviews-section {padding: 0px 0; text-align: center;}"
+        ".aurora-reviews-section {padding: 0px 0; text-align: center;}",
+        " .aurora-review-card {flex: 0 0 222px !important; padding: 0px 20px !important; }",
+        ".aurora-review-rating {margin-bottom: 0px !important;}",
+        ".aurora-review-text {margin-bottom: 0px!important; }"
       ],
       "name": "Aurora Reviews",
       "settings": {
