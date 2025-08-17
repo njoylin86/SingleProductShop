@@ -38,7 +38,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__search {display:none;}"
+        ".header__search {display: none;}",
+        ".header__icons {display:none;}"
       ],
       "settings": {
         "logo_position": "top-center",
