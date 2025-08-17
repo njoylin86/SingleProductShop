@@ -5,7 +5,7 @@
     #hero-{{ section.id }}.aurora-hero-section { /* Targets this specific instance of the hero section */
       background-image: url('{{ section.settings.background_image | image_url: width: 1920, height: 1080 }}');
       background-size: cover;    /* Usually desired for hero images */
-      background-position: left; /* Usually desired for hero images */
+      background-position: right; /* Usually desired for hero images */
       /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
       @media (max-width: 990px) {
         background-position: center;
