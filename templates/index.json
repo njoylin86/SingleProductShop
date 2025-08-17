@@ -231,6 +231,62 @@
         "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
       }
     },
+    "multirow_Wawa7F": {
+      "type": "multirow",
+      "blocks": {
+        "row_Grg7Li": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Rad",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        },
+        "row_GtTGGh": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Rad",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        },
+        "row_LdPci6": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Rad",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Grg7Li",
+        "row_GtTGGh",
+        "row_LdPci6"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "aurora_cta_CexcpM": {
       "type": "aurora-cta",
       "name": "Aurora CTA",
@@ -433,6 +489,7 @@
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
+    "multirow_Wawa7F",
     "aurora_cta_CexcpM",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
