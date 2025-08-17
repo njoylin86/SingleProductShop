@@ -354,6 +354,7 @@
         },
         "variant_picker_xaWLN7": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -396,7 +397,7 @@
       "settings": {
         "product": "enkeltid",
         "color_scheme": "",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
