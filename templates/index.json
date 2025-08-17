@@ -31,7 +31,7 @@
         "column_68nTy7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sweden.png",
+            "image": "shopify://shop_images/Namnlos_100_x_100_px.png",
             "title": "Svenskt företag",
             "text": "<p>Vi är baserade i Sverige och följer svenska regler och konsumentskydd.</p>",
             "link_label": "",
@@ -41,8 +41,8 @@
         "column_P4y9qA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/customer-service.png",
-            "title": "Kundservice",
+            "image": "shopify://shop_images/Namnlos_100_x_100_px_1.png",
+            "title": "Snabba leveranser",
             "text": "<p>Har du frågor? Vi finns här för att hjälpa dig.</p>",
             "link_label": "",
             "link": ""
@@ -51,8 +51,8 @@
         "column_bdFQ4e": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/delivery.png",
-            "title": "Trygga leveranser",
+            "image": "shopify://shop_images/Namnlos_100_x_100_px_2.png",
+            "title": "Smidiga returer",
             "text": "<p>Spårningsnummer och leverans via pålitliga fraktbolag.</p>",
             "link_label": "",
             "link": ""
@@ -61,8 +61,8 @@
         "column_jAmJyz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sort.png",
-            "title": "Kvitto & garanti gäller",
+            "image": "shopify://shop_images/Namnlos_100_x_100_px_3.png",
+            "title": "Svenskt lager",
             "text": "<p>Du har rätt att ångra ditt köp – läs våra köpvillkor innan beställning.</p>",
             "link_label": "",
             "link": ""
