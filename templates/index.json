@@ -334,17 +334,18 @@
     "featured_product_EjTTQw": {
       "type": "featured-product",
       "blocks": {
+        "title_ne98Xx": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
         "text_C3rYhL": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_ne98Xx": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
+            "text": "Vår demensklocka är utformad för att ge både användaren och anhöriga en ökad känsla av trygghet. Med tydlig digital tidsvisning, datum och veckodag är den enkel att förstå även för personer med minnesproblematik eller kognitiva utmaningar.",
+            "text_style": "body"
           }
         },
         "price_fGwmJD": {
@@ -377,8 +378,8 @@
         }
       },
       "block_order": [
-        "text_C3rYhL",
         "title_ne98Xx",
+        "text_C3rYhL",
         "price_fGwmJD",
         "variant_picker_xaWLN7",
         "quantity_selector_jNnceT",
@@ -402,7 +403,7 @@
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": false,
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
