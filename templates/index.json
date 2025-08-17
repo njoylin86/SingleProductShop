@@ -14,7 +14,7 @@
       "custom_css": [
         "section {background-position: center;}",
         "button {display: none;}",
-        ".full-screen-height {min-height: 100dvh; min-height: calc(100dvh - var(--header-offset) - 173px)}",
+        ".full-screen-height {min-height: 100dvh; min-height: calc(100dvh - var(--header-offset) - 173px);}",
         ".overlay {background: none !important;}",
         ".cta-1 {background: #f82048 !important; color: white !important;}",
         ".cta-2 {background-color: #fff5fae8 !important;}",
@@ -314,6 +314,7 @@
     },
     "aurora_cta_fW8RpP": {
       "type": "aurora-cta",
+      "disabled": true,
       "custom_css": [
         ".aurora-cta-card {background: unset;}",
         "@media (max-width: 750px) {img {display: none; }}"
