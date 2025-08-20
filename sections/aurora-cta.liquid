@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 .aurora-cta-card {
@@ -157,7 +157,7 @@
 }
 </style>
 
-<section class="aurora-cta-section color-{{ section.settings.color_scheme | default: 'background-1' }}">
+<section class="page-width aurora-cta-section color-{{ section.settings.color_scheme | default: 'background-1' }}">
   <div class="aurora-cta-card">
     <div class="aurora-cta-content">
       <h2 class="aurora-cta-heading">{{ section.settings.heading | default: "CTA Heading" }}</h2>
