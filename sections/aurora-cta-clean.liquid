@@ -63,6 +63,7 @@
 {
   "name": "Aurora CTA Clean",
   "tag": "section",
+  "enabled_on": { "templates": ["*"] },
   "settings": [
     {
       "type": "color_scheme",
@@ -73,19 +74,19 @@
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": ""
+      "default": "CTA heading"
     },
     {
       "type": "richtext",
       "id": "text",
       "label": "Text",
-      "default": "<p></p>"
+      "default": "<p>Din text här.</p>"
     },
     {
       "type": "text",
       "id": "button_label",
       "label": "Button label",
-      "default": ""
+      "default": "Köp nu"
     },
     {
       "type": "url",
@@ -99,6 +100,7 @@
     }
   ]
 }
+
 {% endschema %}
 
 
