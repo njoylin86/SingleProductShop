@@ -299,7 +299,7 @@
         "heading": "CTA Heading",
         "text": "This is a short paragraph of placeholder text for your call-to-action section.",
         "button1_text": "Köp nu",
-        "button1_link": "#test",
+        "button1_link": "#buy_now_section",
         "button2_text": "Download App",
         "button2_link": ""
       }

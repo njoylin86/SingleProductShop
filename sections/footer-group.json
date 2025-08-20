@@ -16,23 +16,36 @@
       "blocks": {
         "image_PXe6aP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitled_design_12.jpg",
             "image_width": 325,
             "alignment": "center"
           }
+        },
+        "text_FdUhQC": {
+          "type": "text",
+          "settings": {
+            "heading": "Rubrik",
+            "subtext": "<p>Dela kontaktinformation, butiksinformation och varumärkesinnehåll med dina kunder.</p>"
+          }
+        },
+        "brand_information_n8Rqk4": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
         }
       },
       "block_order": [
-        "image_PXe6aP"
+        "image_PXe6aP",
+        "text_FdUhQC",
+        "brand_information_n8Rqk4"
       ],
-      "custom_css": [
-        "h2::after {width: 0%;}",
-        ".footer__content-top {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "",
         "enable_follow_on_shop": false,
         "show_social": false,
