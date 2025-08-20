@@ -405,6 +405,17 @@
         "image2": "shopify://shop_images/customer-service.png"
       }
     },
+    "aurora_cta_clean_9hiLpP": {
+      "type": "aurora-cta-clean",
+      "name": "Aurora CTA Clean",
+      "settings": {
+        "color_scheme": "",
+        "heading": "CTA heading",
+        "text": "",
+        "button_label": "Köp nu",
+        "button_link": "#shopify-section-template--25525332607363__featured_product_EjTTQw"
+      }
+    },
     "multicolumn_REPkYN": {
       "type": "multicolumn",
       "blocks": {
@@ -563,6 +574,7 @@
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
+    "aurora_cta_clean_9hiLpP",
     "multicolumn_REPkYN",
     "featured_product_EjTTQw"
   ]
