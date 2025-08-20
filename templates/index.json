@@ -56,12 +56,39 @@
             "review_text": "Incredible quality and amazing customer service.",
             "reviewer_name": "Emma L."
           }
+        },
+        "review_EhR8cJ": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Incredible quality and amazing customer service.",
+            "reviewer_name": "Emma L."
+          }
+        },
+        "review_TbMJ7x": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Incredible quality and amazing customer service.",
+            "reviewer_name": "Emma L."
+          }
+        },
+        "review_cLDwN9": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "review_text": "Incredible quality and amazing customer service.",
+            "reviewer_name": "Emma L."
+          }
         }
       },
       "block_order": [
         "review_BE7x3K",
         "review_LRMK6d",
-        "review_jzw7xK"
+        "review_jzw7xK",
+        "review_EhR8cJ",
+        "review_TbMJ7x",
+        "review_cLDwN9"
       ],
       "custom_css": [
         ".aurora-reviews-section {padding: 0px 0; text-align: center;}",
