@@ -324,7 +324,7 @@
     "aurora_cta_CexcpM": {
       "type": "aurora-cta",
       "custom_css": [
-        "h2 {color:white;}"
+        "h2 {color: white;}"
       ],
       "name": "Aurora CTA",
       "settings": {
@@ -415,9 +415,12 @@
         "faq_item_zaHzpH",
         "faq_item_LQNCRg"
       ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
       "name": "Aurora FAQ",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-8434a936-4819-4382-98d6-2712213d6f38",
         "heading": "Vanliga frågor och svar"
       }
     },
