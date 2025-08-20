@@ -18,8 +18,7 @@
         text-shadow: 1px -1px 3px #000000;
         padding-bottom: 15px;
       }
-      .page-width {
-        padding: 0px 4.5rem;
+      .content-wrapper {
         z-index: 2;
         position: relative;
         max-width: 550px;
@@ -79,7 +78,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 100%;
+        min-height: calc(100dvh - 132px);
         width: 100%;
         background: rgba(0, 0, 0, 0.15); /* black with 50% opacity */
         z-index: 1;
@@ -117,32 +116,34 @@
     <div class="positioner">
       <div class="page-width">
       {% if section.settings.headline != blank %}
-        <h1 class="bebas-neue-regular">
-          {{ section.settings.headline | escape }}
-        </h1>
-        {% endif %}
-        {% if section.settings.subheadline != blank %}
-          <div class="">
-            {{ section.settings.subheadline }}
+        <div class="content-wrapper">
+          <h1 class="bebas-neue-regular">
+            {{ section.settings.headline | escape }}
+          </h1>
+          {% endif %}
+          {% if section.settings.subheadline != blank %}
+            <div class="">
+              {{ section.settings.subheadline }}
+            </div>
+          {% endif %}
+          <div style="white-space: nowrap;">
+            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+              <a class="cta-1" href="{{ section.settings.button_link }}">
+                {{ section.settings.button_label | escape }}
+                <img src="https://cdn.shopify.com/s/files/1/0912/6356/6211/files/Namnlos_design_4.png?v=1755462133" 
+                    alt="Cart icon" 
+                    class="cta-1__icon"
+                    width=""
+                    height=""
+                  >
+              </a>
+            {% endif %}
+            {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
+              <a class="cta-2" href="{{ section.settings.button_link2 }}">
+                {{ section.settings.button_label2 | escape }}
+              </a>
+            {% endif %}
           </div>
-        {% endif %}
-        <div style="white-space: nowrap;">
-          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-            <a class="cta-1" href="{{ section.settings.button_link }}">
-              {{ section.settings.button_label | escape }}
-              <img src="https://cdn.shopify.com/s/files/1/0912/6356/6211/files/Namnlos_design_4.png?v=1755462133" 
-                  alt="Cart icon" 
-                  class="cta-1__icon"
-                  width=""
-                  height=""
-                >
-            </a>
-          {% endif %}
-          {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
-            <a class="cta-2" href="{{ section.settings.button_link2 }}">
-              {{ section.settings.button_label2 | escape }}
-            </a>
-          {% endif %}
         </div>
       </div>
     </div>

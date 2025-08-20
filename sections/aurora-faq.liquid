@@ -110,10 +110,10 @@
           <div class="aurora-faq-item" {{ block.shopify_attributes }}>
             <input type="checkbox" id="faq-{{ block.id }}" class="aurora-faq-input">
             <label for="faq-{{ block.id }}" class="aurora-faq-question">
-              {{ block.settings.question | default: 'Question ' | append: forloop.index }}
+              {{ block.settings.question | default: 'Question ' }}
             </label>
             <div class="aurora-faq-answer">
-              {{ block.settings.answer | default: 'This is a placeholder answer for question ' | append: forloop.index | append: '.' }}
+              {{ block.settings.answer | default: 'This is a placeholder answer for question '}}
             </div>
           </div>
         {% endfor %}
