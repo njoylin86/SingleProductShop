@@ -1,0 +1,105 @@
+<style>
+.aurora-cta-clean .wrapper {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.aurora-cta-clean .cta-heading {
+  margin-bottom: 12px;
+}
+
+.aurora-cta-clean .cta-text {
+  margin-bottom: 18px;
+}
+
+.aurora-cta-clean .cta-1 {
+  background: #2a2525a6;
+  padding: 9px 10px;
+  border-radius: 2px;
+  outline: 1px solid #1c405f;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: unset;
+  box-shadow: 1px 1px 4px -1px #554c4c;
+  margin-bottom: 23px;
+  display: inline-flex;
+}
+
+.aurora-cta-clean .cta-1 {
+  background: #f9be00;
+  color: #f50dbb8a;
+  outline: 1px solid #f40dbaba;
+  margin-right: 10px;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+}
+
+.aurora-cta-clean .cta-1:hover {
+  box-shadow: 3px 3px 3px 0px #554c4cad !important;
+  outline: 2px solid #e31e3b !important;
+}
+</style>
+
+<section id="aurora-cta-clean-{{ section.id }}" class="aurora-cta-clean color-{{ section.settings.color_scheme | default: 'background-1' }}">
+  <div class="page-width">
+    <div class="wrapper">
+      {% if section.settings.heading != blank %}
+        <h2 class="cta-heading">{{ section.settings.heading | escape }}</h2>
+      {% endif %}
+      {% if section.settings.text != blank %}
+        <div class="cta-text">{{ section.settings.text }}</div>
+      {% endif %}
+      {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+        <a class="cta-1" href="{{ section.settings.button_link }}">{{ section.settings.button_label | escape }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Aurora CTA Clean",
+  "tag": "section",
+  "class": "aurora-cta-clean",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p></p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": ""
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Aurora CTA Clean"
+    }
+  ]
+}
+{% endschema %}
+
+
