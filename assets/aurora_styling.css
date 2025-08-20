@@ -8,8 +8,15 @@
   --anchor-offset: 45px;
   /*--color-foreground: #333131; <--- Not working*/
 }
-html { scroll-behavior: smooth; }
-:target { scroll-margin-top: var(--anchor-offset); }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: var(--anchor-offset);
+}
+
 @font-face {
   font-family: 'Inter';
   src: url('{{ "Inter-VariableFont.ttf" | asset_url }}') format('truetype');
@@ -107,6 +114,7 @@ h1 {
   line-height: calc(var(--standard_desk_marign) * .6);
   color: var(--main-color);
   text-shadow: 1px -1px 0px #4c4247;
+
   /*margin-block-end: 1em;*/
   @media (max-width:750px) {
     line-height: calc(var(--standard_desk_marign) * 0.6);
@@ -134,4 +142,9 @@ h2::after {
 /*AJUSTMENTS OF STANDARD SECTIONS*/
 .announcement-bar__message {
   font-size: 15px;
+}
+
+.cta-1__icon {
+  width: auto;
+  height: 17px;
 }

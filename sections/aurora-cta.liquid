@@ -59,7 +59,7 @@
 .cta-1 {
   background: #f9be00;
   color: #f50dbb8a;
-  outline: 1px solid #f40dbaba;
+  outline: none;
   margin-right: 10px;
 }
 .cta-1:hover, .cta-2:hover {
@@ -164,7 +164,14 @@
       <p class="aurora-cta-text">{{ section.settings.text | default: "This is a short paragraph of placeholder text for your call-to-action section." }}</p>
       <div class="aurora-cta-buttons">
         {% if section.settings.button1_text != blank and section.settings.button1_link != blank %}
-          <a class="cta-1" href="{{ section.settings.button1_link }}">{{ section.settings.button1_text }}</a>
+          <a class="cta-1" href="{{ section.settings.button1_link }}">{{ section.settings.button1_text }}
+            <img src="https://cdn.shopify.com/s/files/1/0912/6356/6211/files/Namnlos_design_4.png?v=1755462133" 
+                  alt="Cart icon" 
+                  class="cta-1__icon"
+                  width=""
+                  height=""
+                >
+          </a>
         {% endif %}
         {% if section.settings.button2_text != blank and section.settings.button2_link != blank %}
           <a class="cta-2" href="{{ section.settings.button2_link }}">{{ section.settings.button2_text }}</a>
