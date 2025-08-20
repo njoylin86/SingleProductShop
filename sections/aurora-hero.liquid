@@ -7,16 +7,7 @@
       background-size: cover;    /* Usually desired for hero images */
       background-position: right center; /* Usually desired for hero images */
       /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
-      {% if section.settings.background_image_mobile %}
-        @media (max-width: 990px) {
-          #hero-{{ section.id }}.aurora-hero-section {
-            background-image: url('{{ section.settings.background_image_mobile | image_url: width: 1200 }}');
-            background-position: right center; /* behåll fokus åt höger på mobil */
-            background-size: cover;
-            background-repeat: no-repeat;
-          }
-        }
-      {% endif %}
+      
       h1 {
         font-size: clamp(5rem, 13vw, 75px);
       }
@@ -99,6 +90,20 @@
       }
     }
   </style>
+
+  /* For mobile */
+  {% if section.settings.background_image_mobile %}
+    <style>
+      @media (max-width: 990px) {
+        #hero-{{ section.id }}.aurora-hero-section {
+          background-image: url('{{ section.settings.background_image_mobile | image_url: width: 1200 }}');
+          background-position: right center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    </style>
+  {% endif %}
 {%- endif -%}
 
 <section
