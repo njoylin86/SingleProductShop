@@ -264,7 +264,7 @@
       "name": "Aurora CTA Clean",
       "settings": {
         "color_scheme": "",
-        "heading": "CTA HEADING",
+        "heading": "",
         "text": "",
         "button_label": "Köp nu",
         "button_link": "#buy_now_section"
