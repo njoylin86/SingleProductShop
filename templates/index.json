@@ -232,6 +232,17 @@
         "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
       }
     },
+    "aurora_cta_clean_9hiLpP": {
+      "type": "aurora-cta-clean",
+      "name": "Aurora CTA Clean",
+      "settings": {
+        "color_scheme": "",
+        "heading": "CTA HEADING",
+        "text": "",
+        "button_label": "Köp nu",
+        "button_link": "#buy_now_section"
+      }
+    },
     "multirow_Wawa7F": {
       "type": "multirow",
       "blocks": {
@@ -408,17 +419,6 @@
         "image2": "shopify://shop_images/customer-service.png"
       }
     },
-    "aurora_cta_clean_9hiLpP": {
-      "type": "aurora-cta-clean",
-      "name": "Aurora CTA Clean",
-      "settings": {
-        "color_scheme": "",
-        "heading": "CTA HEADING",
-        "text": "",
-        "button_label": "Köp nu",
-        "button_link": "#buy_now_section"
-      }
-    },
     "multicolumn_REPkYN": {
       "type": "multicolumn",
       "blocks": {
@@ -572,12 +572,12 @@
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "aurora_highlighted_features_B3irQa",
+    "aurora_cta_clean_9hiLpP",
     "multirow_Wawa7F",
     "aurora_cta_CexcpM",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
-    "aurora_cta_clean_9hiLpP",
     "multicolumn_REPkYN",
     "featured_product_EjTTQw"
   ]
