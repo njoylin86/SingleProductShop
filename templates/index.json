@@ -271,6 +271,9 @@
         "row_GtTGGh",
         "row_LdPci6"
       ],
+      "custom_css": [
+        ".button::after {color: #1c4060 !importan; font-size: 14px !important; border-radius: 10px !important; padding: 12px 25px !important; font-family: \"Montserrat\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", sans-serif !important;}"
+      ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
