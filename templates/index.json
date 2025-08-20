@@ -262,11 +262,11 @@
     "aurora_cta_clean_9hiLpP": {
       "type": "aurora-cta-clean",
       "custom_css": [
-        ".wrapper {padding-top:0; margin-top:0;}"
+        ".wrapper {padding-top: 0; margin-top: 0;}"
       ],
       "name": "Aurora CTA Clean",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "heading": "",
         "text": "",
         "button_label": "Köp nu",
