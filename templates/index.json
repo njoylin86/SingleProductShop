@@ -323,7 +323,9 @@
     },
     "aurora_cta_CexcpM": {
       "type": "aurora-cta",
-      "custom_css": [],
+      "custom_css": [
+        ".aurora-cta-images {display:none;}"
+      ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-1",
