@@ -261,6 +261,9 @@
     },
     "aurora_cta_clean_9hiLpP": {
       "type": "aurora-cta-clean",
+      "custom_css": [
+        ".wrapper {padding-top:0; margin-top:0;}"
+      ],
       "name": "Aurora CTA Clean",
       "settings": {
         "color_scheme": "",
