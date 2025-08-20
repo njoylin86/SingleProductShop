@@ -324,7 +324,7 @@
     "aurora_cta_CexcpM": {
       "type": "aurora-cta",
       "custom_css": [
-        ".aurora-cta-images {display:none;}"
+        ".aurora-cta-images {display: none;}"
       ],
       "name": "Aurora CTA",
       "settings": {
@@ -508,7 +508,7 @@
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
