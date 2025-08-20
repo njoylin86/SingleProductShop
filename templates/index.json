@@ -323,12 +323,10 @@
     },
     "aurora_cta_CexcpM": {
       "type": "aurora-cta",
-      "custom_css": [
-        "h2 {color: white;}"
-      ],
+      "custom_css": [],
       "name": "Aurora CTA",
       "settings": {
-        "color_scheme": "scheme-8434a936-4819-4382-98d6-2712213d6f38",
+        "color_scheme": "scheme-1",
         "heading": "CTA Heading",
         "text": "This is a short paragraph of placeholder text for your call-to-action section.",
         "button1_text": "Köp nu",
