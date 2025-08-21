@@ -34,7 +34,7 @@
         "text_9cWJnX"
       ],
       "custom_css": [
-        "h2 {color: white !important;}"
+        "h4 {color: white !important; font-size:25px;}"
       ],
       "settings": {
         "color_scheme": "scheme-8434a936-4819-4382-98d6-2712213d6f38",
