@@ -109,7 +109,9 @@
         "faq_item_4PhxaV",
         "faq_item_fJLFKG"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".aurora-faq-question {font-size: 30px;}"
+      ],
       "name": "Aurora FAQ",
       "settings": {
         "color_scheme": "scheme-1",
