@@ -86,21 +86,35 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
-                  {%- when 'link_list' -%}
-                    {%- if block.settings.menu != blank -%}
-                      <ul class="footer-block__details-content list-unstyled">
-                        {%- for link in block.settings.menu.links -%}
-                          <li>
-                            <a
-                              href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
-                            >
-                              {{ link.title | escape }}
-                            </a>
-                          </li>
-                        {%- endfor -%}
-                      </ul>
-                    {%- endif -%}
+                    {% when 'link_list' %}
+                      {% assign menu_handle = block.settings.menu %}
+                    {% if menu_handle %}
+                      <div class="footer-link-block" {{ block.shopify_attributes }}>
+                        {% liquid
+                          assign custom_title = block.settings.title | strip
+                          assign menu_title = linklists[menu_handle].title
+                          if custom_title != blank
+                            assign heading = custom_title
+                          else
+                            assign heading = menu_title
+                          endif
+                        %}
+                  
+                        {% if heading != blank %}
+                          <h4 class="footer-link-block__title">{{ heading }}</h4>
+                        {% endif %}
+                  
+                        {% if linklists[menu_handle].links.size > 0 %}
+                          <ul class="footer-link-block__list">
+                            {% for link in linklists[menu_handle].links %}
+                              <li class="footer-link-block__item">
+                                <a href="{{ link.url }}" class="footer-link-block__link">{{ link.title }}</a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </div>
+                    {% endif %}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
@@ -382,6 +396,23 @@
       ]
     },
     {
+      "type": "link_block",
+      "name": "Link list with title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": ""
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Select menu"
+        }
+      ]
+    },
+    {
       "type": "image",
       "name": "Image",
       "settings": [
@@ -532,14 +563,15 @@
     }
   ],
   "default": {
-    "blocks": [
-      {
-        "type": "link_list"
-      },
-      {
-        "type": "text"
+  "blocks": [
+    {
+      "type": "link_block",
+      "settings": {
+        "title": "Kundtjänst",
+        "menu": "footer" 
       }
-    ]
-  }
+    }
+  ]
+}
 }
 {% endschema %}
