@@ -34,7 +34,8 @@
         "text_9cWJnX"
       ],
       "custom_css": [
-        "h4 {color: white !important; font-size:25px;}"
+        "h4 {color: white !important; font-size: 25px;}",
+        "ul {list-style: none; margin-block-start: 0; margin-block-end: 0; padding-inline-start: 0;}"
       ],
       "settings": {
         "color_scheme": "scheme-8434a936-4819-4382-98d6-2712213d6f38",
