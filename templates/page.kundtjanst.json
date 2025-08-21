@@ -62,42 +62,42 @@
           "type": "faq_item",
           "settings": {
             "question": "Kontakta oss",
-            "answer": "This is the answer to the frequently asked question."
+            "answer": "Har du frågor om din order eller våra produkter?\nDu är alltid välkommen att kontakta oss via e-post på info@exempel.se\n eller ringa oss på 08-123 45 67.\nVår kundtjänst är öppen måndag–fredag kl. 09:00–17:00."
           }
         },
         "faq_item_CHJDtF": {
           "type": "faq_item",
           "settings": {
             "question": "Om oss",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+            "answer": "Vi på Exempel AB brinner för att erbjuda produkter av hög kvalitet och en smidig kundupplevelse.\nSedan starten har vårt mål varit att förenkla vardagen för våra kunder genom pålitlig service och noga utvalda varor."
           }
         },
         "faq_item_y6eDRk": {
           "type": "faq_item",
           "settings": {
             "question": "Returer",
-            "answer": "We offer a 30-day return policy for all unused items in their original packaging."
+            "answer": "Du har alltid 14 dagars öppet köp från det att du mottagit din beställning.\nProdukten ska vara i oanvänt skick och returneras i originalförpackning.\nKontakta oss på retur@exempel.se\n innan du skickar tillbaka varan för att få en returfraktsedel."
           }
         },
         "faq_item_jEMAtB": {
           "type": "faq_item",
           "settings": {
             "question": "Reklamationer",
-            "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
+            "answer": "Om en produkt är defekt eller skadad vid leverans ber vi dig kontakta oss omgående.\nSkicka ett mejl till reklamation@exempel.se\n med ditt ordernummer och en kort beskrivning av felet.\nBifoga gärna bilder så kan vi hantera ärendet snabbare."
           }
         },
         "faq_item_4PhxaV": {
           "type": "faq_item",
           "settings": {
             "question": "Leveransvillkor",
-            "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+            "answer": "Vi levererar normalt inom 2–5 arbetsdagar.\nFraktkostnaden är 49 kr inom Sverige, men fri frakt gäller vid köp över 500 kr.\nVi skickar alla paket med PostNord eller DHL och du får en spårningslänk via e-post när ordern lämnat vårt lager."
           }
         },
         "faq_item_fJLFKG": {
           "type": "faq_item",
           "settings": {
             "question": "Köpvillkor",
-            "answer": "This is the answer to the frequently asked question."
+            "answer": "Genom att handla hos oss accepterar du våra köpvillkor.\nPriserna anges i svenska kronor inklusive moms.\nVi förbehåller oss rätten att justera priser, leveransvillkor och eventuella skrivfel.\nBetalning sker tryggt via Klarna, Swish eller kortbetalning."
           }
         }
       },
