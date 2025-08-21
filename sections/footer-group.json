@@ -14,33 +14,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_PXe6aP": {
-          "type": "image",
-          "disabled": true,
+        "link_block_QQgVTa": {
+          "type": "link_block",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_12.jpg",
-            "image_width": 325,
-            "alignment": "center"
-          }
-        },
-        "text_FdUhQC": {
-          "type": "text",
-          "settings": {
-            "heading": "Rubrik",
-            "subtext": "<p>Dela kontaktinformation, butiksinformation och varumärkesinnehåll med dina kunder.</p>"
-          }
-        },
-        "brand_information_n8Rqk4": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": false
+            "title": "Links",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
-        "image_PXe6aP",
-        "text_FdUhQC",
-        "brand_information_n8Rqk4"
+        "link_block_QQgVTa"
       ],
       "custom_css": [],
       "settings": {
