@@ -80,23 +80,16 @@
                 {%- endif -%}
 
                 {%- case block.type -%}
-                  {%- when '@app' -%}
-                    {% render block %}
-                  {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
-                      {{ block.settings.subtext }}
-                    </div>
-                    {% when 'link_list' %}
-                      {% assign menu_handle = block.settings.menu %}
-                    {% if menu_handle %}
+                  {% when 'link_block' %}
+                    {% assign menu = block.settings.menu %}
+                    {% if menu %}
                       <div class="footer-link-block" {{ block.shopify_attributes }}>
                         {% liquid
                           assign custom_title = block.settings.title | strip
-                          assign menu_title = linklists[menu_handle].title
                           if custom_title != blank
                             assign heading = custom_title
                           else
-                            assign heading = menu_title
+                            assign heading = menu.title
                           endif
                         %}
                   
@@ -104,9 +97,9 @@
                           <h4 class="footer-link-block__title">{{ heading }}</h4>
                         {% endif %}
                   
-                        {% if linklists[menu_handle].links.size > 0 %}
+                        {% if menu.links and menu.links.size > 0 %}
                           <ul class="footer-link-block__list">
-                            {% for link in linklists[menu_handle].links %}
+                            {% for link in menu.links %}
                               <li class="footer-link-block__item">
                                 <a href="{{ link.url }}" class="footer-link-block__link">{{ link.title }}</a>
                               </li>
@@ -115,6 +108,27 @@
                         {% endif %}
                       </div>
                     {% endif %}
+                  {%- when '@app' -%}
+                    {% render block %}
+                  {%- when 'text' -%}
+                    <div class="footer-block__details-content rte">
+                      {{ block.settings.subtext }}
+                    </div>
+                    {%- when 'link_list' -%}
+                      {%- if block.settings.menu != blank -%}
+                        <ul class="footer-block__details-content list-unstyled">
+                          {%- for link in block.settings.menu.links -%}
+                            <li>
+                              <a
+                                href="{{ link.url }}"
+                                class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                              >
+                                {{ link.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
