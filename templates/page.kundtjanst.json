@@ -17,101 +17,188 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_zF66eT": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DRHXUb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kundservice",
+            "heading_size": "h2"
+          }
+        },
+        "text_tMbzMN": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DRHXUb",
+        "text_tMbzMN"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/remove-the-peopl-add-a-terminal-and-a-computer-maybe-a-notebook-and-a-phone.png",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "aurora_faq_cbmtFG": {
       "type": "aurora-faq",
       "blocks": {
-        "faq_item_R8CYUC": {
+        "faq_item_qi4Bgh": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
-          }
-        },
-        "faq_item_fmkiGt": {
-          "type": "faq_item",
-          "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
-          }
-        },
-        "faq_item_kw7cmA": {
-          "type": "faq_item",
-          "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
-          }
-        },
-        "faq_item_ipPDqQ": {
-          "type": "faq_item",
-          "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
-          }
-        },
-        "faq_item_iryK8i": {
-          "type": "faq_item",
-          "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
-          }
-        },
-        "faq_item_AKegKm": {
-          "type": "faq_item",
-          "settings": {
-            "question": "How do I place an order?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+            "question": "Kontakta oss",
+            "answer": "This is the answer to the frequently asked question."
           }
         },
         "faq_item_CHJDtF": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I place an order?",
+            "question": "Om oss",
             "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
           }
         },
         "faq_item_y6eDRk": {
           "type": "faq_item",
           "settings": {
-            "question": "What is your return policy?",
+            "question": "Returer",
             "answer": "We offer a 30-day return policy for all unused items in their original packaging."
           }
         },
         "faq_item_jEMAtB": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you ship internationally?",
+            "question": "Reklamationer",
             "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
           }
         },
         "faq_item_4PhxaV": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I contact customer service?",
+            "question": "Leveransvillkor",
             "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+          }
+        },
+        "faq_item_fJLFKG": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Köpvillkor",
+            "answer": "This is the answer to the frequently asked question."
           }
         }
       },
       "block_order": [
-        "faq_item_R8CYUC",
-        "faq_item_fmkiGt",
-        "faq_item_kw7cmA",
-        "faq_item_ipPDqQ",
-        "faq_item_iryK8i",
-        "faq_item_AKegKm",
+        "faq_item_qi4Bgh",
         "faq_item_CHJDtF",
         "faq_item_y6eDRk",
         "faq_item_jEMAtB",
-        "faq_item_4PhxaV"
+        "faq_item_4PhxaV",
+        "faq_item_fJLFKG"
       ],
+      "custom_css": [],
       "name": "Aurora FAQ",
       "settings": {
-        "color_scheme": "scheme-5",
-        "heading": "FAQ Section"
+        "color_scheme": "scheme-1",
+        "heading": "Kundservice"
+      }
+    },
+    "multirow_C8eGCt": {
+      "type": "multirow",
+      "blocks": {
+        "row_Xbdct7": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Om oss",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_ib3Nyi": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Returer",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KQ7Aer": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Reklamation",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pFxRxf": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Leveranser",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        },
+        "row_WQmKAx": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Köpvillkor",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Xbdct7",
+        "row_ib3Nyi",
+        "row_KQ7Aer",
+        "row_pFxRxf",
+        "row_WQmKAx"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "aurora_faq_cbmtFG"
+    "image_banner_zF66eT",
+    "aurora_faq_cbmtFG",
+    "multirow_C8eGCt"
   ]
 }
