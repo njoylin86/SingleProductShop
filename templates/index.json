@@ -222,6 +222,53 @@
         "heading": ""
       }
     },
+    "rich_text_HTdtTq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wWAzAP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Såhär skapar kalenderförvirring onödig stress",
+            "heading_size": "h2"
+          }
+        },
+        "text_NnkkC9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>För äldre eller dem med kognitiva utmaningar kan tiden kännas som ett labyrint:</p><p>☑️ Vaknar och vet inte om det är natt eller morgon<br/><br/>☑️ Frågar anhöriga om vilken dag det är – flera gånger om dagen<br/><br/>☑️ Missar mediciner eller möten p.g.a. tidsförvirring</p><p>Det är inte deras fel – vanliga klockor och kalendrar kräver för mycket tolkning.<br/><br/>Men det finns ett enklare sätt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wWAzAP",
+        "text_NnkkC9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "aurora_cta_dnCgpn": {
+      "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-images {display: none;}"
+      ],
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "",
+        "heading": "CTA Heading",
+        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "button1_text": "Köp",
+        "button1_link": "#",
+        "button2_text": "Download App",
+        "button2_link": ""
+      }
+    },
     "aurora_highlighted_features_B3irQa": {
       "type": "aurora-highlighted-features",
       "blocks": {
@@ -548,6 +595,8 @@
     "aurora_reviews_4FmgtU",
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
+    "rich_text_HTdtTq",
+    "aurora_cta_dnCgpn",
     "aurora_highlighted_features_B3irQa",
     "aurora_cta_clean_9hiLpP",
     "aurora_cta_CexcpM",
