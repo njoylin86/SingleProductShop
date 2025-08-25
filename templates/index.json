@@ -243,6 +243,7 @@
         "heading_wWAzAP",
         "text_NnkkC9"
       ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -250,7 +251,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "aurora_cta_dnCgpn": {
