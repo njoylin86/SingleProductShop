@@ -257,8 +257,25 @@
         "padding_bottom": 0
       }
     },
+    "aurora_cta_CexcpM": {
+      "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-images {display: none;}"
+      ],
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "CTA Heading",
+        "text": "This is a short paragraph of placeholder text for your call-to-action section.",
+        "button1_text": "Köp nu",
+        "button1_link": "#buy_now_section",
+        "button2_text": "Download App",
+        "button2_link": ""
+      }
+    },
     "aurora_cta_dnCgpn": {
       "type": "aurora-cta",
+      "disabled": true,
       "custom_css": [
         ".aurora-cta-images {display: none;}"
       ],
@@ -309,11 +326,8 @@
         "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
       }
     },
-    "aurora_cta_clean_9hiLpP": {
+    "aurora_cta_clean_GA33A4": {
       "type": "aurora-cta-clean",
-      "custom_css": [
-        ".wrapper {padding-top: 0; margin-top: 0;}"
-      ],
       "name": "Aurora CTA Clean",
       "settings": {
         "color_scheme": "scheme-1",
@@ -323,11 +337,8 @@
         "button_link": "#buy_now_section"
       }
     },
-    "aurora_cta_CexcpM": {
+    "aurora_cta_wVzaBn": {
       "type": "aurora-cta",
-      "custom_css": [
-        ".aurora-cta-images {display: none;}"
-      ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-1",
@@ -599,10 +610,11 @@
     "multicolumn_8RcgNk",
     "aurora_logo_wall_97AJYW",
     "rich_text_HTdtTq",
+    "aurora_cta_CexcpM",
     "aurora_cta_dnCgpn",
     "aurora_highlighted_features_B3irQa",
-    "aurora_cta_clean_9hiLpP",
-    "aurora_cta_CexcpM",
+    "aurora_cta_clean_GA33A4",
+    "aurora_cta_wVzaBn",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
