@@ -6,6 +6,7 @@
   --secondary-color: #f3bd00;
   --font-heading-scale: 2.1;
   --anchor-offset: 45px;
+  --font-heading-family: "Bebas Neue", sans-serif !important;
   /*--color-foreground: #333131; <--- Not working*/
 }
 
