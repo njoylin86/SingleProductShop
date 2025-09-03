@@ -750,7 +750,8 @@
         "h1,h2 {font-size: clamp(53px, 13vw, 90px); color: #393a43e8; text-shadow: 0 !important; margin-top: 15px; font-family: Bebas Neue, sans-serif; color: #333131;}",
         ".product-form__submit {display: none;}",
         ".accordion .svg-wrapper {height: calc(var(--font-heading-scale) * 1rem);}",
-        ".accordion__title {font-size: 22.5px;}"
+        ".accordion__title {font-size: 22.5px;}",
+        ".shopify-payment-button__button {background-color: red;}"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
