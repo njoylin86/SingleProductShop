@@ -374,36 +374,19 @@
         "column_VGFiBr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-09-02_at_08.50.18_203c0b1c.jpg",
+            "image": "shopify://shop_images/citats_enkeltid.png",
             "title": "",
             "text": "<p>“<strong>Minimalism med maximal effekt</strong>. Digital visning av tid,<br/>datum, veckodag och del av dygnet är betydligt lättare att läsa<br/>än analoga klockor—och hjälper till att orientera sig i tid även<br/>vid kognitiv försämring.”</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\">SAGE JournalsPubMed</a></p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_XJU3VB": {
+        "column_BeD7pC": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/citats_enkeltid.png",
             "title": "",
             "text": "<p>“<strong>Struktur skapar trygghet.</strong> Att se “morgon, dag, kväll, natt”<br/>tydligt i displayen bidrar till minskad förvirring och hjälper<br/>personen att planera dagen, känna sig tryggare och behålla<br/>självständighet.”<br/><a href=\"https://“Struktur skapar trygghet. Att se “morgon, dag, kväll, natt” tydligt i displayen bidrar till minskad förvirring och hjälper personen att planera dagen, känna sig tryggare och behålla självständighet.” primecarers.co.ukaw3.alzheimersweekly.com\" title=\"https://“Struktur skapar trygghet. Att se “morgon, dag, kväll, natt” tydligt i displayen bidrar till minskad förvirring och hjälper personen att planera dagen, känna sig tryggare och behålla självständighet.” primecarers.co.ukaw3.alzheimersweekly.com\">PubMed</a></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_H4pjrW": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>“<strong>Visar bara det som verkligen betyder något.</strong> Forskning visar<br/>att äldre med mild demens får bättre kognitiv funktion (MMSE)<br/>och klarar vardagsaktiviteter bättre när de använder en<br/>elektrisk kalender som visar datum och schema—utan<br/>överflödiga funktioner.”</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\">PubMed</a></p><p></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4f4ULj": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>“<strong>Visar bara det som verkligen betyder något.</strong> Forskning visar<br/>att äldre med mild demens får bättre kognitiv funktion (MMSE)<br/>och klarar vardagsaktiviteter bättre när de använder en<br/>elektrisk kalender som visar datum och schema—utan<br/>överflödiga funktioner.”</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\">PubMed</a></p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -411,15 +394,13 @@
       },
       "block_order": [
         "column_VGFiBr",
-        "column_XJU3VB",
-        "column_H4pjrW",
-        "column_4f4ULj"
+        "column_BeD7pC"
       ],
       "custom_css": [
         "h1,h2,h3,h4 {text-align: center;}",
-        "/* Make the parent container a flexbox */.multicolumn-card {display: flex; flex-direction: column; /* Stack items vertically */}",
-        "/* By default, all flex items have an order of 0. Give the info/text block an order of 1. */.multicolumn-card__info {order: 1;}",
-        "/* Give the image block a higher order (2) to make it appear after the info block. */.multicolumn-card__image-wrapper {order: 2;}"
+        " /* Make the parent container a flexbox */.multicolumn-card {display: flex; flex-direction: column; /* Stack items vertically */}",
+        " /* By default, all flex items have an order of 0. Give the info/text block an order of 1. */.multicolumn-card__info {order: 1;}",
+        " /* Give the image block a higher order (2) to make it appear after the info block. */.multicolumn-card__image-wrapper {order: 2;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
