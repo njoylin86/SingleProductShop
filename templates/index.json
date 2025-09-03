@@ -278,6 +278,7 @@
       "blocks": {
         "feature_Q8VH8W": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "feature_heading": "Enkel att använda.",
             "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning."
@@ -285,6 +286,7 @@
         },
         "feature_f7p8AT": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "feature_heading": "Diskret design. Tydlig funktion.",
             "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö.",
@@ -333,7 +335,7 @@
         "feature_dkUAqV"
       ],
       "custom_css": [
-        ".aurora-highlighted-features__main-feature {display:none;}"
+        ".aurora-highlighted-features__main-feature {display: none;}"
       ],
       "name": "Aurora Highlighted Features",
       "settings": {
