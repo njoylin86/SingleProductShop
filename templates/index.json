@@ -416,7 +416,10 @@
         "column_4f4ULj"
       ],
       "custom_css": [
-        "h1,h2,h3,h4 {text-align: center;}"
+        "h1,h2,h3,h4 {text-align: center;}",
+        "/* Make the parent container a flexbox */.multicolumn-card {display: flex; flex-direction: column; /* Stack items vertically */}",
+        "/* By default, all flex items have an order of 0. Give the info/text block an order of 1. */.multicolumn-card__info {order: 1;}",
+        "/* Give the image block a higher order (2) to make it appear after the info block. */.multicolumn-card__image-wrapper {order: 2;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
