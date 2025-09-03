@@ -414,6 +414,9 @@
         "column_H4pjrW",
         "column_4f4ULj"
       ],
+      "custom_css": [
+        "h1,h2,h3,h4 {text-align:center;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Vetenskapligt bevisad struktur – enkel, trygg och kognitionsstödjande",
