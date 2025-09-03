@@ -305,8 +305,8 @@
       "settings": {
         "color_scheme": "scheme-1",
         "main_heading": "",
-        "main_feature_heading": "Se tiden klart, varje gång",
-        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag",
+        "main_feature_heading": "",
+        "main_feature_text": "",
         "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
       }
     },
