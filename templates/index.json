@@ -375,7 +375,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>“<strong>Minimalism med maximal effekt</strong>. Digital visning av tid,<br/>datum, veckodag och del av dygnet är betydligt lättare att läsa<br/>än analoga klockor—och hjälper till att orientera sig i tid även<br/>vid kognitiv försämring.”</p><p><br/><a href=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\">SAGE JournalsPubMed</a></p>",
+            "text": "<p>“<strong>Minimalism med maximal effekt</strong>. Digital visning av tid,<br/>datum, veckodag och del av dygnet är betydligt lättare att läsa<br/>än analoga klockor—och hjälper till att orientera sig i tid även<br/>vid kognitiv försämring.”</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\">SAGE JournalsPubMed</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -388,11 +388,31 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_H4pjrW": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>“<strong>Visar bara det som verkligen betyder något.</strong> Forskning visar<br/>att äldre med mild demens får bättre kognitiv funktion (MMSE)<br/>och klarar vardagsaktiviteter bättre när de använder en<br/>elektrisk kalender som visar datum och schema—utan<br/>överflödiga funktioner.”</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\">PubMed</a></p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4f4ULj": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>“<strong>Visar bara det som verkligen betyder något.</strong> Forskning visar<br/>att äldre med mild demens får bättre kognitiv funktion (MMSE)<br/>och klarar vardagsaktiviteter bättre när de använder en<br/>elektrisk kalender som visar datum och schema—utan<br/>överflödiga funktioner.”</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/31424302/?utm_source=chatgpt.com\">PubMed</a></p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_VGFiBr",
-        "column_XJU3VB"
+        "column_XJU3VB",
+        "column_H4pjrW",
+        "column_4f4ULj"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -400,7 +420,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Knappetikett",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 2,
         "column_alignment": "left",
