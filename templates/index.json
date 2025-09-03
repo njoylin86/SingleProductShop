@@ -751,7 +751,8 @@
         ".product-form__submit {display: none;}",
         ".accordion .svg-wrapper {height: calc(var(--font-heading-scale) * 1rem);}",
         ".accordion__title {font-size: 22.5px;}",
-        ".shopify-payment-button__button {/*background-color: red;*/}"
+        ".shopify-payment-button__button {/*background-color: red;*/}",
+        ".button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {top: 0; right: 0; bottom: 0; left: 0;}"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
