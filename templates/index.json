@@ -415,7 +415,7 @@
         "column_4f4ULj"
       ],
       "custom_css": [
-        "h1,h2,h3,h4 {text-align:center;}"
+        "h1,h2,h3,h4 {text-align: center;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -427,8 +427,8 @@
         "button_link": "",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
