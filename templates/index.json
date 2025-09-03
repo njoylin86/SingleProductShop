@@ -471,6 +471,45 @@
         "button2_link": ""
       }
     },
+    "image_with_text_hpz36h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4c83Jb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Forskning visar att enkelhet fungerar:",
+            "heading_size": "h2"
+          }
+        },
+        "text_mNnfWM": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Bättre kognitiv funktion & vardagsutfördelsen, enligt RCT-studie.</li><li>Digitalt lättare att läsa än analogt, särskilt vid kognitiv nedsättning.</li><li>Tydlig visuell struktur (dag & del av dygn) skapar trygghet.</li><li>Användarvänlig design är nyckeln till långsiktig nytta.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4c83Jb",
+        "text_mNnfWM"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/22.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "aurora_reviews_myaqPR": {
       "type": "aurora-reviews",
       "blocks": {
@@ -737,6 +776,7 @@
     "multicolumn_qXncU7",
     "aurora_highlighted_features_7GbNG4",
     "aurora_cta_6QaUEE",
+    "image_with_text_hpz36h",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
