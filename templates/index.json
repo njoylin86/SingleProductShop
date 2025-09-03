@@ -278,19 +278,18 @@
       "blocks": {
         "feature_Q8VH8W": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "feature_heading": "Enkel att använda.",
-            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning."
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/produktbild_botten.jpg"
           }
         },
         "feature_f7p8AT": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "feature_heading": "Diskret design. Tydlig funktion.",
-            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö.",
-            "feature_image": "shopify://shop_images/Untitled_design_15.jpg"
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/produktbild_botten_1.jpg"
           }
         }
       },
