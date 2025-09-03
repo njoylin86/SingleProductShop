@@ -279,7 +279,7 @@
         "feature_Q8VH8W": {
           "type": "feature",
           "settings": {
-            "feature_heading": "Enkel att använda.",
+            "feature_heading": "",
             "feature_text": "",
             "feature_image": "shopify://shop_images/produktbild_botten.jpg"
           }
@@ -287,7 +287,7 @@
         "feature_f7p8AT": {
           "type": "feature",
           "settings": {
-            "feature_heading": "Diskret design. Tydlig funktion.",
+            "feature_heading": "",
             "feature_text": "",
             "feature_image": "shopify://shop_images/produktbild_botten_1.jpg"
           }
