@@ -273,6 +273,22 @@
         "button2_link": ""
       }
     },
+    "aurora_cta_6QaUEE": {
+      "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-images {display: none;}"
+      ],
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "Kalenderklockan från Enkeltid visar tydligt:",
+        "text": "<p><strong>- Vilken veckodag det är<br/>- Vilken del av dygnet - morgon förmiddag, eftermiddag, kväll, natt<br/>- Exakt tid, datum, månad och år<br/>Inga knappar som råkar stängas av. Inga larm som förvirrar.<br/>Bara rätt information, hela tiden.</strong></p>",
+        "button1_text": "Köp nu",
+        "button1_link": "#buy_now_section",
+        "button2_text": "Download App",
+        "button2_link": ""
+      }
+    },
     "aurora_highlighted_features_B3irQa": {
       "type": "aurora-highlighted-features",
       "blocks": {
@@ -740,6 +756,7 @@
     "aurora_logo_wall_97AJYW",
     "rich_text_HTdtTq",
     "aurora_cta_CexcpM",
+    "aurora_cta_6QaUEE",
     "aurora_highlighted_features_B3irQa",
     "multirow_mMpkYE",
     "multicolumn_qXncU7",
