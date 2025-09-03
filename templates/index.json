@@ -459,7 +459,7 @@
       "type": "aurora-cta",
       "custom_css": [
         ".aurora-cta-images {display: none;}",
-        "li {margin-bottom: 2em; list-style: none;}"
+        "li {margin-bottom: 1em; list-style: none;}"
       ],
       "name": "Aurora CTA",
       "settings": {
