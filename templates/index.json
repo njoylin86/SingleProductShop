@@ -751,7 +751,7 @@
         ".product-form__submit {display: none;}",
         ".accordion .svg-wrapper {height: calc(var(--font-heading-scale) * 1rem);}",
         ".accordion__title {font-size: 22.5px;}",
-        ".shopify-payment-button__button {background-color: red;}"
+        ".shopify-payment-button__button {/*background-color: red;*/}"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
