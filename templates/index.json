@@ -273,23 +273,6 @@
         "button2_link": ""
       }
     },
-    "aurora_cta_dnCgpn": {
-      "type": "aurora-cta",
-      "disabled": true,
-      "custom_css": [
-        ".aurora-cta-images {display: none;}"
-      ],
-      "name": "Aurora CTA",
-      "settings": {
-        "color_scheme": "",
-        "heading": "CTA Heading",
-        "text": "<p>This is a short paragraph of placeholder text for your call-to-action section.</p>",
-        "button1_text": "Köp",
-        "button1_link": "#",
-        "button2_text": "Download App",
-        "button2_link": ""
-      }
-    },
     "aurora_highlighted_features_B3irQa": {
       "type": "aurora-highlighted-features",
       "blocks": {
@@ -316,6 +299,41 @@
       "custom_css": [
         "@media (min-width: 900px) {.aurora-highlighted-features__main-feature {flex-direction: column; } .aurora-highlighted-features__main-image, .aurora-highlighted-features__main-image img {width: 100%; }}",
         "@media (max-width: 900px) {.aurora-highlighted-features__additional-features {flex-direction: unset; gap: 0; }}"
+      ],
+      "name": "Aurora Highlighted Features",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "main_heading": "",
+        "main_feature_heading": "Se tiden klart, varje gång",
+        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag",
+        "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
+      }
+    },
+    "aurora_highlighted_features_7GbNG4": {
+      "type": "aurora-highlighted-features",
+      "blocks": {
+        "feature_JbJA9z": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Enkel att använda.",
+            "feature_text": "LED-teknik som håller i många år och är skonsam för både miljö och elräkning."
+          }
+        },
+        "feature_dkUAqV": {
+          "type": "feature",
+          "settings": {
+            "feature_heading": "Diskret design. Tydlig funktion.",
+            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö.",
+            "feature_image": "shopify://shop_images/Untitled_design_15.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "feature_JbJA9z",
+        "feature_dkUAqV"
+      ],
+      "custom_css": [
+        ".aurora-highlighted-features__main-feature {display:none;}"
       ],
       "name": "Aurora Highlighted Features",
       "settings": {
@@ -611,8 +629,8 @@
     "aurora_logo_wall_97AJYW",
     "rich_text_HTdtTq",
     "aurora_cta_CexcpM",
-    "aurora_cta_dnCgpn",
     "aurora_highlighted_features_B3irQa",
+    "aurora_highlighted_features_7GbNG4",
     "aurora_cta_clean_GA33A4",
     "aurora_cta_wVzaBn",
     "aurora_reviews_myaqPR",
