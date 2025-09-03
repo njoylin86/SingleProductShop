@@ -273,22 +273,6 @@
         "button2_link": ""
       }
     },
-    "aurora_cta_6QaUEE": {
-      "type": "aurora-cta",
-      "custom_css": [
-        ".aurora-cta-images {display: none;}"
-      ],
-      "name": "Aurora CTA",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "Kalenderklockan från Enkeltid visar tydligt:",
-        "text": "<p><strong>- Vilken veckodag det är<br/>- Vilken del av dygnet - morgon förmiddag, eftermiddag, kväll, natt<br/>- Exakt tid, datum, månad och år<br/>Inga knappar som råkar stängas av. Inga larm som förvirrar.<br/>Bara rätt information, hela tiden.</strong></p>",
-        "button1_text": "Köp nu",
-        "button1_link": "#buy_now_section",
-        "button2_text": "Download App",
-        "button2_link": ""
-      }
-    },
     "aurora_highlighted_features_B3irQa": {
       "type": "aurora-highlighted-features",
       "blocks": {
@@ -471,6 +455,22 @@
         "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
       }
     },
+    "aurora_cta_6QaUEE": {
+      "type": "aurora-cta",
+      "custom_css": [
+        ".aurora-cta-images {display: none;}"
+      ],
+      "name": "Aurora CTA",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "Kalenderklockan från Enkeltid visar tydligt:",
+        "text": "<p><strong>- Vilken veckodag det är<br/>- Vilken del av dygnet - morgon förmiddag, eftermiddag, kväll, natt<br/>- Exakt tid, datum, månad och år<br/>Inga knappar som råkar stängas av. Inga larm som förvirrar.<br/>Bara rätt information, hela tiden.</strong></p>",
+        "button1_text": "Köp nu",
+        "button1_link": "#buy_now_section",
+        "button2_text": "Download App",
+        "button2_link": ""
+      }
+    },
     "aurora_cta_clean_GA33A4": {
       "type": "aurora-cta-clean",
       "name": "Aurora CTA Clean",
@@ -480,19 +480,6 @@
         "text": "",
         "button_label": "Köp nu",
         "button_link": "#buy_now_section"
-      }
-    },
-    "aurora_cta_wVzaBn": {
-      "type": "aurora-cta",
-      "name": "Aurora CTA",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "CTA Heading",
-        "text": "<p>This is a short paragraph of placeholder text for your call-to-action section.</p>",
-        "button1_text": "Köp nu",
-        "button1_link": "#buy_now_section",
-        "button2_text": "Download App",
-        "button2_link": ""
       }
     },
     "aurora_reviews_myaqPR": {
@@ -756,13 +743,12 @@
     "aurora_logo_wall_97AJYW",
     "rich_text_HTdtTq",
     "aurora_cta_CexcpM",
-    "aurora_cta_6QaUEE",
     "aurora_highlighted_features_B3irQa",
     "multirow_mMpkYE",
     "multicolumn_qXncU7",
     "aurora_highlighted_features_7GbNG4",
+    "aurora_cta_6QaUEE",
     "aurora_cta_clean_GA33A4",
-    "aurora_cta_wVzaBn",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
