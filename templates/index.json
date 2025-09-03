@@ -494,7 +494,8 @@
         "text_mNnfWM"
       ],
       "custom_css": [
-        "h1,h2,h3 {text-align:center; }"
+        "h1,h2,h3 {text-align: center;}",
+        ".image-with-text__content {padding: 4rem 0;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
