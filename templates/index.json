@@ -495,7 +495,8 @@
       ],
       "custom_css": [
         "h1,h2,h3 {text-align: center;}",
-        ".image-with-text__content {padding: 4rem 0;}"
+        ".image-with-text__content {padding: 4rem 0;}",
+        "li {margin-bottom: 1em;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
