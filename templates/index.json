@@ -265,8 +265,8 @@
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-1",
-        "heading": "CTA Heading",
-        "text": "<p>This is a short paragraph of placeholder text for your call-to-action section.</p>",
+        "heading": "Kalenderklockan från Enkeltid visar tydligt:",
+        "text": "<p><strong>- Vilken veckodag det är<br/>- Vilken del av dygnet - morgon förmiddag, eftermiddag, kväll, natt<br/>- Exakt tid, datum, månad och år<br/>Inga knappar som råkar stängas av. Inga larm som förvirrar.<br/>Bara rätt information, hela tiden.</strong></p>",
         "button1_text": "Köp nu",
         "button1_link": "#buy_now_section",
         "button2_text": "Download App",
