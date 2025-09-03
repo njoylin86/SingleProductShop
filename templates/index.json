@@ -458,28 +458,18 @@
     "aurora_cta_6QaUEE": {
       "type": "aurora-cta",
       "custom_css": [
-        ".aurora-cta-images {display: none;}"
+        ".aurora-cta-images {display: none;}",
+        "li {line-height:3em; list-style:none}"
       ],
       "name": "Aurora CTA",
       "settings": {
         "color_scheme": "scheme-1",
         "heading": "Kalenderklockan från Enkeltid visar tydligt:",
-        "text": "<p><strong>- Vilken veckodag det är<br/>- Vilken del av dygnet - morgon förmiddag, eftermiddag, kväll, natt<br/>- Exakt tid, datum, månad och år<br/>Inga knappar som råkar stängas av. Inga larm som förvirrar.<br/>Bara rätt information, hela tiden.</strong></p>",
+        "text": "<ul><li><strong>1 års garanti</strong> – vi står bakom kvaliteten på vår klocka.</li><li><strong>Säker leverans</strong> – din trygghet är inkluderad från start.</li><li><strong>Enkel installation</strong> – sätt i kontakten och klockan är redo att användas direkt.</li></ul>",
         "button1_text": "Köp nu",
         "button1_link": "#buy_now_section",
         "button2_text": "Download App",
         "button2_link": ""
-      }
-    },
-    "aurora_cta_clean_GA33A4": {
-      "type": "aurora-cta-clean",
-      "name": "Aurora CTA Clean",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "",
-        "text": "",
-        "button_label": "Köp nu",
-        "button_link": "#buy_now_section"
       }
     },
     "aurora_reviews_myaqPR": {
@@ -748,7 +738,6 @@
     "multicolumn_qXncU7",
     "aurora_highlighted_features_7GbNG4",
     "aurora_cta_6QaUEE",
-    "aurora_cta_clean_GA33A4",
     "aurora_reviews_myaqPR",
     "aurora_faq_RkQb6Y",
     "aurora_cta_fW8RpP",
