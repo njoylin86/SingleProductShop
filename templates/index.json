@@ -311,6 +311,107 @@
         "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
       }
     },
+    "multirow_mMpkYE": {
+      "type": "multirow",
+      "blocks": {
+        "row_cUxwjz": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Rad",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        },
+        "row_nfMA3g": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Rad",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        },
+        "row_FkWz9m": {
+          "type": "row",
+          "settings": {
+            "caption": "Rubrik",
+            "heading": "Rad",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "button_label": "Knappetikett",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_cUxwjz",
+        "row_nfMA3g",
+        "row_FkWz9m"
+      ],
+      "disabled": true,
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_qXncU7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VGFiBr": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>“<strong>Minimalism med maximal effekt</strong>. Digital visning av tid,<br/>datum, veckodag och del av dygnet är betydligt lättare att läsa<br/>än analoga klockor—och hjälper till att orientera sig i tid även<br/>vid kognitiv försämring.”</p><p><br/>SAGE JournalsPubMed</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XJU3VB": {
+          "type": "column",
+          "settings": {
+            "title": "Kolumn",
+            "text": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VGFiBr",
+        "column_XJU3VB"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Vetenskapligt bevisad struktur – enkel, trygg och kognitionsstödjande",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Knappetikett",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "aurora_highlighted_features_7GbNG4": {
       "type": "aurora-highlighted-features",
       "blocks": {
@@ -632,6 +733,8 @@
     "rich_text_HTdtTq",
     "aurora_cta_CexcpM",
     "aurora_highlighted_features_B3irQa",
+    "multirow_mMpkYE",
+    "multicolumn_qXncU7",
     "aurora_highlighted_features_7GbNG4",
     "aurora_cta_clean_GA33A4",
     "aurora_cta_wVzaBn",
