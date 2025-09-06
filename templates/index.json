@@ -628,7 +628,7 @@
         "column_cCaeMr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/produktbild_botten.jpg",
+            "image": "shopify://shop_images/produktbild_botten_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -638,7 +638,7 @@
         "column_JJJD4r": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/produktbild_botten_1.jpg",
+            "image": "shopify://shop_images/produktbild_botten_3.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -648,17 +648,7 @@
         "column_B9bAfw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/produktbild_botten_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_9rmrjC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/produktbild_botten_3.jpg",
+            "image": "shopify://shop_images/Product_spec_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -669,8 +659,7 @@
       "block_order": [
         "column_cCaeMr",
         "column_JJJD4r",
-        "column_B9bAfw",
-        "column_9rmrjC"
+        "column_B9bAfw"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
