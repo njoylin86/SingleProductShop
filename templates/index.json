@@ -562,28 +562,28 @@
           "type": "faq_item",
           "settings": {
             "question": "För vem är Enkeltids kalenderklocka till?",
-            "answer": "You can place an order through our website by adding items to your cart and proceeding to checkout."
+            "answer": "Kalenderklockan är utvecklad för äldre personer, särskilt de med minnesproblematik som demens eller Alzheimers. Den hjälper även anhöriga och vårdpersonal genom att minska oro och frågor om tid, veckodag och datum."
           }
         },
         "faq_item_Y4nFrN": {
           "type": "faq_item",
           "settings": {
-            "question": "What is your return policy?",
-            "answer": "We offer a 30-day return policy for all unused items in their original packaging."
+            "question": "Vad visar kalenderklockan?",
+            "answer": "Den visar det allra viktigaste - tid, veckodag, datum och del av dygnet (morgon, förmiddag, eftermiddag, kväll och natt). Allt i ett tydligt och enkelt format som är lätt att läsa."
           }
         },
         "faq_item_zaHzpH": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you ship internationally?",
-            "answer": "Yes, we ship to most countries worldwide. Shipping costs and delivery times vary by location."
+            "question": "Behöver jag ställa in något?",
+            "answer": "Klockan är mycket enkel. Den startar automatiskt när du ansluter kontakten. Du behöver inte ställa in några avancerade funktioner - bara tid och datum."
           }
         },
         "faq_item_LQNCRg": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I contact customer service?",
-            "answer": "You can reach our customer service team via email, phone, or live chat during business hours."
+            "question": "Varför inte en vanlig klocka eller mobil?",
+            "answer": "Vanliga klockor och mobiler kan skapa förvirring. Kalenderklockan är utvecklad för att vara så enkel som möjligt - ingen stress, inga distraktioner. Bara ren tydlighet som ger lugn och trygghet."
           }
         }
       },
