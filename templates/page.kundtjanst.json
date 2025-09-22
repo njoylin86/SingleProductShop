@@ -62,42 +62,42 @@
           "type": "faq_item",
           "settings": {
             "question": "Kontakta oss",
-            "answer": "Har du frågor om din order eller våra produkter?\nDu är alltid välkommen att kontakta oss via e-post på info@exempel.se\n eller ringa oss på 08-123 45 67.\nVår kundtjänst är öppen måndag–fredag kl. 09:00–17:00."
+            "answer": "Har du frågor om din order eller våra produkter?\nDu är alltid välkommen att kontakta oss via e-post på contact@enkeltid.se"
           }
         },
         "faq_item_CHJDtF": {
           "type": "faq_item",
           "settings": {
             "question": "Om oss",
-            "answer": "Vi på Exempel AB brinner för att erbjuda produkter av hög kvalitet och en smidig kundupplevelse.\nSedan starten har vårt mål varit att förenkla vardagen för våra kunder genom pålitlig service och noga utvalda varor."
+            "answer": "Enkeltid grundades ur en personlig resa. När vår grundare såg sin egen far kämpa med Alzheimer blev det tydligt att vanliga klockor inte räckte till. Han behövde något enklare, något som minskade förvirringen och gav honom mer kontroll i vardagen. Resultatet blev kalenderklockan från Enkeltid - en produkt som inte bara hjälper den som använder den, utan också ger anhöriga trygghet i att veta att deras närstående har rätt stöd.\nVår mission är enkel: att skapa teknik som inte kräver teknikkunskap, men som gör livet lättare och mer självständigt. Bakom Enkeltid står Joysteady AB, ett ungt företag med hjärta för att kombinera forskning, enkelhet och omtanke."
           }
         },
         "faq_item_y6eDRk": {
           "type": "faq_item",
           "settings": {
             "question": "Returer",
-            "answer": "Du har alltid 14 dagars öppet köp från det att du mottagit din beställning.\nProdukten ska vara i oanvänt skick och returneras i originalförpackning.\nKontakta oss på retur@exempel.se\n innan du skickar tillbaka varan för att få en returfraktsedel."
+            "answer": "Vi erbjuder 30 dagars öppet köp från det att du mottagit din beställning.\n För att returnera en produkt kontaktar du vår kundtjänst via e-post. Du får då vidare instruktioner samt returadress. Returadressen lämnas endast ut efter kontakt med kundtjänst.\nVillkor för retur:\nProdukten ska vara i ursprungligt skick och inte visa tecken på användning.\n\n\nEventuell originalförpackning ska följa med i returen.\n\n\nKunden står själv för returfrakten.\n\n\nÅterbetalning sker inom 5–10 arbetsdagar efter att vi mottagit och godkänt returen. Återbetalning sker via samma betalningsmetod som användes vid köpet.\n\n\nProdukter som returneras i skadat skick eller med tydliga spår av användning kan nekas återbetalning."
           }
         },
         "faq_item_jEMAtB": {
           "type": "faq_item",
           "settings": {
             "question": "Reklamationer",
-            "answer": "Om en produkt är defekt eller skadad vid leverans ber vi dig kontakta oss omgående.\nSkicka ett mejl till reklamation@exempel.se\n med ditt ordernummer och en kort beskrivning av felet.\nBifoga gärna bilder så kan vi hantera ärendet snabbare."
+            "answer": "Vi erbjuder 1 års garanti på kalenderklockan från inköpsdatum. Garantin täcker fabrikationsfel och funktionsfel som inte orsakats av felaktig användning, olyckshändelser eller normalt slitage.\nVid reklamation ska du kontakta vår kundtjänst via e-post med en beskrivning av felet samt ordernummer. Vi återkommer därefter med instruktioner för hur ärendet hanteras.\nOm reklamationen godkänns ersätts du med en ny produkt eller återbetalning, beroende på vad som är mest lämpligt i det enskilda fallet.\nReklamationer hanteras i enlighet med gällande konsumentköplag."
           }
         },
         "faq_item_4PhxaV": {
           "type": "faq_item",
           "settings": {
             "question": "Leveransvillkor",
-            "answer": "Vi levererar normalt inom 2–5 arbetsdagar.\nFraktkostnaden är 49 kr inom Sverige, men fri frakt gäller vid köp över 500 kr.\nVi skickar alla paket med PostNord eller DHL och du får en spårningslänk via e-post när ordern lämnat vårt lager."
+            "answer": "Leveranssätt:\n Vi använder PostNord som fraktbolag. Leverans sker antingen som hemleverans eller till närmaste utlämningsställe beroende på vilket alternativ du väljer i kassan.\nLeveranstid:\n Normal leveranstid är 2–5 arbetsdagar inom Sverige, räknat från det att vi bekräftat din beställning via e-post. Vid hög belastning eller särskilda omständigheter kan leveranstiden bli längre. Vi reserverar oss för eventuella förseningar som orsakas av fraktbolaget.\nFraktkostnad:\n Kunden betalar fraktkostnaden i samband med beställning. Den exakta fraktkostnaden framgår i kassan innan du slutför köpet.\nOrderbekräftelse och spårning:\n Efter genomförd beställning skickas en orderbekräftelse automatiskt till den e-postadress du angivit. När din beställning har skickats får du även en leveransbekräftelse med information om hur du kan spåra ditt paket.\nOutlösta paket:\n Om du inte hämtar ut ditt paket hos utlämningsstället returneras det till oss. Vi debiterar ingen avgift för outlösta paket, men observera att outlösta försändelser inte räknas som utnyttjad ångerrätt.\nGeografiskt område:\n Vi levererar för närvarande endast inom Sverige."
           }
         },
         "faq_item_fJLFKG": {
           "type": "faq_item",
           "settings": {
             "question": "Köpvillkor",
-            "answer": "Genom att handla hos oss accepterar du våra köpvillkor.\nPriserna anges i svenska kronor inklusive moms.\nVi förbehåller oss rätten att justera priser, leveransvillkor och eventuella skrivfel.\nBetalning sker tryggt via Klarna, Swish eller kortbetalning."
+            "answer": "Dessa köpvillkor gäller för beställningar som görs via webbshopen Enkeltid.se. Webbshopen drivs av Joysteady AB (org.nr: [fyll i organisationsnummer]). Genom att genomföra ett köp accepterar du våra villkor nedan.\n1. Priser och avgifter\nSamtliga priser som anges på webbplatsen är i svenska kronor (SEK) och inklusive moms. Eventuella fraktkostnader tillkommer och framgår tydligt i kassan innan du slutför ditt köp.\n2. Betalning\nVi erbjuder betalning via Klarna och kortbetalning (Visa, Mastercard). När du väljer Klarna kan du ta del av flera betalningsalternativ såsom faktura, direktbetalning och delbetalning. Mer information om Klarnas villkor finns på www.klarna.com.\n3. Beställningsbekräftelse\nEfter att du har lagt en beställning skickas en orderbekräftelse automatiskt till den e-postadress du angivit. Kontrollera alltid att orderbekräftelsen stämmer. Om du upptäcker fel, kontakta vår kundtjänst omgående.\n4. Leverans\nVi levererar endast inom Sverige. Normal leveranstid är 2–5 arbetsdagar från det att beställningen bekräftats. Leverans sker med PostNord till hemadress eller utlämningsställe. Fullständiga villkor kring leverans hittar du under våra [Leveransvillkor].\n5. Ångerrätt och returer\nVi erbjuder 30 dagars öppet köp enligt vår returpolicy. För att returnera en vara behöver du kontakta vår kundtjänst via e-post. Returadressen skickas ut efter att vi mottagit din begäran. Fullständiga villkor för returer hittar du under [Returer].\n6. Reklamation och garanti\nVi erbjuder 1 års garanti på kalenderklockan. Garantin täcker fabrikationsfel men inte skador orsakade av felaktig användning eller normalt slitage. Reklamationer hanteras enligt konsumentköplagen. Fullständiga villkor hittar du under [Reklamationer].\n7. Personuppgifter (GDPR)\nNär du handlar hos oss behandlar vi dina personuppgifter i enlighet med dataskyddsförordningen (GDPR). Uppgifterna används enbart för att kunna hantera din beställning, leverans samt kundtjänstärenden. Vi lämnar aldrig ut dina uppgifter till tredje part utanför vad som krävs för att genomföra köpet (t.ex. betalningsleverantör och fraktbolag). Läs mer i vår [Integritetspolicy].\n8. Tillämplig lag och tvistlösning\nDessa köpvillkor regleras av svensk lag. Vid eventuell tvist följer vi beslut från Allmänna reklamationsnämnden (ARN). Du kan också vända dig till EU:s onlineplattform för tvistlösning: ec.europa.eu/odr."
           }
         }
       },
