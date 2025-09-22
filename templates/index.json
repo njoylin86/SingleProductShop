@@ -442,6 +442,7 @@
         "feature_JbJA9z",
         "feature_dkUAqV"
       ],
+      "disabled": true,
       "custom_css": [
         ".aurora-highlighted-features__main-feature {display: none;}"
       ],
