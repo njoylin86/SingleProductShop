@@ -27,7 +27,7 @@
         "button_label": "Köp nu",
         "button_link": "#buy_now_section",
         "button_label2": "Läs mer",
-        "button_link2": "#shopify-section-template--25525332607363__aurora_reviews_4FmgtU"
+        "button_link2": "#shopify-section-template--26158528332160__aurora_reviews_4FmgtU"
       }
     },
     "aurora_reviews_4FmgtU": {
@@ -563,28 +563,28 @@
           "type": "faq_item",
           "settings": {
             "question": "För vem är Enkeltids kalenderklocka till?",
-            "answer": "Kalenderklockan är utvecklad för äldre personer, särskilt de med minnesproblematik som demens eller Alzheimers. Den hjälper även anhöriga och vårdpersonal genom att minska oro och frågor om tid, veckodag och datum."
+            "answer": "<p>Kalenderklockan är utvecklad för äldre personer, särskilt de med minnesproblematik som demens eller Alzheimers. Den hjälper även anhöriga och vårdpersonal genom att minska oro och frågor om tid, veckodag och datum.</p>"
           }
         },
         "faq_item_Y4nFrN": {
           "type": "faq_item",
           "settings": {
             "question": "Vad visar kalenderklockan?",
-            "answer": "Den visar det allra viktigaste - tid, veckodag, datum och del av dygnet (morgon, förmiddag, eftermiddag, kväll och natt). Allt i ett tydligt och enkelt format som är lätt att läsa."
+            "answer": "<p>Den visar det allra viktigaste - tid, veckodag, datum och del av dygnet (morgon, förmiddag, eftermiddag, kväll och natt). Allt i ett tydligt och enkelt format som är lätt att läsa.</p>"
           }
         },
         "faq_item_zaHzpH": {
           "type": "faq_item",
           "settings": {
             "question": "Behöver jag ställa in något?",
-            "answer": "Klockan är mycket enkel. Den startar automatiskt när du ansluter kontakten. Du behöver inte ställa in några avancerade funktioner - bara tid och datum."
+            "answer": "<p>Klockan är mycket enkel. Den startar automatiskt när du ansluter kontakten. Du behöver inte ställa in några avancerade funktioner - bara tid och datum.</p>"
           }
         },
         "faq_item_LQNCRg": {
           "type": "faq_item",
           "settings": {
             "question": "Varför inte en vanlig klocka eller mobil?",
-            "answer": "Vanliga klockor och mobiler kan skapa förvirring. Kalenderklockan är utvecklad för att vara så enkel som möjligt - ingen stress, inga distraktioner. Bara ren tydlighet som ger lugn och trygghet."
+            "answer": "<p>Vanliga klockor och mobiler kan skapa förvirring. Kalenderklockan är utvecklad för att vara så enkel som möjligt - ingen stress, inga distraktioner. Bara ren tydlighet som ger lugn och trygghet.</p>"
           }
         }
       },
