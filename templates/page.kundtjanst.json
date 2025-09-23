@@ -109,6 +109,7 @@
         "faq_item_4PhxaV",
         "faq_item_fJLFKG"
       ],
+      "disabled": true,
       "custom_css": [
         ".aurora-faq-question {font-size: 30px;}"
       ],
