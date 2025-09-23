@@ -144,9 +144,9 @@
         "row_KQ7Aer": {
           "type": "row",
           "settings": {
-            "caption": "Rubrik",
+            "caption": "",
             "heading": "Reklamation",
-            "text": "<p><br/>Vi erbjuder 1 års garanti på kalenderklockan från inköpsdatum. Garantin täcker<br/>fabrikationsfel och funktionsfel som inte orsakats av felaktig användning, olyckshändelser<br/>eller normalt slitage.<br/>Vid reklamation ska du kontakta vår kundtjänst via e-post med en beskrivning av felet samt<br/>ordernummer. Vi återkommer därefter med instruktioner för hur ärendet hanteras.<br/>Om reklamationen godkänns ersätts du med en ny produkt eller återbetalning, beroende på<br/>vad som är mest lämpligt i det enskilda fallet.<br/>Reklamationer hanteras i enlighet med gällande konsumentköplag.<br/><br/><br/></p>",
+            "text": "<p>Vi erbjuder 1 års garanti på kalenderklockan från inköpsdatum. Garantin täcker fabrikationsfel och funktionsfel som inte orsakats av felaktig användning, olyckshändelser eller normalt slitage.</p><p>Vid reklamation ska du kontakta vår kundtjänst via e-post med en beskrivning av felet samt ordernummer. Vi återkommer därefter med instruktioner för hur ärendet hanteras.</p><p>Om reklamationen godkänns ersätts du med en ny produkt eller återbetalning, beroende på<br/>vad som är mest lämpligt i det enskilda fallet.</p><p>Reklamationer hanteras i enlighet med gällande konsumentköplag.<br/><br/><br/></p>",
             "button_label": "",
             "button_link": ""
           }
