@@ -181,7 +181,8 @@
       ],
       "custom_css": [
         ".image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet {flex-direction: unset;}",
-        ".image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item {display: none;}"
+        ".image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item {display: none;}",
+        ".image-with-text__content.image-with-text__content--middle.image-with-text__content--desktop-left.image-with-text__content--mobile-left.image-with-text__content--medium.content-container.background-transparent {padding: 6rem 7rem 7rem;}"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
