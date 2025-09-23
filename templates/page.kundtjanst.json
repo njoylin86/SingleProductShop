@@ -156,7 +156,7 @@
           "settings": {
             "caption": "",
             "heading": "Leveranser",
-            "text": "<p><strong>Leveranssätt</strong><br/>Vi använder PostNord som fraktbolag. Leverans sker antingen som hemleverans eller till<br/>närmaste utlämningsställe beroende på vilket alternativ du väljer i kassan.</p><p><strong>Leveranstid</strong><br/>Normal leveranstid är 2–5 arbetsdagar inom Sverige, räknat från det att vi bekräftat din<br/>beställning via e-post. Vid hög belastning eller särskilda omständigheter kan leveranstiden<br/>bli längre. Vi reserverar oss för eventuella förseningar som orsakas av fraktbolaget.</p><p><strong>Fraktkostnad</strong><br/>Kunden betalar fraktkostnaden i samband med beställning. Den exakta fraktkostnaden<br/>framgår i kassan innan du slutför köpet.</p><p><strong>Orderbekräftelse och spårning</strong><br/>Efter genomförd beställning skickas en orderbekräftelse automatiskt till den e-postadress du<br/>angivit. När din beställning har skickats får du även en leveransbekräftelse med information<br/>om hur du kan spåra ditt paket.<br/></p><p><strong>Outlösta paket<br/></strong>Om du inte hämtar ut ditt paket hos utlämningsstället returneras det till oss. Vi debiterar<br/>ingen avgift för outlösta paket, men observera att outlösta försändelser inte räknas som<br/>utnyttjad ångerrätt.</p><p><strong>Geografiskt område</strong><br/>Vi levererar för närvarande endast inom Sverige<br/></p>",
+            "text": "<h2>Leveranssätt</h2><p>Vi använder <strong>PostNord</strong> som fraktbolag.<br/><br/>Leverans sker antingen som <strong>hemleverans</strong> eller till <strong>närmaste utlämningsställe</strong>, beroende på vilket alternativ du väljer i kassan.</p><h2>Leveranstid</h2><p>Normal leveranstid är <strong>2–5 arbetsdagar</strong> inom Sverige, räknat från det att vi bekräftat din beställning via e-post.<br/><br/>Vid hög belastning eller särskilda omständigheter kan leveranstiden bli längre.<br/><br/>Vi reserverar oss för eventuella förseningar som orsakas av fraktbolaget.</p><h2>Fraktkostnad</h2><p>Kunden betalar fraktkostnaden i samband med beställning.<br/><br/>Den exakta fraktkostnaden framgår i kassan innan du slutför köpet.</p><h2>Orderbekräftelse och spårning</h2><p>Efter genomförd beställning skickas en <strong>orderbekräftelse</strong> automatiskt till den e-postadress du angivit.<br/><br/>När din beställning har skickats får du även en <strong>leveransbekräftelse</strong> med information om hur du kan spåra ditt paket.</p><h2>Outlösta paket</h2><p>Om du inte hämtar ut ditt paket hos utlämningsstället returneras det till oss.<br/><br/>Vi debiterar <strong>ingen avgift</strong> för outlösta paket, men observera att outlösta försändelser <strong>inte</strong> räknas som utnyttjad ångerrätt.</p><h2>Geografiskt område</h2><p>Vi levererar för närvarande <strong>endast inom Sverige</strong>.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -178,6 +178,9 @@
         "row_KQ7Aer",
         "row_pFxRxf",
         "row_WQmKAx"
+      ],
+      "custom_css": [
+        "img {display: none !important;}"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
