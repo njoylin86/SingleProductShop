@@ -180,7 +180,8 @@
         "row_WQmKAx"
       ],
       "custom_css": [
-        ".image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet {flex-direction: unset;}"
+        ".image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet {flex-direction: unset;}",
+        ".image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item {display: none;}"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
