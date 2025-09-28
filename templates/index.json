@@ -68,17 +68,17 @@
         "review_TbMJ7x": {
           "type": "review",
           "settings": {
-            "rating": 4,
-            "review_text": "Incredible quality and amazing customer service.",
-            "reviewer_name": "Emma L."
+            "rating": 5,
+            "review_text": "Mycket bra lösning. Enkel att ställa in och mycket praktisk.",
+            "reviewer_name": "Ulla J."
           }
         },
         "review_cLDwN9": {
           "type": "review",
           "settings": {
             "rating": 4,
-            "review_text": "Incredible quality and amazing customer service.",
-            "reviewer_name": "Emma L."
+            "review_text": "Klockan är till stor hjälp i min vardag.",
+            "reviewer_name": "Noel F."
           }
         }
       },
