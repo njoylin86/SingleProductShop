@@ -120,7 +120,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Enkeltid_snabba_leveranser.png",
-            "title": "Snabba leveranser",
+            "title": "Fri frakt",
             "text": "<p>Har du frågor? Vi finns här för att hjälpa dig.</p>",
             "link_label": "",
             "link": ""
