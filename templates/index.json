@@ -746,7 +746,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "enkeltid-temp",
+        "product": "enkeltid",
         "color_scheme": "scheme-1",
         "secondary_background": false,
         "media_size": "small",
