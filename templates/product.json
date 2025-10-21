@@ -48,7 +48,7 @@
         "text_NyRmVc": {
           "type": "text",
           "settings": {
-            "text": "Vår demensklocka är utformad för att ge både användaren och anhöriga en ökad känsla av trygghet. Med tydlig digital tidsvisning, datum och veckodag är den enkel att förstå även för personer med minnesproblematik eller kognitiva utmaningar.",
+            "text": "Fri frakt, 30 dagars öppet köp och 1 års garanti – enkel installation och trygg i vardagen.",
             "text_style": "body"
           }
         },
@@ -133,25 +133,13 @@
         "text_UEL9kx": {
           "type": "text",
           "settings": {
-            "text": "<p>Vår demensklocka är utformad för att ge både användaren och anhöriga en ökad känsla av trygghet. Med tydlig digital tidsvisning, datum och veckodag är den enkel att förstå även för personer med minnesproblematik eller kognitiva utmaningar.</p><p><strong>Funktioner:</strong></p><ul><li><strong>Tydlig display</strong></li><li><strong>Påminnelser</strong></li><li><strong>Automatisk ljusstyrka</strong></li><li><strong>Enkel att använda</strong></li><li><strong>Strömförsörjning via eluttag</strong></li></ul>"
-          }
-        },
-        "button_U3PHtU": {
-          "type": "button",
-          "settings": {
-            "button_label": "Köp och gå till checkout",
-            "button_link": "/cart/add?id=55876499767683&return_to=/cart",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<h2>Såhär skapar kalenderförvirring onödig stress</h2><p>För äldre eller dem med kognitiva utmaningar kan tiden kännas som ett labyrint:</p><p><strong>☑️ Vaknar och vet inte om det är natt eller morgon<br/>☑️ Frågar anhöriga om vilken dag det är – flera gånger om dagen<br/>☑️ Missar mediciner eller möten p.g.a. tidsförvirring</strong></p><p>Det är inte deras fel – vanliga klockor och kalendrar kräver för mycket tolkning.<br/>Men det finns ett enklare sätt.</p><p><strong>Kalenderklockan från Enkeltid visar all tid tydligt!</strong></p>"
           }
         }
       },
       "block_order": [
         "heading_e6wPmU",
-        "text_UEL9kx",
-        "button_U3PHtU"
+        "text_UEL9kx"
       ],
       "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
