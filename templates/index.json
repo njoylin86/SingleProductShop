@@ -53,8 +53,7 @@
       "custom_css": [
         "section {background-position: center;}",
         " /*Center content vertically*/.hero-content {@media (max-width: 990px) {justify-content: center !important; }}",
-        " /*remove shadow*/.positioner::after {bottom: unset !important;}",
-        "@media (max-width: 750px) {li {display: none; }}"
+        " /*remove shadow*/.positioner::after {bottom: unset !important;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/herobg-fullscreen.jpg",
