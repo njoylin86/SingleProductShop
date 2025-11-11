@@ -161,6 +161,8 @@
         {% if section.settings.star_rating_image %}
           <div class="star-rating-image">
             <img 
+              width=""
+              height=""
               src="{{ section.settings.star_rating_image | image_url: width: 1000 }}" 
               alt="Star rating graphic" 
               loading="lazy"
