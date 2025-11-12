@@ -315,6 +315,7 @@
         "review_bepTAk",
         "review_hffQkz"
       ],
+      "disabled": true,
       "name": "Aurora Reviews",
       "settings": {
         "color_scheme": "scheme-4",
