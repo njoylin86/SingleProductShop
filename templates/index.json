@@ -60,7 +60,6 @@
         "background_image": "shopify://shop_images/herobg-fullscreen.jpg",
         "headline": "Forma atmosfären.",
         "subheadline": "<p>Subtilt ljus – kraftfull känsla. Skapa atmosfär med <strong>Lustra Mood: Ambient Light</strong>.</p>",
-        "star_rating_image": "shopify://shop_images/Namnlos_600_x_200_px_1.png",
         "button_label": "Köp nu",
         "button_link": "shopify://products/ambient-ljus",
         "button_label2": "Utforska",
@@ -432,6 +431,7 @@
         "review_XxyJfx",
         "review_bG7DVy"
       ],
+      "disabled": true,
       "name": "Aurora Reviews",
       "settings": {
         "color_scheme": "",
