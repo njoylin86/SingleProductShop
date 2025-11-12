@@ -28,8 +28,7 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "none",
-            "image_1": "shopify://shop_images/Namnlos_600_x_200_px_1.png",
-            "heading_1": "-",
+            "heading_1": "",
             "icon_2": "none",
             "heading_2": "",
             "icon_3": "none",
