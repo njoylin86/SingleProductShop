@@ -206,6 +206,7 @@
         },
         "column_xhzKPq": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/fictlogo3.jpg",
             "title": "Teknik & kvalitet",
