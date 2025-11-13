@@ -94,7 +94,8 @@
         "h1 {font-size: clamp(53px, 13vw, 90px); color: #393a43e8; color: white !important; text-shadow: unset !important; margin-top: 15px;}",
         ".product-media-container {--constrained-height: max( var(--constrained-min-height), calc(100vh - var(--viewport-offset) - 225px) );}",
         "h1 {font-size: clamp(14px, 8vw, 90px) !important; color: #393a43e8; text-shadow: unset !important; margin-top: 15px;}",
-        ".product-form__buttons {max-width:300px; margin:0px auto;}"
+        ".product-form__buttons {max-width: 300px; margin: 0px auto;}",
+        ".product-form__buttons button {background-color: #1d191d; color: white; font-weight: 700;}"
       ],
       "settings": {
         "enable_sticky_info": true,
