@@ -184,3 +184,7 @@ h2::after {
   mask-composite: exclude;
   animation: animateAngle 10s linear infinite;
 }
+
+.shimmering_border:after {
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) rgb(255 255 255 / 52%);
+}
