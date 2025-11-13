@@ -167,3 +167,20 @@ h2::after {
   width: 50% !important;
   object-fit: contain;
 }
+
+
+.shimmering_border {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 5px;
+  background: linear-gradient(var(--angle, 0deg), #ec18b5, #f7e033);
+  z-index: -1;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  animation: animateAngle 10s linear infinite;
+}
