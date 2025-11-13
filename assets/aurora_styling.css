@@ -169,7 +169,7 @@ h2::after {
 }
 
 
-.shimmering_border {
+.shimmering_border:before {
   content: "";
   position: absolute;
   top: -2px;
