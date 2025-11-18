@@ -1,7 +1,10 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
-
+  <!--HIDE FROM GOOGLE RANKING -->
+  {% if template contains 'product' %}
+    <link rel="canonical" href="{{ shop.url }}">
+  {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
