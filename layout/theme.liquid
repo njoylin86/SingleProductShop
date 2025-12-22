@@ -305,6 +305,11 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    /*If product page - redirect to home*/
+    {% if template.name contains 'product' %}
+      <script>location.replace('{{ routes.root_url }}');</script>
+    {% endif %}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
