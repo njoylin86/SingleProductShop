@@ -11,6 +11,38 @@
   "sections": {
     "aurora_hero_fnFAzR": {
       "type": "aurora-hero",
+      "blocks": {
+        "bullet_q3Lr9g": {
+          "type": "bullet",
+          "settings": {
+            "text": "Skapar direkt en mysigare och mer inbjudande stämning"
+          }
+        },
+        "bullet_iRKHHR": {
+          "type": "bullet",
+          "settings": {
+            "text": "Skapar direkt en mysigare och mer inbjudande stämning"
+          }
+        },
+        "bullet_jj3BKF": {
+          "type": "bullet",
+          "settings": {
+            "text": "Skapar direkt en mysigare och mer inbjudande stämning"
+          }
+        },
+        "bullet_wfdqrE": {
+          "type": "bullet",
+          "settings": {
+            "text": "Skapar direkt en mysigare och mer inbjudande stämning"
+          }
+        }
+      },
+      "block_order": [
+        "bullet_q3Lr9g",
+        "bullet_iRKHHR",
+        "bullet_jj3BKF",
+        "bullet_wfdqrE"
+      ],
       "custom_css": [
         "section {background-position: center;}",
         "button {display: none;}",
@@ -20,8 +52,6 @@
         ".cta-1,.cta-2 {/*color: #1c4060 !important;*/ font-size: 14px !important; border-radius: 10px !important; padding: 12px 25px !important; font-family: \"Montserrat\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", sans-serif !important;}"
       ],
       "settings": {
-        "background_image": "shopify://shop_images/adasd_1.jpg",
-        "background_image_mobile": "shopify://shop_images/2.jpg",
         "headline": "Inga fler “Vilken dag är det” frågor",
         "subheadline": "<p>En seniorvänligare klocka som visar all den tid du behöver</p>",
         "button_label": "Köp nu",
@@ -109,7 +139,6 @@
         "column_68nTy7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Enkeltid_svenskt_foretag.png",
             "title": "Svenskt företag",
             "text": "<p>Vi är baserade i Sverige och följer svenska regler och konsumentskydd.</p>",
             "link_label": "",
@@ -119,7 +148,6 @@
         "column_P4y9qA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Enkeltid_snabba_leveranser.png",
             "title": "Fri frakt",
             "text": "<p>Har du frågor? Vi finns här för att hjälpa dig.</p>",
             "link_label": "",
@@ -129,7 +157,6 @@
         "column_bdFQ4e": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Enkeltid_smidiga_returer.png",
             "title": "Smidiga returer",
             "text": "<p>Spårningsnummer och leverans via pålitliga fraktbolag.</p>",
             "link_label": "",
@@ -139,7 +166,6 @@
         "column_jAmJyz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Enkeltid_svenskt_lager.png",
             "title": "Svenskt lager",
             "text": "<p>Du har rätt att ångra ditt köp – läs våra köpvillkor innan beställning.</p>",
             "link_label": "",
@@ -281,16 +307,14 @@
           "type": "feature",
           "settings": {
             "feature_heading": "",
-            "feature_text": "",
-            "feature_image": "shopify://shop_images/kalenderklocka_info4.jpg"
+            "feature_text": ""
           }
         },
         "feature_f7p8AT": {
           "type": "feature",
           "settings": {
             "feature_heading": "",
-            "feature_text": "",
-            "feature_image": "shopify://shop_images/Product_spec_1.jpg"
+            "feature_text": ""
           }
         }
       },
@@ -307,8 +331,7 @@
         "color_scheme": "scheme-1",
         "main_heading": "",
         "main_feature_heading": "",
-        "main_feature_text": "",
-        "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
+        "main_feature_text": ""
       }
     },
     "multirow_mMpkYE": {
@@ -374,7 +397,6 @@
         "column_VGFiBr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/citats_enkeltid.png",
             "title": "",
             "text": "<p><em>“</em><em><strong>Minimalism med maximal effekt</strong></em><em>. </em></p><p><em>Digital visning av tid,<br/>datum, veckodag och del av dygnet är betydligt lättare att läsa<br/>än analoga klockor—och hjälper till att orientera sig i tid även<br/>vid kognitiv försämring.”</em></p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\" title=\"https://pubmed.ncbi.nlm.nih.gov/34703454/?utm_source=chatgpt.com\">SAGE JournalsPubMed</a></p>",
             "link_label": "",
@@ -384,7 +406,6 @@
         "column_BeD7pC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/citats_enkeltid.png",
             "title": "",
             "text": "<p><em>“</em><em><strong>Struktur skapar trygghet.</strong></em></p><p><em>Att se “morgon, dag, kväll, natt”<br/>tydligt i displayen bidrar till minskad förvirring och hjälper<br/>personen att planera dagen, känna sig tryggare och behålla<br/>självständighet.”</em><br/><a href=\"https://“Struktur skapar trygghet. Att se “morgon, dag, kväll, natt” tydligt i displayen bidrar till minskad förvirring och hjälper personen att planera dagen, känna sig tryggare och behålla självständighet.” primecarers.co.ukaw3.alzheimersweekly.com\" title=\"https://“Struktur skapar trygghet. Att se “morgon, dag, kväll, natt” tydligt i displayen bidrar till minskad förvirring och hjälper personen att planera dagen, känna sig tryggare och behålla självständighet.” primecarers.co.ukaw3.alzheimersweekly.com\">PubMed</a></p>",
             "link_label": "",
@@ -434,8 +455,7 @@
           "type": "feature",
           "settings": {
             "feature_heading": "Diskret design. Tydlig funktion.",
-            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö.",
-            "feature_image": "shopify://shop_images/Untitled_design_15.jpg"
+            "feature_text": "En stilren klocka med tydliga siffror och lugna färger. Den diskreta formen passar lika bra i ett modernt hem som i en varm och hemtrevlig miljö."
           }
         }
       },
@@ -452,8 +472,7 @@
         "color_scheme": "scheme-1",
         "main_heading": "",
         "main_feature_heading": "Se tiden klart, varje gång",
-        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag",
-        "main_feature_image": "shopify://shop_images/Enkeltid_H2_pic_2.jpg"
+        "main_feature_text": "Tydliga siffror. Stora knappar. En klocka som visar tiden, inte gömmer den. Den seniorvänliga designen är framtagen för att kännas trygg, enkel och självklar – varje dag"
       }
     },
     "aurora_cta_6QaUEE": {
@@ -502,7 +521,6 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/22.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -619,9 +637,7 @@
         "button1_text": "BUTTON",
         "button1_link": "shopify://products/the-collection-snowboard-liquid",
         "button2_text": "BUTTON",
-        "button2_link": "shopify://blogs/news",
-        "image1": "shopify://shop_images/51-vQD3KiXL._AC_SL1001.jpg",
-        "image2": "shopify://shop_images/customer-service.png"
+        "button2_link": "shopify://blogs/news"
       }
     },
     "multicolumn_REPkYN": {
@@ -630,7 +646,6 @@
         "column_cCaeMr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/produktbild_botten_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -640,7 +655,6 @@
         "column_JJJD4r": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/produktbild_botten_3.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -650,7 +664,6 @@
         "column_B9bAfw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Product_spec_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
