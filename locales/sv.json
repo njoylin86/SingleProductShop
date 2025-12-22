@@ -164,7 +164,7 @@
         "image_available": "Bilden {{ index }} är nu tillgänglig i gallerivisning"
       },
       "view_full_details": "Visa alla uppgifter",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
+      "shipping_policy_html": "Fri frakt!",
       "choose_options": "Välj alternativ",
       "choose_product_options": "Välj alternativ för {{ product_name }}",
       "value_unavailable": "{{ option_value }} – inte tillgängligt",
