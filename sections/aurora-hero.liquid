@@ -5,11 +5,15 @@
     #hero-{{ section.id }}.aurora-hero-section { /* Targets this specific instance of the hero section */
       background-image: url('{{ section.settings.background_image | image_url: width: 1920, height: 1080 }}');
       background-size: cover;    /* Usually desired for hero images */
-      background-position: right center; /* Usually desired for hero images */
+      background-position: left; /* Usually desired for hero images */
       /* min-height: 100vh; /* You'll also want this, either here or in your global CSS for .aurora-hero-section */
-      
+      @media (max-width: 990px) {
+        background-position: center;
+      }
       h1 {
-        font-size: clamp(5rem, 13vw, 75px);
+        font-size: clamp(5rem, 11vw, 127px);
+        font-size: clamp(7rem, 13vw, 127px);
+        color: var(--main-color);
       }
       p {
         font-size: larger;
@@ -18,24 +22,26 @@
         text-shadow: 1px -1px 3px #000000;
         padding-bottom: 15px;
       }
-      .content-wrapper {
+      .star-rating-image img {
+        margin-top: 0px;
+        width: 70%;
+        height: auto;
+        display: block;
+        max-width: 300px;
+      }
+      .page-width {
+        padding: 0px 1.5rem;
         z-index: 2;
         position: relative;
-        max-width: 550px;
-        margin: 0;
-        @media(max-width: 750px) {
-          background: #2b2a2a7a;
-          outline: 40px solid #2b2a2a7a;
-        }
       }
       .hero-content {
         z-index: 2;
         position: relative;
-        
+
         @media (max-width: 990px) {
           justify-content: flex-end;
           .positioner {
-            padding: 40px 0px;
+            padding: 16px 0px;
           }
           .positioner::after {
             content: "";
@@ -48,64 +54,89 @@
             /* pointer-events: none; */
           }
         }
-        
+      }
+      .hero-content.full-screen-height {
+        min-height: calc(100dvh - var(--header-offset) - 6px);
+      }
+      @media(max-width:600px) {
+        .cta-btns-container {
+          display: flex;
+          justify-content: center;
+        }
       }
       .cta-1, .cta-2 {    
-        background: #2a2525a6;
-        padding: 9px 10px;
+        background: #0000006e;
+        padding: 8px 16px;
         border-radius: 2px;
-        outline: 1px solid #1c405f;
-        color: #ffffff;
+        outline: 1px solid #ffffffbd;
+        color:rgb(255, 255, 255);
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 900;
         text-decoration: unset;
         box-shadow: 1px 1px 4px -1px #554c4c;
+        box-shadow: 4px 4px 11px 5px #0000006b;
         margin-right: calc(var(--standard_desk_marign) * 0.2);
+        display: inline-block;
         margin-bottom: 23px;
-        display: inline-flex;
+        text-shadow: 1px 1px #00000021;
+        text-align:center;
+        @media(max-width:600px) {
+          width:45%;
+          padding:8px 0;
+          font-weight:700;
+          font-size: 15px;
+        }
       }
       .cta-1 {
         background: #f9be00;
-        color: #f50dbb8a;
-        outline: none;
+        color: #ffffffdb;
+        outline: 1px solid #f40dbaba;
         margin-right: 10px;
-        align-items: center;
-        gap: 0.5em; /* space between text and icon */
-        text-decoration: none;
+        /*font-weight: 900;*/
+        text-shadow: 1px 1px #0000005e;
       }
       .cta-1:hover, .cta-2:hover {
         box-shadow: 3px 3px 3px 0px #554c4cad !important;
-        outline: 2px solid #e31e3b !important;
+        outline: 3px solid #f40dbaba !important;
       }
       .overlay {
         position: absolute;
         top: 0;
         left: 0;
-        min-height: calc(100dvh - 132px);
+        height: calc(100% - 6px);
         width: 100%;
-        background: rgba(0, 0, 0, 0.15); /* black with 50% opacity */
+        background: rgba(0, 0, 0, 0.3); /* black with 50% opacity */
         z-index: 1;
       }
-      .cta-1__icon {
-        width: auto;
-        height: 17px;
-      }
     }
+
+    .hero-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0 24px;
+      font-size: 1.6rem;
+      color: var(--main-color);
+      font-weight: 700;
+    }
+
+    .custom-bullet {
+      display: flex;
+      align-items: center;  /* Vertikal centrering */
+    }
+
+    .bullet-symbol {
+      color: #f9be00;         /* Ändra till din accentfärg */
+      font-size: 8px;
+      margin-right: 8px;
+      line-height: 1;
+    }
+
+    .bullet-text {
+      line-height: 1.4;
+    }
+
   </style>
-<!--For mobile-->
-  {% if section.settings.background_image_mobile %}
-    <style>
-      @media (max-width: 990px) {
-        #hero-{{ section.id }}.aurora-hero-section {
-          background-image: url('{{ section.settings.background_image_mobile | image_url: width: 1200 }}');
-          background-position: center center;
-          background-size: cover;
-          background-repeat: no-repeat;
-        }
-      }
-    </style>
-  {% endif %}
 {%- endif -%}
 
 <section
@@ -120,34 +151,44 @@
     <div class="positioner">
       <div class="page-width">
       {% if section.settings.headline != blank %}
-        <div class="content-wrapper">
-          <h1 class="bebas-neue-regular">
-            {{ section.settings.headline | escape }}
-          </h1>
-          {% endif %}
-          {% if section.settings.subheadline != blank %}
-            <div class="">
-              {{ section.settings.subheadline }}
-            </div>
-          {% endif %}
-          <div style="white-space: nowrap;">
-            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-              <a class="cta-1" href="{{ section.settings.button_link }}">
-                {{ section.settings.button_label | escape }}
-                <img src="https://cdn.shopify.com/s/files/1/0912/6356/6211/files/Namnlos_design_4.png?v=1755462133" 
-                    alt="Cart icon" 
-                    class="cta-1__icon"
-                    width=""
-                    height=""
-                  >
-              </a>
-            {% endif %}
-            {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
-              <a class="cta-2" href="{{ section.settings.button_link2 }}">
-                {{ section.settings.button_label2 | escape }}
-              </a>
-            {% endif %}
+        <h1 class="bebas-neue-regular">
+          {{ section.settings.headline | escape }}
+        </h1>
+        {% endif %}
+        {% if section.settings.subheadline != blank %}
+          <div class="">
+            {{ section.settings.subheadline }}
           </div>
+        {% endif %}
+        {% if section.settings.star_rating_image %}
+          <div class="star-rating-image">
+            <img 
+              width=""
+              height=""
+              src="{{ section.settings.star_rating_image | image_url: width: 1000 }}" 
+              alt="Star rating graphic" 
+              loading="lazy"
+            >
+          </div>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+          <ul class="hero-bullets">
+            {% for block in section.blocks %}
+              <li class="custom-bullet"> <span class="bullet-symbol">◆</span> {{ block.settings.text }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        <div class="cta-btns-container">
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <a class="cta-1" href="{{ section.settings.button_link }}">
+              {{ section.settings.button_label | escape }}
+            </a>
+          {% endif %}
+          {% if section.settings.button_label2 != blank and section.settings.button_link2 != blank %}
+            <a class="cta-2" href="{{ section.settings.button_link2 }}">
+              {{ section.settings.button_label2 | escape }}
+            </a>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -166,12 +207,6 @@
       "info": "Recommended size: 1920x1080px."
     },
     {
-      "type": "image_picker",
-      "id": "background_image_mobile",
-      "label": "Background Image Mobile",
-      "info": "(mobile < 950px)"
-    },
-    {
       "type": "text",
       "id": "headline",
       "label": "Headline",
@@ -182,6 +217,12 @@
       "id": "subheadline",
       "label": "Subheadline",
       "default": "<p>Introducing Aurora Light: a singular spotlight designed to transform your space with breathtaking prism effects and unparalleled ambient elegance.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "star_rating_image",
+      "label": "Star rating image",
+      "info": "Valfri bild som visas under subheadlinen, t.ex. betyg eller försäljningsdata."
     },
     {
       "type": "text",
@@ -211,6 +252,21 @@
     {
       "name": "Aurora Hero"
     }
-  ]
+  ],
+  "blocks": [
+    {
+      "type": "bullet",
+      "name": "Bullet Point",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Punkttext",
+          "default": "Skapar direkt en mysigare och mer inbjudande stämning"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10
 }
 {% endschema %}
