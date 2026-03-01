@@ -571,7 +571,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Vad visar kalenderklockan?",
-            "answer": "<p>Den visar det allra viktigaste - tid, veckodag, datum och del av dygnet (morgon, förmiddag, eftermiddag, kväll och natt). Allt i ett tydligt och enkelt format som är lätt att läsa.</p>"
+            "answer": "<p>Den visar det allra viktigaste - tid, veckodag, datum och del av dygnet (morgon, förmiddag, eftermiddag, kväll och natt). Allt i ett tydligt och enkelt format som är lätt att läsa.</p><p>Med ett enkelt knapptryck växlar du mellan analog urtavla och tydlig digital visning med text.</p>"
           }
         },
         "faq_item_zaHzpH": {
