@@ -975,7 +975,131 @@
         "pickup_map_marker": {
           "callout": "Henting på {{location}}",
           "directions_link_accessibility_label": "Henting på {{location}}, få veibeskrivelse"
-        }
+        },
+        "ready_for_delivery_title": "Din bestilling er klar for levering",
+        "ready_for_delivery_description": "Vi har klargjort din bestilling.",
+        "order_status_confirmed_order_local": "Vi klargjør ordren din for levering.",
+        "delivery_information_label": "Leveringsinformasjon:",
+        "gift_card_sent_confirmation": "Gavekort sendt",
+        "out_for_delivery_local_title": "Din ordre er ute for levering",
+        "out_for_delivery_local_description_html": "Din ordre ankommer snart.",
+        "delivered_local_title": "Din ordre er levert",
+        "delivered_local_description_html": "Har du ikke mottatt bestillingen din? %{let_us_know}.",
+        "let_us_know": "Fortell oss",
+        "qr_code": {
+          "title": "Spor på telefonen din",
+          "send_link_to_phone": "Eller send en lenke til telefonen din"
+        },
+        "gift_card_confirmation_by_text": "Send sms-en på nytt eller kontakt oss hvis du ikke har mottatt den.",
+        "gift_card_confirmation_by_email": "Send e-posten på nytt eller kontakt oss hvis du ikke har mottatt den.",
+        "gift_card_title": "Gavekort",
+        "resend_gift_cards": "Videresend gavekort",
+        "attempted_delivery_local_title": "Mislykket levering",
+        "attempted_delivery_local_description_html": "Vi kunne ikke levere bestillingen din. For å avtale en ny levering, %{contact_us}.",
+        "thank_you_title_payment": "Betaling bekreftes",
+        "thank_you_confirmed_order_with_email_payment": "Du utførte en betaling for ordren den %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Du utførte en betaling for ordren den %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Du utførte en betaling for ordren den %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Du utførte en betaling for ordren den %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Du utførte en betaling for ordren den %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Du utførte en betaling for ordren den %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skann med telefonen din"
+          },
+          "sms": {
+            "title": "Eller send en lenke til telefonen din"
+          }
+        },
+        "estimated_delivery": "Estimert levering akkurat nå:",
+        "view_business_customer_account": "Vis konto",
+        "company_location_title": "Sted",
+        "thank_you_title_review": "Bestillingen din er sendt til vurdering",
+        "thank_you_confirmed_order_with_draft": "Vi tar kontakt dersom vi trenger mer informasjon, eller når ordren din er bekreftet.",
+        "breadcrumbs_submitted": "Innsendt",
+        "breadcrumbs_in_review": "Under vurdering",
+        "breadcrumbs_confirmed": "Bekreftet",
+        "missing_shipping_address_banner": {
+          "title": "Ordren har ingen leveringsadresse",
+          "text_html": "%{contact_us} for å legge til din adresse",
+          "contact_us": "Kontakt oss"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Gjør salgskollegaen oppmerksom på nytt.",
+        "order_status_confirmed_with_installments_payment_confirm": "Du mottar om kort en e-postbekreftelse med ordrenummer og detaljer om nedbetalingsplanen din.",
+        "first_payment_complete": "Første betaling er fullført",
+        "in_store_purchase": "Innkjøp i butikken",
+        "choose_payment_method_later": "Velg betalingsmetode senere",
+        "purchase_order_number_title": "Innkjøpsordrenummer #%{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Din bestilling ble hentet ut ved %{address}.",
+        "ready_for_delivery": "Klar for levering",
+        "order_updates_subscribe_to_email_notifications_failed": "Vi kan ikke lagre denne e-postadressen for oppdateringer. Prøv igjen eller bruk en annen metode.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Den oppgitte e-postadressen finnes allerede.",
+        "subscriptions_management": {
+          "title": "Abonnement",
+          "description": "Fortsett til kontoen din for å se og administrere abonnementene dine.",
+          "button_label": "Administrer abonnementet ditt"
+        },
+        "manage_order_label": "Håndter dine ordrer",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Du får en SMS med gavekortet ditt i løpet av få minutter.",
+          "other": "Du mottar en sms med gavekortene dine i løpet av få minutter."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Du mottar en e-post med gavekortet ditt i løpet av noen minutter.",
+          "other": "Du mottar en e-post med gavekortene dine i løpet av noen minutter."
+        },
+        "gift_card_email_title": {
+          "one": "Gavekortet ble sendt på e-post",
+          "other": "Gavekortene ble sendt via e-post"
+        },
+        "gift_card_text_title": {
+          "one": "Gavekortet ble sendt via SMS",
+          "other": "Gavekortene ble sendt via SMS"
+        },
+        "resend_gift_cards_by_email": "Send e-posten på nytt",
+        "resend_gift_cards_by_text": "Send sms på nytt",
+        "gift_card_resent_confirmation": {
+          "one": "Gavekort ettersendt.",
+          "other": "Gavekort returnert."
+        },
+        "gift_card_resend_failure": {
+          "one": "Det oppstod et problem da gavekortet ditt skulle sendes på nytt. Prøv igjen eller kontakt oss.",
+          "other": "Det oppstod et problem da gavekortene dine skulle sendes på nytt. Prøv igjen eller kontakt oss."
+        },
+        "failed_pending_payment_page_title": "Et problem har oppstått med betalingen",
+        "thank_you_title_payments_app_pending_default": "Betalingen behandles",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Ordren er mottatt",
+        "thank_you_title_payments_app_failed_pending_payment": "Betalingen kunne ikke behandles",
+        "thank_you_payments_app_failed_pending_payment": "Du ble ikke belastet for ordren. Gå tilbake til handlekurven for å se over ordren og betale på nytt.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du får snart en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du får snart en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du mottar snart en SMS-bekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Når betalingen er fullført, får du en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Når betalingen er fullført, får du en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Når betalingen er fullført, får du en SMS-bekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_failed_pending_payment": "Du ble ikke belastet for ordren. Gå tilbake til handlekurven for å se over ordren og betale på nytt.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Når betalingen er fullført, får du en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "thank_you_confirmed_order_with_missing_payment": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_confirmed_order_with_draft_payment": "Vi tar kontakt dersom vi trenger mer informasjon, eller når ordren din er bekreftet.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Vi tar kontakt dersom vi trenger mer informasjon, eller når ordren din er bekreftet.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Du ble ikke belastet for ordren. Gå tilbake til handlekurven for å se over ordren og betale på nytt.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Du ble ikke belastet for ordren. Gå tilbake til handlekurven for å se over ordren og betale på nytt.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Du får snart en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Du får snart en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du får snart en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Du får snart en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Du mottar snart en SMS-bekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Du mottar snart en SMS-bekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Når betalingen er fullført, får du en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Når betalingen er fullført, får du en e-postbekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Når betalingen er fullført, får du en e-postbekreftelse. Spor ordren med Shop-appen."
       },
       "review": {
         "title": "Anmeldelse",
