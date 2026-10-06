@@ -1,0 +1,373 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": " og",
+      "last_word_connector": "og"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Utsjekkingskasse",
+        "error_page_title": "Feil",
+        "skip_to_content": "Gå videre til innhold",
+        "breadcrumb": "Brødsmulesti",
+        "continue_button_label": "Fortsett",
+        "complete_purchase_button_label": "Fullfør bestilling",
+        "pay_now_button_label": "Betal nå",
+        "authenticate_purchase_button_label": "Godkjenn betaling",
+        "edit_link_label": "Rediger",
+        "all_rights_reserved": "Med enerett %{shop_name}",
+        "print_policies_link_label": "Skriv ut",
+        "cart": "Handlekurv",
+        "close_modal_label": "Lukk",
+        "close_notice_label": "Lukk",
+        "expand_notice_label": "Vis mer",
+        "continue_to_shipping_method": "Fortsett til levering",
+        "continue_to_payment_method": "Gå videre til betaling",
+        "continue_to_review": "Gjennomgå ordre",
+        "back_to_cart": "Gå tilbake til handlekurven",
+        "back_to_contact_information": "Gå tilbake til informasjon",
+        "back_to_shipping_method": "Gå tilbake til levering",
+        "back_to_payment_method": "Tilbake til betaling",
+        "choose_shipping_method": "Velg en leveringsmetode",
+        "choose_payment_method": "Velg en betalingsmetode",
+        "choose_billing_address": "Velg en fakturaadresse",
+        "contact_us_html": "Kontakt banken din for mer informasjon",
+        "autocomplete_title": "Forslag",
+        "autocomplete_single_item": "1 produkt er tilgjengelig",
+        "autocomplete_multi_item": "{{number}} tilgjengelige produkter",
+        "autocomplete_close": "Nære forslag",
+        "forwarding_indicator": {
+          "new_window": "Åpnes i et nytt vindu.",
+          "external": "Åpner eksternt nettsted.",
+          "external_and_new_window": "Åpner eksternt nettsted i et nytt vindu."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Betal"
+        },
+        "tooltip_accessibility_label": "Mer informasjon",
+        "errors": {
+          "session_identifier_not_unique_error": "Det oppstod en feil med bestillingen din. Prøv å betale på nytt.",
+          "line_item_limit_reached": "Maks antall poster er nådd.",
+          "only_empty_terms_accepted": "Denne policyen godtar bare tomme vilkår.",
+          "session_is_already_finished": "Denne kasseøkten er allerede avsluttet.",
+          "merchandise": {
+            "only_value_constraint": "Kun eksakte verdier er tillatt som inndata for handelsvarer.",
+            "merchandise_not_found": "Produktet ble ikke funnet.",
+            "merchandise_variant_not_found": "Produktvarianten ble ikke funnet.",
+            "merchandise_not_applicable": "Det er ikke mulig å kjøpe produktvarianten.",
+            "bundle_products_not_supported_for_b2b": "Det er ikke mulig å legge til pakkede artikler i B2B-ordrer for dette stedet.",
+            "gift_card_quantity_mismatch": "Antall artikkelposter og antall gavekortkoder må stemme overens når du spesifiserer gavekortkoder.",
+            "gift_card_not_supported": "Gavekort støttes ikke i denne kassen.",
+            "gift_card_not_unique": "Presentkort med kode {{code}} vises mer enn én gang i denne kassen. Kodene formateres før de sammenlignes.",
+            "gift_card_used": "Presentkortskode {{code}} er allerede tildelt et presentkort. Kodene formateres før de sammenlignes.",
+            "gift_card_invalid": "Presentkortskoden {{code}} er ugyldig.",
+            "gift_card_code_changed": "Presentkortskode {{proposed_code}} ble endret til {{formatted_code}} for å overholde formateringsregler.",
+            "gift_card_with_attributes_not_supported": "Gavekort med kundeattributter støttes ikke i denne kassen.",
+            "gift_card_with_components_not_supported": "Gavekort med komponenter støttes ikke i denne kassen.",
+            "selling_plan_mismatch": "Abonnementet er oppdatert.",
+            "selling_plan_not_supported_b2b": "Abonnementer støttes ikke i B2B-kassen.",
+            "price_mismatch": "Tidligere foreslått pris for denne varen var ugyldig og har blitt oppdatert.",
+            "inventory_not_found": "Fant ingen lagerbeholdning for denne handelsvaren.",
+            "product_not_published": "Produkt ikke publisert.",
+            "duplicated_stable_id": "Denne varelinjen har samme stabil-ID som en annen linje.",
+            "minimum_quantity_not_met": "Antallet av enkelte artikler oppfyller ikke minstekravet.",
+            "maximum_quantity_exceeded": "Antallet av enkelte artikler overskrider tillatt maksimalt antall.",
+            "quantity_increment_not_met": "Antallet av visse artikler oppfyller ikke ordergrensene.",
+            "quantity_rules_not_met": "Antallet av visse artikler oppfyller ikke ordergrensene.",
+            "bundle_requires_components": "Denne varepakken har ingen komponenter.",
+            "title_too_long": "Produktnavnet er for langt.",
+            "title_empty": "Produktnavnet er tomt.",
+            "mixed_currencies": "Kassen inneholder poster med ulike valutaer.",
+            "product_not_published_in_buyer_location": "Produktet er ikke tilgjengelig på kjøperens nåværende sted.",
+            "combined_listing_parent_not_purchasable": "Overordnede produkter i en kombinert oppføring kan ikke kjøpes direkte.",
+            "fixed_selling_plans_not_supported_for_draft_orders": "Dette kjøpsalternativet støttes ikke for ordreutkast."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Bedriftskontakt har ikke tilgang til bedrifter.",
+            "customer_account_required": "Logg inn for å fortsette.",
+            "contact_info_does_not_match_customer_account": "Kontaktinformasjonen må stemme overens med kontoen du er logget inn på.",
+            "phone_number_does_not_match_expected_pattern": "Oppgitt telefonnummer samsvarer ikke med forventet mønster.",
+            "email_required": "Når varen kjøpes med et abonnement, kreves en e-postadresse.",
+            "email_domain_is_invalid": "Det angitte domenet kan ikke behandles.",
+            "missing_contact_method": "Det mangler en gyldig kontaktmetode.",
+            "checkout_completion_target_is_missing": "Det mangler mål for fullføring i kassen.",
+            "invalid_customer_profile": "Ugyldig kundeprofil ble angitt.",
+            "customer_profile_access_restricted": "Kassen har ikke tilgang til kundeprofilen.",
+            "checkout_completion_target_is_invalid_proc": "Ugyldig fullføringsmål i kassen.",
+            "company_location_required": "Kunden må velge et bedriftssted for å fortsette.",
+            "lost_access_to_company": "Kunden har mist tilgangen til alle bedrifter.",
+            "company_purchase_permission_required": "Kunden har ikke tillatelse til å legge inn bedriftsordrer.",
+            "personal_order_not_allowed": "Personlige ordrer er ikke tillatt for denne butikken.",
+            "buyer_identity_presentment_currency_does_not_match": "Det gikk ikke å behandle ordren din. Prøv igjen om noen minutter."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Handlekurven kan kun ha én leveringslinje.",
+            "wrong_number_of_delivery_lines": "En leveranslinje må angis for hver varegruppe.",
+            "external_delivery_promise_error": "Hentefeil for ekstern leveranseforpliktelse.",
+            "options_instructions_invalid": "De oppgitte instruksjonene samsvarer ikke med det forventede mønsteret.",
+            "destination_address_required": "For å kunne fortsette kreves en leveringsadresse.",
+            "pickup_points_unavailable": "Hentesteder er for øyeblikket ikke tilgjengelige.",
+            "local_pickup_delivery_line_detail_changed": "For å kunne fortsette må gjeldende leveransestrategi for lokal henting endres.",
+            "local_pickup_no_delivery_strategy_available": "Fant ingen tilgjengelig leveringsstrategi for lokal henting.",
+            "origin_location_id_required": "En ID for opprinnelsessted er påkrevd når leveringsmetode for detaljhandel etterspørres.",
+            "invalid_origin_location_id": "Fant ikke sted som samsvarer med opprinnelsessteds-ID.",
+            "origin_location_id_not_allowed": "Etterspurte leveringsmetoder støtter ikke en opprinnelsessted-ID.",
+            "auto_fulfill_not_allowed": "Denne sesjonen er ikke autorisert til å overstyre distribusjonsatferd."
+          }
+        }
+      },
+      "field_errors": {
+        "gift_card_depleted": "Det er ikke mer penger igjen på dette gavekortet",
+        "gift_card_currency_mismatch": "Bare gavekort i %{checkout_currency} kan brukes med denne ordren",
+        "payment_gateway_needs_paid_plan_error": "Denne betalingsmetoden er ikke tilgjengelig i butikken akkurat nå",
+        "payment_gateway_incompatible_with_multi_currency": "For å fullføre dette kjøpet i din lokale valuta må du betale med kredittkort.",
+        "physical_gift_card_invalid_quantity": "Radartikler for fysiske gavekort må ha et antall som samsvarer med antall gavekortkoder.",
+        "physical_gift_card_duplicate_code": "Posten for fysisk gavekort inneholder duplisert kode.",
+        "physical_gift_card_invalid_code": "Den fysiske gavekortkoden er ugyldig.",
+        "payment_gateway_not_in_test_mode": "er ikke konfigurert for testordrer. Denne butikken kan ikke ta imot reelle bestillinger eller reelle betalinger.",
+        "tips_invalid_tip_amount": "Oppgi mindre tips enn %{amount}",
+        "payment_gateway_unsupported_for_subscriptions": "Betalingsmetoden er ikke tilgjengelig for abonnementsbestillinger.",
+        "address_first_name_too_long": "Fornavnet er for langt (maks. 255 tegn)",
+        "address_last_name_too_long": "Etternavnet er for langt (maks 255 tegn)",
+        "address_address1_too_long": "Den første adresselinjen er for lang (maks 255 tegn)",
+        "address_address2_too_long": "Den andre adresslinjen er for lang (maks 255 tegn)",
+        "address_city_too_long": "Stedet er for langt (maks 255 tegn)",
+        "address_company_too_long": "Bedriftsnavnet er for langt (maks 255 tegn)",
+        "address_first_name_contains_html_tags": "Fornavn kan ikke inneholde HTML-koder",
+        "address_last_name_contains_html_tags": "Etternavn kan ikke inneholde HTML-koder",
+        "address_address1_contains_html_tags": "Adresslinje 1 kan ikke inneholde HTML-koder",
+        "address_address2_contains_html_tags": "Adresslinje 2 kan ikke inneholde HTML-koder",
+        "address_city_contains_html_tags": "Sted kan ikke inneholde HTML-tagger",
+        "address_company_contains_html_tags": "Bedrifter kan ikke inneholde HTML-tagger",
+        "address_first_name_contains_emojis": "Fornavn kan ikke inneholde emojier",
+        "address_last_name_contains_emojis": "Etternavn kan ikke inneholde emojier",
+        "address_address1_contains_emojis": "Adresse 1 kan ikke inneholde emojier",
+        "address_address2_contains_emojis": "Adresse 2 må ikke inneholde emojier",
+        "address_city_contains_emojis": "Sted kan ikke inneholde emojis",
+        "address_company_contains_emojis": "Bedriftsnavn må ikke inneholde emojier",
+        "address_phone_contains_emojis": "Telefonnummer kan ikke inneholde emojier",
+        "address_zip_contains_emojis": "Postnummeret må ikke inneholde emojier",
+        "address_first_name_contains_url": "Fornavn kan ikke inneholde en URL",
+        "address_last_name_contains_url": "Etternavn kan ikke inneholde en URL",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Gavekort støtter ikke alternativer for utsatt betaling.",
+        "address_zip_not_supported": "Plasseringen støttes ikke",
+        "gift_card_buying_gift_card": "Du kan ikke bruke et gavekort til å kjøpe et annet gavekort",
+        "payment_gateway_unsupported_for_country": "Betalingsmetoden er ikke tilgjengelig for leveringslandet ditt.",
+        "purchase_options_agreement_blank": "Godkjenn de utsatte eller gjentakende kjøpsvilkårene for å gå videre med kjøpet.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Denne betalingsmetoden er ikke tilgjengelig for alternativer for senere betaling.",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Gavekort støtter ikke alternativer for utsatt betaling.",
+        "delivery_zone_not_found": "Den angitte sonen ble ikke funnet i det valgte landet.",
+        "payment_gateway_unsupported_for_development_store_html": "Hvis du vil legge inn en testordre, må du bruke en test-betalingsgateway. Mer informasjon om å <a href=\"%{docs_link}\">teste ordrer i utviklingsbutikker</a>.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Du har nådd grensen for antall ordrer i utviklerbutikker med denne betalingsløsningen. Hvis du vil legge inn en ny ordre, må du bruke en testbetalingsløsning. Mer informasjon om å <a href=\"%{docs_link}\">teste ordrer i utviklerbutikker</a>.",
+        "email_blank": "Skriv inn e-postadressen din",
+        "phone_blank": "Skriv inn et telefonnummer",
+        "address_country_invalid": "Velg et land/en region fra listen",
+        "address_zip_invalid": "Oppgi gyldig postnummer",
+        "gift_card_invalid": "Gavekortet «••••%{last_four_characters}» er ikke lenger gyldig",
+        "vaulting_agreement_blank": "Betalingsmetoden må lagres fordi betalingen for ordrens restbeløp forfaller senere.",
+        "sms_marketing_phone_invalid": "Oppgi et gyldig telefonnummer",
+        "address_suggestion_did_you_mean_html": "Mente du %{html}?",
+        "address_zip_invalid_for_province": "Oppgi et gyldig postnummer for %{province}",
+        "address_zip_too_long": "Postnummeret er for langt (maks. 255 tegn)",
+        "address_phone_invalid": "Oppgi et gyldig telefonnummer",
+        "credit_card_number_blank": "Oppgi et kortnummer",
+        "address_first_name_contains_mathematical_symbols": "Fornavn kan ikke inneholde matematiske symboler",
+        "address_last_name_contains_mathematical_symbols": "Etternavn kan ikke inneholde matematiske symboler",
+        "address_address1_contains_mathematical_symbols": "Den første adresselinjen må ikke inneholde matematiske symboler",
+        "address_address2_contains_mathematical_symbols": "Den andre adresslinjen må ikke inneholde matematiske symboler",
+        "address_city_contains_mathematical_symbols": "Sted kan ikke inneholde matematiske symboler",
+        "address_company_contains_mathematical_symbols": "Foretaksnavn må ikke inneholde matematiske symboler",
+        "address_zip_contains_mathematical_symbols": "Postnummer må ikke inneholde matematiske symboler",
+        "address_province_invalid": "Velg en gyldig stat/provins",
+        "address_generic_blank": "Obligatorisk felt",
+        "address_generic_invalid": "Ugyldig inndata",
+        "address_generic_error": "Feil i felt",
+        "payment_gateway_missing": "Velg en betalingsmetode.",
+        "address_street_name_blank": "Oppgi et gatenavn",
+        "address_street_name_contains_emojis": "Gaten kan ikke inneholde emojier",
+        "address_street_name_contains_html_tags": "Gaten kan ikke inneholde HTML-koder",
+        "address_street_name_contains_mathematical_symbols": "Gaten må ikke inneholde matematiske symboler",
+        "address_street_number_blank": "Oppgi et husnummer",
+        "address_street_number_contains_emojis": "Husnummer kan ikke inneholde emojier",
+        "address_street_number_contains_html_tags": "Husnummer kan ikke inneholde HTML-tagger",
+        "address_street_number_contains_mathematical_symbols": "Husnummer kan ikke inneholde matematiske symboler",
+        "address_street_name_too_long": "Gatenavnet er for langt (maks. {{count}} tegn)",
+        "address_street_number_too_long": "Husnummeret er for langt (maks. {{count}} tegn)",
+        "address_neighborhood_blank": "Angi et område",
+        "address_neighborhood_too_long": "Områdenavnet er for langt (maks {{count}} tegn)",
+        "address_neighborhood_contains_emojis": "Område kan ikke inneholde emojier",
+        "address_neighborhood_contains_html_tags": "Område kan ikke inneholde HTML-tagger",
+        "address_neighborhood_contains_mathematical_symbols": "Område kan ikke inneholde matematiske symboler",
+        "address_barangay_blank": "Angi en barangay",
+        "address_barangay_too_long": "Barangay-navnet er for langt (maks {{count}} tegn)",
+        "address_barangay_contains_emojis": "Barangay kan ikke inneholde emojier",
+        "address_barangay_contains_html_tags": "Barangay kan ikke inneholde HTML-koder",
+        "address_barangay_contains_mathematical_symbols": "Barangay kan ikke inneholde matematiske symboler",
+        "address_colony_blank": "Angi en koloni",
+        "address_colony_too_long": "Kolonnenavnet er for langt (maks {{count}} tegn)",
+        "address_colony_contains_emojis": "Kolonihage kan ikke inneholde emojier",
+        "address_colony_contains_html_tags": "Kolon kan ikke inneholde HTML-tagger",
+        "address_colony_contains_mathematical_symbols": "Koloni kan ikke inneholde matematiske symboler",
+        "address_commune_blank": "Angi en kommune",
+        "address_commune_too_long": "Kommunenavnet er for langt (maks. {{count}} tegn)",
+        "address_commune_contains_emojis": "Kommunen kan ikke inneholde emojier",
+        "address_commune_contains_html_tags": "Kommune kan ikke inneholde HTML-koder",
+        "address_commune_contains_mathematical_symbols": "Kommunen kan ikke inneholde matematiske symboler",
+        "address_district_blank": "Angi et distrikt",
+        "address_district_too_long": "Distriktsnavnet er for langt (maks. {{count}} tegn)",
+        "address_district_contains_emojis": "Distrikt kan ikke inneholde emojier",
+        "address_district_contains_html_tags": "Distrikt kan ikke inneholde HTML-tagger"
+      },
+      "shop_wallet": {
+        "confirm": {
+          "success_title": "Valg bekreftet",
+          "success_message": "De valgte lommebokdetaljene er klare. Denne prototypen returnerer dem ikke til partnerappen ennå.",
+          "retryable_error_title": "Valget ble ikke delt",
+          "retryable_error_message": "Prøv å bekrefte lommebokvalget ditt igjen.",
+          "terminal_error_title": "Lommeboktilkoblingen ble avsluttet",
+          "terminal_error_message": "Gå tilbake og åpne Shop Pay igjen."
+        },
+        "cancelled": {
+          "title": "Valget ble avbrutt",
+          "message": "Ingen lommebokinformasjon ble delt, og ingen kjøp ble utført."
+        },
+        "empty": {
+          "title": "Ingen lagrede kort",
+          "message": "Det er ingen lagrede kort i denne Shop Pay-lommeboken."
+        },
+        "ineligible": {
+          "title": "Ingen gyldige kort",
+          "message": "Ingen av de lagrede kortene kan brukes for dette kjøpet."
+        },
+        "expired": {
+          "title": "Denne lommebokøkten har utløpt",
+          "message": "Gå tilbake til partnerappen og start handelen på nytt."
+        },
+        "revoked": {
+          "title": "Shop Pay er ikke lenger tilkoblet",
+          "message": "Koble Shop Pay til på nytt i partnerappen før du fortsetter."
+        },
+        "error": {
+          "title": "Din Shop Pay-lommebok kunne ikke lastes",
+          "message": "Gå tilbake til Hatch og prøv å åpne Shop Pay igjen."
+        },
+        "ready_status": "Din Shop Pay-lommebok er klar. Velg en betalingsmetode."
+      },
+      "hsa_qualification_errors": {
+        "ineligible": "Denne ordren er ikke kvalifisert for HSA/FSA.",
+        "processing_error": "Det oppstod et problem ved behandlingen av din HSA/FSA-forespørsel. Prøv igjen eller betal uten HSA/FSA.",
+        "unsupported_checkout": "HSA/FSA er ikke tilgjengelig for denne ordren."
+      },
+      "tax": {
+        "attribution": {
+          "orders_sold_by_shop_marketplace": "Ordrer som selges via markedsplassen Shop",
+          "orders_sold_by_shop_name": "Ordrer som selges av %{shop_name}"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Forrige",
+      "next": "Neste"
+    },
+    "links": {
+      "powered_by_shopify": "Drevet av Shopify",
+      "learn_more": "Les mer"
+    },
+    "feed": {
+      "more": "Mer"
+    },
+    "attributes": {
+      "email": "e-post",
+      "password": "passord",
+      "password_confirmation": "Passordbekreftelse",
+      "first_name": "fornavn",
+      "last_name": "etternavn",
+      "body": "brødtekst",
+      "signature": "Adresse"
+    },
+    "addresses": {
+      "zip_code": "Postnummer",
+      "postal_code": "Postnummer",
+      "postcode": "Postnummer",
+      "pincode": "Pinkode",
+      "region": "Region",
+      "prefecture": "Prefektur",
+      "province": "Provins",
+      "state": "Stat",
+      "state_and_territory": "Stat/territorium",
+      "county": "Fylke",
+      "emirate": "Emirat",
+      "governorate": "Guvernørat",
+      "confirm": "Er du sikker på at du vil slette denne adressen?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Utvalgt",
+        "best_selling": "Bestselger",
+        "az": "Alfabetisk, A–Å",
+        "za": "Alfabetisk, Å–A",
+        "price_ascending": "Pris, lav til høy",
+        "price_descending": "Pris, høy til lav",
+        "date_ascending": "Dato, gammelt til nytt",
+        "date_descending": "Dato, nytt til gammelt",
+        "most_relevant": "Mest relevant"
+      }
+    },
+    "errors": {
+      "blank": "kan ikke være tomt",
+      "credit_card_session_expired": "Kredittkortgodkjenningen har utløpt, vennligst oppgi betalingsinformasjonen din på nytt. Kortet ditt har ikke blitt belastet.",
+      "empty": "kan ikke være tomt",
+      "invalid_email": "Oppgi en gyldig e-postadresse",
+      "discount_disabled": "Rabatten er deaktivert.",
+      "discount_expired": "Rabatten gjelder ikke lenger",
+      "discount_limit_reached": "Denne rabatten har nådd sin bruksgrense",
+      "discount_not_found": "Vi finner ingen gyldig rabatt som samsvarer med den angitte koden",
+      "customer_already_used_once_per_customer_discount_notice": "Denne rabatten har nådd sin bruksgrense",
+      "gift_card_already_applied": "Koden er allerede brukt på betalingen din",
+      "gift_card_code_invalid": "Koden er ugyldig",
+      "gift_card_currency_mismatch": "Dette gavekortet kan ikke brukes til dette kjøpet. Kontakt %{shop_name} for å få det utstedt på nytt.",
+      "gift_card_depleted": "Det er ikke mer penger igjen på dette gavekortet",
+      "gift_card_disabled": "Gavekortet er deaktivert.",
+      "gift_card_expired": "Gavekortet har utløpt",
+      "invalid": "er ugyldig",
+      "bad_domain": "inneholder et ugyldig domenenavn",
+      "taken": "er allerede tatt",
+      "contains_html_tags": "får ikke inneholde HTML-tagger",
+      "too_short": "er for kort (min. %{count} tegn)",
+      "too_long": "er for langt (maks %{count} tegn)",
+      "password_mismatch": "må stemme overens med det angitte passordet",
+      "contains_spaces": "begynner eller slutter med mellomrom.",
+      "invalid_for_country": "gjelder ikke for %{country}",
+      "invalid_for_country_and_province": "gjelder ikke for %{province} og %{country}",
+      "invalid_province_in_country": "er ikke en gyldig provins i %{country}",
+      "invalid_state_in_country": "er ikke en gyldig stat i %{country}",
+      "invalid_region_in_country": "er ikke en gyldig region i %{country}",
+      "less_than_or_equal_to": "må være mindre enn eller lik %{count}",
+      "not_supported": "støttes ikke",
+      "full_name_required": "Oppgi fornavn og etternavn",
+      "invalid_for_card_type": "er ikke gyldig",
+      "invalid_type": "dessverre aksepterer vi ikke denne typen kort",
+      "invalid_format": "formatet er ikke gyldig",
+      "expired": "har utløpt",
+      "invalid_start_date_or_issue_number_for_debit": "et gyldig startdato eller utstedelsesnummer er påkrevd",
+      "invalid_expiry_year": "er ikke et gyldig startår",
+      "reset_password_html": "Denne e-postadressen er allerede knyttet til en konto. Hvis denne kontoen er din, kan du <a href=\"/account/login#recover\">tilbakestille passordet ditt</a>",
+      "verify_email": "Vi har sendt en e-post til %{customer_email}. Klikk på lenken i e-posten for å bekrefte e-postadressen din.",
+      "blocked_address": "Plasseringen støttes ikke",
+      "product_not_available": "Produktet er ikke publisert for denne kunden.",
+      "shop_404": {
+        "title": "Lag en nettbutikk og selg på nettet! E-handelsplattform fra Shopify"
+      }
+    }
+  }
+}
