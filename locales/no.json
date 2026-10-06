@@ -2075,8 +2075,148 @@
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} per levering",
           "prepaid_shipping_price_label": "%{shipping_price} per levering x %{delivery_interval_count}",
           "initial_order_discounted": "Første leveringskostnad %{discounted_shipping_cost}, deretter %{frequency_description}",
-          "prepaid_initial_order_discounted": "Første leveringskostnad %{discounted_shipping_price} %{prepaid_delivery_frequency}"
-        }
+          "prepaid_initial_order_discounted": "Første leveringskostnad %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Første leveringskostnad %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Første leveringskostnad %{discounted_shipping_price} %{prepaid_delivery_frequency}, deretter %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Første leveringskostnad %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), deretter %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inngår",
+          "recurring_order_shipping_price": "etterfulgt av %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Første ordre inkludert, etterfulgt av %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per levering), etterfulgt av %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Første bestilling gratis",
+            "other": "De %{count} første ordrene gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "For den første bestillingen",
+            "other": "For de første %{count} ordrene"
+          },
+          "subscription_free_with_frequency_label": "Fri frakt %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Fri frakt for %{count} levering til",
+            "other": "Fri frakt for %{count} flere leveranser"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Gratis frakt for %{count} levering",
+            "other": "Fri frakt for %{count} leveranser"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Fri frakt ved %{count} flere levering, deretter %{recurring_order_shipping_price}",
+            "other": "Fri frakt for %{count} leveranser til, deretter %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Fri frakt for %{count} levering, deretter %{recurring_order_shipping_price}",
+            "other": "Fri frakt for %{count} leveranser, deretter %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} mer leveranse for %{shipping_price}",
+            "other": "%{count} flere leveranser for %{shipping_price} hver"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} leveranse for %{shipping_price}",
+            "other": "%{count} flere leveranser for %{shipping_price} hver"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Fri frakt for den første %{cycle}, etterfulgt av %{recurring_order_shipping_price}",
+            "other": "Fri frakt for den første %{cycle}, etterfulgt av %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} for %{count} flere leveranser",
+            "other": "%{shipping_price} for %{count} flere leveranser (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} for %{count} levering",
+            "other": "%{shipping_price} for %{count} leveranser (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} for %{count} flere leveranser, etterfulgt av %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for %{count} flere leveranser (%{per_delivery_cost}), etterfulgt av %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} for %{count} levering, etterfulgt av %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for %{count} leveranser (%{per_delivery_cost}), etterfulgt av %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Estimert levering %{time}",
+        "estimated_delivery_time_range": "Estimert levering %{min_time}–%{max_time}",
+        "arrives_time": "Ankommer %{time}",
+        "arrives_time_range": "Ankommer %{min_time}–%{max_time}",
+        "estimated_time": "Estimert %{time}",
+        "estimated_time_range": "Estimert %{min_time}–%{max_time}",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "subscription_local_delivery": "Abonnement på lokal levering",
+        "subscription_pickup": "Abonnement på henting",
+        "delivery_today": "Levering samme dag %{time}",
+        "delivery_tomorrow": "Levering dagen etter %{time}",
+        "two_day_delivery": "2-dagers levering %{time}",
+        "delivery": "Levering %{time}",
+        "duties_and_taxes_title": "Tollavgifter og skatter",
+        "shipping_information_required_notice": "Leveringsdetaljer er påkrevd. {{link}}.",
+        "shipping_information_redirect_link": "Oppgi opplysningene dine her",
+        "loading_progressive_rates": "Søker etter flere vurderinger ...",
+        "no_other_methods_available": "Ingen andre metoder er tilgjengelige",
+        "duties_and_taxes_options": {
+          "ddu_title": "Betal ved levering",
+          "ddu_caption": "Ytterligere avgifter kan tilkomme",
+          "ddp_title": "Betal direkte",
+          "ddp_caption": "Ingen ytterligere avgift ved levering"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}",
+          "with_separator": "%{rest}, %{current},",
+          "combination": "%{rest} og %{current}"
+        },
+        "shipping_used_as_billing_notice": "Dette vil også bli brukt som din faktureringsadresse for denne ordren.",
+        "address_update": "Oppdater adresse",
+        "shipping_address_title": "Lever til",
+        "add_address": "Bruk en annen adresse",
+        "add_delivery_instructions": "Legg til leveringsinstruksjoner",
+        "edit": "Rediger",
+        "delete": "Slett",
+        "address_more": "Flere tiltak for denne adressen",
+        "address_edit": "Rediger adresse",
+        "address_delete": "Slett adresse",
+        "address_confirm": "Er du sikker på at du vil slette denne adressen fra kontoen din?",
+        "address_form": {
+          "add_address": "Legg til adresse",
+          "save": "Lagre",
+          "cancel": "Avbryt",
+          "generic_error": "Det gikk ikke å lagre adressen din. Prøv igjen.",
+          "one_time_address_subtitle": "Bruk en engangsadresse for denne ordren",
+          "edit": "Rediger adresse",
+          "update": "Lagre endringer"
+        },
+        "different_shipping_method_summary": "Angi en annen leveringsadresse for å se tilgjengelige leveringsmetoder",
+        "invalid_shipping_method_summary": "Oppgi en gyldig leveringsadresse for å se tilgjengelige leveringsmetoder",
+        "method_summary": {
+          "incomplete_address_entered": "Oppgi en fullstendig leveringsadresse for å se tilgjengelige leveringsmetoder",
+          "incomplete_address_selected": "Velg en fullstendig leveringsadresse for å se tilgjengelige leveringsmetoder"
+        },
+        "local_pickup": {
+          "search_address": "Søk etter adresse",
+          "rollup_title": "Hentested",
+          "rollup_accessibility_label": "Alternativer for hentested"
+        },
+        "missing_shipping_address": "Leveringsadresse mangler",
+        "delivery_title": "Levering",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Den første leveransen",
+          "other": "De første leveransene"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Gjentakende levering",
+          "other": "Gjentakende leveranser"
+        },
+        "address_default": "Angi som standard",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artikler",
+        "split_shipping_merchandise_quantity_label_additional": "+ ytterligere %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Leveranse %{number} av %{total}",
+        "pre_order_ships_now": "Leveres nå",
+        "pre_order_ships_later": "Leveres senere",
+        "pre_order_ships_date": "Leveres den %{date}",
+        "split_shipping_shipped_by_shop": "Sendes av %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Flere leveranser",
+        "split_shipping_shipping_label": "Metode"
       },
       "wallets": {
         "errors": {
