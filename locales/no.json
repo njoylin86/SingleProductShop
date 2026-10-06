@@ -1161,6 +1161,170 @@
         "manual_payment_gateway_label": "Manuell",
         "billing_address_title": "Faktureringsadresse",
         "free_label": "Gratis"
+      },
+      "pickup_point": {
+        "paginator": {
+          "header": {
+            "one": "Viser %{first} - %{last} av %{count} punkt",
+            "other": "Viser %{first} - %{last} av %{count} punkter"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} av %{count} sted",
+            "other": "%{pickup_point_index} av %{count} steder"
+          },
+          "selected_page": {
+            "one": "%{first} – %{last} av %{count} plass",
+            "other": "%{first} – %{last} av %{count} plasser"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} henteplass i nærheten av deg",
+          "other": "%{count} hentesteder i nærheten av deg"
+        },
+        "change": "Endre sted",
+        "waiting_on_pickup_point_location_notice": "Søker etter henteplasser ...",
+        "geolocation": {
+          "shared_location_button": "Bruk posisjonen min",
+          "errors": {
+            "unsuported_by_browser": "Nettleseren din støtter ikke geolokalisering. Prøv igjen eller bruk en annen nettleser.",
+            "permission_not_allowed": "Tillat deling av posisjonen din.",
+            "permission_denied": "Kunne ikke hente posisjonen din. Prøv igjen."
+          }
+        },
+        "no_business_hours": "Ingen åpningstid er tilgjengelig",
+        "open_twenty_four_hours": "Åpent døgnet rundt",
+        "address_label": "Adresse",
+        "pickup_unavailable_banner_title": {
+          "one": "Ingen utleveringssteder tilgjengelige for din vare",
+          "other": "Ingen utleveringssteder tilgjengelige for dine varer"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Det oppstod et problem med kassen vår",
+          "message": "Oppdater siden eller prøv igjen om noen minutter",
+          "action": {
+            "cta": "Oppdater side"
+          },
+          "request_id": "Forespørsels-ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Butikken er passordbeskyttet",
+          "customer_account_required": "Kundkonto kreves for å gjennomføre betalingen",
+          "cart_completed": "Betalingen er allerede gjennomført",
+          "invalid_cart": "Handlekurven er ikke lenger gyldig",
+          "not_authorized": "Autentiseringen i kassen mislyktes. Verifiser innloggingsopplysningene for appen",
+          "killswitch_enabled": "Kassen er ikke tilgjengelig akkurat nå",
+          "policy_violation": "Det er ikke mulig å fullføre betalingen på grunn av begrensninger i policykonfigurasjonen",
+          "unrecoverable_failure": "Kunne ikke laste inn kassen. Prøv igjen"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Gå tilbake til handlekurven",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} for å oppdatere antall",
+        "subscription_changed": "En av abonnementene dine er endret.",
+        "company_location_changed": "Handlekurven din har blitt oppdatert. Gå gjennom ordren før du sender den inn.",
+        "violations_title": "{{violation}} mangler eller er ugyldig",
+        "individual_violations_title": {
+          "DeliveryViolations": "Leveringsadresse",
+          "PaymentViolations": "Faktureringsadresse",
+          "OtherViolations": "Ordreinformasjon",
+          "UnhandledViolations": "Ordreinformasjon"
+        },
+        "all_violations_content": "Ring eller {{emailLink}} oss for å oppdatere informasjonen og fullføre bestillingen din:",
+        "all_violations_email_link": "e-post",
+        "editable_shipping_address_violations_message_title": "Legg til denne informasjonen for å fullføre ordren:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} for å permanent oppdatere adressen for dette stedet.",
+        "editable_shipping_address_violations_email_link": "kontakt oss",
+        "company_location_changed_product_removed": "Handlekurven din er oppdatert fordi noen produkter ikke er tilgjengelige på dette stedet. Se gjennom ordren før du sender den inn.",
+        "shipping_address_incomplete_title": "Leveringsadressen er ufullstendig",
+        "calculating_shipping": "Frakt beregnes fortsatt. Prøv igjen om en stund. Du har ikke blitt belastet.",
+        "calculating_taxes": "Skatter beregnes fremdeles. Prøv igjen om en stund. Du har ikke blitt belastet.",
+        "generic_processing_error": {
+          "title": "Det var ikke mulig å behandle ordren din",
+          "body": "Du har ikke blitt belastet. Prøv igjen eller bruk en annen betalingsmetode."
+        },
+        "contact_information": {
+          "title": "Kontaktinformasjonen er ugyldig",
+          "header": "For å oppdatere dine opplysninger, {{emailLink}}.",
+          "email_link": "kontakt oss"
+        },
+        "payment_method_not_available_with_payment_terms": "Den valgte betalingsmåten er ikke lenger tilgjengelig fordi vilkårene {{paymentTerms}} gjelder for betalingen av denne ordren",
+        "payment_method_not_available_with_fulfillment_terms": "Den valgte betalingsmetoden er ikke lenger tilgjengelig fordi betaling for denne ordren nå forfaller ved distribusjon",
+        "payment_method_not_available_with_fixed_terms": "Den valgte betalingsmetoden er ikke lenger tilgjengelig fordi betaling for denne ordren forfaller senere",
+        "payment_method_not_available_with_review_requirement": "Den valgte betalingsmetoden er ikke lenger tilgjengelig fordi betalingen forfaller når ordren bekreftes.",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Levering",
+            "contact": "Kontakt",
+            "payment": "Betaling",
+            "billing": "Fakturering"
+          },
+          "heading": {
+            "one": "Det er {{count}} feil:",
+            "other": "Det er {{count}} feil:"
+          }
+        },
+        "delivery_address_validation_errors_banner": {
+          "title": "Leveringsadressen er ugyldig",
+          "text_html": "%{contact_us} for å redigere adressen",
+          "contact_us": "Kontakt oss",
+          "use_different_address": "Bruk en annen leveringsadresse"
+        }
+      },
+      "review_address_modal": {
+        "title": "Kontroller adresse",
+        "subtitle": {
+          "one": "Denne ordren leveres til adressen som er oppgitt av {{merchant}}.",
+          "other": "Denne ordren vil bli levert til en adresse oppgitt av {{merchant}}. Velg en leveringsadresse."
+        },
+        "subtitle_no_match": "Denne adressen samsvarer ikke med noen av dine lagrede adresser.",
+        "subtitle_must_use": "Din bestilling vil bli levert til denne adressen.",
+        "continue": "Fortsett med denne adressen",
+        "use_saved_address": "Bruk en annen adresse",
+        "return_to_cart": "Gå tilbake til handlekurven"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Gjennomgå",
+          "link_label": "reglene og vilkårene for {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Spørsmål? Chat med oss"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Det finnes %{count} sted med lager nær deg",
+          "other": "Det er %{count} steder med lager i nærheten av deg"
+        },
+        "toggle_location": "Bytt plass",
+        "or": "ELLER",
+        "cancel": "Avbryt",
+        "your_location": "din plass",
+        "search_button": "Finn butikker",
+        "no_stores_found": "Ingen butikker funnet",
+        "could_not_resolve_address": "Adressen din kunne ikke lokaliseres. Prøv igjen eller bruk en annen adresse",
+        "paginator": {
+          "accessibility_label": "Paginering lokal henting",
+          "previous": "Forrige side",
+          "next": "Neste side",
+          "label": {
+            "one": "%{first} - %{last} av %{count} butikk",
+            "other": "%{first} - %{last} av %{count} butikker"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Vis %{count} sted til",
+          "other": "Vis ytterligere %{count} steder"
+        },
+        "location_address_search_label": "Adresse",
+        "all_stores_far_away": {
+          "title": "De nærmeste stedene er mer enn %{distance} unna",
+          "description": "Velg et sted eller %{ship_to_address_link}",
+          "ship_to_address_link": "levere til adresse",
+          "title_with_location": "Det nærmeste stedet er mer enn %{distance} unna %{location}"
+        }
       }
     },
     "pagination": {
@@ -1937,6 +2101,128 @@
           "order": "Bestilling",
           "actions_accessibility_label": "Tiltak"
         }
+      },
+      "order_status": {
+        "delivery_estimate_delayed_title": "Forsinket",
+        "delivery_estimate_early_description": "Leveranser til ditt område går raskere enn vanlig. Denne bestillingen kan komme frem tidligere.",
+        "delivery_exception_action_required": "Tiltak kreves",
+        "delivery_exception_attempted_action": "Bestill en ny levering",
+        "delivery_exception_attempted_description": "{{link}} hos {{carrier}} eller se etter en hentelapp",
+        "delivery_exception_attempted_description_unknown": "{{link}} eller let etter en leveringsbekreftelse",
+        "delivery_exception_attempted_title": "Leveringsforsøk utført",
+        "delivery_exception_delivery_failed": "Leveringen mislyktes",
+        "delivery_exception_failed_action": "Hør med {{carrier}}",
+        "delivery_exception_failed_description": "{{link}} eller kontakt oss for mer informasjon",
+        "delivery_exception_failed_description_unknown": "Kontakt budet for mer informasjon",
+        "delivery_exception_failed_title": "Ikke levert",
+        "delivery_exception_on_hold_action": "Oppdater leveringsinformasjon",
+        "delivery_exception_on_hold_description": "{{link}} hos {{carrier}} for at din ordre skal kunne sendes videre",
+        "delivery_exception_on_hold_description_unknown": "{{link}} for at din ordre skal kunne sendes videre",
+        "delivery_exception_on_hold_title": "I ventemodus",
+        "delivery_exception_returning_to_sender_action": "Kontakt {{carrier}}",
+        "delivery_exception_returning_to_sender_description": "{{link}} for mer informasjon",
+        "delivery_exception_returning_to_sender_description_unknown": "Kontakt budet for mer informasjon",
+        "delivery_exception_returning_to_sender_title": "Ikke levert",
+        "delivery_exception_shop_promise_delivered_late_description": "Din bestilling er garantert av Shop Promise. Siden den ble levert for sent, kan du be om {{amount}} i Shop Cash.",
+        "delivery_exception_shop_promise_delivered_late_title": "Levert for sent",
+        "predicted_by_shop": "Beregnet av Shop",
+        "pickup_address_map_link_accessibility_label": "Vis opphentingsstedet på {{address}} på et kart (åpnes i et nytt vindu)",
+        "ready_for_pickup_show_qr_description": "Vis frem denne QR-koden når du henter bestillingen din.",
+        "pickup_location_label": "Hentested:",
+        "pickup_qr_code_accessibility_label": "QR-kode du skanner i butikken når du henter din ordre",
+        "fulfillment_tracking": {
+          "delivery_progress_heading": "Leveringsstatus",
+          "status": {
+            "attempted_delivery": "Leveringsforsøk",
+            "buyer_action_required": "Tiltak kreves",
+            "carrier_picked_up": "Hentet av bud",
+            "confirmed": "Bekreftet",
+            "delayed": "Forsinket",
+            "delivered": "Levert",
+            "exception": "Leveranseproblem",
+            "failure": "Leveranseproblem",
+            "in_transit": "På vei",
+            "label_printed": "Etikett skrevet ut",
+            "label_purchased": "Etikett kjøpt",
+            "out_for_delivery": "Ute til levering",
+            "picked_up": "Hentet",
+            "ready_for_pickup": "Klar for henting av bud",
+            "ready_for_recipient_pickup": "Klar for henting",
+            "returning_to_sender": "Returneres til avsender"
+          },
+          "attempted_delivery_banner": "Kontroller {{carrier}} for leveringsinformasjon eller for å bestille en ny levering",
+          "buyer_action_required_banner": "Kontroller {{carrier}} eller kontakt oss for mer informasjon",
+          "carrier_banner_link_accessibility_label": "Vis sporingsinformasjon for {{carrier}} (åpnes i et nytt vindu)",
+          "carrier_link_accessibility_label": "Spor levering fra {{carrier}} (åpnes i et nytt vindu)",
+          "completed_gift_card": "Fullført {{date}}",
+          "delivered_on": "Levert {{date}}",
+          "in_store_purchase": "Kjøp i butikk",
+          "picked_up_on": "Hentet {{date}}",
+          "pickup_details_banner": "Kontroller {{carrier}} for hentedetaljer",
+          "pickup_details_link_accessibility_label": "Vis hentedata for {{carrier}} (åpnes i et nytt vindu)",
+          "delivery_progress_for_shipment_accessibility_label": "Leveringsstatus for levering {{position}}",
+          "tracking_link_accessibility_label": "Spor levering {{trackingNumber}} fra {{carrier}} (åpnes i et nytt vindu)",
+          "gift_card_sent_to_recipient": {
+            "one": "Gavekortet er sendt til mottakeren.",
+            "other": "Gavekortene er sendt til mottakerne."
+          },
+          "unknown_carrier_banner": "Kontakt oss for mer informasjon"
+        },
+        "arrives_tomorrow": "Ankommer i morgen",
+        "arrives_today": "Ankommer i dag"
+      },
+      "status_mark_as_delivered": "Marker som levert",
+      "buy_again": "Kjøp igjen",
+      "buy_again_accessibility_label": "Kjøp igjen for bestillingen {{orderId}}",
+      "manage": "Håndtere",
+      "manage_accessiblity_label": "Håndter ordren {{orderId}}",
+      "fulfillment_status_title": "Distribusjonsstatus: {{status}}",
+      "list_title_confirmed_orders_accessibility_label": "Ordrer: bekreftet",
+      "list_title_pending_orders_accessibility_label": "Ordre: ventende",
+      "switch_order_type_pending_orders_accessibility_label": "Bytt ordertype, viser ventende ordrer",
+      "switch_order_type_confirmed_orders_accessibility_label": "Bytt ordretype, viser bekreftede ordrer",
+      "group_title_label": "Del av: {{groupTitle}}",
+      "group_title_label_with_parent": "For: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturering og levering",
+      "billing_address": "Faktureringsadresse",
+      "card_ending_with": "slutter på {{lastDigits}}",
+      "contact": "Kontakt",
+      "hide_items": "Skjul artikler",
+      "loading": "Laster ordreinformasjon",
+      "loading_finished_accessibility_message": "Ordredetaljer har blitt lastet opp",
+      "payment": {
+        "status_in_review": "Betalingen må gjøres etter gjennomgangen",
+        "status_unpaid": "Betaling forfaller den {{date}}",
+        "title": "Betaling",
+        "shop_pay_installments": {
+          "view_schedule": "Vis tidsplan",
+          "summary": "Avdrag for innkjøp"
+        },
+        "transactions": {
+          "show_all": "Vis alt",
+          "show_less": "Vis mindre",
+          "details": "Oppgaver",
+          "payment_details": "Betalingsinformasjon"
+        },
+        "emv_details": {
+          "auth": "AUKS:",
+          "aid": "HJELP:",
+          "source": "KILDE:"
+        },
+        "payment_type": {
+          "gift_card": "Gavekort",
+          "store_credit": "Verdikupong",
+          "money_order": "Postanvisning",
+          "cash_on_delivery": "Betaling ved levering",
+          "bank_deposit": "Bankinnskudd",
+          "manual": "Manuell"
+        }
+      },
+      "shipping": {
+        "address": "Leveringsadresse",
+        "address_map_marker": "Leveringsadresse"
       }
     }
   },
