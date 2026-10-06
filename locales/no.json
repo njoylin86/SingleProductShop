@@ -1812,7 +1812,27 @@
         "payment_status": {
           "draft": {
             "deposit": {
-              "due_on_date": "{{depositAmount}} skal betales når bestillingen bekreftes. Restbeløpet forfaller den {{dueDate}}."
+              "due_on_date": "{{depositAmount}} skal betales når bestillingen bekreftes. Restbeløpet forfaller den {{dueDate}}.",
+              "due_later": "{{depositAmount}} skal betales når ordren bekreftes. Saldoen vil gjelde i henhold til {{translatedName}}-vilkårene.",
+              "due_on_fulfillment": "{{depositAmount}} skal betales når ordren bekreftes. Saldoen forfaller når ordren er distribuert.",
+              "due_on_receipt": "{{depositAmount}} skal betales når ordren bekreftes. Restbeløpet forfaller senere."
+            },
+            "description": "Betalingsdetaljer vil bli fastsatt når ordren er bekreftet.",
+            "title": "Betalingen forfaller ikke ennå",
+            "in_review": {
+              "description": "Betalingsdetaljer vil bli fastsatt når ordren er bekreftet.",
+              "title": "Betalingen forfaller ikke ennå"
+            },
+            "submitted": {
+              "description": "Send betaling for å bekrefte denne ordren.",
+              "title": "Betal for å bekrefte",
+              "deposit": {
+                "title": "Forfallsdato",
+                "due_later": "Saldo er i henhold til vilkår fra {{translatedName}} og skal betales den {{dueDate}}.",
+                "due_on_fulfillment": "Saldoet skal betales når alle artiklene i ordren er distribuert.",
+                "due_on_receipt": "Du mottar en faktura for restbeløpet.",
+                "due_on_date": "Saldobeløpet forfaller til betaling {{dueDate}}."
+              }
             }
           },
           "paid": {
@@ -1875,7 +1895,10 @@
           "expand_events_accessibility_label": "Vis detaljer for ordreutkast",
           "hide_events_label": "Skjul detaljer",
           "hide_events_accessibility_label": "Skjul detaljer for ordreutkast"
-        }
+        },
+        "draft_order_subtitle": "Bekreftet {{date}} fra bestillingen {{draftOrderName}}",
+        "loading": "Laster ordreinformasjon",
+        "loading_finished_accessibility_message": "Ordredetaljer har blitt lastet opp"
       },
       "payment_methods": {
         "payment_delete": {
@@ -1901,6 +1924,107 @@
         "modal_po_number_input_max_length_error": "Innkjøpsordrenummer har maksimalt {{maxLength}} tegn.",
         "save": "Lagre",
         "title": "Innkjøpsordrenummer {{poNumber}}"
+      },
+      "account_information": {
+        "company_card_name_label": "Foretaksnavn",
+        "company_card_section_accessibility_label": "Bedrift"
+      },
+      "locations": {
+        "contact_email": "E-post",
+        "contact_list_title": "Mennesker",
+        "contact_name": "Navn",
+        "contact_permissions": "Tilganger",
+        "contact_phone_number": "Telefonnummer",
+        "location_picker_label": "Stedsnavn",
+        "net_payment_terms_description": "{{name}}: betaling forfaller om {{numberOfDays}} dager",
+        "payment_details_title": "Betalingsinformasjon",
+        "payment_terms": "Betalingsvilkår",
+        "permissions_label": "Dine tilganger",
+        "permissions_title": "Tilganger",
+        "section_title": "Sted",
+        "shipping_address_required": "Legg til en leveringsadresse for dette stedet for å begynne å legge inn bestillinger",
+        "tax_details_title": "Skattedetaljer",
+        "tax_id": "Skatte-ID",
+        "tax_exemptions": "Skattefritak",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} til",
+        "multiple_tax_exemptions_and": "og",
+        "tax_exemptions_modal_close": "Lukk",
+        "taxes_none": "Ingen",
+        "tax_exemption_not_applicable": "Ikke relevant",
+        "tax_exemptions_modal_button_accessibility_label": "Se alle skattefritak",
+        "pagination": {
+          "load_more": "Vis mer",
+          "load_more_accessibility_label": "Vis flere steder"
+        },
+        "own_role_contact_name": "Du",
+        "staff_and_permissions_title": "Personale og tilganger",
+        "location_picker_accessibility_label": "Stedsnavn: {{locationName}}",
+        "deposit_percentage": "{{percentage}} innskudd",
+        "contact_contact": "Kontakt"
+      },
+      "location_selection": {
+        "description": "Hvis du allerede har varer i handlekurven, kan prisene og antall endres hvis du endrer sted.",
+        "list_accessibility_label": "Stedsliste",
+        "list_item_without_address_accessibility_label": "{{name}}: Ingen adresse",
+        "list_loading_accessibility_message": "Laster inn stedsliste",
+        "list_loading_address_accessibility_message": "Laster adresse for {{locationName}}",
+        "list_loading_finished_accessibility_message": "Stedsliste er lastet opp",
+        "loading_store_accessibility_message": "Går til butikken",
+        "selection_cancel_button": "Avbryt",
+        "selection_confirmation_button": "Velg sted",
+        "title": "Hvilken plass kjøper du for?",
+        "continue_to_store": "Fortsett til butikken",
+        "no_location_title": "Kun personlige bestillinger",
+        "no_location_description": "Du har ikke tilgang til å legge inn bestillinger for {{company}}. Du kan fremdeles legge inn personlige bestillinger.",
+        "no_locations_found": "Ingen steder funnet",
+        "search": "Søk etter steder",
+        "clear_search": "Tøm søket",
+        "try_new_search": "Prøv et nytt søk",
+        "search_location_title": "Velg et sted",
+        "selection_continue_button": "Fortsett",
+        "description_switch_later": "Du kan alltid bytte senere",
+        "title_choose_location": "Velg et sted",
+        "error_loading_locations": "Det oppsto et problem under lasting av steder. Sjekk internettilkoblingen din og prøv igjen."
+      },
+      "addresses": {
+        "add_billing_address_button": "Legg til fakturaadresse",
+        "add_billing_address_section_accessibility_label": "Legg til fakturaadresse",
+        "add_shipping_address_button": "Legg til leveringsadresse",
+        "add_shipping_address_section_accessibility_label": "Legg til leveringsadresse",
+        "billing_address_card_title": "Faktureringsadresse",
+        "cancel_adding_billing_address_accessibility_label": "Avbryt tillegg av faktureringsadresse",
+        "cancel_adding_shipping_address_accessibility_label": "Avbryt tillegg av leveringsadresse",
+        "save_new_billing_address_accessibility_label": "Lagre fakturaadresse",
+        "save_new_shipping_address_accessibility_label": "Lagre leveringsadresse",
+        "shipping_address_card_title": "Leveringsadresse",
+        "no_billing_address_banner": "Ingen faktureringsadresse er lagt til"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Skjul alle",
+          "show_all": "Vis alle",
+          "hide_all_accessibility_label": "Skjul alle ordrer til vurdering",
+          "show_all_accessibility_label": "Vis alle ordrer til vurdering",
+          "title": "Venter",
+          "pagination": {
+            "nav_accessibility_label": "Navigeringsknapper for ordrer til vurdering"
+          },
+          "show_all_orders_in_review": "Vis alle ordrer til vurdering",
+          "show_less_orders_in_review": "Vis færre ordrer til kontroll",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Du har ingen ventende ordrer",
+            "pending_orders": {
+              "one": "Du har {{count}} ventende ordre",
+              "other": "Du har {{count}} ventende bestillinger"
+            },
+            "more_than_pagination_length": "Du har flere enn {{count}} ventende bestillinger"
+          },
+          "pending_orders_count_more_than_pagination_length": "Flere enn {{count}}"
+        },
+        "order_list_column_headers_location": "Sted",
+        "order_list_column_headers_contact": "Kontakt",
+        "removed_company_contact_tooltip": "Fjernet fra firmaet",
+        "order_list_column_headers_status": "Status"
       }
     },
     "errors": {
@@ -2224,6 +2348,10 @@
         "address": "Leveringsadresse",
         "address_map_marker": "Leveringsadresse"
       }
+    },
+    "address_form": {
+      "loading_form_accessibility_message": "Laster inn adresseformular",
+      "attention_company": "Firma/mottaker"
     }
   },
   "customer": {
