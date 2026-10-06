@@ -438,54 +438,7 @@
         "postal_code_placeholder": "Postnummer",
         "postcode_label": "Postnummer",
         "postcode_placeholder": "Postnummer",
-        "pincode_label": "Pinkode",
-        "pincode_placeholder": "Pinkode",
-        "region_none": "Ingen valgt",
-        "civic_number_warning": "Legg til et husnummer hvis du har det",
-        "optional_last_name_label": "Etternavn (valgfritt)",
-        "different_shipping_address_label": "Send til en annen adresse",
-        "different_shipping_address_text": "Bruk en engangsadresse for denne ordren",
-        "change_company_location_link_label": "Endre bedriftssted",
-        "change_location_link_label": "Bytt plass",
-        "ship_to_company": "Frakta til {{companyName}}",
-        "shipping_used_as_billing_notice": "Denne vil også bli brukt som fakturaadress for denne ordren.",
-        "company_attention_label": "Firma/mottaker",
-        "optional_company_attention_label": "Bedrift/mottaker (valgfritt)",
-        "street_name_label": "Gaten",
-        "street_number_label": "Husnummer",
-        "optional_street_number_label": "Husnummer (valgfritt)",
-        "neighborhood_label": "Område",
-        "optional_neighborhood_label": "Område (valgfritt)",
-        "barangay_label": "Barangay",
-        "optional_barangay_label": "Barangay (valgfritt)",
-        "colony_label": "Koloni",
-        "optional_colony_label": "Koloni (valgfritt)",
-        "commune_label": "Kommune",
-        "optional_commune_label": "Kommune (valgfritt)",
-        "district_label": "Distrikt",
-        "optional_district_label": "Distrikt (valgfritt)",
-        "ward_label": "Kvartal",
-        "optional_ward_label": "Kvartal (valgfritt)",
-        "available_addresses_label": "Tilgjengelige adresser",
-        "block_label": "Kvartal",
-        "optional_block_label": "Kvartal (valgfritt)",
-        "area_label": "Område",
-        "optional_area_label": "Område (valgfritt)",
-        "optional_zip_code_label": "Postnummer (valgfritt)",
-        "optional_postal_code_label": "Postnummer (valgfritt)",
-        "optional_postcode_label": "Postnummer (valgfritt)",
-        "optional_pincode_label": "PIN-kode (valgfritt)",
-        "email_rollup_accessibility_label": "E-postalternativer",
-        "phone_rollup_accessibility_label": "Telefonvalg",
-        "phone_country_code_label": "Landskode for telefonnummeret",
-        "storefront_link": "forhandlerens nettsted",
-        "suburb_label": "Område",
-        "subdistrict_label": "Underdistrikt",
-        "optional_subdistrict_label": "Underdistrikt (valgfritt)",
-        "optional_street_name_label": "Gate (valgfritt)",
-        "field_saved_label": "Lagret",
-        "field_tooltip_helper_text": "Brukes til ordrebekreftelse og handlekurvpåminnelser",
-        "field_tooltip_accessibility_label": "Mer informasjon om hvordan kontaktinformasjonen din brukes"
+        "pincode_label": "Pinkode"
       },
       "payment": {
         "order_edit_banner_items_return_line_item_removed": {
@@ -673,66 +626,267 @@
         "captcha_required": "Oppgi betalingsinformasjon og løs robotfilteret for å fullføre kjøpet.",
         "captcha_required_without_payment_information": "Løs robotfilteret for å fullføre kjøpet."
       },
-      "delivery_options": {
-        "ship": "Frakt",
-        "pick_up": "Hent",
-        "pick_up_in_two_hours": "Vanligvis klar innen 2 timer",
-        "pick_up_in_four_hours": "Vanligvis klar innen 4 timer",
-        "pick_up_immediately": "Klar for henting",
-        "pick_up_next_day": "Klar for henting neste dag",
-        "pick_up_in_one_hour": "Vanligvis klar innen 1 time",
-        "pick_up_in_twenty_four_hours": "Vanligvis klar innen 24 timer",
-        "pick_up_in_two_to_four_days": "Vanligvis klar innen 2–4 dager",
-        "pick_up_in_five_or_more_days": "Vanligvis klar innen 5 dager eller mer",
-        "pick_up_in_zero_to_two_hours": "Klar for henting om 2 timer",
-        "pick_up_in_two_to_four_hours": "Klar for henting om 4 timer",
-        "free_total_label": "Gratis",
-        "shipping_address": "Leveringsadresse",
-        "pick_up_locations": "Hentested",
-        "pickup_point_method_definition": "Levere til hentested",
-        "retail_method_definition": "Detaljhandelsleveranse",
-        "none_method_definition": "Ingen levering",
-        "subscription_pickup_information": "Dette blir hentestedet for alle fremtidige bestillinger i abonnementet ditt.",
-        "ship_to_address": "Levere til adresse",
-        "pick_up_from_store": "Henting i butikk",
-        "company_location_no_address_banner": "Ordre som levereres til steder uten adresse, vil bli sendt til vurdering.",
-        "pickup": "Hent",
-        "pickup_store": "Hent i butikk",
-        "pickup_point": "Utleveringssted",
-        "pickup_point_map_title": "Kart over utleveringssteder",
-        "digital_product": "Digitalt produkt"
-      },
-      "customer_account": {
-        "not_user_label": "Ikke %{first_name}?",
-        "have_an_account_label": "Har du en konto?",
-        "sign_in_link_label": "Logg inn",
-        "sign_out_link_label": "Logg ut",
-        "save_my_information_label": "Lagre denne informasjonen til neste gang",
-        "invalid_address": "Valgt adresse er ugyldig. %{update_address_link} eller velg en annen adresse.",
-        "incomplete_address": "Valgt adresse er ufullstendig. %{update_address_link} eller velg en annen adresse.",
-        "rollup_label": "Konto",
-        "invalid_shipping_method_summary": "Oppgi en gyldig leveringsadresse for å se tilgjengelige leveringsmetoder",
-        "saved_address_option_link": "Bruk en lagret adresse",
-        "saved_address_modal_title": "Bruk min lagrede adresse",
-        "saved_address_option_description": {
-          "one": "Du har {{count}} lagret adresse.",
-          "other": "Du har {{count}} lagrede adresser."
+      "order_summary": {
+        "total_updated_label": "Oppdatert totalpris:",
+        "order_total_updated_label": "Oppdatert totalbeløp",
+        "total_already_paid_label": "Betalt",
+        "unit_price": {
+          "accessible_separator": "per",
+          "content_html": "%{price} %{accessible_separator} %{per_unit}",
+          "per_item": {
+            "single": "%{price} hver",
+            "one": "%{price} per %{count} artikkel",
+            "other": "%{price} per %{count} artikler"
+          },
+          "per_unit": {
+            "single": "%{price}/%{unit}",
+            "plural": "%{price}/%{count}%{unit}"
+          }
         },
-        "rollup_accessibility_label": "Kontovalg"
+        "pickup_label": "Henting i butikk",
+        "no_pickup_location": "Det finnes ingen tilgjengelige hentesteder.",
+        "calculating_shipping": "Beregner …",
+        "estimated_taxes_label": "Beregnet skatt",
+        "information_estimated_taxes_label": "Skatter (beregnede)",
+        "gift_card_ending": "Gavekort som slutter på %{last_characters}",
+        "estimated_tax_label": "Beregnet skatt",
+        "multiple_shipping_lines_label": "Total leveringsavgift",
+        "applied_free_shipping_discount_label": "Anvendt",
+        "original_price": "Opprinnelig pris",
+        "sale_price": "Salgspris",
+        "recurring_subtotal_label": "Gjentakende delsum",
+        "recurring_total_label": "Gjentakende total",
+        "recurring_total_tooltip": "Inkluderer ikke frakt, skatt, tollavgifter eller eventuelle rabatter",
+        "gift_card_subscriptions_notice": "Gavekortet gjelder kun for din første betaling",
+        "confirmation_number_label": "Bekreftelse #%{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Du mottar en e-post- eller SMS-bekreftelse på den endelige skatten og totalbeløpet etter at du har lagt inn en bestilling.",
+        "deferred_payment_info": {
+          "title": "Betaling på %{amount_due} forfaller den %{due_at}",
+          "description_html": "For spørsmål om din bestilling, %{contact_us}.",
+          "paid_today": "Totalt betalt i dag",
+          "due_on_fulfillment_title": "Betaling på %{amount_due} forfaller ved distribusjon",
+          "due_on_receipt_title": "Betaling på %{amount_due} skal betales ved mottak",
+          "paid_today_next": "Betalt i dag"
+        },
+        "percent_off_shipping": "%{percent} % rabatt på frakt",
+        "amount_off_shipping": "%{amount} rabatt på frakt",
+        "payment_terms_totals": {
+          "due_today": "Totalt beløp som forfaller i dag",
+          "due_later": "Totalt beløp med forfall den %{due_at}",
+          "due_later_checkout_to_draft": "Totalt beløp som forfaller senere",
+          "due_on_fulfillment": "Beløp som forfaller ved distribusjon",
+          "due_on_receipt": "Totalbeløp som skal betales ved mottak",
+          "total_paid": "Totalt betalt beløp",
+          "due_today_next": "Å betale i dag",
+          "due_on_fulfillment_next": "Forfaller ved distribusjon"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kunne ikke brukes sammen med dine eksisterende rabatter.",
+        "maximum_discount_code_limit_reached": "Du har nådd maks antall rabattkoder. Fjern en eksisterende kode for å bruke <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Ordresum",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> fungerer ikke akkurat nå. Kontakt oss hvis du trenger hjelp.",
+        "due_on_fulfillment": "Forfaller ved distribusjon",
+        "gift_card_masked": "•••• %{last_characters}",
+        "subscriptions": "Abonnementer",
+        "duties_label": "Tollavgift",
+        "duties_and_taxes_label": "Tollavgifter og skatter",
+        "error_duties_tooltip": "Denne ordren sendes fra et annet land, så du kan bli belastet med tollavgifter og skatter ved levering.",
+        "may_be_charged_on_delivery": "Kan belastes ved levering",
+        "total_updated_label_with_price": "Oppdatert totalpris: %{totalPrice}",
+        "recurring_payments": "Gjentakende betalinger",
+        "recurring_total_multiple_label": "Denne ordren har en gjentakende avgift for flere varer",
+        "deferred_total_due_date_label": "Totalt beløp som forfaller den {{date}}",
+        "full_price": "Fullpris: %{price}",
+        "custom_discount": "Tilpass rabatt",
+        "expand_component_information": {
+          "one": "Vis %{count} artikkel",
+          "other": "Vis %{count} artikler"
+        },
+        "collapse_component_information": {
+          "one": "Skjul %{count} artikkel",
+          "other": "Skjul %{count} artikler"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "Legg til rabatt",
+          "merchandise_quantity_label": {
+            "one": "%{count} artikkel",
+            "other": "%{count} artikler"
+          },
+          "back_to_finalize_order": "Tilbake for å fullføre bestilling"
+        },
+        "alternative_payment_currency_total": "Debitert som %{amount_due}",
+        "calculating": "Beregner …",
+        "group_title_label": "Del av \"%{group_title}\"",
+        "discount_title_stacking": {
+          "one": "Rabat",
+          "other": "Rabatter"
+        },
+        "discount_order_stacking": {
+          "one": "Ordrerabatt",
+          "other": "Ordrerabatter"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} per artikkel",
+          "label": "%{price}/stk."
+        },
+        "updated_shipping_method": "Oppdatert leveringsmetode: %{shipping_method}",
+        "discount_not_found": "Vi finner ingen gyldig rabatt som samsvarer med den angitte koden",
+        "total_savings": "Totale besparelser",
+        "return_restocking_fee_label": "Påfyllingsgebyr",
+        "return_shipping_fee_label": "Returfrakt",
+        "enter_shipping_address": "Oppgi leveringsadresse",
+        "shipping_discount_title": "Leveringsrabatt",
+        "discount_code_applied": "Rabattkode har blitt aktivert",
+        "discount_code_applied_with_code": "Rabattkoden %{code} er lagt til",
+        "gift_card_applied": "Gavekort har blitt brukt",
+        "duties_included_label": "Alle skatter og tollavgifter er inkludert i totalbeløpet. Ingen ekstra avgifter belastes ved levering.",
+        "deferred_balance_info": {
+          "title": "Saldo på {{amount_due}} forfaller {{due_at}}",
+          "due_on_fulfillment_title": "Saldo på {{amount_due}} forfaller ved distribusjon"
+        },
+        "eligible_customer_missing_notice": "Rabattkoden for <strong style=\"text-transform:uppercase\">%{code}</strong> krever en kvalifisert kunde",
+        "subtotal_label_with_quantity": {
+          "one": "Delsumme · %{count} artikkel",
+          "other": "Delsum · %{count} artikler"
+        },
+        "cost_table_item_column_header": "Artikkel",
+        "cost_table_value_column_header": "Verdi",
+        "product_image_quantity_label": "Kvantitet",
+        "more_items_modal": {
+          "clear_search": "Tøm søket",
+          "empty_results": "Ingen resultater funnet for ”%{searchText}”. Kontroller stavemåten eller bruk et annet ord eller en annen frase.",
+          "number_items_shown": "%{shownNumber}/%{totalNumber} artikler"
+        }
       },
-      "stock": {
-        "page_title": "Lagerbeholdningsproblemer",
-        "title": "Utsolgt",
-        "items_unavailable_notice": "Enkelte artikler er ikke lenger tilgjengelige.",
-        "product_column_header": "Produkter",
-        "quantity_column_header": "Kvantitet",
-        "price_column_header": "Pris",
-        "status_column_header": "Status",
-        "removed_from_cart_notice": "Fjern fra handlekurven",
-        "sold_out_label": "Utsolgt",
-        "reduced_label": "Prisredusert",
-        "reduced_with_quantity_label": "Bare %{quantity_available} igjen.",
-        "remove_from_cart_button_label": "Fjern fra handlekurven"
+      "thank_you": {
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Når betalingen er fullført, får du en SMS-bekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Når betalingen er fullført, får du en SMS-bekreftelse. Spor ordren med Shop-appen.",
+        "order_status_payments_app_failed_pending_payment_payment": "Du ble ikke belastet for ordren. Gå tilbake til handlekurven for å se over ordren og betale på nytt.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Du ble ikke belastet for ordren. Gå tilbake til handlekurven for å se over ordren og betale på nytt.",
+        "order_status_confirmed_order_local_pick_up": "Vi forbereder din bestilling.",
+        "order_status_confirmed_order_local_payment": "Vi forbereder din bestilling.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Du vil snart motta en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Du vil snart motta en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Du vil snart motta en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Du vil snart motta en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Du vil snart motta en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Du vil snart motta en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Du vil snart motta en SMS-bekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Du vil snart motta en SMS-bekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Du vil snart motta en SMS-bekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontakt oss via e-post eller telefon for å få en ordrebekreftelse.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Når du har fullført betalingen, mottar du en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Når du har fullført betalingen, mottar du en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Når du har fullført betalingen, mottar du en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Når du har fullført betalingen, mottar du en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Når du har fullført betalingen, mottar du en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Når du har fullført betalingen, mottar du en e-postbekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Når du har fullført betalingen, mottar du en SMS-bekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Når du har fullført betalingen, mottar du en SMS-bekreftelse med ordrenummeret ditt.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Når du har fullført betalingen, mottar du en SMS-bekreftelse med ordrenummeret ditt.",
+        "vat_invoices": {
+          "title": "Momsfakturaer"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Du får en e-postmelding når betalingen din er bekreftet.",
+        "verify_shop_account_title": "Bekreft din Shop-konto",
+        "verify_shop_account_message": "Informasjonen din er lagret i Shop. Bekreft kontoen din for å bruke den automatisk i millioner av butikker.",
+        "verify_shop_account_cta": "Verifiser kontoen din",
+        "verify_shop_account_confirmation": "Kasseopplysningene er lagret",
+        "company_location_section_title": "Bedrift og sted",
+        "announcement": {
+          "close": "Lukk",
+          "expand": "Åpne",
+          "collapse": "Skjul"
+        },
+        "confirmed_items_count": "%{confirmed_count} av %{total_count} artikler har blitt bekreftet",
+        "thank_you_confirmed_orders_with_email": "Du vil snart motta separate e-postbekreftelser med ordrenummerene dine",
+        "thank_you_confirmed_orders_with_phone": "Du vil snart motta separate SMS-bekreftelser med ordrenumrene dine",
+        "thank_you_confirmed_orders_with_email_and_phone": "Du vil snart motta separate e-postbekreftelser med ordrenummerene dine",
+        "track_your_order_link_text": "Spor ordren din",
+        "checkout_on_remote_shop_link_text": "Betal hos %{remoteShopName}",
+        "confirmed_orders_title": "Dine ordrer er bekreftet",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "En artikkel er ikke bekreftet",
+          "other": "Enkelte artikler er ikke bekreftet"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Du har ikke blitt belastet for denne",
+          "other": "Du har ikke blitt belastet for disse"
+        },
+        "thank_you_from_shop": "Fra %{shop_name}",
+        "thank_you_item_label": {
+          "one": "%{count} artikkel",
+          "other": "%{count} artikler"
+        },
+        "payment_method_not_charged": "Ikke belastet",
+        "items_fulfilled_by_store": {
+          "one": "Artiklene du har kjøpt vil bli sendt fra %{remote_shop_name}.",
+          "other": "Artiklene du har kjøpt vil komme fra andre butikker."
+        },
+        "thank_you_from_other_store": "Fra en annen butikk",
+        "checkout_on_another_store": "Betal i en annen butikk",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Du vil snart motta en e-postbekreftelse",
+          "multi_store": "Du vil snart motta individuelle e-postbekreftelser fra hver butikk"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Du vil snart motta en SMS-bekreftelse",
+          "multi_store": "Du vil snart motta individuelle SMS-bekreftelser fra hver butikk"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Du vil snart motta en e-postbekreftelse",
+          "multi_store": "Du vil snart motta individuelle e-postbekreftelser fra hver butikk"
+        },
+        "checkout_again": "Tilbake til kassen",
+        "cashback_notice": "Du får din cashback etter 30 dager",
+        "pickup_map_marker": {
+          "callout": "Henting på {{location}}",
+          "directions_link_accessibility_label": "Henting på {{location}}, få veibeskrivelse"
+        }
+      },
+      "review": {
+        "title": "Anmeldelse",
+        "review_title": "Fullfør din bestilling",
+        "checkout_as_guest": "Betal som gjest",
+        "blocks": {
+          "contact_method_title": "Kontakt",
+          "billing_address_title": "Fakturering",
+          "shipping_address_title": "Send til",
+          "shipping_method_title": "Leveringsmetode",
+          "payment_method_title": "Betalingsmetode",
+          "change_link_label": "Endre",
+          "change_contact_method_link_label": "Endre kontaktinformasjon",
+          "change_billing_address_link_label": "Endre fakturaadresse",
+          "change_shipping_address_link_label": "Endre leveringsadresse",
+          "change_shipping_method_link_label": "Endre leveringsmetode",
+          "change_payment_method_link_label": "Endre betalingsmetode",
+          "pick_up_in_store_shipping_method_html": "Henting i butikk · %{location_name}",
+          "purchase_order_number_title": "Innkjøpsordrenummer",
+          "change_purchase_order_number_label": "Endre innkjøpsordrenummer",
+          "change_delivery_method_link_label": "Endre leveringsmetode",
+          "no_address": "(Ingen adresse)",
+          "no_purchase_order_number": "(Ikke noe innkjøpsordrenummer)",
+          "no_purchase_order_number_long": "Ingen innkjøpsordrenummer",
+          "due_after_order_reviewed_html": "Forfaller når ordren er kontrollert",
+          "review_title_free_order": "Gjennomgå og fullfør bestillingen din",
+          "payment_method_saved_company_location": "Lagre kort for dette stedet",
+          "company_location": "Bedriftens lokasjon",
+          "change_company_location_link_label": "Endre bedriftssted",
+          "pickup_items_at": {
+            "one": "Hent %{count} artikkel på",
+            "other": "Hent %{count} artikler på"
+          },
+          "ship_items_to": {
+            "one": "Leverer %{count} artikkel til",
+            "other": "Leverer %{count} artikler til"
+          }
+        },
+        "block_title": "Gå gjennom informasjonen din"
       }
     },
     "pagination": {
