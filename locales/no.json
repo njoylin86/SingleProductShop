@@ -395,6 +395,134 @@
         "postcode_label": "Postnummer",
         "postcode_placeholder": "Postnummer",
         "pincode_label": "Pinkode"
+      },
+      "payment": {
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} har blitt fjernet fra retur"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Fjernet fra retur",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} er trukket fra returen",
+        "proposed_gateway_unavailable": "Foreslått betalingsløsning er ikke tilgjengelig",
+        "pay_in_installments_split_pay_short": "Fire betalinger på %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Betalingsmetoden er ikke tilgjengelig for valgt leveringsadresse. Velg en annen betalingsmetode.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero er ikke tilgjengelig for denne ordren. Velg en annen betalingsmetode.",
+        "paypal_disconnect": "Koble fra",
+        "paypal_wallet_label": "PayPal-lommebok",
+        "payment_method_update_failed": "Det gikk ikke å oppdatere betalingsmetoden.",
+        "alternative_payment_currency_total_manual_payment_notice": "Obs! Konvertert totalbeløp er %{amount_due}.",
+        "gift_cards_unavailable": "Gavekortet kan ikke lenger brukes på denne ordren og har blitt fjernet",
+        "network_card_payment_options": "Velg et kortnettverk",
+        "payment_flexibility_terms_id_mismatch": "ID for vilkårene for betalingsfleksibilitet stemmer ikke overens",
+        "offsite_gateway_review_page_redirect_hint": "Etter at du har gjennomgått bestillingen din, blir du omdirigert til %{gateway_label} for å fullføre kjøpet",
+        "przelewy24_label": "Przelewy24",
+        "twint_label": "TWINT",
+        "mobilepay_label": "MobilePay",
+        "gift_card_checkbox_label": "Bruk gavekort",
+        "blik_label": "BLIKK",
+        "simulated_express_checkout": "Digitale lommebøker er ikke tilgjengelige i redigeringsforhåndsvisningen på grunn av din region eller nettleser",
+        "vipps_label": "Vipps",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "KCP-kontokort",
+        "offsite_gateway_redirect_hint_no_button_label": "Du videresendes til %{gateway_label} for å fullføre kjøpet",
+        "swish_label": "Vipps",
+        "network_card_persistence_description": "Det valgte nettverket lagres med betalingsmetoden din for fremtidige transaksjoner.",
+        "usdc_label": "USDC",
+        "payment_method_incompatible_with_payment_terms": "Betalingsmetoden er inkompatibel med betalingsvilkårene.",
+        "payment_option": {
+          "accessibility_label": "Velg et betalingsalternativ"
+        },
+        "billing_address_rollup_accessibility_label": "Alternativer for faktureringsadresse",
+        "payment_method_rollup_accessibility_label": "Alternativer for betalingsmetode",
+        "bank_account_type": {
+          "checking": "Brukskonto",
+          "savings": "Sparekonto"
+        },
+        "bank_account_choose": "Velg en konto for å gjennomføre kjøpet på en sikker måte",
+        "bank_account_connect_another": "Koble til en annen bankkonto",
+        "bank_account_connect": "Koble til bankkonto",
+        "crypto_modal": {
+          "header": "Betal %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Oppdater",
+            "close": "Lukk",
+            "sandbox_error": "En feil oppstod",
+            "web_component_error": "Det gikk ikke å laste inn denne siden"
+          }
+        },
+        "bank_account_missing": "Bankkonto må være tilknyttet",
+        "crypto_payment_method": {
+          "description": "Koble til den digitale lommeboken din trygt. Saldoen og adressen din deles ikke.",
+          "tooltip": "Din lommebokssaldo og din adresse deles ikke, og kun det forespurte beløpet kan trekkes.",
+          "cashback_descriptor": {
+            "one": "Du får din cashback etter %{count} dager",
+            "other": "Du får din cashback etter %{count} dager"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage} % cashback",
+        "usdc_cashback_additional_info": "Betal med USDC på Base og få %{incentive_percentage} % tilbake i din digitale lommebok om 30 dager.",
+        "usdc_cashback_terms": "Vilkår og begrensninger gjelder",
+        "discount_show_more_warnings": {
+          "one": "Vis %{count} til",
+          "other": "Vis %{count} til"
+        },
+        "separate_payments_label": "Artiklene kommer fra mer enn én butikk. Du vil bli belastet gjennom %{separate_payments_link}.",
+        "separate_payments_text": "separate betalinger",
+        "payments": "Betalinger",
+        "business_customer_with_bank_account_vaulting_payment_label": "Lagre betalingsmetoden i kassen og autoriser at %{company} belaster kontoen din ved fremtidige kjøp du godkjenner for dette stedet. Alle kontakter som er tilknyttet dette stedet, kan bruke betalingsmetoden.",
+        "new_bank_account_disclaimer": "Ved å gjennomføre ordren godkjenner du at %{shop_name} belaster kontoen nedenfor via ACH for det beløpet, og på det tidspunktet, som vises.",
+        "bank_account_disclaimer": "Det kan ta opptil fire virkedager før ACH-betalinger blir behandlet.",
+        "bank_account_vaulted_company_location": "Bankkonto er lagret for dette stedet",
+        "bank_account_generic_error": "Bankkonto kunne ikke legges til. Prøv igjen senere.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} rabattkode er fjernet",
+          "other": "%{count} rabattkoder er fjernet"
+        },
+        "default": "Standard",
+        "continue_to_guest_checkout": "Fortsett til gjestekassen",
+        "add_payment_method": "Legg til betalingsmetode",
+        "choose_new_payment_method": "Bruk en ny betalingsmetode",
+        "add_new_payment_method": "Legg til en ny betalingsmetode",
+        "discount_codes_modified_summary": {
+          "one": "%{count} rabattkode har blitt endret",
+          "other": "%{count} rabattkoder er endret"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} rabattkode har blitt fjernet eller endret",
+          "other": "%{count} rabattkoder har blitt fjernet eller endret"
+        },
+        "multiple_primary_payment_not_allowed": "Ugyldige betalingsmetoder",
+        "purchase_options_subscription_confirmation_title": "Bekreft abonnementet",
+        "purchase_options_subscription_agreement_label": "Din handlekurv inneholder et abonnement som fornyes automatisk. Ved å klikke på «%{button_label}» %{consent_text} %{cancellation_instructions}",
+        "purchase_options_subscription_agreement_label_wallets": "Handlekurven din inneholder et abonnement som fornyes automatisk. Ved å bruke hurtigkassen %{consent_text} %{cancellation_instructions}",
+        "purchase_options_subscription_consent_text": "samtykker du uttrykkelig og aktivt i at du automatisk debiteres de/det tilbakevendende beløp som vises i handlekurven (pluss frakt og skatter) inntil abonnementet/abonnementene utløper eller du sier det/dem opp.",
+        "purchase_options_subscription_cancellation_instructions": "%{cancel_text} Se %{cancellation_policy_label}.",
+        "purchase_options_subscription_cancel_text": "Du kan når som helst avbryte ved å gå til kontoen din eller kontakte butikken.",
+        "vault_for_payment_later": {
+          "pay_button_label": "Legg inn bestilling",
+          "notice": "Du blir ikke belastet nå. Ved å fortsette med betalingen godtar du at betalingsmåten din blir belastet når bestillingen din behandles."
+        },
+        "alipay_label": "Alipay",
+        "wechat_pay_label": "WeChat Pay",
+        "oxxo_label": "OXXO",
+        "pay_with_credit_card": "Betal med kredittkort",
+        "pay_with_debit_card": "Betal med betalingskort",
+        "bogus_test_checkout": {
+          "title": "Testinstruksjon",
+          "intro": "Bruk disse verdiene for å teste kassen din:",
+          "approved_transaction": "{{card_number}} for å simulere en godkjent transaksjon",
+          "declined_transaction": "{{card_number}} for å simulere en avvist transaksjon",
+          "gateway_failure": "{{card_number}} for å simulere en gateway-feil",
+          "additional_instructions": "Bruk valgfri fremtidig utløpsdato og valgfri tresifret sikkerhetskode.",
+          "support_link": "Få support"
+        },
+        "order_edit_banner_single_item_updated": "Oppdatert",
+        "order_edit_banner_previous_taxes_label": "Tidligere skatt:",
+        "order_edit_banner_new_taxes_label": "Ny skatt:",
+        "order_edit_banner_no_taxes_label": "Ingen",
+        "satispay_label": "Satispay",
+        "wechat_app_label": "WeChat",
+        "mb_way_label": "MB WAY",
+        "bizum_label": "Bizum"
       }
     },
     "pagination": {
