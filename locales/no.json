@@ -342,7 +342,45 @@
         "delivery_address_code_too_long": "Adresskoden er for lang (maks %{count} tegn)",
         "delivery_address_code_contains_emojis": "Adresskoden må ikke inneholde emojier",
         "delivery_address_code_contains_html_tags": "Adresskoden må ikke inneholde HTML-koder",
-        "delivery_address_code_contains_mathematical_symbols": "Adresskoden må ikke inneholde matematiske symboler"
+        "delivery_address_code_contains_mathematical_symbols": "Adresskoden må ikke inneholde matematiske symboler",
+        "handle_phone_invalid": "Oppgi et gyldig telefonnummer",
+        "handle_email_invalid": "Oppgi en gyldig e-postadresse",
+        "email_invalid": "Oppgi en gyldig e-postadresse",
+        "email_or_phone_blank": "Oppgi en e-postadresse eller et telefonnummer",
+        "email_or_phone_invalid": "Oppgi en gyldig e-postadresse eller et gyldig telefonnummer",
+        "address_first_name_blank": "Oppgi et fornavn",
+        "address_last_name_blank": "Oppgi et etternavn",
+        "address_address1_blank": "Oppgi en adresse",
+        "address_address2_blank": "Oppgi leilighet, oppgang e.l.",
+        "address_city_blank": "Oppgi en by",
+        "address_country_blank": "Velg et land/region",
+        "address_country_not_supported": "Vi sender ikke til dette landet eller denne regionen. Vennligst oppgi en ny leveringsadresse og prøv igjen.",
+        "address_province_blank": "Velg en by/fylke",
+        "address_company_blank": "Oppgi et firmanavn",
+        "address_phone_blank": "Oppgi et gyldig telefonnummer",
+        "address_zip_blank": "Oppgi et postnummer",
+        "address_zip_invalid_for_country": "Oppgi et gyldig postnummer for %{country}",
+        "address_zip_invalid_for_country_and_province": "Oppgi et gyldig postnummer for %{province}, %{country}",
+        "credit_card_name_blank": "Oppgi navnet ditt nøyaktig slik det står skrevet på kortet ditt",
+        "credit_card_name_invalid": "Oppgi navnet ditt nøyaktig slik det står skrevet på kortet ditt",
+        "credit_card_number_invalid": "Oppgi et gyldig kortnummer",
+        "credit_card_expiry_invalid": "Oppgi en gyldig utløpsdato",
+        "credit_card_month_invalid": "Oppgi en gyldig utløpsmåned",
+        "credit_card_year_invalid": "Oppgi et gyldig utløpsår",
+        "credit_card_start_invalid": "Oppgi en gyldig startdato for kortet",
+        "credit_card_start_month_invalid": "Angi en gyldig startmåned for kortet.",
+        "credit_card_start_year_invalid": "Oppgi et gyldig startår for kortet",
+        "credit_card_verification_value_blank": "Oppgi CVV- eller sikkerhetskoden på kortet ditt",
+        "delivery_line_detail_changed": "Enkelte leveringsopplysninger kan ha blitt endret. Bekreft leveringsmetoden din og prøv igjen.",
+        "reduction_code_code_not_found": "Oppgi en gyldig rabattkode eller et gyldig gavekort",
+        "reduction_code_discount_not_found": "Oppgi en gyldig rabattkode",
+        "reduction_code_gift_card_code_invalid": "Oppgi et gyldig gavekort",
+        "reduction_code_gift_card_unusable": "Du kan ikke bruke et gavekort til å kjøpe et annet gavekort",
+        "shipping_line_phone_blank": "Oppgi et telefonnummer for å bruke denne fraktmetoden",
+        "shipping_line_phone_invalid": "Oppgi et gyldig telefonnummer",
+        "gift_card_already_applied": "Dette gavekortet er allerede lagt til i din bestilling",
+        "gift_card_disabled": "Dette tilbudet er ikke lenger tilgjengelig.",
+        "gift_card_expired": "Gavekortet har utløpt"
       },
       "shop_wallet": {
         "confirm": {
@@ -566,7 +604,97 @@
         "satispay_label": "Satispay",
         "wechat_app_label": "WeChat",
         "mb_way_label": "MB WAY",
-        "bizum_label": "Bizum"
+        "bizum_label": "Bizum",
+        "lpm": {
+          "oxxo": {
+            "voucher": {
+              "label": "OXXO",
+              "number": "Referansenummer",
+              "steps": {
+                "scan_barcode_at_oxxo": "Skann strekkoden hos din nærmeste OXXO."
+              },
+              "barcode_alt": "OXXO-verdikupongens strekkode for referansenummer %{reference_number}"
+            }
+          },
+          "multibanco": {
+            "voucher": {
+              "label": "Multibanco",
+              "codes": {
+                "entity": "Entitet",
+                "reference_number": "Referanse"
+              },
+              "steps": {
+                "pay_at_atm_or_online": "Betal i en Multibanco-minibank eller via nettbanken din med opplysningene nedenfor."
+              }
+            }
+          },
+          "konbini": {
+            "voucher": {
+              "label": "Nærbutikk",
+              "outlets": {
+                "familymart": "FamilyMart",
+                "lawson": "Lawson",
+                "ministop": "Ministopp",
+                "seicomart": "Seicomart"
+              },
+              "codes": {
+                "reference_number": "Betalingskode",
+                "confirmation_number": "Bekreftelseskode"
+              },
+              "steps": {
+                "familymart": {
+                  "1": "Velg 代金支払い／チャージ (”Betaling/avgift”) på multifunksjonsmaskinen",
+                  "2": "Oppgi betalingskoden din og trykk på OK",
+                  "3": "Oppgi bekreftelseskoden din og trykk på OK",
+                  "4": "Kontroller opplysningene og trykk på 確認 («Bekreft») for å skrive ut kupongen din",
+                  "5": "Ta med kupongen til kassen innen 30 minutter og betal kontant eller med FamiPay"
+                },
+                "lawson": {
+                  "1": "Velg 各種番号をお持ちの方 (”Jeg har et nummer”) på Loppi-terminalen",
+                  "2": "Oppgi betalingskoden din og trykk på 次へ («Neste»)",
+                  "3": "Oppgi bekreftelseskoden din og trykk på 次へ",
+                  "4": "Kontroller opplysningene og trykk på はい («Ja») for å skrive ut kupongen din",
+                  "5": "Ta med kupongen til kassen innen 30 minutter og betal kontant"
+                },
+                "ministop": {
+                  "1": "Velg 各種番号をお持ちの方 (”Jeg har et nummer”) på Loppi-terminalen",
+                  "2": "Oppgi betalingskoden din og trykk på 次へ («Neste»)",
+                  "3": "Oppgi bekreftelseskoden din og trykk på 次へ",
+                  "4": "Kontroller opplysningene og trykk på はい («Ja») for å skrive ut kupongen din",
+                  "5": "Ta med kupongen til kassen innen 30 minutter og betal kontant"
+                },
+                "seicomart": {
+                  "1": "Si \"Internettbetaling\" i kassen",
+                  "2": "Skriv inn betalingskoden din på kundeskjermen og velg 登録 («Bekreft»)",
+                  "3": "Oppgi bekreftelseskoden din og velg 登録",
+                  "4": "Kontroller opplysningene og velg OK",
+                  "5": "Betal kontant"
+                },
+                "1": "Ta med betalingskoden og bekreftelseskoden til butikkens terminal eller kasse og betal kontant før verdikupongen utløper."
+              },
+              "pay": "Betal %{amount}",
+              "choose_outlet": "Velg en Konbini for å se kodene dine og hvordan du betaler",
+              "expires_at": "Utløper %{date}",
+              "expiry_date_time": "%{date} kl. %{time} JST",
+              "copy_code": "Kopier %{label}",
+              "code_copied": "Kopiert",
+              "keep_receipt": "Ta vare på kvitteringen som betalingsbevis",
+              "view_instructions": "Vis betalingsinstruksjoner",
+              "view_instructions_accessibility_label": "Vis betalingsinstruksjoner (åpnes i en ny fane)",
+              "expired_title": "Betalingskoden har utløpt",
+              "expired": "Gikk ut %{date}"
+            }
+          }
+        },
+        "payment_method_unavailable_error": "Denne betalingsmåten er ikke tilgjengelig for øyeblikket. Velg en annen betalingsmåte.",
+        "payment_method_loading_error": "Denne betalingsmåten lastes fortsatt inn. Prøv igjen om noen sekunder.",
+        "bank_payment_method_label": "Bankbetalingsmetode",
+        "set_as_default_card": "Angi som standardkort",
+        "loading": "Laster betaling...",
+        "konbini_label": "Nærbutikk",
+        "paynow_label": "PayNow",
+        "paypay_label": "PayPay",
+        "scalapay_label": "Scalapay"
       },
       "payment_errors": {
         "generic_error": "Det oppstod en feil ved behandling av betalingen. Prøv igjen eller bruk en annen betalingsmetode.",
@@ -1025,6 +1153,14 @@
           "tax_credential_py": "CI/RUC/MVA",
           "shipping_credential_py": "CI/RUC/MVA"
         }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktuell saldo %{amount}",
+        "credit_card_expires_on_notice": "Utløper %{month}/%{year}",
+        "express_payment_gateway_label": "Ekspress",
+        "manual_payment_gateway_label": "Manuell",
+        "billing_address_title": "Faktureringsadresse",
+        "free_label": "Gratis"
       }
     },
     "pagination": {
