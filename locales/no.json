@@ -122,7 +122,120 @@
             "origin_location_id_required": "En ID for opprinnelsessted er påkrevd når leveringsmetode for detaljhandel etterspørres.",
             "invalid_origin_location_id": "Fant ikke sted som samsvarer med opprinnelsessteds-ID.",
             "origin_location_id_not_allowed": "Etterspurte leveringsmetoder støtter ikke en opprinnelsessted-ID.",
-            "auto_fulfill_not_allowed": "Denne sesjonen er ikke autorisert til å overstyre distribusjonsatferd."
+            "auto_fulfill_not_allowed": "Denne sesjonen er ikke autorisert til å overstyre distribusjonsatferd.",
+            "auto_fulfill_required": "Automatisk distribusjon kreves når leveringsmetode for detaljhandel etterspørres.",
+            "prefetch_shipping_rates_used": "Fraktkostnader som er hentet på forhånd, skal aldri returnere kostnader.",
+            "fulfillment_constraints_not_satisfied": "En eller flere distribusjonsbegrensninger ble ikke oppfylt.",
+            "must_fulfill_from_constraint_not_satisfied": "Distribusjonsbegrensninger er ikke oppfylt fordi artiklene ikke kan distribueres fra de påkrevde stedene.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Distribusjonsbegrensninger er ikke oppfylt fordi artiklene ikke kan distribueres fra samme sted.",
+            "delivery_strategy_conditions_not_satisfied": "Leveransstrategier er tilgjengelige for dette stedet, men vilkårene deres er ikke oppfylt.",
+            "out_of_stock_at_origin_location": "Ingen lagerbeholdning på opprinnelsesstedet.",
+            "invalid_signature": "Ugyldig rabattsignatur.",
+            "selected_pickup_option_no_longer_available": "Det tidligere valgte hentingsalternativet er ikke lenger tilgjengelig.",
+            "mixed_destination_countries": "Levering er ikke tilgjengelig fordi leveringslinjene omfatter flere land."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Rabatter er ikke tillatt i B2B-butikker.",
+            "custom_discount_not_honoured": "Medfølgende kundrabatt ble ikke benyttet.",
+            "unsupported_expectation": "Den medfølgende rabattlinjen inneholdt en forventning som retningslinjene ikke kunne tolke.",
+            "additional_requested_discount_code_discarded": "{{code}} er gyldig, men ikke gjeldende. Se rabattvilkårene.",
+            "allocations_mismatch": "Rabattkoden er endret. Kontroller handlekurven og prøv igjen.",
+            "discount_code_not_honoured": "%{discount_rejection_message}",
+            "discount_title_too_long": "Rabattittelen kan inneholde maksimalt 255 tegn.",
+            "additional_requested_discount_discarded": "Rabatten er gyldig, men ikke anvendelig. Se rabattvilkårene.",
+            "mixed_destination_countries": "Rabatter er ikke tilgjengelige fordi leveranselinjene omfatter flere land."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Avgifter knyttet til din ordre har endret seg. Vennligst se over og prøv igjen.",
+            "unresolvable_tax_terms": "De foreslåtte vilkårene kan ikke løses i nåværende forhandlingssituasjon.",
+            "delivery_price_is_abstract": "Relatert leveransepris er abstrakt.",
+            "tax_inclusivity_mismatch": "Omforhandle med konkret totalTaxAndDutyAmount- eller totalAmountIncludedInTarget-verdi.",
+            "mixed_tax_inclusivity_not_supported": "Skattelinjer må enten alle være inkludert skatt, eller alle være ekskludert skatt.",
+            "tax_exemption_not_supported": "Skattefritak støttes ikke i nåværende forhandlingsrunde.",
+            "delivery_tax_exemption_not_supported": "Skattefritak for leveringslinjer støttes ikke for øyeblikket.",
+            "proposed_allocations_required": "Feltet for 'foreslåtte tildelinger' mangler.",
+            "merchandise_terms_must_be_defined": "Vilkår for handelsvarer må defineres.",
+            "delivery_terms_must_be_defined": "Leveringsbetingelser må defineres.",
+            "merchandise_discount_terms_must_be_defined": "Rabatterte vilkår for handelsvarer må defineres.",
+            "delivery_discount_terms_must_be_defined": "Rabatterte leveringsbetingelser må defineres.",
+            "allocated_required": "Feltet for «tildelinger» mangler.",
+            "value_required": "Feltet for 'verdi' mangler.",
+            "line_splits_not_supported": "'linje for handelsvarer' må deles slik at hver linje har én enkelt linjekomponent i forslaget fra selgeren."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manuelle betalinger er ikke tillatt i B2B-butikker.",
+            "positive_amount_expected": "Beløpet som skal betales må være større enn 0.",
+            "total_amount_mismatch": "Totalt å betale samsvarer ikke med summen for betalingsbeløpet.",
+            "subscription_terms_not_accepted": "Abonnementsvilkårene ble ikke godkjent.",
+            "missing_session_id": "Informasjon om kredittkortøkt mangler.",
+            "gateway_not_supported": "Betalingsportalen støtter ikke lagring av betalingsmetode.",
+            "credit_card_last_name_required": "'etternavn' kan ikke være null.",
+            "credit_card_update_failed": "Mislykket oppdatering av kontokort.",
+            "invalid_address_type": "Angitt adresstype er ugyldig for denne betalingsmetoden.",
+            "missing_retail_attributions": "Detaljhandelsattribut er påkrevd for manuelle kredittkortbetalinger.",
+            "unexpected_retail_attributions": "Detaljhandelsattribut ble angitt uventet for kredittkortbetaling.",
+            "invalid_card_source": "Denne sesjonen har ikke tillatelse til å bruke dette kortet som kilde.",
+            "wallet_content_missing": "Innhold i lommebok mangler.",
+            "payment_instrument_not_found": "Fant ikke betalingsmetode",
+            "unauthorized_capture_method": "Det er ikke tillatt å konfigurere metode for innhenting av betaling.",
+            "saved_payment_methods_not_allowed": "Lagrede betalingsmetoder er ikke tillatt.",
+            "saved_payment_methods_not_enabled": "Lagrede betalingsmetoder er ikke aktivert for denne butikken.",
+            "store_credit_not_enabled": "Verdisjekk er ikke aktivert for denne butikken.",
+            "store_credit_account_not_found": "Verdisjekkkonto ikke funnet.",
+            "store_credit_account_mismatch": "Verdikontokontoen samsvarer ikke med kjøperens identitet.",
+            "store_credit_mismatched_currency": "Valutaen for verdikupongkontoen samsvarer ikke med valutaen i kassen.",
+            "store_credit_insufficient_funds": "Det er ikke nok midler på verdikontoen.",
+            "store_credit_buying_gift_card": "Du kan ikke bruke en verdikupong til å kjøpe et gavekort.",
+            "gift_cards_not_allowed_for_b2b": "Gavekort er ikke tillatt i B2B-butikker.",
+            "method_required": "En betalingsmetode må foreslås.",
+            "paypal_express_address_invalid": "PayPal returnerte en ugyldig adresse.",
+            "saved_payment_methods_cvv_verification_disabled": "Den valgte betalingsmetoden krever CVV-verifisering, noe som ikke er aktivert for denne butikken. Velg en annen betalingsmetode."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Butikken aksepterer ikke tips.",
+            "only_one_tip_line_allowed": "Flere linjer for tips støttes ikke.",
+            "tips_not_allowed_for_b2b": "Tips er ikke tillatt i b2b-butikker.",
+            "currency_change_reset": "Tips er tilbakestilt på grunn av valutaveksling.",
+            "tips_not_allowed_for_deferred_purchase_options": "Tips støttes ikke ennå for utsatte kjøpsalternativer."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Denne utkastordren finnes ikke i nåværende butikk.",
+            "staff_member_not_exist": "Denne ansatte finnes ikke i nåværende butikk.",
+            "location_not_exist": "Dette stedet finnes ikke i nåværende butikk.",
+            "point_of_sale_device_not_exist": "Denne kassesystemenheten finnes ikke i nåværende butikk.",
+            "unresolvable_target_merchandise_lines": "De foreslåtte salgsattributtene kan ikke løses i nåværende forhandlingsposisjon."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Kjøpers forslag bør inneholde ikke-forhandlingsbare vilkår.",
+            "invalid_signature": "Signaturen for {{target_terms}} er ugyldig."
+          },
+          "inventory": {
+            "missing_quantity_value": "Kvantitetsfelt mangler i kjøperens lagerlinjer.",
+            "changing_behavior_not_allowed": "Klienten har ikke tilgang til å endre lageratferd.",
+            "only_one_inventory_behavior_allowed": "For øyeblikket er kun én lageradferd tillatt per kasse."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Det er ikke tillatt å nekte tollavgift i denne kassen."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Detaljhandelsattribut er ikke tillatt for denne kassen.",
+            "retail_attribution_required": "Detaljhandelsattribut er påkrevd for denne kassen."
+          },
+          "captcha": {
+            "metadata_missing": "Fullføring av en captcha kreves for denne kassen.",
+            "metadata_mismatch": "Angitt captcha-leverandør og -type samsvarer ikke med forventet verdi.",
+            "token_missing": "Et captcha-token må oppgis for å fullføre denne utsjekkingen.",
+            "job_enqueue_failed": "Valideringsjobb for captcha kunne ikke settes i kø.",
+            "job_already_queued": "Captcha-validering er allerede satt i kø for denne captcha-tokenen.",
+            "token_expired": "Den angitte captcha-tokenen har utløpt. Fullfør en ny captcha for å fortsette til kassen.",
+            "token_invalid": "Den angitte captcha-tokenen var ugyldig. Fullfør en ny captcha for å fortsette til kassen.",
+            "token_not_valid_for_session": "Den angitte captchaen kan ikke brukes med denne kassen."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Mottatt beløp må oppgis i butikkvaluta."
+          },
+          "checkout_source": {
+            "revoked": "Denne kassen er ikke lenger tilgjengelig."
           }
         },
         "autocomplete_zero_item": "Ingen tilgjengelige artikler",
@@ -196,7 +309,18 @@
         },
         "loading": "Laster inn ...",
         "remove_chip": "Fjern artikkel",
-        "finalize_order_accessibility_label": "Fullfør bestilling"
+        "finalize_order_accessibility_label": "Fullfør bestilling",
+        "full_price": "Fullpris:",
+        "title": "Kassa – {{shopName}}",
+        "full_title": "{{pageTitle}} – {{shopName}} – Kasse",
+        "loading_title": "Kassa – {{shopName}}",
+        "google_map_title": "Google Maps",
+        "submit_order_button_label": "Send inn ordre",
+        "submit_for_review_button_label": "Send inn til vurdering",
+        "submit_for_review_notice_label": "Betalingen vil ikke forfalle før ordren din er blitt gjennomgått",
+        "continue_to_payment_plans_button_label": "Fortsett til betalingsplaner",
+        "back_button_label": "Retur",
+        "choose_delivery_strategy": "Velg en leveringsmetode"
       },
       "field_errors": {
         "gift_card_depleted": "Det er ikke mer penger igjen på dette gavekortet",
