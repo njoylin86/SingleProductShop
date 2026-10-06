@@ -694,7 +694,135 @@
         "konbini_label": "Nærbutikk",
         "paynow_label": "PayNow",
         "paypay_label": "PayPay",
-        "scalapay_label": "Scalapay"
+        "scalapay_label": "Scalapay",
+        "eps_label": "eps-overføring",
+        "klarna_slice_it_label": "Finansier med Klarna",
+        "card_expiration_month_label": "Startmåned",
+        "card_expiration_year_label": "Utløpsår",
+        "card_information_notice": "Alle transaksjoner er sikre og krypterte. Kredittkortinformasjon lagres aldri.",
+        "credit_card_start_month": "Startmåned",
+        "credit_card_start_year": "Startår",
+        "billing_address_not_supported_for_payment_method_error": "Denne betalingsmetoden er ikke tilgjengelig for din faktureringsadresse og valuta. Prøv en annen betalingsmetode.",
+        "change_currency_section_description": "Velg et valutaalternativ",
+        "no_real_orders_dev_store": "Denne butikken kan ikke ta imot reelle bestillinger eller reelle betalinger.",
+        "subscription_agreement_label_html": "Jeg forstår at jeg godkjenner et abonnement. Det fornyes i henhold til oppgitt pris og intervall til det opphører eller \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbrytes</a>.\n",
+        "waiting_on_payment_methods": "Henter tilgjengelige betalingsmetoder...",
+        "apple_pay_payment_error": "Betalingen kunne ikke gjennomføres. Prøv igjen eller bruk en annen betalingsmetode.",
+        "subscription_card_update_agreement_label": "Hvis du endrer betalingsmetode, vil abonnementet ditt og fremtidige gjentakende betalinger bli oppdatert.",
+        "card_security_vault_notice": "Vi trenger dine opplysninger for fremtidige betalinger. Alle transaksjoner er sikre og krypterte.",
+        "taxes_not_included": "Skatter er ikke inkludert",
+        "no_taxes_banner_content": "Skatt belastes ikke på denne ordren. Når du først har godkjent betalingen, kan ikke skatt legges til senere.",
+        "card_update_label": "Oppdater kort",
+        "paypal": {
+          "connect": "Klikk for å koble til PayPal-kontoen din"
+        },
+        "subscription_agreement_label": "En eller flere artikler i handlekurven er et utsatt kjøp eller et abonnementskjøp. Ved å fortsette med betalingen godtar du at betalingsmetoden din belastes automatisk til prisen og med frekvensen som er oppført på denne siden, frem til det avsluttes eller du kansellerer. Alle kanselleringer er underlagt %{cancelled}.",
+        "subscription_agreement_cancelled": "avbestillingsregler",
+        "card_expired": "Er utgått",
+        "card_verification_confirm": "Oppgi kortets sikkerhetskode for verifiseringsformål.",
+        "different_credit_card_label": "Bruk et annet bankkort",
+        "apple": {
+          "connect": "Klikk for å koble til din Apple Pay-konto",
+          "not_available": "Apple Pay er ikke tilgjengelig i denne nettleseren. Du må bruke Safari på en Apple-enhet for å koble til Apple Pay-kontoen din."
+        },
+        "account_connected": "Kontoen er tilkoblet.",
+        "billing_address_associated_with_mandate": "Bruk adressen som er knyttet til betalingsmetoden",
+        "billing_address_associated_with_mandate_info": "Hvis du vil endre faktureringsadressen din, må du fjerne og legge inn kredittkortopplysningene dine på nytt.",
+        "delete_customer_mandate_modal_cancel": "Avbryt",
+        "credit_card_vaulting_sign_in_banner_title": "Lagre bankkortet ditt",
+        "credit_card_vaulting_sign_in_banner_info": "Logg inn eller opprett en konto for å lagre kredittkortet ditt for fremtidige kjøp.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Logg inn",
+        "expiry_long": "(Går ut %{month}/%{year})",
+        "expiry_short": "(Går ut %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Lagre dette kredittkortet på kontoen min for raskere betaling",
+        "delete_customer_mandate_modal_title": "Fjerne dette betalingskortet?",
+        "delete_customer_mandate_modal_body": "Hvis du fjerner dette kortet, må du legge det til igjen før det kan brukes til betalinger.",
+        "delete_customer_mandate_modal_confirm": "Fjern kortet",
+        "google": {
+          "connect": "Klikk for å koble til med Google Pay/kontoen din",
+          "error_authorizing": "Feil ved godkjenning av betaling"
+        },
+        "klarna_label": "Klarna",
+        "mor_disclaimer_html": "<p>Ved å klikke under og fullføre bestillingen godkjenner du å kjøpe varene dine fra Global-e som selgeren\n for transaksjonen, og godtar Global-e sin <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">vilkår og betingelser</a>\nog <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">personvernerklæring</a>. Global-e er en internasjonal\ndistribusjonstjeneste for %{shop_name}\n</p>",
+        "purchase_options_card_update_agreement_label_html": "Ved å oppdatere betalingsmetoden din kan du autorisere betalinger for gjentakende eller utsatte kjøp i samsvar med butikkens <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">avbestillingsregler</a>.",
+        "multibanco_label": "Multibanco",
+        "receiver_payment_experience_hint": "Du får betalingsdetaljer etter at du har lagt inn bestillingen. Gjør opp betalingen via Multibanco eller på nett innen %{due_days} dager.",
+        "pending_payment": {
+          "due_notice": "Din betaling på %{amount_due} forfaller den %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Gjør betalingen din i Multibanco eller på nett ved hjelp av opplysningene nedenfor. For ytterligere opplysninger eller for å oppdatere betalingsopplysningene, %{contact_us}.",
+            "entity": "Enhet",
+            "reference": "Referanse",
+            "amount": "Beløp",
+            "find_nearest_atm": "Finn nærmeste minibank",
+            "buyer_action_info": "Din betaling på %{amount_due} forfaller.",
+            "label": "Multibanco",
+            "pay": "Betal %{amount}",
+            "expiry_date_time": "%{date} kl. %{time}",
+            "expires_at": "Utløper %{date}",
+            "expired": "Gikk ut %{date}",
+            "expired_title": "Betalingsreferansen har utløpt",
+            "labelled_code": "%{label}: %{code}"
+          },
+          "oxxo": {
+            "label": "OXXO",
+            "number": "Referansenummer",
+            "steps": {
+              "1": "Skann strekkoden på nærmeste OXXO.",
+              "2": "Betal det eksakte beløpet kontant i kassen."
+            },
+            "print_voucher": "Skriv ut kupong",
+            "barcode_alt": "Strekkode for OXXO-kupong med referansenummer %{reference_number}",
+            "expires_at": "Utløper %{date}",
+            "expires_when_unknown": "Bruk før kupongen utløper",
+            "print": {
+              "instructions_title": "Instruksjoner for OXXO-betaling:",
+              "important_details_title": "Viktig informasjon:"
+            },
+            "important_details": {
+              "canceled_by_expiry": "Din ordre kanselleres hvis betalingen ikke er mottatt innen %{date}.",
+              "canceled_when_expired": "Din bestilling makuleres dersom betalingen ikke er mottatt før kupongen utløper.",
+              "non_refundable": "OXXO-bestillinger kan ikke refunderes.",
+              "tracking_after_payment": "Du får sporingsinformasjon for frakten innen én virkedag etter gjennomført betaling."
+            },
+            "days_left": {
+              "one": "%{count} dag",
+              "other": "%{count} dager"
+            },
+            "pay": "Betal %{amount}",
+            "expiry_date_time": "%{date} kl. %{time}",
+            "reference_number": "Referansenummer:"
+          },
+          "apple_wallet": {
+            "badge_alt": "Legg til i Apple Wallet",
+            "pass": {
+              "description": "%{shop_name} betalingsvarsel",
+              "logo_text": "Betalingsblankett",
+              "store_label": "Butikk",
+              "expiry_date_label": "Utløpsdato",
+              "payment_due_label": "Å betale",
+              "reference_number_label": "Referansenummer",
+              "ordered_on_label": "Bestillingsdato"
+            }
+          }
+        },
+        "purchase_options_agreement_label": "Én eller flere varer i handlekurven din er et utsatt eller gjentagende kjøp. Ved å fortsette med betalingen din, godkjenner du at betalingsmåten din automatisk belastes med prisen og frekvensen som er angitt på denne siden inntil det avsluttes eller du avbryter. For alle avbestillinger gjelder %{cancellation_policy_label}.",
+        "update_payment_method": "Oppdater betalingsmetode",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Abonnement",
+          "order_contains_fixed_selling_plans": "Summen inkluderer kanskje ikke skatter, levering, forsinkelsesgebyrer og visse rabatter. Fortsett til kassen for å se beløpet som forfaller i dag."
+        },
+        "purchase_options_agreement_label_html": "Jeg forstår at en eller flere artikler i handlekurven er et utsatt eller gjentakende kjøp. Ved å fortsette godkjenner jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">kanselleringsbetingelsene</a>\nog tillater at min betalingsmetode belastes med priser, frekvens og datoer som er angitt på denne siden frem til min\nordre er distribuert eller jeg avbryter, dersom dette tillates.\n",
+        "payment_method_saved": "Betalingsmetoden ble lagret",
+        "card_vaulted_company_location": "Kort er lagret for dette stedet",
+        "order_covered_by_store_credit_notice": "Din ordre dekkes av din verdikupong.",
+        "order_covered_by_redeemables_notice": "Ordren din er dekket.",
+        "store_credit": {
+          "label": "Verdikupong",
+          "apply_label": "Bruk verdikupong",
+          "add_label": "Legg til verdikupong",
+          "manage_label": "Håndtere verdikupong"
+        }
       },
       "payment_errors": {
         "generic_error": "Det oppstod en feil ved behandling av betalingen. Prøv igjen eller bruk en annen betalingsmetode.",
@@ -1668,6 +1796,157 @@
       "shop_404": {
         "title": "Lag en nettbutikk og selg på nettet! E-handelsplattform fra Shopify"
       }
+    },
+    "notices": {
+      "cart": {
+        "cart_too_large": "Handlekurven er for stor.",
+        "gift_card_recipient_validation_error": "Oppgitt gavekortmottaker er ugyldig",
+        "invalid_input": "%{parameter}-parameteren er ugyldig.",
+        "buyer_cannot_purchase_for_company_locations": "Du kan ikke handle til dette stedet",
+        "only_one_added_to_cart": "På grunn av tilgjengelighet ble bare 1 artikkel lagt til i handlekurven.",
+        "only_n_added_to_cart": "På grunn av tilgjengelighet ble bare %{quantity} artikler lagt til i handlekurven.",
+        "maximum_available_quantity_reached": "Maks antall av denne artikkelen ligger allerede i handlekurven.",
+        "cart_attributes_error": "Handlekurvattributtene inneholder ugyldige data.",
+        "merchandise_not_applicable": "Artikkelen kan ikke kjøpes konfigurert.",
+        "not_found": "Handlekurven ble ikke funnet"
+      },
+      "storefront": {
+        "invalid_password": "Passordet er feil, prøv igjen."
+      },
+      "tags": {
+        "add_articles": "Begrens søket til artikler som også har taggen %{tag}",
+        "add_products": "Begrens søket til produkter som samsvarer med merkelappen %{tag}",
+        "remove_articles": "Utvid søket til artikler som ikke er tagget med %{tag}",
+        "remove_products": "Fjern %{tag}-taggen"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "La til %{delta}",
+          "increment_item": "La til %{delta}",
+          "decrement_item": "Fjernet %{delta} av %{total}",
+          "decrement_fulfilled_line_item": "Returnerte %{delta} av %{total}",
+          "decrement_return_line_item": "Fjernet %{delta} fra retur"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "Produkter",
+      "shopping_cart": "Din handlekurv",
+      "account": "Konto",
+      "create_account": "Opprett konto",
+      "reset_account": "Gjenopprett konto",
+      "addresses": "Adresser",
+      "order": "Bestilling %{name}",
+      "search": "Søk",
+      "collections": "Produktserier",
+      "not_found": "404 ikke funnet",
+      "challenge": "Utfordring",
+      "checkpoint": "Kontrollstasjon",
+      "search_results": {
+        "one": "Søk: %{count} resultat funnet for \"%{terms}\"",
+        "other": "Søk: %{count} resultat funnet for \"%{terms}\""
+      },
+      "blog_or_article_with_error": "Feil - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} rabatter har blitt brukt"
+    },
+    "challenge": {
+      "message": "Gi oss beskjed om at du ikke er en robot for å fortsette.",
+      "error": "Ditt svar var ikke korrekt, vennligst prøv igjen.",
+      "submit_button_text": "Send"
+    },
+    "checkpoint": {
+      "message": "Løs robotfilteroppgaven for å fortsette",
+      "error": "Robotfiltervalidering mislyktes",
+      "submit_button_text": "Send"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Takk for at du abonnerer på e-postlisten vår.",
+        "disclaimer": "Du kan når som helst avslutte abonnementet.",
+        "unsubscribe": "Si opp abonnementet"
+      },
+      "unsubscribed": {
+        "confirmation": "Du har meldt deg av vår e-postliste.",
+        "disclaimer": "Du vil ikke motta flere markedsføringsoppdateringer fra oss. Du kan begynne å abonnere igjen når som helst.",
+        "preview": "Du forhåndsviser det kundene vil se når de sier opp abonnementet."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Du har meldt deg på sporing av åpnet e-post.</b>",
+          "visibility": "Andelen åpnede e-poster vil rapporteres anonymt. Vi vil kun se om du har åpnet en e-post som en del av et samlet antall åpnede e-poster.",
+          "opt_out_html": "Du kan <a style=\"text-decoration:underline;\" href=\"%{link}\">reservere deg mot</a> sporing av åpnet e-post dersom du ikke ønsker å dele denne informasjonen.",
+          "preview_bar": "Du forhåndsviser det kundene vil se når de melder seg på åpen sporing via e-post."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Du har meldt deg av sporing av åpnet e-post.</b>",
+          "visibility": "Vi kommer ikke til å se om du har åpnet e-postmeldingene.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Meld deg på</a> sporing av åpnet e-post.",
+          "preview_bar": "Du forhåndsviser det kundene vil se når de melder seg av åpen e-postsporing."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Vi sporer ikke lenger åpning av e-poster.</b>",
+          "privacy_policy": "Siden denne e-posten ble sendt, har vi oppdatert personvernerklæringen vår, og vi sporer ikke lenger åpning av e-post."
+        },
+        "track": {
+          "status_html": "<b>Sporing av åpnet e-post har blitt rapportert.</b>",
+          "visibility": "Vi vil kun se om du har åpnet en e-post som en del av det totale antallet åpnede e-poster."
+        },
+        "updated_policy": {
+          "status_html": "<b>Sporing av åpnet e-post har blitt rapportert.</b>",
+          "visibility": "Vi har oppdatert våre retningslinjer og sporer nå åpnede e-poster. Andelen åpnede e-poster vil bli rapportert anonymt. Vi vil kun se om du har åpnet en e-post som en del av det totale antallet åpnede e-poster.",
+          "opt_out_html": "Du kan <a style=\"text-decoration:underline;\" href=\"%{link}\">avregistrere deg</a> hvis du ikke ønsker å dele denne informasjonen."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Er du sikker på at du vil avmelde deg fra SMS-markedsføring?",
+        "button": "Avregistrere"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Vanligvis klar innen 1 time",
+        "two_hours": "Vanligvis klar innen 2 timer",
+        "four_hours": "Vanligvis klar innen 4 timer",
+        "twenty_four_hours": "Vanligvis klar innen 24 timer",
+        "two_to_four_days": "Vanligvis klar innen 2–4 dager",
+        "five_or_more_days": "Vanligvis klar innen 5 dager eller mer",
+        "zero_to_two_hours": "Vanligvis klar innen 2 timer",
+        "two_to_four_hours": "Vanligvis klar innen 4 timer",
+        "immediately": "Klar for henting nå",
+        "next_day": "Klar til henting neste dag"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "På lager",
+          "out_of_stock": "Utsolgt"
+        }
+      },
+      "boolean": {
+        "true_label": "Ja",
+        "false_label": "Nei"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevans",
+        "price_ascending": "Pris, lav til høy",
+        "price_descending": "Pris, høy til lav"
+      },
+      "error": "Det gikk ikke å laste inn søkeresultatene dine. Oppdater siden eller prøv igjen senere."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Denne artikkelen er et gjentakende kjøp eller et kjøp med utsatt betaling. Ved å fortsette godtar jeg %{cancellationPolicyLink}. Jeg godtar også at dere belaster betalingsmetoden min på de datoene, med de prisene og med den frekvensen som er angitt på denne siden, frem til ordren min er distribuert eller frem til jeg avbryter, dersom dette er tillatt.",
+      "buyer_consent_cart": "En eller flere artikler i handlekurven din er et gjentakende kjøp eller et kjøp med utsatt betaling. Ved å fortsette godtar jeg %{cancellationPolicyLink}. Jeg godtar også at dere belaster betalingsmetoden min på datoene, med prisene og med frekvensen som er angitt på denne siden, frem til ordren min er distribuert eller frem til jeg avbestiller, dersom dette er tillatt.",
+      "cancellation_policy": "avbestillingsreglene"
+    },
+    "managed_markets": {
+      "buyer_consent": "Ved å legge inn din bestilling samtykker du til å kjøpe fra Global-e som ansvarlig selger, i samsvar med Global-es %{termsAndConditionsLink} og %{privacyPolicyLink}, samt til å dele dine opplysninger med %{shopName}.",
+      "terms_and_conditions": "Regler og vilkår",
+      "privacy_policy": "Personvernerklæring"
     }
   },
   "customer_accounts": {
@@ -2381,7 +2660,19 @@
       "store_credit_multi_currency_accessibility_label": {
         "one": "{{formattedBalance}} i verdikupong og ytterligere {{count}} valuta",
         "other": "{{formattedBalance}} i verdikupong og ytterligere {{count}} valutaer"
-      }
+      },
+      "account_menu": {
+        "hide_accessibility_label": "Skjul kontomeny",
+        "show_accessibility_label": "Vis kontomeny",
+        "nav_accessibility_label": "Kontonavigering",
+        "open_menu_accessibility_label": "Åpne kontonavigering",
+        "close_menu_accessibility_label": "Lukk kontonavigering",
+        "loading_message": "Laster inn kontonavigasjon",
+        "label": "Konto"
+      },
+      "action_menu_accessibility_label": "Flere tiltak",
+      "close_menu_accessibility_label": "Lukk hovednavigasjon",
+      "contact_email_subject": "Kontakt fra nettbutikken {{shopName}}"
     },
     "account_information": {
       "loading_accessibility_message": "Laster inn kontoinformasjon",
@@ -2600,6 +2891,9 @@
     "address_form": {
       "loading_form_accessibility_message": "Laster inn adresseformular",
       "attention_company": "Firma/mottaker"
+    },
+    "callback": {
+      "try_again": "Prøv igjen"
     }
   },
   "customer": {
