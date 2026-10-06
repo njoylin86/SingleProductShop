@@ -1095,8 +1095,86 @@
         "more_items_modal": {
           "clear_search": "Tøm søket",
           "empty_results": "Ingen resultater funnet for ”%{searchText}”. Kontroller stavemåten eller bruk et annet ord eller en annen frase.",
-          "number_items_shown": "%{shownNumber}/%{totalNumber} artikler"
-        }
+          "number_items_shown": "%{shownNumber}/%{totalNumber} artikler",
+          "search_item": "Søk"
+        },
+        "number_items": {
+          "one": "%{count} artikkel",
+          "other": "%{count} artikler"
+        },
+        "view_all_items": {
+          "one": "Vis %{count} artikkel",
+          "other": "Vis alle %{count} artikler"
+        },
+        "price_before_discount_aria_text": "Opprinnelig pris",
+        "price_after_discount_aria_text": "Rabattert pris",
+        "discount_code_aria_text": "Rabattkode",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Levere til adresse",
+          "ship_to_address_instead_html": "%{link} i stedet"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ingen butikk tilgjengelig med din artikkel",
+          "other": "Ingen butikk tilgjengelig med dine artikler"
+        },
+        "deposit_label": "Innskudd",
+        "total_due_today_label": "Totalt beløp som forfaller i dag",
+        "total_due_later_label": "Totalt beløp som forfaller senere",
+        "discount_code_allocations_mismatch": "Rabattkoden <strong style=\"text-transform:uppercase\">%{code}</strong> er endret. Se over handlekurven og prøv igjen.",
+        "deferred_total_due_date_label_next": "Forfaller %{date}",
+        "total_due_label": "Total gjeld",
+        "total_price_label": "Totalpris",
+        "for_add_on": "For: %{group_title}",
+        "unconfirmed_label": "Ubekreftet",
+        "total_paid_label": "Totalt betalt beløp",
+        "from_shop_heading": "Fra %{shop_name}",
+        "from_other_stores_heading": "Fra andre butikker",
+        "order_discounts_apply_to_local_shop": "Orderrabatter gjelder kun artikler fra %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Gavekort gjelder kun artikler fra %{shop_name}",
+        "estimated_taxes_label_short": "Verdsatt",
+        "discount_code_removed": "Rabattkoden %{code} har blitt fjernet",
+        "discount_code_replaced": "Rabattkoden %{old_code} er fjernet og %{code} er lagt til",
+        "discount_code_replaced_multiple": "Flere rabattkoder er fjernet og %{code} har blitt lagt til",
+        "from_multiple_stores_heading": "Fra flere butikker",
+        "pay_merchant_label": "Betal %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Rabatter gjelder kun abonnementsartikler",
+        "estimated_taxes_finalization_tooltip_content_short": "Skatt fastsettes etter betaling",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ingen butikk tilgjengelig i %{country} med din vare",
+          "other": "Ingen butikk tilgjengelig i %{country} med dine varer"
+        },
+        "compare_at_sale": "Salg (%{sale_amount})",
+        "tax_line": {
+          "hst": "HST",
+          "gst": "merverdiavgift (GST)",
+          "pst": "PST",
+          "rst": "RST",
+          "qst": "QST",
+          "vpt": "VPT"
+        },
+        "automatic_discount_tooltip": "Automatisk rabatt kan ikke fjernes",
+        "alternative_payment_currency_chinese_yuan": "Bekreft det endelige totalbeløpet i CNY i %{wallet}-appen.",
+        "product_disclosures": {
+          "title": "Produktinformasjon"
+        },
+        "lpm": {
+          "wechat_pay": {
+            "checkout_disclosure": "Bekreft det endelige totalbeløpet i CNY i WeChat-appen",
+            "post_purchase_disclosure": "Se totalsummen i CNY i WeChat",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} kommer til å behandle denne betalingen som %{amount_due} %{processing_currency}, som WeChat konverterer til CNY",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} vil behandle denne betalingen som %{amount_due} %{processing_currency}"
+          },
+          "alipay": {
+            "checkout_disclosure": "Bekreft det endelige totalbeløpet i CNY i Alipay-appen",
+            "post_purchase_disclosure": "Se totalsummen i CNY i Alipay",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} vil behandle denne betalingen som %{amount_due} %{processing_currency}, som Alipay konverterer til CNY",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} vil behandle denne betalingen som %{amount_due} %{processing_currency}"
+          }
+        },
+        "discount_title_with_position": "Rabatt %{position}",
+        "item_discounts_label": "Artikkelrabatter",
+        "tax_label": "Skatt",
+        "duty_label": "Tull"
       },
       "thank_you": {
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Når betalingen er fullført, får du en SMS-bekreftelse. Spor ordren med Shop-appen.",
@@ -1814,6 +1892,66 @@
         "split_shipping_shipment_count_notice_one_time_purchase": {
           "one": "Din ordre kommer i %{count} levering",
           "other": "Din bestilling kommer i %{count} leveranser"
+        },
+        "title": "Frakt",
+        "shipping_method_title": "Fraktmetode",
+        "waiting_on_rate_notice": "Liste over tilgjengelige fraktkostnader...",
+        "waiting_on_pickup_location_notice": "Finner tilgjengelige henteplasser ...",
+        "no_rates_for_cart_or_destination_notice": "Det er ingen leveringsmetoder tilgjengelig for din handlekurv eller adresse",
+        "no_pickup_location_notice": "Minst ett av produktene dine er ikke tilgjengelig for henting",
+        "no_rates_for_country_notice": "Ingen fraktkostnad funnet for denne adressen.",
+        "no_rates_contact_notice": "Kontakt banken din for mer informasjon",
+        "free_rate_label": "Gratis",
+        "cheapest_rate_label": "Billigste",
+        "estimated_delivery_date": {
+          "one": "%{count} arbeidsdag",
+          "other": "%{count} arbeidsdager"
+        },
+        "estimated_delivery_date_range": "%{minimum} til %{maximum} arbeidsdager",
+        "shipping_line_phone_label": "Mobilnummer (obligatorisk)",
+        "shipping_line_phone": "Budet ditt kan bruke dette nummeret for å kontakte deg.",
+        "other_method": {
+          "zero": "Ingen andre metoder er tilgjengelige",
+          "one": "%{count} annen metode tilgjengelig ved",
+          "other": "%{count} andre metoder tilgjengelige fra kl."
+        },
+        "shipping_rate_discounted_amount": "Var: %{original_amount}. Nå: %{amount}",
+        "shipping_line_delivery_phone": "Du kan bli kontaktet med oppdateringer om leveransen din.",
+        "optional_shipping_line_delivery_instructions_label": "Leveringsinstruksjoner (valgfritt)",
+        "shipping_line_delivery_phone_label": "Mobilnummer",
+        "shipping_line_delivery_instructions": "Oppgi nødvendig informasjon som portkode eller instruksjoner for levering.",
+        "local_delivery": "Lokal levering",
+        "subscription_shipping": "Abonnementsfraktkostnad",
+        "shipping_method_one_time_purchase_group_title": "Engangskjøp",
+        "shipping_method_subscription_group_title": "Abonnement",
+        "one_time_purchase_shipping": "Engangsleveranse",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "for %{count} levering",
+            "other": "for %{count} leveranser"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "hver dag",
+              "other": "hver %{count}. dag"
+            },
+            "week": {
+              "one": "hver uke",
+              "other": "hver %{count}. uke"
+            },
+            "month": {
+              "one": "hver måned",
+              "other": "var %{count} måned"
+            },
+            "year": {
+              "one": "hvert år",
+              "other": "var %{count} år"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per levering",
+          "prepaid_shipping_price_label": "%{shipping_price} per levering x %{delivery_interval_count}",
+          "initial_order_discounted": "Første leveringskostnad %{discounted_shipping_cost}, deretter %{frequency_description}",
+          "prepaid_initial_order_discounted": "Første leveringskostnad %{discounted_shipping_price} %{prepaid_delivery_frequency}"
         }
       },
       "wallets": {
@@ -2604,7 +2742,12 @@
       "loading": "Laster inn …",
       "moneyLinesHeaderItem": "Artikkel",
       "moneyLinesHeaderValue": "Verdi",
-      "newWindow": "Åpnes i et nytt vindu."
+      "newWindow": "Åpnes i et nytt vindu.",
+      "productThumbnailQuantityLabel": "Antall",
+      "removeChip": "Fjern artikkel",
+      "reviewItemHeaderChangeValue": "Endre verdi",
+      "reviewItemHeaderSection": "Avsnitt",
+      "reviewItemHeaderValue": "Verdi"
     },
     "B2B": {
       "draft_order_details": {
@@ -3166,6 +3309,151 @@
     },
     "callback": {
       "try_again": "Prøv igjen"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Tilpass",
+      "hide_bar": "Skjul felt",
+      "navigate_to_admin": "Naviger til admin",
+      "previewing": "Du forhåndsviser:",
+      "saved_at": "Lagret kl. {{time}} den {{date}}",
+      "viewing": "Du ser på:",
+      "not_available": "Profildata er ikke tilgjengelige",
+      "close_preview": "Lukk forhåndsvisning",
+      "actions_button": "Tiltak",
+      "badge_active": "Aktiv",
+      "badge_draft": "Utkast",
+      "badge_launches": "Lanseres {{date}}",
+      "badge_paused": "Pauset",
+      "badge_scheduled": "Planlagt",
+      "badge_traffic": "{{percentage}} av trafikken",
+      "edit": "Rediger",
+      "exit_preview": "Avslutt forhåndsvisning",
+      "hide_bar_action": "Skjul felt",
+      "rollout_label": "Utførelse"
+    },
+    "settings": {
+      "loading_accessibility_message": "Laster inn innstillingssiden",
+      "title": "Innstillinger",
+      "log_out_everywhere": {
+        "title": "Logg ut overalt",
+        "description": "Hvis du ikke lenger har tilgang til en enhet eller er bekymret for sikkerheten, bør du logge ut overalt for å sikre kontoen din.",
+        "button": "Logg ut fra alle enheter",
+        "warning_message": "Du vil også bli logget ut fra denne enheten."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneMinuteAgo": "Akkurat nå",
+        "yesterday": "I går kl. {{time}}",
+        "today": "I dag kl. {{time}}",
+        "tomorrow": "I morgen kl. {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minutt siden",
+          "other": "{{count}} minutter siden"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Velg tillegget med navnet {{extensionName}}",
+        "unselect": "Velg bort tillegget med navnet {{extensionName}}",
+        "move_down": "Flytt tillegget til neste posisjon",
+        "move_up": "Flytt tillegget til forrige posisjon",
+        "remove": "Fjern tillegg",
+        "move_down_tooltip": "Gå til neste posisjon",
+        "move_up_tooltip": "Gå til forrige posisjon",
+        "remove_tooltip": "Fjern"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Det er ikke mulig å åpne koblingen inne i redigeringsprogrammet. Den åpnes i et nytt vindu ({{resolved_to_link}}). Klikk OK for å fortsette."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "For mange forsøk",
+        "description": "Prøv igjen om noen minutter"
+      }
+    },
+    "shop_ads": {
+      "title": "Andre produkter du kanskje liker",
+      "subtitle": "Tilgjengelig i en begrenset periode",
+      "button": "Utforsk i Shop",
+      "previous_button": "Forrige",
+      "next_button": "Neste"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kunder kan selv be om og håndtere returer på sin kundekonto.",
+        "disabled": "Selvbetjente returer på kundekontoer er ikke tilgjengelige for denne butikken. Returer kan fremdeles godtas. Se butikkens returpolicy eller nettside for informasjon om hvordan du utfører en retur, eller kontakt butikken."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Informasjonskapselinnstillinger"
+    },
+    "announcement_bar": {
+      "expand_label": "Åpne meldingsfelt",
+      "collapse_label": "Skjul meldingsfelt",
+      "close_label": "Lukk meldingsfeltet"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Erstatt betalingsmetode",
+        "loading": "Betalingsmetoder lastes inn",
+        "no_payment_methods_available": "Ingen betalingsmetode tilgjengelig",
+        "select_new_payment_method": "Velg en ny betalingsmetode",
+        "current_method": "Nåværende",
+        "cancel": "Avbryt",
+        "save": "Lagre",
+        "success": "Betalingsmetoden har blitt oppdatert",
+        "use_new_payment_method": "+ Bruk ny betalingsmetode"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Logg inn eller opprett konto",
+        "section_divider": "Flere måter å logge inn på",
+        "alternate_divider": "ELLER",
+        "email_field_label": "E-post",
+        "orders_button": "Ordrer",
+        "profile_button": "Profil",
+        "shop_login_button": "Logg inn med Shop",
+        "continue_with_google": "Fortsett med Google",
+        "continue_with_facebook": "Fortsett med Facebook",
+        "use_email_button": "Bruk e-post i stedet"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hei {{first_name}}!",
+        "greeting_without_name": "Konto",
+        "orders_button": "Ordrer",
+        "profile_button": "Profil"
+      },
+      "location_picker": {
+        "sheet_title": "Steder",
+        "search_field_placeholder": "Søk"
+      },
+      "aria_labels": {
+        "close_menu": "Lukk menyen",
+        "back_to_main_menu": "Tilbake til hovedmenyen fra {{title}}",
+        "open_submenu": "{{title}}, åpner undermeny",
+        "loading_menu": "Laster inn meny",
+        "account": "Konto",
+        "sign_in_with_email": "Logg inn med e-post",
+        "sign_in": "Logg inn"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "card_number": "Kortnummer",
+        "title": "Endre betalingsmetode",
+        "replace_with": "Endre til",
+        "add_new_payment_method": "Legg til ny",
+        "save_button": "Lagre",
+        "close_button": "Lukk",
+        "loading": "Innlasting av blokkerende vindu for bytte av betalingsmetode",
+        "success": "Betalingsmetode oppdatert",
+        "invalid_subscription_contract": "Det gikk ikke å finne abonnementet",
+        "expiry_date": "Utløper {{expiryDate}}"
+      }
     }
   },
   "customer": {
