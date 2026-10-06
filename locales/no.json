@@ -2204,7 +2204,58 @@
       "blocked_address": "Plasseringen støttes ikke",
       "product_not_available": "Produktet er ikke publisert for denne kunden.",
       "shop_404": {
-        "title": "Lag en nettbutikk og selg på nettet! E-handelsplattform fra Shopify"
+        "title": "Lag en nettbutikk og selg på nettet! E-handelsplattform fra Shopify",
+        "heros": {
+          "store_unavailable": "Denne butikken er for tiden utilgjengelig.",
+          "store_not_exist": "Butikken eksisterer ikke.",
+          "no_storefront": "Denne butikken har ikke noe nettsted ennå.",
+          "store_will_be_right_back": "Denne butikken er snart tilbake"
+        },
+        "links": {
+          "explore_other_stores": "Utforsk andre butikker",
+          "start_free_trial": "Start gratis prøveperiode",
+          "refresh_page": "Oppdater siden"
+        },
+        "owner_ctas": {
+          "header": "Er det du som er butikkeier?",
+          "fix_domain": "Gå til %{domain_settings_link} for å fullføre konfigureringen av den nye nettadressen. Klikk på «Koble til domene» og oppgi: %{domain}.<br>Besøk siden %{forgot_your_store_link} hvis du har problemer med å få tilgang til butikken din.",
+          "fix_domain_link_text": "dine domeneinnstillinger",
+          "forgot_your_store_link_text": "Har du glemt butikken din?",
+          "add_storefront": "Du kan konfigurere nettstedet ved å legge til nettbutikkanalen i %{admin_link}. Besøk siden %{forgot_your_store_link} hvis du har problemer med å få tilgang til butikken.",
+          "admin_link_text": "administrator"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Selg personlig",
+            "caption": "Få funksjonene du trenger for å drive detaljhandelsbutikken, enten du er nybegynner eller i vekst.",
+            "link_text": "Start gratis prøveversjon"
+          },
+          "open_a_store": {
+            "header": "Åpne en ny Shopify-butikk",
+            "caption": "Start en tredagers gratis prøveperiode, og fortsett deretter for 1 $/måned i ytterligere tre måneder.",
+            "link_text": "Registrer deg nå"
+          },
+          "editions": {
+            "header": "Sjekk ut Shopify Editions",
+            "caption": "Med over 100 produktoppdateringer kan du være mer produktiv, kreativ og slagkraftig innen handelen enn du noen gang har forestilt deg.",
+            "link_text": "Utforsk Editions"
+          },
+          "store_owner": {
+            "header": "Er det du som er butikkeier?",
+            "caption": "Har du problemer med å få tilgang til butikken? Prøv funksjonen %{forgot_your_store_link}. Kontakt %{shopify_support_link} hvis du vil reaktivere butikken.",
+            "shopify_support_link_text": "Shopify-kundestøtte"
+          }
+        },
+        "title_unavailable": "Butikken er utilgjengelig",
+        "subtitles": {
+          "store_will_be_right_back": "Shopify jobber med å få den på nett igjen så snart som mulig."
+        },
+        "status_card": {
+          "eyebrow": "Hjelp til butikkeiere",
+          "header": "Sjekk Shopify-status",
+          "caption": "Finn ut om det er et driftsstans som påvirker mer enn bare denne butikken på Shopify.",
+          "link_text": "Vis status for Shopifys system"
+        }
       }
     },
     "notices": {
@@ -2218,7 +2269,38 @@
         "maximum_available_quantity_reached": "Maks antall av denne artikkelen ligger allerede i handlekurven.",
         "cart_attributes_error": "Handlekurvattributtene inneholder ugyldige data.",
         "merchandise_not_applicable": "Artikkelen kan ikke kjøpes konfigurert.",
-        "not_found": "Handlekurven ble ikke funnet"
+        "not_found": "Handlekurven ble ikke funnet",
+        "only_n_items_available": "Du kan bare legge til %{count} %{name} i handlekurven din.",
+        "too_many_items_in_cart": "Du kan ikke legge til flere %{name} i handlekurven.",
+        "all_items_in_cart": "%{count}%{name} finnes i handlekurven din.",
+        "empty_update": "kan ikke oppdatere tom handlekurv",
+        "missing_parameters": "ingen gyldig id eller gyldig radvelger",
+        "generic_error": "Feil med handlekurv",
+        "too_many_line_items_error": "Handlekurven din kan ikke inneholde mer enn %{max} produkter.",
+        "link_expired": "Lenken har utløpt",
+        "link_no_longer_exists": "Lenken finnes ikke lenger.",
+        "stock_problems_html": "Enkelte artikler er ikke lenger tilgjengelige. Vi har laget en oppdatert <a href=\"%{link}\">handlekurv</a>.",
+        "changed": "Handlekurven har blitt endret",
+        "items_changed": "En eller flere artikler har blitt endret.",
+        "product_sold_out": "Produktet \"%{name}\" er allerede utsolgt.",
+        "variant_not_found": "Finner ikke variant",
+        "variant_requires_selling_plan": "Variant kan kun kjøpes med en selgende plan.",
+        "shipping_address_not_required": "Denne handlekurven krever ingen frakt",
+        "shipping_address_invalid": "Det gikk ikke an å beregne fraktprisene dine. Fortsett til kassen for å velge frakt før du fullfører bestillingen.",
+        "selling_plan_not_applicable": "Det er ikke mulig å bruke salgsplan på variant",
+        "selling_plan_not_available_for_company_locations": "Kun engangskjøp er tilgjengelige for B2B-ordrer",
+        "digital_product_not_available_for_company_locations": "Artikkelen kan ikke legges til i en B2B-ordre",
+        "product_not_available": "Produktet er ikke tilgjengelig",
+        "less_than_minimum": "Denne artikkelen har minst %{min}.",
+        "more_than_maximum": "Denne artikkelen har maks %{max}.",
+        "not_respect_step": "Du kan kun legge til denne artikkelen med økninger på %{step}.",
+        "bundle_requires_components": "Pakkeproduktet \"%{name}\" kan ikke legges til i handlekurven.",
+        "gift_card_with_components_not_supported": "Pakkeproduktet ”%{name}” kan ikke legges til i handlekurven.",
+        "view_lines_limit_reached": "Rader må være mindre enn eller lik %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Det oppstod en feil i handlekurven din."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Pakkeproduktet ”%{name}” kan ikke legges til i handlekurven."
       },
       "storefront": {
         "invalid_password": "Passordet er feil, prøv igjen."
@@ -2237,6 +2319,60 @@
           "decrement_fulfilled_line_item": "Returnerte %{delta} av %{total}",
           "decrement_return_line_item": "Fjernet %{delta} fra retur"
         }
+      },
+      "customer": {
+        "password_reset_error": "Feil ved tilbakestilling av passord",
+        "no_account_found": "Ingen konto med den e-postadressen ble funnet.",
+        "invalid_credentials": "Feil e-postadresse eller feil passord.",
+        "denylisted_reset_password": "Det var ikke mulig å få tilgang til kontoen din fordi det gjeldende passordet ikke er sikkert. Du vil motta en e-post der du kan tilbakestille passordet ditt.",
+        "signup_disabled": "Opprettelse av kundekonto er deaktivert.",
+        "subscribe_error": "Abonnementsfeil",
+        "unsubscribe_error": "Feil ved oppsigelse av abonnement",
+        "open_tracking_error": "Feil ved åpen sporing"
+      },
+      "address": {
+        "updated": "Adressen ble oppdatert.",
+        "error_updating": "Det gikk ikke å oppdatere adressen",
+        "created": "Adressen ble opprettet",
+        "error_creating": "Det gikk ikke å opprette adressen.",
+        "deleted": "Adressen ble fjernet",
+        "error_deleting": "Det var ikke mulig å fjerne adressen."
+      },
+      "order": {
+        "not_available": "Denne ordren er ikke tilgjengelig",
+        "financial_status": {
+          "authorized": "Autorisert",
+          "pending": "Venter",
+          "paid": "Betalt",
+          "unpaid": "Ubetalt",
+          "voided": "Ugyldiggjort",
+          "partially_paid": "Delvis betalt",
+          "partially_refunded": "Delvis tilbakebetalt",
+          "refunded": "Refundert",
+          "expired": "Har forfalt"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Distribuerte",
+          "complete": "Fullført",
+          "partial": "Delvis",
+          "unfulfilled": "Ikke distribuert",
+          "restocked": "Tilbake på lager"
+        },
+        "transaction_status": {
+          "success": "Lyktes",
+          "pending": "Venter",
+          "failure": "Feil",
+          "error": "Feil"
+        },
+        "cancel_reason": {
+          "declined": "Betaling avvist",
+          "inventory": "Artikler er ikke tilgjengelige",
+          "fraud": "Bedragerisk bestilling",
+          "customer": "Kunden endret/avbrøt ordren",
+          "other": "Annet",
+          "staff": "Personalfeil"
+        },
+        "cash_on_delivery": "Betaling ved levering (COD)"
       }
     },
     "page_titles": {
@@ -3300,8 +3436,132 @@
       },
       "shipping": {
         "address": "Leveringsadresse",
-        "address_map_marker": "Leveringsadresse"
-      }
+        "address_map_marker": "Leveringsadresse",
+        "method": "Leveringsmetode",
+        "summary": "Levering",
+        "free": "Gratis",
+        "one_time": "Engangsleveranse",
+        "subscription": "Abonnementslevering",
+        "free_shipping_discount": "Fri frakt",
+        "method_short": "Metode",
+        "ship_to": "Lever til"
+      },
+      "show_items": "Vis artikler",
+      "subtitle": "Bekreftet den {{date}}",
+      "subtotal": "Delsum",
+      "summary_list_title_accessibility_label": "Bestillingsartikler",
+      "summary_title": "Ordresammendrag",
+      "summary_totals_title_accessibility_label": "Ordresummer",
+      "taxes": "Skatter",
+      "title": "Bestill {{name}}",
+      "total": "Totalt",
+      "unit_price": "{{price}}/st.",
+      "location": "Sted",
+      "not_applicable": "Ikke relevant",
+      "fully_refunded_label": "REFUNDERT",
+      "partially_refunded_label": "DELVIS REFUNDERT",
+      "refunded_amount": "Tilbakebetalt",
+      "discount": "Rabat",
+      "compare_at_sale": "Rea ({{saleAmount}})",
+      "no_data": "Ingen",
+      "pagination": {
+        "load_more": "Vis mer",
+        "load_more_accessibility_label": "Vis flere artikler",
+        "loading_accessibility_label": "Laster inn artikler"
+      },
+      "returns": {
+        "expand_events_label": "Vis detaljer",
+        "hide_events_label": "Skjul detaljer",
+        "print_shipping_label": "Skriv ut fraktbrev",
+        "tracking_number": "Sporingsnummer:",
+        "return_and_refund_modal_header": "Refusjonspolicy",
+        "ineligible_return_message": "Ingen av artiklene i denne ordren kvalifiserer for retur.",
+        "ineligible_return_message_when_returned": "Ingen flere artikler i denne ordren er kvalifisert for retur.",
+        "exchange_header": "Bytteartikler",
+        "exchange_subheader": "Byttevarer legges til ordren når returen er fullført."
+      },
+      "request_return_failed": "Det oppstod en feil under behandlingen av forespørselen din. Prøv igjen.",
+      "mobile_summary_toggle_button": {
+        "open": "Vis ordreoversikt",
+        "closed": "Skjul ordreoversikt"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Vis detaljer",
+        "expand_events_accessibility_label": "Vis ordrens leveringsdetaljer",
+        "hide_events_label": "Skjul detaljer",
+        "hide_events_accessibility_label": "Skjul leveringsdetaljene for ordren"
+      },
+      "show_order_summary": "Vis ordreoversikt",
+      "hide_order_summary": "Skjul ordresammendrag",
+      "company": "Bedrift",
+      "no_data_provided_accessibility_label": "{{fieldName}} er tom",
+      "marketing_section_title": "Nyheter og tilbud",
+      "marketing_checkbox_label": "Send meg nyheter og tilbud via e-post",
+      "marketing_checkmark_label": "Du abonnerer på nyheter og tilbud via e-post",
+      "image_gallery": {
+        "next": "Vis kommende artikler",
+        "previous": "Vis tidligere artikler",
+        "load_more_items": {
+          "one": "Vis ytterligere {{count}} artikkel",
+          "other": "Vis ytterligere {{count}} artikler"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Last ned Shop for å spore pakker",
+        "track_order_with_shop": "Spor ordre med Shop",
+        "title_header": "Skann med telefonen din",
+        "real_time_delivery_updates": "Shop sender deg leveringsoppdateringer i sanntid når ordren din er sendt.",
+        "real_time_delivery_updates_with_gift": "Få leveringsoppdateringer i sanntid og en gave på {{promoAmount}} å bruke i Shop-appen.",
+        "shop_app_promo_amount_off": "Få en gave på {{promoAmount}}",
+        "shop_app_promo_text": "{{amountOff}} å bruke i Shop-appen",
+        "open_in_shop": "Åpne butikk"
+      },
+      "shop_pay": {
+        "order_completed_with": "Ordre fullført med",
+        "learn_more": "Mer informasjon",
+        "usdc_rewards_terms": "Vis vilkår for USDC-belønninger"
+      },
+      "edit_summary": {
+        "added": "Lagt til",
+        "added_with_quantity": "{{quantity}} har blitt lagt til",
+        "removed": "Fjernet",
+        "removed_with_quantity": "{{quantity}} er fjernet",
+        "updated_at": "Din ordre ble oppdatert den {{date}}",
+        "returned": "Returnert",
+        "returned_with_quantities": "{{delta}} av {{total}} er returnert",
+        "removed_with_quantities": "{{delta}} av {{total}} har blitt fjernet",
+        "return_line_item_removed": "Fjernet fra retur",
+        "return_line_item_removed_with_quantities": "Fjernet {{delta}} fra retur"
+      },
+      "pickup": {
+        "pickup": "Henting",
+        "pickup_location": "Hentested",
+        "pickup_point": "Utleveringssted"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betalt med avbetaling med Shop Pay",
+        "description": "Hold oversikt over betalingsplanen din med påminnelser i Shop-appen.",
+        "payment_reminders_button": "Få betalingspåminnelser",
+        "desktop_qr_code_content": {
+          "title": "Søk etter påminnelser",
+          "description": "Få påminnelser om dine avbetalinger med Shop."
+        },
+        "title": "Betalingspåminnelser for delbetaling med Shop Pay"
+      },
+      "order_details": "Ordredetaljer",
+      "login_to_view_all_order_details": "Logg inn for å se alle ordreopplysninger.",
+      "log_in": "Logg inn",
+      "paid_amount": "Betalt",
+      "remaining_amount": "Gjenværende",
+      "order_details_skeleton_accessibility_label": "Logg inn for å se alle ordreopplysninger.",
+      "tip": "Tips",
+      "logged_in_account_no_permission_to_order": "Du er logget inn som {{email}}. Denne kontoen har ikke tillatelse til å behandle denne ordren.",
+      "log_in_to_a_different_account": "Logg inn på en annen konto",
+      "duties": "Tollavgifter",
+      "ok_duties_tooltip": "Denne ordren sendes fra et annet land, så tollavgifter er lagt til i din totale ordresum.",
+      "error_duties_tooltip": "Denne ordren leveres fra et annet land, så tollavgifter og skatter kan bli belastet ved levering.",
+      "zero_duties_tooltip": "Denne ordren sendes fra et annet land. Tollavgifter belastes ikke for ordrer med denne verdien.",
+      "group_title_label": "Del av: {{groupTitle}}"
     },
     "address_form": {
       "loading_form_accessibility_message": "Laster inn adresseformular",
