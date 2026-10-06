@@ -4087,7 +4087,147 @@
           "unknown_carrier_banner": "Kontakt oss for mer informasjon"
         },
         "arrives_tomorrow": "Ankommer i morgen",
-        "arrives_today": "Ankommer i dag"
+        "arrives_today": "Ankommer i dag",
+        "confirmed_title": "Din ordre er bekreftet",
+        "delivered_label": "Levert",
+        "estimated_delivery": "Forventet {{date}}",
+        "in_review_label": "Under vurdering",
+        "in_review_title": "Ordren din blir gjennomgått",
+        "no_tracking_number": "Det finnes ikke noe sporingsnummer for denne forsendelsen.",
+        "on_its_way_label": "På vei",
+        "out_for_delivery_label": "På vei til levering",
+        "resume_tracking": "Gjenoppta sporing",
+        "submitted_label": "Innsendt",
+        "track_shipment": "Spor levering",
+        "request_return": "Be om retur",
+        "attempted_delivery_label": "Forsøk på levering",
+        "preparing_for_shipping_label": "Forbereder for levering",
+        "ready_for_pickup_label": "Klar for henting",
+        "ready_for_pickup_description": "Artiklene er klare for henting. Ta med ordrebekreftelsen når du henter ordren din.",
+        "picked_up_label": "Hentet",
+        "submitted_description": "Gjennomgå ordre- og betalingsinformasjon.",
+        "last_updated": "Sist oppdatert {{date}}",
+        "multiple_shipments_label": "Flere leveranser",
+        "view_order_for_details": "Vis ordredetaljer",
+        "confirmed_description_digital": "Du vil motta en e-post når ordren din er klar.",
+        "delivered_description_gift_card": {
+          "one": "Gavekortet ble sendt via e-post.",
+          "other": "Gavekortene ble sendt via e-post."
+        },
+        "gift_card_label": {
+          "one": "Gavekort",
+          "other": "Gavekort"
+        },
+        "ready_for_pickup_location": "Din bestilling er klar for henting på valgt sted",
+        "confirmed_description_pickup": "Vi klargjør disse artiklene for henting.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Gavekortet sendes i en separat e-post.",
+          "other": "Hvert gavekort sendes i en separat e-post."
+        },
+        "confirmed_description_gift_card_text": "Du får en SMS når ordren din er klar.",
+        "delivered_description_gift_card_text": {
+          "one": "Gavekortet ble sendt via sms.",
+          "other": "Gavekortene ble sendt via sms."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Gavekortet sendes i en separat SMS.",
+          "other": "Hvert gavekort sendes i en separat SMS."
+        },
+        "gift_resend_success": {
+          "one": "Gavekort returnert",
+          "other": "Gavekort returneres"
+        },
+        "gift_resend_failure": {
+          "one": "Det oppstod et problem da gavekortet ditt skulle sendes på nytt. Prøv igjen eller kontakt oss.",
+          "other": "Det oppstod et problem da gavekortene dine skulle sendes på nytt. Prøv igjen eller kontakt oss."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Håndter med Amazon",
+            "new_window_disclaimer": "(åpner et nytt vindu)"
+          }
+        },
+        "attempted_to_deliver_label": "Forsøkte å levere",
+        "there_was_a_problem_label": "Det oppstod et problem",
+        "buy_with_prime_logo_accessibility_label": "Logotype for Amazon Buy with Prime",
+        "delivered": "Levert {{date}}",
+        "complete_label": "Fullført",
+        "multiple_statuses_label": "Status for flere ordrer",
+        "status_timestamp": "Oppdatert {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Levering støttes av",
+            "mixed_brands_label": "Garantert levering",
+            "not_delivered_by_label": "Leveres den ikke {{date}}",
+            "modal_accessibility_button_label": "Informasjon om leveringsforpliktelse"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Be om Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} for å be om Shop Cash",
+            "download_shop_app_label": "Last ned Shop"
+          },
+          "details_modal": {
+            "title": "Levering støttes av",
+            "modal_accessiblity_label": "Opplysninger om leveringsløfte",
+            "delivery_by_label": "Levering senest den {{date}}",
+            "delivery_guaranteed_by_label": "Levering garanteres senest {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garanterer rask og pålitelig levering. Du kan kreve Shop Cash dersom bestillingen din blir forsinket.",
+              "may_be_eligible_not_authorized_label": "Du kan være kvalifisert til å kreve Shop Cash fordi denne ordren ankom for sent. Logg inn for å se flere detaljer.",
+              "redeemed_label": "Du har allerede bedt om Shop Cash fordi denne bestillingen ankom for sent.",
+              "no_shop_cash_label": "Denne ordren er ikke berettiget til krav om forsinket levering fordi den ikke ble betalt med Shop Pay.",
+              "no_longer_guaranteed_label": "Disse artiklene støttes ikke lenger av en leveringsgaranti.",
+              "claim_shop_cash_title": "Skann for å løse ut {{amount}} i Shop Cash",
+              "claim_shop_cash_description": "Du kan bruke Shop Cash til fremtidige kjøp i Shop-appen."
+            },
+            "delivery_guarantee_label": "Leveringsgaranti"
+          }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Håndter på Amazon"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Garantert levering senest",
+            "external_promise_brand_label": "Levering senest",
+            "not_delivered_by_label": "Levert etter {{date}}",
+            "delivery_guarantee_expired_label": "Leveringsgarantien har utløpt",
+            "modal_accessibility_button_label": "Opplysninger om leveringsløfte",
+            "download_shop_app_button_label": "Last ned Shop for å spore",
+            "track_with_shop_button_label": "Spor med Shop",
+            "claim_shop_cash_button_label": "Gjør krav på Shop Cash"
+          },
+          "details_modal": {
+            "title": "Leveringsgaranti",
+            "active_delivery_guarantee_label": "Levering senest {{date}}",
+            "expired_badge_label": "Har gått ut",
+            "order_includes_guarantees_label": "Din ordre omfatter {{deliveryAgreementsCount}} garantier",
+            "order_includes_guarantees_description": "Shop Promise garanterer rask og pålitelig levering. Du kan gjøre krav på Shop Cash hvis bestillingen din leveres senere enn {{date}}.",
+            "delivered_after_label": "Levert etter {{date}}",
+            "delivered_after_description": "<p>Fordi bestillingen din ble levert sent, kan du kreve inn {{amount}} Shop Cash.</p>",
+            "claimed_shop_cash_description": "Fordi denne ordren ble levert sent, gjorde du krav på {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "<p>Fordi bestillingen din ble levert sent, kan du kreve inn {{amount}} Shop Cash.</p>",
+            "learn_more_button_label": "Mer informasjon",
+            "claim_shop_cash_button_label": "Gjør krav på Shop Cash",
+            "view_balance_in_shop_button_label": "Vis saldo i Shop",
+            "scan_to_claim_shop_cash_label": "Skann for å løse inn {{amount}} Shop Cash",
+            "expired_shop_promise_guarantee_description": "Shop Promise-garantien for denne ordren har utløpt."
+          }
+        },
+        "tracking_number": {
+          "one": "Sporingsnummer",
+          "other": "Sporingsnummer"
+        },
+        "gift_card_resend_button": {
+          "one": "Videresend gavekort",
+          "other": "Videresend gavekort"
+        },
+        "expected_by": "Forventet senest {{date}}",
+        "was_expected_by": "Forventet senest {{date}}",
+        "confirmed_description_shipping": "Vi forbereder disse artiklene for frakt.",
+        "arrives": "Leveres {{date}}",
+        "delivery_estimate_backed_by": "Støttet av",
+        "delivery_estimate_delayed_description": "Leveranser til ditt område er tregere enn vanlig. Din ordre kan bli forsinket."
       },
       "status_mark_as_delivered": "Marker som levert",
       "buy_again": "Kjøp igjen",
