@@ -1696,7 +1696,16 @@
           "tax_credential_type_mx": "Skattemessig status",
           "tax_credential_use_mx": "Uso de CFDI",
           "tax_credential_py": "CI/RUC/MVA",
-          "shipping_credential_py": "CI/RUC/MVA"
+          "shipping_credential_py": "CI/RUC/MVA",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "NIT/IVA",
+          "shipping_credential_pt": "NIT/IVA",
+          "tax_credential_es": "DNI/NIF",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tw": "Nasjonal ID-nummer/moms",
+          "tax_credential_tr": "Republikken Tyrkias identitetsnummer/MVA",
+          "shipping_credential_tr": "Republikken Tyrkias identitetsnummer/MVA"
         }
       },
       "payment_summary": {
@@ -1720,7 +1729,9 @@
           "selected_page": {
             "one": "%{first} – %{last} av %{count} plass",
             "other": "%{first} – %{last} av %{count} plasser"
-          }
+          },
+          "next_accessibility_label": "Neste side",
+          "previous_accessibility_label": "Forrige side"
         },
         "number_of_pickup_points_near_location": {
           "one": "%{count} henteplass i nærheten av deg",
@@ -1742,7 +1753,19 @@
         "pickup_unavailable_banner_title": {
           "one": "Ingen utleveringssteder tilgjengelige for din vare",
           "other": "Ingen utleveringssteder tilgjengelige for dine varer"
-        }
+        },
+        "location_is_currently_closed": "Stengt",
+        "business_hours": "Åpningstider",
+        "title": "Hentested",
+        "or": "eller",
+        "search_button": "Søk",
+        "selector_tabs": "Velger for hentested",
+        "selector_tab_map": "Kart",
+        "selector_tab_list": "Liste",
+        "could_not_resolve_address": "Adressen din kunne ikke lokaliseres. Prøv igjen eller bruk en annen adresse",
+        "no_pickup_points_near_you": "Ingen hentesteder ble funnet i nærheten av den valgte adressen",
+        "no_pickup_points_near_location": "Ingen henteplasser funnet i nærheten av deg",
+        "no_pickup_points_found": "Ingen henteplasser funnet"
       },
       "error_page": {
         "terminal": {
@@ -2375,6 +2398,155 @@
           "all_products_one": "Produktet i handlekurven din er ikke tilgjengelig for levering til %{location_name}.",
           "all_products_other": "Produktene i handlekurven din er ikke tilgjengelige for levering til %{location_name}."
         }
+      },
+      "post_purchase": {
+        "page_title": "Etter kjøp",
+        "title": "Etter kjøp",
+        "escape_confirmation": "Din ordre er betalt.",
+        "escape_action": "Vis ordrebekreftelse ›",
+        "components": {
+          "close": "Lukk",
+          "expand": "Vis mer",
+          "processing": "Behandler...",
+          "submit": "Send"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Handlekurven din har blitt oppdatert basert på leveringslandet ditt.",
+        "cart_and_currency_updated_based_on_country": "Handlekurven og valutaen din er oppdatert basert på leveringslandet ditt.",
+        "currency_updated_for_country": "Valutaen er oppdatert for %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} var %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Første betaling %{total_price}",
+            "other": "Første %{count} betalinger %{total_price} var"
+          },
+          "following_cycles": ", siden %{total_price} var %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dag",
+            "other": "%{count} dager"
+          },
+          "week": {
+            "one": "uke",
+            "other": "%{count} uker"
+          },
+          "month": {
+            "one": "måned",
+            "other": "%{count} måneder"
+          },
+          "year": {
+            "one": "år",
+            "other": "%{count} år"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Første betaling %{total_price_with_discount}, deretter %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", siden %{count} betaling på %{total_price}",
+            "other": ", deretter %{count} betalinger på %{total_price} hver"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Betalingsmetoder",
+        "title": "Betalingsmetoder",
+        "update_card_button_label": "Oppdater kort",
+        "delete_customer_mandate": {
+          "generic_error": "Det oppsto en feil under behandlingen av forespørselen din.",
+          "success_message": "Betalingsmetoden din er slettet"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Vilkår og betingelser for ansvarlig handel",
+        "privacy_policy": "Personvernerklæring for ansvarlig forhandler"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produkt ikke tilgjengelig",
+          "other": "Ikke tilgjengelige produkter"
+        },
+        "products_not_available": {
+          "one": "Dette produktet vil bli fjernet fra handlekurven din fordi det ikke er tilgjengelig i landet/regionen din.",
+          "other": "Disse produktene vil bli fjernet fra handlekurven din fordi de ikke er tilgjengelige i ditt land/din region."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Dette produktet er ikke tilgjengelig i ditt land/din region.",
+          "other": "Disse produktene er ikke tilgjengelige i ditt land/din region."
+        },
+        "unavailable_label": "Ikke tilgjengelige"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Land/region er oppdatert. Angi leveringsadressen din for å fortsette betalingen i kassen."
+      },
+      "throttle": {
+        "line_to_check_out": "Du står i kø til kassen",
+        "cart_summary_heading": "Din handlekurv",
+        "merchandise": {
+          "sold_out": "Utsolgt",
+          "available": "Tilgjengelige"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Deler av handlekurven din er utsolgt og vil ikke være tilgjengelig for kjøp i kassen.",
+          "sold_out": {
+            "heading": "Handlekurven din er utsolgt",
+            "storefront_body": "Gå tilbake til butikken for å fortsette handelen",
+            "no_storefront_body": "Dessverre er varen du ønsker å kjøpe ikke lenger tilgjengelig.",
+            "link": "Tilbake til butikken"
+          }
+        },
+        "title": "Kø",
+        "time_to_checkout_title": "Det er på tide å gå til kassen - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Beregner ventetid",
+          "less_than_one": "Estimert ventetid: Mindre enn ett minutt",
+          "one": "Beregnet ventetid: {{count}} minutt",
+          "other": "Beregnet ventetid: {{count}} minutter"
+        },
+        "last_checked": "(Sist kontrollert: {{time}})",
+        "footer": {
+          "heading": "Ikke oppdater siden. Den oppdateres automatisk.",
+          "body": "Artikler i handlekurven din blir ikke reservert før du fullfører betalingen i kassen."
+        },
+        "too_many_attempts": {
+          "message": "For mange forsøk",
+          "description": "Prøv igjen om noen minutter"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Det oppstod en feil under behandlingen av forespørselen din. Kontakt butikkeieren."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Ingen levering tilgjengelig for %{count} artikkel",
+            "other": "Ingen levering tilgjengelig for %{count} artikler"
+          },
+          "message": {
+            "one": "Denne artikkelen vil bli fjernet fra handlekurven din fordi det ikke er tilgjengelige leveringsmetoder for adressen din.",
+            "other": "Disse artiklene vil bli fjernet fra handlekurven din fordi det ikke finnes noen tilgjengelige leveringsmetoder for adressen din."
+          },
+          "label": "Ingen levering"
+        }
+      },
+      "no_address_location": {
+        "title": "Sted uten adresse",
+        "header": "Du har ingen leveringsadresse til dette stedet",
+        "message": "Kontakt oss for å legge til en adresse for dette stedet og fullføre betalingen i kassen.",
+        "email_us_button_label": "Send oss en e-post",
+        "alt_header": "Mangler leveringsadresse"
+      },
+      "order_errors": {
+        "creation_failure": "Det gikk ikke å opprette ordren din. Prøv igjen eller kontakt oss for mer informasjon.",
+        "network_failure": "På grunn av en nettverksfeil var det ikke mulig å sende inn bestillingen din. Kontroller tilkoblingen din og prøv igjen.",
+        "inventory_reservation_failure": "Enkelte artikler er ikke lenger tilgjengelige."
+      },
+      "session_errors": {
+        "session_not_unique": "Det gikk ikke å behandle ordren din. Oppdater siden for å gå tilbake til butikken.",
+        "session_already_finished": "Ordren er allerede sendt. Du kan gå tilbake til butikken for å starte en ny bestilling."
       }
     },
     "pagination": {
