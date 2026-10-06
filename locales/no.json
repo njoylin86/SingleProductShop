@@ -124,7 +124,79 @@
             "origin_location_id_not_allowed": "Etterspurte leveringsmetoder støtter ikke en opprinnelsessted-ID.",
             "auto_fulfill_not_allowed": "Denne sesjonen er ikke autorisert til å overstyre distribusjonsatferd."
           }
-        }
+        },
+        "autocomplete_zero_item": "Ingen tilgjengelige artikler",
+        "autocomplete_powered_by_google": "Drevet av {{brandName}}",
+        "submit": "Send",
+        "processing": "Behandler ...",
+        "stepper": {
+          "increase": "Økning {{type}}",
+          "decrease": "Reduksjon {{type}}",
+          "minimum_reached": "Minimum {{value}} nådd",
+          "maximum_reached": "Maksimum {{value}} nådd"
+        },
+        "remove_item": "Fjern %{label}",
+        "remove_tag": "Fjern tagger",
+        "dates": {
+          "weekdays": {
+            "monday": "Mandag",
+            "tuesday": "Tirsdag",
+            "wednesday": "Onsdag",
+            "thursday": "Torsdag",
+            "friday": "Fredag",
+            "saturday": "Lørdag",
+            "sunday": "Søndag"
+          },
+          "weekdays_abbreviation": {
+            "monday": "måne",
+            "tuesday": "tir",
+            "wednesday": "ons",
+            "thursday": "tor",
+            "friday": "fre",
+            "saturday": "lør",
+            "sunday": "søn"
+          },
+          "months": {
+            "january": "januar",
+            "february": "februar",
+            "march": "mars",
+            "april": "april",
+            "may": "mai",
+            "june": "juni",
+            "july": "juli",
+            "august": "august",
+            "september": "september",
+            "october": "oktober",
+            "november": "november",
+            "december": "desember"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Vis forrige måned {{month}} {{year}}",
+          "show_next_month": "Vis neste måned {{month}} {{year}}",
+          "range_start": "Intervallstart",
+          "in_range": "Innenfor intervall",
+          "range_end": "Intervallslutt"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klynge av {{number}} markør",
+            "other": "Klynger av {{number}} markører"
+          }
+        },
+        "sheet": {
+          "expand": "Åpne"
+        },
+        "confirm_order_button_label": "Bekreft ordre",
+        "qr_code": "QR-kode",
+        "dropzone": {
+          "add_file": "Legg til fil",
+          "invalid_file_type": "Filtypen støttes ikke",
+          "dragged_over": "Slipp fil for opplasting"
+        },
+        "loading": "Laster inn ...",
+        "remove_chip": "Fjern artikkel",
+        "finalize_order_accessibility_label": "Fullfør bestilling"
       },
       "field_errors": {
         "gift_card_depleted": "Det er ikke mer penger igjen på dette gavekortet",
@@ -273,6 +345,56 @@
           "orders_sold_by_shop_marketplace": "Ordrer som selges via markedsplassen Shop",
           "orders_sold_by_shop_name": "Ordrer som selges av %{shop_name}"
         }
+      },
+      "contact": {
+        "title": "Informasjon",
+        "address_title": "Adresse",
+        "delivery_option_title": "Leveringsmetode",
+        "contact_method_title": "Kontakt",
+        "email_label": "E-post",
+        "email_placeholder": "E-post",
+        "email_or_phone_label": "E-postadresse eller mobilnummer",
+        "email_or_phone_placeholder": "E-postadresse eller mobilnummer",
+        "stored_addresses_label": "Lagrede adresser",
+        "new_address_label": "Bruk en ny adresse",
+        "first_name_label": "Fornavn",
+        "optional_first_name_label": "Fornavn (valgfritt)",
+        "last_name_label": "Etternavn",
+        "company_label": "Bedrift",
+        "optional_company_label": "Bedrift (valgfritt)",
+        "address1_label": "Adresse",
+        "address2_label": "Leilighet, etasje e.l.",
+        "optional_address2_label": "Leilighet, suite o.l. (valgfritt)",
+        "city_label": "Sted",
+        "country_label": "Land",
+        "country_code": "Land-/regionskode",
+        "province_label": "Fylke",
+        "province_placeholder": "Fylke",
+        "county_label": "Fylke",
+        "county_placeholder": "Fylke",
+        "state_label": "Sted",
+        "state_placeholder": "Sted",
+        "region_label": "Region",
+        "region_placeholder": "Region",
+        "prefecture_label": "Prefektur",
+        "prefecture_placeholder": "Prefektur",
+        "governorate_label": "Guvernørat",
+        "governorate_placeholder": "Guvernørat",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "state_and_territory_label": "Stat/territorium",
+        "state_and_territory_placeholder": "Stat/territorium",
+        "phone_label": "Telefon",
+        "optional_phone_label": "Telefon (valgfritt)",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "Hvis vi trenger å kontakte deg angående din bestilling",
+        "zip_code_label": "Postnummer",
+        "zip_code_placeholder": "Postnummer",
+        "postal_code_label": "Postnummer",
+        "postal_code_placeholder": "Postnummer",
+        "postcode_label": "Postnummer",
+        "postcode_placeholder": "Postnummer",
+        "pincode_label": "Pinkode"
       }
     },
     "pagination": {
@@ -368,6 +490,252 @@
       "shop_404": {
         "title": "Lag en nettbutikk og selg på nettet! E-handelsplattform fra Shopify"
       }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "expired_badge_label": "Har gått ut",
+      "credit_card_title": "Betalingskort",
+      "or": "ELLER",
+      "additional_payment_methods": "Ytterligere betalingsmetoder",
+      "add_success": {
+        "title": "Betalingsmetode har blitt lagt til",
+        "done_button": "Fortsett å handle"
+      },
+      "expiring_badge_label": "Utløper",
+      "payment_details": {
+        "close_payment_modal_accessibility_label": "Lukk modal for opplysninger om betalingsmetode",
+        "payment_method_not_found_error": "Kunne ikke finne betalingsmetode",
+        "payment_details_loading": "Laster inn opplysninger for betalingsmetode",
+        "pre_authorized_payments": "Forhåndsgodkjente betalinger",
+        "total_amount_of_subscription_line_items_left": "og {{total}} mer",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Totalt {{totalItems}} artikler, viser {{totalItemsToDisplay}} artikler.",
+        "next_payment_due": "Neste betaling forfaller den {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Rediger",
+        "edit_payment_method_button_accessibility_label": "Endre betalingsmetoden som slutter på {{lastDigits}}",
+        "credit_card_details_accessibility_label": "slutter på {{lastDigits}}",
+        "billing_title": "Faktureringsadresse",
+        "card_info_title": "Kredittkortopplysninger",
+        "payment_method_expired_on": "Utløp {{expiryDate}}",
+        "loading_shop_pay": "Laster inn Shop Pay",
+        "invalid_payment_method": "Ugyldig betalingsmetode",
+        "invalid_payment_method_message": "Bruk et nytt kredittkort for å fortsette å motta kommende ordrer.",
+        "replace_payment_method": "Erstatt betalingsmetode",
+        "checkout_card_banner": "Denne betalingsmetoden kan bare brukes for forhåndsgodkjente betalinger. Den vises ikke i kassen hvis du er logget inn i denne butikken.",
+        "default_checkbox": "Angi som standard",
+        "default_checkbox_accessibility_label": "Angi denne betalingsmetoden som standard",
+        "replace_payment_method_button": "Erstatt"
+      },
+      "delete_payment_method_button": "Slett",
+      "delete_payment_method_button_accessibility_label": "Slett {{paymentMethodName}}",
+      "back_button": "Tilbake",
+      "back_button_accessibility_label": "Tilbake til {{paymentMethodStepTitle}}",
+      "generic_card": "Kort",
+      "payment_delete": {
+        "title": "Slett betalingsmetode",
+        "description_without_replacement": "Denne betalingsmetoden vil ikke lenger være tilgjengelig for fremtidige kjøp.",
+        "description_with_replacement": "Sletting av denne betalingsmetoden vil påvirke forhåndsgodkjente betalinger. Du kan velge å erstatte den med en annen betalingsmetode for å fortsette å motta kommende bestillinger.",
+        "payment_method_selector_placeholder": "Velg en ny betalingsmetode (valgfritt)",
+        "replace_method_with_new_method_description": "Din {{currentPaymentMethodName}} blir slettet og erstattet med din {{newPaymentMethodName}}.",
+        "error_when_deleting": "Vi beklager, men det oppstod dessverre en feil, og vi kunne ikke slette denne betalingsmetoden. Prøv igjen eller oppdater siden.",
+        "delete_and_replace_button": "Slett og erstatt",
+        "delete_and_replace_button_accessibility_label": "Slett {{currentPaymentMethodName}} og erstatt med {{newPaymentMethodName}}.",
+        "deleted_successfully": "Betalingsmetoden ble slettet.",
+        "payment_method_selector_no_alternative_payment": "Ingen ny betalingsmetode",
+        "loading_available_payment_methods_accessibility_label": "Laster inn tilgjengelige betalingsmetoder",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Sletting av denne betalingsmetoden vil påvirke forhåndsgodkjente betalinger. Hvis du ikke velger en alternativ betalingsmetode, vil denne betalingsmetoden fremdeles bli belastet for eventuelle utestående saldoer for eksisterende ordrer. Hvis du velger en alternativ betalingsmetode, vil du kunne motta fremtidige abonnementsordrer uten avbrudd.",
+          "with_pending_orders": "Hvis du sletter denne betalingsmetoden, vil den bli fjernet fra kontoen din og vil ikke kunne brukes til fremtidige kjøp. Hvis du ikke velger en alternativ betalingsmetode, vil denne betalingsmetoden fortsatt bli belastet for eventuelle utestående saldoer for eksisterende ordrer.",
+          "with_subscriptions": "Sletting av denne betalingsmetoden vil påvirke forhåndsgodkjente betalinger. Erstatt den med en alternativ betalingsmetode for å fortsette å motta kommende bestillinger."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Sletting av denne betalingsmetoden vil påvirke forhåndsgodkjente betalinger. Denne betalingsmetoden vil fortsatt bli belastet for eventuelle utestående beløp for eksisterende ordrer, men du vil ikke motta fremtidige abonnementsordrer. Legg til en alternativ betalingsmetode for å fortsette å motta abonnementsordrer.",
+          "with_pending_orders": "Hvis du sletter denne betalingsmetoden, vil den bli fjernet fra kontoen din og vil ikke kunne brukes til fremtidige kjøp. Den vil fortsatt bli belastet for eventuelle utestående saldoer for eksisterende ordrer.",
+          "with_subscriptions": "Sletting av denne betalingsmetoden vil påvirke forhåndsgodkjente betalinger. Legg til en alternativ betalingsmetode for å fortsette å motta fremtidige bestillinger."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Endre betalingsmetode",
+        "save_payment_method_button": "Lagre",
+        "cancel_edit_payment_method_button": "Avbryt",
+        "payment_method_updated_toast": "Betalingsmetoden har blitt oppdatert",
+        "billing_address": "Faktureringsadresse",
+        "billing_address_add_new": "Legg til ny",
+        "billing_address_choose_from_list": "Velg fra liste",
+        "future_purchases_notice": "Denne betalingsmetoden vil bli lagret for fremtidige kjøp.",
+        "generic_error": "Det gikk ikke å oppdatere. Prøv igjen."
+      },
+      "card_fields": {
+        "card_number_label": "Kortnummer",
+        "card_number_placeholder": "Kortnummer",
+        "name_on_card_label": "Navn på kort",
+        "name_on_card_placeholder": "Navn på kort",
+        "card_expiry_label": "Utløpsdato (MM/ÅÅ)",
+        "card_expiry_placeholder": "Utløpsdato (MM/ÅÅ)",
+        "card_verification_value_label": "Sikkerhetskode",
+        "card_verification_value_placeholder": "Sikkerhetskode",
+        "card_start_label": "Utgivelsesdato (MM/ÅÅ)",
+        "card_start_placeholder": "Utgivelsesdato (MM/ÅÅ)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Mer informasjon",
+          "card_verification_value_explanation_amex": "4-sifret sikkerhetskode på forsiden av kortet ditt",
+          "card_verification_value_explanation_other": "3-sifret sikkerhetskode på baksiden av kortet ditt",
+          "card_verification_value_explanation": "Tresifret sikkerhetskode som oftest finnes på baksiden av kortet ditt. American Express-kort har en firesifret kode på forsiden.",
+          "card_security_notice": "Alle transaksjoner er sikre og krypterte."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Oppgi navnet ditt nøyaktig slik det står skrevet på kortet ditt",
+          "credit_card_number_invalid": "Oppgi et gyldig kortnummer",
+          "credit_card_expiry_invalid": "Oppgi en gyldig utløpsdato for kortet",
+          "credit_card_verification_value_blank": "Oppgi CVV- eller sikkerhetskoden på kortet ditt"
+        },
+        "unavailable": {
+          "text": "Konto- og betalingskortbetalinger er ikke tilgjengelige akkurat nå.",
+          "link_text": "Oppdater denne siden",
+          "suffix": "eller prøv igjen senere."
+        }
+      },
+      "add_payment_method": {
+        "title": "Legg til betalingsmetode",
+        "payment_method_added_confirmation": "Betalingsmetode har blitt lagt til",
+        "billing_address": {
+          "title": "Faktureringsadresse",
+          "add_billing_address_button": "Legg til ny",
+          "add_billing_address_button_accessibility_label": "Legg til ny faktureringsadresse",
+          "choose_billing_address_from_list_button": "Velg fra liste",
+          "choose_billing_address_from_list_button_accessibility_label": "Velg en fakturaadresse fra listen",
+          "missing_billing_address_error_message": "Oppgi en faktureringsadresse",
+          "default_checkbox": "Angi som standardbetalingsmetode"
+        },
+        "replace_mode_warning": "Hvis du sletter denne betalingsmetoden, vil abonnementer eller forhåndsbestillinger bli påvirket. Erstatt den med en alternativ betalingsmetode for å fortsette å motta kommende bestillinger.",
+        "choose_from_list": "Velg fra liste",
+        "add_new_button": "Legg til ny",
+        "button_title": "Legg til",
+        "subscription_contracts": {
+          "title": "Bruk betalingsmetode for gjentakende ordrer",
+          "product_details": "Produktinformasjon",
+          "load_more": "Vis mer",
+          "more_items": {
+            "one": "{{count}} produkt til",
+            "other": "{{count}} produkter til"
+          },
+          "product_count": {
+            "one": "{{count}} produkt",
+            "other": "{{count}} produkter"
+          }
+        },
+        "contracts_update_failed": "Det gikk ikke å oppdatere enkelte abonnementsavtaler",
+        "subscription_contracts_updated": "{{succeeded}} av {{total}} abonnementer har blitt oppdatert",
+        "invalid_wallet_type_error": "Ugyldig lommeboktype.",
+        "updating_contracts": {
+          "one": "{{count}} abonnementsavtaler oppdateres ...",
+          "other": "{{count}} abonnementsavtaler oppdateres ..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} abonnementsavtaler er oppdatert"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "visa": "Vis",
+      "mastercard": "Mastercard",
+      "shoppay": "Shop Pay",
+      "applepay": "Apple Pay",
+      "googlepay": "Google Pay",
+      "paypal": "PayPal",
+      "americanexpress": "American Express",
+      "discover": "Oppdag",
+      "dinersclub": "Diners Club",
+      "jcb": "JCB",
+      "elo": "Hei",
+      "visaelectron": "Visa Electron",
+      "maestro": "Maestro",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "dankort": "Dankort",
+      "hipercard": "Hipercard",
+      "unionpay": "UnionPay",
+      "laser": "Laser",
+      "storecredit": "Verdikupong",
+      "bogus": "Falsk",
+      "klarna_pay_now": "Klarna",
+      "klarna_pay_later": "Klarna",
+      "klarna_slice_it": "Klarna",
+      "blik": "BLIKK",
+      "ideal": "iDEAL",
+      "klarna": "Klarna",
+      "mobilepay": "MobilePay",
+      "przelewy24": "Przelewy24",
+      "swish": "Vipps",
+      "twint": "TWINT",
+      "usdc": "Krypto: USDC",
+      "vipps": "Vipps"
+    },
+    "enable_javascript": "Aktiver JavaScript i nettleserinnstillingene dine eller logg inn med en annen nettleser for å kunne se kontoen din.",
+    "ui_components": {
+      "closeNotification": "Lukk",
+      "expandNotification": "Vis mer",
+      "closeModal": "Lukk",
+      "submit": "Send",
+      "processing": "Behandler…",
+      "increase": "Økning {{type}}",
+      "decrease": "Reduksjon {{type}}",
+      "minimumReached": "Minimum {{value}} nådd",
+      "maximumReached": "Maksimum {{value}} nådd",
+      "january": "Januar",
+      "february": "Februar",
+      "march": "Mars",
+      "april": "April",
+      "may": "Mai",
+      "june": "Juni",
+      "july": "Juli",
+      "august": "August",
+      "september": "September",
+      "october": "Oktober",
+      "november": "November",
+      "december": "Desember",
+      "monday": "Mandag",
+      "tuesday": "Tirsdag",
+      "wednesday": "Onsdag",
+      "thursday": "Torsdag",
+      "friday": "Fredag",
+      "saturday": "Lørdag",
+      "sunday": "Søndag",
+      "mondayAbbreviation": "Mån",
+      "tuesdayAbbreviation": "Tir",
+      "wednesdayAbbreviation": "Ons",
+      "thursdayAbbreviation": "Tor",
+      "fridayAbbreviation": "Fre",
+      "saturdayAbbreviation": "Lør",
+      "sundayAbbreviation": "Søn",
+      "showNextMonth": "Vis neste måned, {{month}} {{year}}",
+      "showPreviousMonth": "Vis forrige måned, {{month}} {{year}}",
+      "rangeStart": "Intervallstart",
+      "inRange": "Innenfor intervall",
+      "rangeEnd": "Intervallslutt",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} tilgjengelig artikkel",
+        "other": "{{count}} tilgjengelige artikler"
+      },
+      "removeItem": "Fjern {{label}}",
+      "removeTag": "Fjern tagg",
+      "mapClusterTitle": {
+        "one": "Klynge av {{number}} markør",
+        "other": "Klynger av {{number}} markører"
+      },
+      "expandSheet": "Åpne",
+      "qrCode": "QR-kode",
+      "addFile": "Legg til fil",
+      "dropzoneInvalidFileType": "Filtypen støttes ikke",
+      "dropzoneDraggedOver": "Slipp filen for å laste opp",
+      "clipboardCopied": "Kopiert",
+      "clipboardFailedToCopy": "Kunne ikke kopiere",
+      "clear": "Tøm",
+      "external": "Åpner eksternt nettsted.",
+      "externalNewWindow": "Åpner eksternt nettsted i et nytt vindu.",
+      "loading": "Laster inn …",
+      "moneyLinesHeaderItem": "Artikkel",
+      "moneyLinesHeaderValue": "Verdi",
+      "newWindow": "Åpnes i et nytt vindu."
     }
   }
 }
