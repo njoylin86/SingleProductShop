@@ -1804,6 +1804,140 @@
       "not_upgraded": "Kundkontoene er ikke oppgraderte.",
       "failed_to_revert": "Det gikk ikke å gjenopprette innstillingene for kundekontoer.",
       "revert_window_expired": "Gjenopprettingsperioden har utløpt."
+    },
+    "navigation_and_structure": {
+      "contact_link": "Kontaktinformasjon",
+      "delete_confirmation": {
+        "cancel": "Avbryt",
+        "delete": "Slett"
+      },
+      "dismiss_toast": "Avvis",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "loading_message": "Laster inn",
+      "log_out_link": "Logg ut",
+      "logout_overlay_label": "Logger ut ...",
+      "nav_label_accessibility_label": "Hovednavigering",
+      "navigation_accessibility_message": "Du navigerte til {{sectionName}}",
+      "open_menu_accessibility_label": "Åpne hovednavigasjon",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "settings_link": "Innstillinger",
+      "country_switcher_toast_message": "Landet er endret til {{countryName}}",
+      "switch_country": "Bytt land",
+      "search": "Søk",
+      "location_switcher_toast_message": "Plass er endret til {{locationName}}",
+      "switch_location": "Bytt plass",
+      "view_details": "Vis oppgaver",
+      "company_location": "Bedriftsplass",
+      "no_countries_found": "Ingen land ble funnet",
+      "no_locations_found": "Ingen steder funnet",
+      "try_new_search": "Prøv et nytt søk",
+      "skip_to_content": "Gå videre til innhold",
+      "loading_policy_content_accessibility_label": "Leser inn innholdet i retningslinjene",
+      "policy_load_error": "Kunne ikke laste inn {{policyName}}",
+      "policy_try_again": "Prøv igjen",
+      "loading_section_accessibility_label": "Laster {{sectionName}}",
+      "back_button_accessibility_label": "Tilbake",
+      "go_to_store_link": "Gå til butikken",
+      "orders_link_label": "Ordrer",
+      "subscriptions_link_label": "Abonnementer",
+      "store_credit_accessibility_label": "{{formattedBalance}} i verdikupong",
+      "store_credit_balances_list_accessibility_label": "Saldo for verdikuponger",
+      "store_credit_multi_currency_accessibility_label": {
+        "one": "{{formattedBalance}} i verdikupong og ytterligere {{count}} valuta",
+        "other": "{{formattedBalance}} i verdikupong og ytterligere {{count}} valutaer"
+      }
+    },
+    "account_information": {
+      "loading_accessibility_message": "Laster inn kontoinformasjon",
+      "loading_finished_accessibility_message": "Kontoinformasjon er lastet inn",
+      "profile_card": {
+        "cancel": "Avbryt",
+        "cancel_accessibility_label": "Avbryt redigering av profil",
+        "edit": "Rediger",
+        "edit_accessibility_label": "Rediger profil",
+        "email_help_text": "E-postadressen kan ikke redigeres",
+        "first_name": "Fornavn",
+        "last_name": "Etternavn",
+        "phone_number_help_text": "Telefonnummeret kan ikke redigeres",
+        "save": "Lagre",
+        "save_accessibility_label": "Lagre profil",
+        "title": "Profil",
+        "no_name_provided_accessibility_label": "Ingen navn lagt til",
+        "email": "E-post",
+        "errors": {
+          "name_too_long": "{{fieldName}} er for lang (maks 255 tegn)",
+          "name_cannot_contain_url": "{{fieldName}} kan ikke inneholde en URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} kan ikke inneholde HTML-koder",
+          "email_cant_be_blank": "E-postadresse må ikke være tom",
+          "invalid_email_format": "Oppgi en gyldig e-postadresse"
+        },
+        "editable_email_help_text": "Denne e-postadressen brukes til innlogging og ordreoppdateringer."
+      },
+      "profile_update_confirmation_message": "Profil oppdatert",
+      "title": "Profil",
+      "people": {
+        "pagination": {
+          "load_more": "Vis mer",
+          "load_more_accessibility_label": "Vis flere personer",
+          "loading_accessibility_label": "Laster inn personer"
+        }
+      },
+      "add_button": "Legg til",
+      "verify_new_email_modal": {
+        "title": "Bekreft din nye e-postadresse",
+        "description": "Oppgi nå den 6-sifrede koden som ble sendt til din nye e-postadresse:",
+        "one_time_password_label": "Sekssifret kode",
+        "email_resend_button": "Send koden på nytt",
+        "email_resend_button_accessibility_label": "Send bekreftelseskode på nytt",
+        "verify_button": "Bekreft",
+        "verify_button_accessibility_label": "Bekreft engangspassord",
+        "cancel_button": "Avbryt",
+        "cancel_button_accessibility_label": "Avbryt redigering av profil",
+        "email_resend_button_success_toast_message": "Verifiseringskoden har blitt sendt",
+        "email_resend_button_failure_banner_message": "Kunne ikke sende bekreftelseskoden"
+      },
+      "email_update_success_modal": {
+        "title": "Bekreft e-postadresse",
+        "description": "E-postadressen har blitt oppdatert. Omdirigerer til innlogging."
+      },
+      "email_update_confirmation_message": "E-postadressen er oppdatert til {{email}}",
+      "verify_current_email_modal": {
+        "cancel_button": "Avbryt",
+        "cancel_button_accessibility_label": "Avbryt redigering av profil",
+        "description": "Angi den 6-sifrede koden som ble sendt til din opprinnelige e-postadresse:",
+        "email_resend_button_accessibility_label": "Send bekreftelseskoden på nytt",
+        "title": "Bekreft identiteten din",
+        "verify_button": "Neste",
+        "verify_button_accessibility_label": "Bekreft din nåværende e-postadresse"
+      },
+      "marketing_preferences": {
+        "email_label": "E-post",
+        "pending_confirmation": "Klikk på lenken i e-posten for å bekrefte.",
+        "resend_email": "Send e-posten på nytt",
+        "resend_email_success": "Lenke sendt",
+        "title": "Markedsføringspreferanser",
+        "unsubscribe_confirmation": {
+          "cancel": "Avbryt",
+          "description": "Du vil ikke lenger motta e-postmarkedsføring fra {{shopName}}",
+          "title": "Vil du melde deg av e-post?",
+          "unsubscribe": "Avslutt abonnement"
+        },
+        "update_error": {
+          "description": "Et problem oppsto under oppdatering av markedsføringsinnstillingene dine. Prøv å oppdatere siden eller sjekk internettilkoblingen din."
+        },
+        "update_success": "Markedsføringspreferanser oppdatert"
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Layoutalternativer",
+      "list_title": "Ordrer",
+      "order_list": {
+        "column_headers": {
+          "total": "Totalt",
+          "order": "Bestilling",
+          "actions_accessibility_label": "Tiltak"
+        }
+      }
     }
   },
   "customer": {
