@@ -3561,11 +3561,92 @@
       "ok_duties_tooltip": "Denne ordren sendes fra et annet land, så tollavgifter er lagt til i din totale ordresum.",
       "error_duties_tooltip": "Denne ordren leveres fra et annet land, så tollavgifter og skatter kan bli belastet ved levering.",
       "zero_duties_tooltip": "Denne ordren sendes fra et annet land. Tollavgifter belastes ikke for ordrer med denne verdien.",
-      "group_title_label": "Del av: {{groupTitle}}"
+      "group_title_label": "Del av: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Påfyllingsgebyr",
+        "return_shipping_fee": "Returfrakt"
+      },
+      "vat_invoices": {
+        "label": "MVA"
+      },
+      "taxes_included": "Inkludert {{amount}} i skatter",
+      "duties_and_taxes_included": "Alle skatter og tollavgifter er inkludert i totalbeløpet. Ingen ekstra avgifter belastes ved levering.",
+      "grouped_view_components": {
+        "expand_line_items": "Vis {{count}} artikler",
+        "collapse_line_items": "Skjul {{count}} artikler",
+        "line_item_summary_list_accessibility_label": "Artikler i pakken {{productTitle}}"
+      },
+      "cash_rounding": "Kontantavrunding",
+      "adjusted_payment": "Justert betaling",
+      "adjusted_total": "Justert totalsum",
+      "login_card": {
+        "log_in": "Logg inn",
+        "link_expired": "Lenken har utløpt",
+        "resend_link_and_login": "Hvis du vil se ordreinformasjonen din, logger du inn eller sender en ny lenke til e-postadressen eller telefonnummeret som ble brukt i kassen.",
+        "resend_link": "Send ny lenke",
+        "resend_link_only": "Hvis du vil se ordreinformasjonen din, sender du en ny lenke til e-postadressen eller telefonnummeret som ble brukt i kassen.",
+        "title": "Få tilgang til ordreopplysninger"
+      },
+      "link_sent": "Lenken er sendt",
+      "view_controls": {
+        "gallery": "Galleri",
+        "list": "Liste"
+      },
+      "group_title_label_with_parent": "For: {{groupTitle}}",
+      "due_on_date": "Forfaller {{date}}",
+      "due_on_fulfillment": "Forfaller ved distribusjon",
+      "due_on_receipt": "Forfaller ved mottak",
+      "payment_confirmation": {
+        "payment_received": "Takk! Din betaling på {{amount}} er mottatt.",
+        "full_payment_received": "Takk! Din betaling på {{amount}} er mottatt og ordren er nå fullt betalt.",
+        "dismiss_label": "Lukk betalingsbekreftelse",
+        "payment_authorized": "Takk! Saldoen oppdateres når betalingen er mottatt."
+      },
+      "marketing_pending_confirmation": "Klikk på lenken i e-posten for å bekrefte.",
+      "marketing_resend_email": "Send e-posten på nytt",
+      "marketing_resend_email_success": "Lenken er sendt",
+      "subtotal_label_with_quantity": {
+        "one": "Delsum",
+        "other": "Delsum · {{count}} artikler"
+      },
+      "total_savings": "Totale besparelser",
+      "price_before_discount_accessibility_label": "Opprinnelig pris",
+      "price_after_discount_accessibility_label": "Rabattert pris",
+      "discount_order_stacking": {
+        "one": "Ordrerabatt",
+        "other": "Ordrerabatter"
+      },
+      "fulfillment_images": {
+        "one_products_accessibility_label": "Distribusjonen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}",
+        "two_products_accessibility_label": "Distribusjonen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}, {{lineItemName2}} antall {{lineItemQuantity2}}",
+        "three_products_accessibility_label": "Distrubisjonen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}, {{lineItemName2}} antall {{lineItemQuantity2}}, {{lineItemName3}} antall {{lineItemQuantity3}}",
+        "four_products_accessibility_label": "Distribusjonen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}, {{lineItemName2}} antall {{lineItemQuantity2}}, {{lineItemName3}} antall {{lineItemQuantity3}}, {{lineItemName4}} antall {{lineItemQuantity4}}",
+        "five_products_accessibility_label": "Fordelingen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}, {{lineItemName2}} antall {{lineItemQuantity2}}, {{lineItemName3}} antall {{lineItemQuantity3}}, {{lineItemName4}} antall {{lineItemQuantity4}}, {{lineItemName5}} antall {{lineItemQuantity5}}",
+        "six_products_accessibility_label": "Distribueringen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}, {{lineItemName2}} antall {{lineItemQuantity2}}, {{lineItemName3}} antall {{lineItemQuantity3}}, {{lineItemName4}} antall {{lineItemQuantity4}}, {{lineItemName5}} antall {{lineItemQuantity5}}, {{lineItemName6}} antall {{lineItemQuantity6}}",
+        "six_and_more_products_accessibility_label": "Distribusjonen inneholder {{lineItemName1}} antall {{lineItemQuantity1}}, {{lineItemName2}} antall {{lineItemQuantity2}}, {{lineItemName3}} antall {{lineItemQuantity3}}, {{lineItemName4}} antall {{lineItemQuantity4}}, {{lineItemName5}} antall {{lineItemQuantity5}}, {{lineItemName6}} antall {{lineItemQuantity6}} med flere"
+      }
     },
     "address_form": {
       "loading_form_accessibility_message": "Laster inn adresseformular",
-      "attention_company": "Firma/mottaker"
+      "attention_company": "Firma/mottaker",
+      "auto_complete_close_accessibility_label": "Nære forslag",
+      "auto_complete_title": "Forslag",
+      "billing_address": "Bruk som fakturaadresse",
+      "cancel": "Avbryt",
+      "cancel_accessibility_label": "Avbryt redigering av adressen {{address}}",
+      "creation_success_notification": "Adresse lagt til",
+      "default_address": "Dette er min standardadresse",
+      "default_address_creation_success_notification": "Standardadresse lagt til",
+      "default_address_update_success_notification": "Standardadresse oppdatert",
+      "loading_add_form_accessibility_message": "Laster inn nytt adresseskjema",
+      "loading_edit_form_accessibility_message": "Laster inn redigering av adressefelt",
+      "loading_finished_accessibility_message": "Adresseformular er lastet inn",
+      "save": "Lagre",
+      "save_accessibility_label": "Lagre adresse {{address}}",
+      "section_title_accessibility_label": "Legg til adresse",
+      "update_success_notification": "Adresse oppdatert",
+      "attention": "Mottaker",
+      "attention_help_text": "Navn på en person eller avdeling"
     },
     "callback": {
       "try_again": "Prøv igjen"
@@ -3746,6 +3827,51 @@
         }
       },
       "processing": "Behandler ..."
+    },
+    "addresses": {
+      "add_button": "Legg til adresse",
+      "address_deleted_notification": "Adresse slettet",
+      "cancel_adding_address_accessibility_label": "Avbryt sletting av adresse",
+      "cancel_deletion_button": "Avbryt",
+      "cancel_deletion_button_accessibility_label": "Avbryt sletting av {{address}}",
+      "default_address": {
+        "title": "Standardadresse",
+        "title_accessibility_label": "Standardadresse: {{address}}",
+        "badge_label": "Standard"
+      },
+      "delete_button": "Slett",
+      "delete_button_accessibility_label": "Slett {{address}}",
+      "delete_confirmation_button": "Slett adresse",
+      "delete_confirmation_button_accessibility_label": "Slett {{address}}",
+      "delete_confirmation_message": "Slette adresse? Eksisterende ordrer påvirkes ikke.",
+      "edit_button": "Rediger",
+      "edit_button_accessibility_label": "Rediger {{address}}",
+      "edit_section_accessibility_label": "Rediger {{address}}",
+      "loading_accessibility_message": "Laster inn adresse",
+      "loading_addresses_accessibility_message": "Laster inn adresser",
+      "loading_billing_accessibility_message": "Laster inn faktureringsadresse",
+      "loading_finished_accessibility_message": "Ny adresside er lastet inn",
+      "loading_shipping_accessibility_message": "Laster inn leveringsadresse",
+      "pagination": {
+        "load_more": "Vis mer",
+        "load_more_accessibility_label": "Vis flere adresser"
+      },
+      "save_new_address_accessibility_label": "Lagre adresse",
+      "title": "Adresser",
+      "delete_confirmation_title": "Slette adresse?",
+      "delete_confirmation_description": "Eksisterende ordrer påvirkes ikke.",
+      "edit_modal_title": {
+        "default": "Rediger adresse",
+        "billing": "Rediger fakturaadresse",
+        "shipping": "Rediger leveringsadresse"
+      },
+      "add_address_banner": "Legg til adresser som skal brukes i kassen",
+      "billing_address_dropdown_placeholder": "Faktureringsadresse",
+      "add_button_text": "Legg til",
+      "add_button_accessibility_label": "Legg til adresse",
+      "back_button": "Tilbake",
+      "back_button_accessibility_label": "Gå tilbake til å redigere adresse {{address}}",
+      "no_addresses_banner": "Ingen adresser har blitt lagt til"
     }
   },
   "customer": {
