@@ -1815,6 +1815,164 @@
           "one": "Din ordre kommer i %{count} levering",
           "other": "Din bestilling kommer i %{count} leveranser"
         }
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "last_name": "Oppgi et etternavn",
+            "address1": "Oppgi en adresse",
+            "address2": "Oppgi leilighet, oppgang e.l.",
+            "city": "Oppgi en by",
+            "province": "Velg en by/fylke",
+            "country": "Velg et land/region",
+            "zip": "Oppgi et postnummer",
+            "phone": "Skriv inn et telefonnummer",
+            "billing_first_name": "Oppgi et fornavn for faktureringsadressen",
+            "billing_address1": "Oppgi en faktureringsadresse",
+            "billing_address2": "Oppgi leilighet, trapp osv. for faktureringsadresse",
+            "billing_city": "Angi en faktureringsadresse",
+            "billing_province": "Velg en delstat/provins for faktureringsadresse",
+            "billing_zip": "Oppgi postnummer for faktureringsadress",
+            "contact_info": "Oppgi kontaktinformasjon"
+          },
+          "formatting": {
+            "name_contains_emojis": "Slett emoji fra navnet ditt",
+            "postal_code_contains_emoji": "Slett emoji fra postnummeret ditt",
+            "first_name_too_long": "Fornavnet inneholder for mange bokstaver",
+            "last_name_too_long": "Etternavnet inneholder for mange bokstaver",
+            "address_too_long": "Adresslinjen er for lang"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Din leveringsadresse er ugyldig. Velg en annen adresse eller bruk en ny.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} er for øyeblikket ikke tilgjengelig for bestillingen. Velg en annen betalingsmetode for å fortsette med kjøpet."
+          },
+          "discount_code": "Kan ikke bruke denne rabattkoden. Kontroller koden og prøv igjen.",
+          "processing_error_checkout_as_guest": "Det oppstod en feil under behandling av betalingen. Prøv igjen eller {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Din ordre inneholder et abonnement. Du må gjennomgå vilkårene nedenfor før du fullfører ordren.",
+          "sdk_load_failure": "Det oppstod et problem med å laste inn {{walletName}}. {{refresh_link}} for å prøve igjen, eller bruk en annen betalingsmetode.",
+          "refresh_link": "Oppdater"
+        },
+        "redirection_notice": "Du omdirigeres til {{walletName}} for å fullføre kjøpet",
+        "return_to_checkout": "Tilbake til kassen",
+        "scrim": {
+          "continue_purchase_in_window": "Fortsett ditt kjøp i vinduet {{walletName}}",
+          "and_return_to_checkout": "og gå tilbake til kassen",
+          "cancel": "Avbryt"
+        },
+        "place_order": "Bestill",
+        "recovery_notice": "Det er et problem med ordreopplysningene dine. Oppdater informasjonen din for å fullføre betalingen.",
+        "deceleration": {
+          "one_more_step_to_complete_order": "Ett steg igjen for å fullføre ordren",
+          "one_more_step": "Ett skritt til..."
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Gå gjennom kontaktinformasjonen din før du fullfører betalingen"
+      },
+      "store_credit_errors": {
+        "generic_error": "Det oppstod et problem med verdikupongen din. Prøv igjen eller last inn siden på nytt."
+      },
+      "note": {
+        "length_exceeds_maximum": "Forkort notatets størrelse til maks 5 000 tegn."
+      },
+      "billing": {
+        "billing_address_title": "Faktureres til",
+        "same_as_shipping": "Samme som leveringsadressen",
+        "add_address": "Bruk en annen adresse",
+        "edit": "Rediger",
+        "delete": "Slett",
+        "address_more": "Flere tiltak for denne adressen",
+        "address_edit": "Rediger adresse",
+        "address_delete": "Slett adresse",
+        "address_confirm": "Er du sikker på at du vil slette denne adressen fra kontoen din?",
+        "address_form": {
+          "add_address": "Legg til adresse",
+          "save": "Lagre",
+          "cancel": "Avbryt"
+        },
+        "billing_address_rollup_accessibility_label": "Alternativer for fakturere til"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Gavekortet er allerede lagt til i bestillingen",
+          "insufficient_funds": "Det er ikke mer penger igjen på dette gavekortet",
+          "expired": "Gavekortet har utløpt",
+          "not_available": "Dette gavekortet er ikke lenger tilgjengelig",
+          "invalid": "Oppgi et gyldig gavekort",
+          "currency_mismatch": "Kun gavekort i %{shop_currency} godtas",
+          "generic": "Det gikk ikke å legge til gavekortet i kassen",
+          "throttle_limit_exceeded": "Du har overskredet maksimalt antall forsøk. Prøv igjen senere.",
+          "no_longer_available": "Dette gavekortet kan ikke lenger brukes i denne kassen"
+        }
+      },
+      "vaulted": {
+        "change_button": "Endre",
+        "loading_section": "Laster {{section}}…"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Det går ikke å laste inn Shop Pay",
+          "try_again_later": "Kontroller tilkoblingen din eller lukk dette vinduet og prøv igjen om noen minutter.",
+          "checkout_has_expired": "Din betalingsøkt har utløpt. Lukk dette vinduet og prøv å betale igjen fra {{shopName}}."
+        },
+        "return_to_store": "Gå tilbake til {{shopName}}",
+        "return_to_store_simple": "Gå tilbake til butikken",
+        "title": "Shop Pay-kasse"
+      },
+      "company_location": {
+        "location_title": "Bedriftsplass",
+        "location_rollup_accessibility_label": "Alternativer for bedriftslokaler"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Gavekortbeløpet må være høyere enn 0.",
+            "subtotal_limit_reached": "Maksimalt antall poster er nådd.",
+            "gift_card_price_must_not_exceed_limit": "Gavekortbeløpet må ikke overstige %{gift_card_limit}.",
+            "signature_mismatch": "Signaturer for handelsvarer samsvarer ikke for rad %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "copied": "Kopiert",
+        "failed_to_copy": "Kunne ikke kopiere"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Fullfør kjøpet med {{paymentMethod}}-koden din",
+        "timer_message": "Du har {{timeLeft}} på deg til å betale",
+        "copy_text": "Kopier {{paymentMethod}}-kode",
+        "header": "Betal med {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Fullfør kjøpet med {{paymentMethod}}-koden din",
+          "wechat_instructions": "Skann denne QR-koden med WeChat-appen på telefonen din for å fullføre kjøpet",
+          "wechat_instructions_mobile": "Skann denne QR-koden med WeChat-appen på en annen enhet for å fullføre kjøpet",
+          "paynow_instructions": "Skann denne QR-koden med en tilkoblet bank- eller betalingsapp. Ikke betal ved å taste inn UEN manuelt. Manuelle overføringer kan ikke matches med bestillingen din og kan ikke refunderes. Betalingsmottakeren vises som Stripe.",
+          "paynow_instructions_mobile": "Lagre eller ta et skjermbilde av denne QR-koden, åpne deretter en tilkoblet bank- eller betalingsapp og skann den fra bildene dine. Ikke betal ved å oppgi UEN manuelt. Manuelle overføringer kan ikke matches med bestillingen din og kan ikke refunderes. Betalingsmottakeren vil vises som Stripe."
+        },
+        "external": {
+          "instructions": "Bekreft betalingen i appen for å fullføre kjøpet"
+        },
+        "close": "Avslutt utfordringen",
+        "open_app_text": "Åpne {{paymentMethod}}-appen"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Det gikk ikke å behandle ordren din. Prøv igjen om noen minutter."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "%{position} %{name}-handelsvareanvisningen inneholder en tom stabil-ID.",
+        "invalid_stable_id_target": "%{position} %{name}-handelsvareinstruksen refererer til stabil-ID %{stable_id}, men denne stabil-ID-en er ikke inkludert i handelsvarene.",
+        "duplicate_variant_id": "%{position} %{name}-handelsvareinstruksjonen inneholder en duplisert variant-ID %{variant_id}.",
+        "invalid_variant_id_target": "%{name}-handelsvareinstruksjonen refererer til variant-ID %{variant_id}, men denne varianten inngår ikke i handelsvarene.",
+        "invalid_price_override_target": "Instruksjonen for overstyring av pris for handelsvarer %{stable_id} er ugyldig fordi den er en pakkekomponent.",
+        "discount_not_supported": "Instruksjonen for å bruke handelsvarerabatt for forhandlere støtter ikke denne typen rabatt."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Dette produktet er ikke tilgjengelig for levering til %{location_name}.",
+          "some_products_other": "Disse produktene er ikke tilgjengelige for levering til %{location_name}.",
+          "all_products_one": "Produktet i handlekurven din er ikke tilgjengelig for levering til %{location_name}.",
+          "all_products_other": "Produktene i handlekurven din er ikke tilgjengelige for levering til %{location_name}."
+        }
       }
     },
     "pagination": {
