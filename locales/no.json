@@ -4025,7 +4025,9 @@
         "load_image": "Last inn bilde {{ index }} i gallerivisning",
         "load_model": "Last 3D-modellen {{ index }} i gallerivisning",
         "load_video": "Spill av videoen {{ index }} i gallerivisning",
-        "image_available": "Bilden {{ index }} er nå tilgjengelig i gallerivisning"
+        "image_available": "Bilden {{ index }} er nå tilgjengelig i gallerivisning",
+        "open_media": "Åpne mediet {{ index }} i modalvindu",
+        "play_model": "Spill 3D-visningsprogrammet"
       },
       "view_full_details": "Vis alle oppgaver",
       "shipping_policy_html": "Gratis frakt!",
@@ -4049,7 +4051,45 @@
       "product_variants": "Produktvarianter",
       "taxes_included": "Skatter er inkludert.",
       "duties_included": "Tollavgifter er inkludert.",
-      "duties_and_taxes_included": "Tollavgifter og skatter er inkludert."
+      "duties_and_taxes_included": "Tollavgifter og skatter er inkludert.",
+      "add_to_cart": "Legg i handlekurven",
+      "description": "Beskrivelse",
+      "on_sale": "Salg",
+      "quantity": {
+        "label": "Kvantitet",
+        "input_label": "Kvantitet for {{ product }}",
+        "increase": "Øk antall for {{ product }}",
+        "decrease": "Reduser antall for {{ product }}",
+        "minimum_of": "Minimum på {{ quantity }}",
+        "maximum_of": "Maximum på {{ quantity }}",
+        "multiples_of": "Økninger i steg på {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> i handlekurv",
+        "note": "Vis kvantumsregler",
+        "min_of": "Min. {{ quantity }}",
+        "max_of": "Max. {{ quantity }}"
+      },
+      "price": {
+        "from_price_html": "Fra {{ price }}",
+        "regular_price": "Ordinær pris",
+        "sale_price": "Salgspris",
+        "unit_price": "Enhetspris"
+      },
+      "share": "Del dette produktet",
+      "sold_out": "Utsolgt",
+      "unavailable": "Ikke tilgjengelige",
+      "vendor": "Selger",
+      "video_exit_message": "{{ title }} åpner fullskjermsvideo i samme vindu.",
+      "xr_button": "Vis i ditt område",
+      "xr_button_label": "Vis i rommet ditt, last inn gjenstander i vinduer med utvidet virkelighet",
+      "pickup_availability": {
+        "view_store_info": "Vis butikkinformasjon",
+        "check_other_stores": "Sjekker tilgjengelighet i andre butikker",
+        "pick_up_available": "Henting tilgjengelig",
+        "pick_up_available_at_html": "Henting tilgjengelig på <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Det er for øyeblikket ikke mulig å hente pakker på <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Kunne ikke laste ned tilgjengelighet",
+        "refresh": "Oppdater"
+      }
     },
     "modal": {
       "label": "Mediegalleri"
@@ -4259,7 +4299,103 @@
       "login_password_button": "Oppgi passord for å få tilgang",
       "login_form_password_label": "Passord",
       "login_form_password_placeholder": "Passordet ditt",
-      "login_form_error": "Feil passord!"
+      "login_form_error": "Feil passord!",
+      "login_form_submit": "Angi",
+      "admin_link_html": "Er du butikkeier? <a href=\"/admin\" class=\"link underlined-link\">Logg inn her</a>",
+      "powered_by_shopify_html": "Denne butikken vil bli drevet av {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Del på Facebook",
+        "share_on_twitter": "Del på X",
+        "share_on_pinterest": "Lagre en pin på Pinterest"
+      },
+      "links": {
+        "twitter": "X (Twitter)",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "instagram": "Instagram",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
+      }
+    },
+    "continue_shopping": "Fortsett å handle",
+    "pagination": {
+      "label": "Sidetall",
+      "page": "Side {{ number }}",
+      "next": "Neste side",
+      "previous": "Forrige side"
+    },
+    "search": {
+      "search": "Søk",
+      "reset": "Fjern søkeord"
+    },
+    "cart": {
+      "view": "Vis varekurv ({{ count }})",
+      "item_added": "Artikkelen er lagt til i handlekurven",
+      "view_empty_cart": "Vis handlekurv"
+    },
+    "share": {
+      "copy_to_clipboard": "Kopier lenke",
+      "share_url": "Lenke",
+      "success_message": "Lenken ble kopiert til utklippstavlen",
+      "close": "Lukk deling"
+    },
+    "slider": {
+      "of": "av",
+      "next_slide": "Bilde til høyre",
+      "previous_slide": "Bilde til venstre",
+      "name": "Bilde"
     }
+  },
+  "newsletter": {
+    "label": "E-post",
+    "success": "Takk for at du abonnerer",
+    "button_label": "Abonner"
+  },
+  "accessibility": {
+    "skip_to_text": "Gå videre til innhold",
+    "close": "Lukk",
+    "unit_price_separator": "per",
+    "vendor": "Selger:",
+    "error": "Feil",
+    "refresh_page": "Når du gjør et utvalg, oppdateres siden.",
+    "link_messages": {
+      "new_window": "Åpnes i et nytt vindu.",
+      "external": "Åpner eksternt nettsted."
+    },
+    "loading": "Laster ...",
+    "skip_to_product_info": "Gå videre til produktinformasjon",
+    "total_reviews": "totalt antall anmeldelser",
+    "star_reviews_info": "{{ rating_value }} av {{ rating_max }} stjerner",
+    "collapsible_content_title": "Innhold som kan skjules",
+    "complementary_products": "Komplementære produkter"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blogg",
+      "read_more_title": "Les mer: {{ title }}",
+      "comments": {
+        "one": "{{ count }} kommentar",
+        "other": "{{ count }} kommentarer"
+      },
+      "moderated": "Merk at kommentarer må godkjennes før de publiseres.",
+      "comment_form_title": "Legg igjen en kommentar",
+      "name": "Navn",
+      "email": "E-post",
+      "message": "Kommentar",
+      "post": "Legg ut kommentar",
+      "back_to_blog": "Tilbake til blogg",
+      "share": "Del denne artikkelen",
+      "success": "Din kommentar er lagt ut! Takk!",
+      "success_moderated": "Din kommentar har blitt publisert. Vi vil publisere den litt senere, ettersom bloggen er moderert."
+    }
+  },
+  "onboarding": {
+    "product_title": "Eksempel på produktnavn",
+    "collection_title": "Navn på produktserien"
   }
 }
