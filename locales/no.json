@@ -1891,7 +1891,111 @@
           "title": "De nærmeste stedene er mer enn %{distance} unna",
           "description": "Velg et sted eller %{ship_to_address_link}",
           "ship_to_address_link": "levere til adresse",
-          "title_with_location": "Det nærmeste stedet er mer enn %{distance} unna %{location}"
+          "title_with_location": "Det nærmeste stedet er mer enn %{distance} unna %{location}",
+          "description_with_location": "%{change_location_link} eller %{ship_to_address_link}",
+          "change_location_link": "Endre plassering",
+          "title_with_specific_location": "Det nærmeste stedet som har varen din, ligger mer enn %{distance} fra %{location}",
+          "title_with_item": {
+            "one": "Det nærmeste stedet som har varen din, ligger mer enn %{distance} fra %{location}",
+            "other": "Det nærmeste stedet som har dine artikler ligger mer enn %{distance} fra %{location}"
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Stedet du valgte tidligere er ikke lenger tilgjengelig",
+          "description": "Vi har valgt nærmeste sted som har varene på lager"
+        },
+        "pick_up_location": "Hentested",
+        "no_pickup_locations_found": "Ingen henteplasser funnet",
+        "pickup_unavailable_banner_body": {
+          "try_different_location": "Prøv en annen plass",
+          "ship_to_address": "levere til adresse",
+          "there_are_no_stores": "Det er ingen butikker i nærheten av adressen din, eller varene er ikke tilgjengelige for henting.",
+          "ship_items": "Lever dine artikler",
+          "search_elsewhere": "søk på et annet sted",
+          "ship_items_or_search_elsewhere": "%{ship_items} eller %{search_elsewhere}",
+          "search_elsewhere_standalone": "Søk et annet sted"
+        },
+        "geolocation": {
+          "permission_not_allowed": "Tillat stedsdeling, eller søk istedenfor."
+        },
+        "location_address_search_placeholder": "%{postal_code_label} eller adresse",
+        "location_closest": "Nærmeste sted som har artikkelen",
+        "toggle_multiple_locations": "Mer enn %{count} til plasser",
+        "location_information_far_away": {
+          "one": "Det er %{count} sted som har artikkelen",
+          "other": "Det er %{count} steder som har artikkelen"
+        },
+        "location_nearby": {
+          "one": "Det er %{count} sted i nærheten av deg som har varen",
+          "other": "Det er %{count} steder nær deg som har artikkelen"
+        },
+        "location_nearby_short": {
+          "one": "%{count} sted nær deg som har varen",
+          "other": "%{count} steder nær deg som har artikkelen"
+        },
+        "location_far_away": {
+          "one": "%{count} plass som har artikkelen",
+          "other": "%{count} steder som har artikkelen"
+        },
+        "toggle_more_locations": {
+          "one": "%{count} til plass",
+          "other": "%{count} til steder"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ingen av stedene har artikkelen",
+          "other": "Ingen av stedene har artiklene"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ingen steder i %{country} har artikkelen",
+          "other": "Ingen steder i %{country} har artiklene"
+        },
+        "title": "Sted",
+        "location_closest_one_item": "Nærmeste sted med din artikkel",
+        "location_closest_other_items": "Nærmeste sted med dine artikler",
+        "location_information_far_away_one_item": {
+          "one": "Det er %{count} sted med din artikkel",
+          "other": "Det finnes %{count} steder med din artikkel"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Det er %{count} sted med dine artikler",
+          "other": "Det finnes %{count} steder med artiklene dine"
+        },
+        "location_nearby_one_item": {
+          "one": "Det finnes %{count} sted i nærheten med varen din",
+          "other": "Det finnes %{count} steder i nærheten med din artikkel"
+        },
+        "location_nearby_other_items": {
+          "one": "Det finnes %{count} sted i nærheten med varene dine",
+          "other": "Det finnes %{count} steder i nærheten med varene dine"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} steder i nærheten med din artikkel",
+          "other": "%{count} steder i nærheten med din artikkel"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} steder i nærheten med artiklene dine",
+          "other": "%{count} steder i nærheten med artiklene dine"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} steder med artikkelen din",
+          "other": "%{count} steder med artikkelen din"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} plass med artiklene dine",
+          "other": "%{count} steder med artiklene dine"
+        },
+        "location_selected": "Valgt sted",
+        "stock_details": {
+          "out_of_stock": "Ikke på lager på dette stedet",
+          "in_stock": "På lager",
+          "ship_separately": {
+            "one": "Artikkelen sendes separat",
+            "other": "Artiklene sendes separat"
+          },
+          "remove_items": {
+            "one": "Artikkelen fjernes fra din ordre",
+            "other": "Artiklene fjernes fra din bestilling"
+          }
         }
       },
       "shipping_errors": {
@@ -2258,7 +2362,8 @@
             "billing_city": "Angi en faktureringsadresse",
             "billing_province": "Velg en delstat/provins for faktureringsadresse",
             "billing_zip": "Oppgi postnummer for faktureringsadress",
-            "contact_info": "Oppgi kontaktinformasjon"
+            "contact_info": "Oppgi kontaktinformasjon",
+            "first_name": "Oppgi et fornavn"
           },
           "formatting": {
             "name_contains_emojis": "Slett emoji fra navnet ditt",
@@ -2275,7 +2380,45 @@
           "processing_error_checkout_as_guest": "Det oppstod en feil under behandling av betalingen. Prøv igjen eller {{checkout_as_guest_link}}.",
           "subscription_review_required": "Din ordre inneholder et abonnement. Du må gjennomgå vilkårene nedenfor før du fullfører ordren.",
           "sdk_load_failure": "Det oppstod et problem med å laste inn {{walletName}}. {{refresh_link}} for å prøve igjen, eller bruk en annen betalingsmetode.",
-          "refresh_link": "Oppdater"
+          "refresh_link": "Oppdater",
+          "unavailable": {
+            "title": "{{walletName}} er ikke tilgjengelig",
+            "description": "{{walletName}} var ikke tilgjengelig. Velg en annen betalingsmetode eller prøv igjen senere.",
+            "instructions": "Det oppstod et problem med {{walletName}}. Gå tilbake til butikken for å prøve igjen eller betale på en annen måte.",
+            "unavailable_for_country": "{{walletName}} er ikke tilgjengelig i {{countryName}}. Velg en annen betalingsmetode for å fullføre kjøpet"
+          },
+          "generic": "Det oppsto et problem med {{walletName}}. Prøv igjen eller bruk en annen betalingsmåte.",
+          "terminal": "Det oppstod et problem med {{walletName}}. Bruk en annen betalingsmetode.",
+          "detour": {
+            "stock_problems": "Noen artikler er ikke lenger tilgjengelige. Lukk {{walletName}} og prøv igjen.",
+            "price_change": "Noen artikkelpriser har endret seg. Lukk {{walletName}} for å gjennomgå bestillingen din, og prøv igjen.",
+            "queue": "Du har blitt plassert i kø til kassen. Lukk {{walletName}} for å fortsette.",
+            "currency_change": "Du kan ikke bruke en annen adresse med {{walletName}}. Bruk den opprinnelige adressen eller prøv en annen betalingsmetode."
+          },
+          "unsupported": {
+            "address": "Forhandleren kan ikke levere til din valgte leveringsadresse.",
+            "postal_code": "Plasseringen støttes ikke",
+            "wallet_is_unavailable": "{{walletName}} kan ikke brukes med denne adressen. Velg en annen adresse eller lukk {{walletName}} for å fullføre kjøpet"
+          },
+          "outdated": {
+            "shipping_method": "Leveringsalternativene for din bestilling er endret. Vennligst se over valget ditt.",
+            "payment_terms": "Betalingsvilkårene er endret. Vennligst se over din ordre."
+          },
+          "invalid": {
+            "shipping_address": "Oppgi en gyldig leveringsadresse",
+            "billing_address": "Oppgi en gyldig faktureringsadresse",
+            "shipping_option": "Velg et gyldig leveringsalternativ",
+            "email": "Oppgi en gyldig e-postadresse",
+            "zone": "Oppgi en gyldig stat/provins",
+            "postal_code": "Oppgi gyldig postnummer",
+            "reduction_code": "Oppgi en gyldig rabattkode eller et gyldig gavekort",
+            "billing_must_match_shipping": "Må matche leveringsadressen",
+            "phone": "Oppgi et gyldig telefonnummer",
+            "emirate": "Oppgi et gyldig emirat",
+            "billing_zone": "Angi en gyldig stat/provins for faktureringsadressen",
+            "billing_phone": "Oppgi et gyldig telefonnummer for faktureringsadressen",
+            "billing_zip": "Angi et gyldig postnummer for faktureringsadressen"
+          }
         },
         "redirection_notice": "Du omdirigeres til {{walletName}} for å fullføre kjøpet",
         "return_to_checkout": "Tilbake til kassen",
@@ -2289,7 +2432,15 @@
         "deceleration": {
           "one_more_step_to_complete_order": "Ett steg igjen for å fullføre ordren",
           "one_more_step": "Ett skritt til..."
-        }
+        },
+        "return_to_store": "Tilbake til butikken",
+        "redirect_hint": "Du vil bli bedt om å logge inn med {{walletName}}.",
+        "logged_in": "Ansluttet til {{email}}",
+        "shipping_line_label": "Levering",
+        "payment_in_progress_title": "Betaling pågår",
+        "payment_in_progress_body": "Betalingen din blir behandlet. Ordren din vil snart bli fullført.",
+        "continue_with": "Fortsett med {{walletName}}",
+        "call_to_action": "Betal med {{walletName}}"
       },
       "markets": {
         "invalid_market_manager_error": "Gå gjennom kontaktinformasjonen din før du fullfører betalingen"
@@ -2547,6 +2698,15 @@
       "session_errors": {
         "session_not_unique": "Det gikk ikke å behandle ordren din. Oppdater siden for å gå tilbake til butikken.",
         "session_already_finished": "Ordren er allerede sendt. Du kan gå tilbake til butikken for å starte en ny bestilling."
+      },
+      "captcha": {
+        "title": "Løs robotfilteroppgaven for å fortsette",
+        "errors": {
+          "not_solved": "Løs robotfilteroppgaven for å fortsette"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Det var ikke mulig å behandle ordren din fordi rabattkoden din ikke lenger er tilgjengelig. Kontroller ordresummen og prøv igjen."
       }
     },
     "pagination": {
