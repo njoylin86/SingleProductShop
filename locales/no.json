@@ -298,7 +298,51 @@
         "address_district_blank": "Angi et distrikt",
         "address_district_too_long": "Distriktsnavnet er for langt (maks. {{count}} tegn)",
         "address_district_contains_emojis": "Distrikt kan ikke inneholde emojier",
-        "address_district_contains_html_tags": "Distrikt kan ikke inneholde HTML-tagger"
+        "address_district_contains_html_tags": "Distrikt kan ikke inneholde HTML-tagger",
+        "address_district_contains_mathematical_symbols": "Distrikt kan ikke inneholde matematiske symboler",
+        "address_ward_blank": "Angi et administrativt område",
+        "address_ward_too_long": "Navnet på det administrative området er for langt (maks {{count}} tegn)",
+        "address_ward_contains_emojis": "Administrativt område kan ikke inneholde emojier",
+        "address_ward_contains_html_tags": "Bydel kan ikke inneholde HTML-koder",
+        "address_ward_contains_mathematical_symbols": "Administrativt område kan ikke inneholde matematiske symboler",
+        "address_block_blank": "Angi en kvartal",
+        "address_area_blank": "Angi et område",
+        "split_cart_international_shipping_not_supported": "Alle artikler må bruke samme leveringsmetode ved internasjonal levering. Oppdater leveringsmetoden eller opprett flere ordrer.",
+        "address_zip_blocked_address": "Plasseringen støttes ikke",
+        "split_quantity_per_delivery_line_not_allowed": "Minst én handelsvarelinje er referert til av flere leveringslinjer.",
+        "split_cart_tax_engine_not_supported": "Alle artikler må bruke samme leveringsmetode for skattemotoren som brukes på butikkens sted.",
+        "split_cart_not_allowed": "Ugyldig sesjon eller funksjon ikke aktivert for angitt butikk.",
+        "invalid_delivery_address_reference_handle": "Det var ikke mulig å matche brukernavnet som er oppgitt som referanse for leveringsadressen, med noen tilgjengelig leveringsadresse.",
+        "must_use_available_delivery_address": "Leveringsadressen må velges fra de tilgjengelige leveringsadressene.",
+        "must_use_available_shipping_rate": "Fraktkostnaden må velges fra de tilgjengelige fraktkostnadene.",
+        "shipping_method_invalid_phone_number": "Oppdater telefonnummeret i leveringsadressen din for å se tilgjengelige leveringsmetoder.",
+        "split_by_delivery_method_not_allowed": "Å dele opp etter leveringsmetode er ikke tillatt for denne sesjonen eller butikken.",
+        "split_by_delivery_method_unsupported_method_type": "Et forsøk på å dele opp etter leveringsmetode ble gjort med en leveringsmetodetype som ikke støttes.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Oppdeling etter leveringsmetode krever at enkelte varelinjer distribueres fra ett enkelt sted.",
+        "address_subdistrict_blank": "Angi et underdistrikt",
+        "address_subdistrict_too_long": "Underdistriktet er for langt (maks {{count}} tegn)",
+        "address_subdistrict_contains_emojis": "Underdistriktet kan ikke inneholde emojier",
+        "address_subdistrict_contains_html_tags": "Underdistrikt kan ikke inneholde HTML-koder",
+        "address_subdistrict_contains_mathematical_symbols": "Underdistriktet kan ikke inneholde matematiske symboler",
+        "credit_card_name_billing_invalid": "Skriv navnet ditt først i faktureringsadressen",
+        "address_line2_blank": "Angi leilighet, suite el.l.",
+        "address_line2_too_long": "Den andre adresslinjen er for lang (maks {{count}} tegn)",
+        "address_line2_contains_emojis": "Den andre adresslinjen kan ikke inneholde emojier",
+        "address_line2_contains_html_tags": "Den andre adresselinjen kan ikke inneholde HTML-koder",
+        "address_line2_contains_mathematical_symbols": "Den andre adresslinjen kan ikke inneholde matematiske symboler",
+        "address_block_too_long": "Blokken er for lang (maks. {{count}} tegn)",
+        "address_block_contains_emojis": "Blokk kan ikke inneholde emojier",
+        "address_block_contains_html_tags": "Kvarter kan ikke inneholde HTML-koder",
+        "address_block_contains_mathematical_symbols": "Blokken kan ikke inneholde matematiske symboler",
+        "address_area_too_long": "Område er for langt (maksimalt {{count}} tegn)",
+        "address_area_contains_emojis": "Området kan ikke inneholde emojier",
+        "address_area_contains_html_tags": "Område kan ikke inneholde HTML-tagger",
+        "address_area_contains_mathematical_symbols": "Område kan ikke inneholde matematiske symboler",
+        "gift_card_not_found": "Dette gavekortet ble ikke funnet",
+        "delivery_address_code_too_long": "Adresskoden er for lang (maks %{count} tegn)",
+        "delivery_address_code_contains_emojis": "Adresskoden må ikke inneholde emojier",
+        "delivery_address_code_contains_html_tags": "Adresskoden må ikke inneholde HTML-koder",
+        "delivery_address_code_contains_mathematical_symbols": "Adresskoden må ikke inneholde matematiske symboler"
       },
       "shop_wallet": {
         "confirm": {
@@ -523,6 +567,64 @@
         "wechat_app_label": "WeChat",
         "mb_way_label": "MB WAY",
         "bizum_label": "Bizum"
+      },
+      "payment_errors": {
+        "generic_error": "Det oppstod en feil ved behandling av betalingen. Prøv igjen eller bruk en annen betalingsmetode.",
+        "rejected_transaction": "Kortet ditt ble avvist. Prøv igjen eller bruk en annen betalingsmetode.",
+        "credit_card_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv igjen om noen minutter eller bruk en annen betalingsmetode.",
+        "order_total_changed": "Totalbeløpet for bestillingen din er endret. Kontroller og prøv på nytt.",
+        "payment_processing": "Betalingen din kan ikke behandles av tekniske årsaker. Vennligst prøv igjen eller bruk en annen betalingsmetode.",
+        "paypal_zero_amount": "Du kan ikke bruke PayPal for %{amount} ordrer. Bekreft at ordren din er korrekt og prøv uten PayPal.",
+        "paypal_invalid_token": "PayPal var ikke tilgjengelig. Prøv igjen eller bruk en annen betalingsmetode.",
+        "pay_later_failed": "Det oppstod en feil ved behandlingen av betalingen din med Betal senere. Velg en annen betalingsmetode og prøv igjen.",
+        "three_d_secure_failed": "Betalingen din kunne ikke verifiseres. Prøv igjen eller bruk en annen betalingsmetode.",
+        "three_d_secure_throttled": "For mange forsøk; vent før du prøver igjen",
+        "subscription_agreement_blank": "For å kjøpe et abonnement må betalingsopplysningene dine lagres. Bekreft at du godtar dette, eller fjern abonnementsvarer fra bestillingen din for å fortsette.",
+        "three_d_secure_failed_duplicate": "3D Secure-autentiseringen for kredittkortet mislyktes fordi en annen allerede blir behandlet.",
+        "insufficient_funds": "Betalingen din ble avvist på grunn av utilstrekkelige midler. Prøv igjen eller bruk en annen betalingsmetode.",
+        "payment_processing_no_retry": "Betalingen din kan ikke behandles av tekniske årsaker. Prøv en annen betalingsmetode.",
+        "checkout_amount_changed": "Betalingen din kunne ikke behandles fordi beløpet som skal betales i kassen har endret seg. Kontroller ordren din og prøv igjen.",
+        "deferred_payment_not_allowed": "Forsinkede betalinger tillates ikke. Kontroller ordren din og prøv igjen.",
+        "deferred_payment_required": "Ordren krever en utsatt betaling. Kontroller ordren din og prøv igjen.",
+        "deferred_amount_changed": "Betalingen din kunne ikke behandles fordi beløpet for utsatt betaling har endret seg. Kontroller ordren din og prøv igjen.",
+        "deferred_date_changed": "Betalingen din kunne ikke behandles fordi datoen for utsatt betaling er endret. Kontroller ordren din og prøv igjen.",
+        "multiple_deferred_payment_not_allowed": "Kun én utsatt betaling er tillatt per forespørsel. Kontroller forespørselen din og prøv igjen.",
+        "shipping_must_match_billing": "Fakturaadressen må samsvare med leveringsadressen. Bruk en annen betalingsmetode.",
+        "pick_up_card": "Kortet ditt ble avvist. Prøv igjen eller bruk en annen betalingsmetode.",
+        "cannot_verify": "Betalingsopplysningene dine kunne ikke verifiseres. Kontroller kortopplysningene dine og prøv igjen.",
+        "invalid_number": "Oppgi et gyldig kortnummer",
+        "invalid_expiry_date": "Oppgi en gyldig utløpsdato",
+        "invalid_cvc": "Oppgi en gyldig sikkerhetskode",
+        "expired_card": "Kortet har utløpt. Bruk en annen betalingsmetode.",
+        "card_declined": "Kortet ditt ble avvist. Prøv igjen eller bruk en annen betalingsmetode.",
+        "processing_error": "Det oppstod en feil ved behandling av betalingen din. Prøv igjen eller bruk en annen betalingsmetode.",
+        "call_issuer": "Kortet ditt ble avvist. Bruk en annen betalingsmetode eller kontakt banken din for mer informasjon.",
+        "test_mode_live_card": "Butikken aksepterer ikke reelle bestillinger eller betalinger.",
+        "transient_error": "Det oppstod en feil da betalingen skulle behandles. Prøv å oppdatere denne siden eller kontroller internettforbindelsen din.",
+        "missing_shipping_address": "Betalingen din kunne ikke behandles fordi leveringsadressen mangler. Legg til en leveringsadresse og prøv igjen.",
+        "invalid_shipping_address": "Betalingen din kunne ikke behandles fordi vi ikke kunne finne leveringsadressen din. Vennligst kontroller leveringsadressen din og prøv igjen.",
+        "successful_offsite_with_gift_card_error": "Det oppstod en feil ved behandlingen av gavekortbetalingen din. Prøv igjen eller bruk en annen betalingsmetode.",
+        "development_store_order_limit_reached": "Du har nådd grensen for antall ordrer i utviklingsbutikker med denne betalingsbehandleren. Hvis du vil legge inn en ordre til, må du bruke en test-betalingsgateway. Mer informasjon om %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Hvis du vil legge inn en testbestilling, må du bruke en test-betalingsgateway. Mer informasjon om %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "teste ordrer i utviklingsbutikker",
+        "method_not_available": "Den forespurte betalingsmetoden er ikke tilgjengelig. Velg en annen betalingsmetode og prøv igjen.",
+        "available_methods_updated": "Tilgjengelige betalingsmetoder har blitt oppdatert.",
+        "selected_payment_method": "Det oppstod et problem med den valgte betalingsmetoden din, og du ble ikke belastet. Prøv igjen eller bruk en annen betalingsmetode.",
+        "payment_method_billing_address": "Det oppstod et problem med faktureringsadressen for den valgte betalingsmetoden. Kontroller adressen og prøv igjen, eller bruk en annen betalingsmetode.",
+        "processing_error_checkout_as_guest": "Det oppsto en feil under betalingsbehandlingen. Prøv igjen med en annen betalingsmetode eller {{checkout_as_guest_link}}.",
+        "amount_too_small": "Laveste beløp å betale må være minst 0,50 USD. Vennligst prøv igjen med et høyere beløp.",
+        "payment_above_threshold": "Betalingsbeløpet overstiger den monetære grensen for denne regionen. Reduser totalbeløpet og prøv igjen",
+        "risky": "Det oppstod en feil ved behandling av betalingen. Prøv igjen eller bruk en annen betalingsmetode.",
+        "expired_buyer_action": "Betalingsmetoden tok for lang tid. Prøv igjen.",
+        "three_d_secure_failed_payment_method": "Kortet ditt kunne ikke verifiseres. Prøv på nytt eller legg til et annet kort.",
+        "name_mismatch": "Kontroller kortopplysningene. Navnet på kortet og faktureringsadressen samsvarer ikke.",
+        "payment_method_not_applicable": "Denne betalingsmetoden er ikke gyldig. Vennligst bruk en annen betalingsmetode.",
+        "shop_pay_wallet_not_available": "Shop Pay er ikke tilgjengelig for denne kassen.",
+        "market_manager_blocks_wallet_payments": "Betalingsmetoden støttes ikke i ditt land.",
+        "paypal_over_capture": "Orderens totalbeløp er oppdatert. Betal med {{walletName}} for å fullføre bestillingen.",
+        "test_mode_enabled_only_test_cards": "Testmodus er aktivert, kun testkredittkort kan legges til.",
+        "captcha_required": "Oppgi betalingsinformasjon og løs robotfilteret for å fullføre kjøpet.",
+        "captcha_required_without_payment_information": "Løs robotfilteret for å fullføre kjøpet."
       }
     },
     "pagination": {
@@ -760,8 +862,142 @@
           "other": "{{count}} abonnementsavtaler oppdateres ..."
         },
         "contracts_updated": {
-          "one": "{{count}} abonnementsavtaler er oppdatert"
+          "one": "{{count}} abonnementsavtaler er oppdatert",
+          "other": "{{count}} abonnementsavtaler er oppdatert"
+        },
+        "missing_customer_error": "En feil oppstod. Prøv igjen eller kontakt support."
+      },
+      "expires_soon": "Dette kortet går ut snart",
+      "expired": "Dette kortet har gått ut",
+      "card_update_consent": "Denne betalingsmetoden vil bli lagret for fremtidige kjøp.",
+      "digital_wallet_title": "Digital lommebok",
+      "credit_or_debit_card_title": "Kreditt- eller debetkort",
+      "google_pay": {
+        "errors": {
+          "generic": "Det oppstod et problem med Google Pay. Prøv igjen eller bruk en annen betalingsmetode.",
+          "missing_billing_address": "Google Pay krever en faktureringsadresse. Legg til en faktureringsadresse på kontoen din."
+        },
+        "loading": "Laster inn Google Pay",
+        "iframe_title_accessibility_label": "Legg til Google Pay som betalingsmetode",
+        "loading_accessibility_message": "Laster inn Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Laster inn Apple Pay",
+        "errors": {
+          "generic": "Det oppstod et problem med Apple Pay. Prøv igjen eller bruk en annen betalingsmetode.",
+          "not_available": "Apple Pay er ikke tilgjengelig på denne enheten.",
+          "missing_billing_address": "Apple Pay krever en faktureringsadresse. Legg til en faktureringsadresse til kontoen din."
         }
+      },
+      "add_payment_method_banner": "Legg til betalingsmetode for raskere betaling eller forhåndsgodkjente tjenester",
+      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}} som slutter på {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Rediger {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Vis gyldighetsadvarsel for {{paymentMethodName}} som slutter på {{lastDigits}}",
+      "no_payment_methods_banner": "Ingen betalingsmetode er lagt til",
+      "default": "Standard",
+      "store_credit": {
+        "label": "Verdikupong",
+        "expirable_amounts_button": "Vis beløp som forfaller",
+        "details_modal": {
+          "title": "Verdisjekk som snart utløper",
+          "balance_label": "Saldo",
+          "expiration_date_label": "Utløpsdato",
+          "amount_label": "Beløp",
+          "expirable_balance_info": "En del av saldoet ditt vil forfalle",
+          "expirable_amount_label": "Totalbeløp som vil forfalle",
+          "expirable_amounts_info": "Beløp med nær forfallsdato blir belastet først i kassen",
+          "expired_amounts_button": "Vis forfalt beløp",
+          "pagination": {
+            "load_more_label": "Vis mer",
+            "load_more_accessibility_label": "Vis flere utgående beløp",
+            "expirable_transactions_loading": "Leser inn flere forfalte beløp",
+            "transactions_loading": "Laster inn flere transaksjoner",
+            "load_more_transactions_accessibility_label": "Vis flere transaksjoner",
+            "expirable_transactions_loaded": "Flere forfalte beløp er lest inn",
+            "transactions_loaded": "Flere transaksjoner er lest inn"
+          },
+          "date_label": "Dato",
+          "expirable_amounts_button": "Vis",
+          "event_label": "Hendelse",
+          "events": {
+            "adjustment": "Justering",
+            "order_payment": "Ordrebetaling",
+            "order_refund": "Refusjon av ordre",
+            "payment_failure": "Betalingsfeil",
+            "payment_returned": "Betaling refundert",
+            "order_cancellation": "Ordreannullering",
+            "tax_finalization": "Sluttoppgjør"
+          },
+          "load_error": "Kunne ikke lese inn verdikupong.",
+          "expirable_indicator": "{{formattedAmount}} forfaller",
+          "expirable_indicator_accessibility_label": "{{formattedAmount}} forfaller. Vis forfalte beløp.",
+          "expirable_indicator_with_date_accessibility_label": "{{formattedAmount}} forfaller {{date}}. Vis forfalte beløp.",
+          "expires_at": "Forfaller {{date}}",
+          "expirable_transactions_list_accessibility_label": "Transaksjoner med verdikupong som forfaller",
+          "loading_accessibility_message": "Laster inn opplysninger om verdikupong",
+          "transactions_list_accessibility_label": "Transaksjoner med verdikupong",
+          "transaction_types": {
+            "credit": "Lagt til",
+            "debit": "Bruk",
+            "debit_revert": "Tilbakebetalt",
+            "expiration": "Forfalt"
+          }
+        },
+        "expirable_amounts_label": "Beløp som kan forfalle",
+        "accessibility_label": "Verdisjekk – {{formattedBalance}}"
+      },
+      "three_d_secure": {
+        "title": "3D Secure",
+        "verification_failed": "Betalingen kunne ikke bekreftes. Prøv igjen eller bruk en annen betalingsmetode."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Legg til PayPal som betalingsmetode",
+        "loading_accessibility_message": "Laster inn PayPal",
+        "errors": {
+          "generic": "Det oppstod et problem med PayPal. Prøv igjen eller bruk en annen betalingsmetode."
+        }
+      },
+      "card_update_consent_subscriptions": "Betalingsmetoden lagres for fremtidige kjøp og kan brukes til gjentakende kjøp eller kjøp med utsatt betaling.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Ved å legge til en betalingsmetode godkjenner du at kortet eller bankkontoen din belastes for fremtidige kjøp du godkjenner, frem til du avbryter dette."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Bankkontoknappen lastes inn",
+        "iframe_title_accessibility_label": "Konfigurering av bankkonto",
+        "display_name": "Bankkonto",
+        "generic_error": "Bankkonto kunne ikke legges til. Prøv igjen senere."
+      },
+      "replacement_payment_method_title": "Erstatningsbetalingsmetode",
+      "update_payment_method": {
+        "title": "Oppdater betalingsmetode",
+        "button_title": "Oppdater",
+        "billing_address": "Faktureringsadresse",
+        "disclaimer": "Betalingsmetoden lagres for fremtidige kjøp og kan brukes til gjentakende kjøp eller kjøp med utsatt betaling.",
+        "error_message": "Det var ikke mulig å oppdatere betalingsmetoden",
+        "current": "Nåværende",
+        "loading_form_accessibility_message": "Skjema for oppdatering av betalingsmetode lastes inn",
+        "loading_current_payment_method": "Gjeldende betalingsmetode lastes inn",
+        "loading_digital_wallets": "Alternativer for digital lommebok lastes inn",
+        "loading_card_fields": "Kredittkortfelt lastes inn",
+        "subscriptions_title": "Abonnementer",
+        "subscriptions_list_accessibility_label": "Liste over abonnementsprodukter",
+        "pre_orders_title": "Kommende",
+        "pre_orders_list_accessibility_label": "Liste over ventende ordrer",
+        "resources_list_accessibility_label": "Abonnementsprodukter og ventende ordreprodukter som bruker denne betalingsmetoden",
+        "resources_card_scroll": "Bla for flere artikler",
+        "resources_card_show_more": "Vis flere",
+        "resources_card_show_less": "Vis færre",
+        "loading_resources": "Laster inn abonnementer og kommende ordrer"
+      },
+      "link_expired": {
+        "message": "Denne lenken for å oppdatere betalingsmetoden din har utløpt.",
+        "return_home_button": "Gå tilbake til nettsiden",
+        "update_message": "Denne lenken for å oppdatere betalingsmetoden din har utløpt.",
+        "add_message": "Denne lenken for å legge til betalingsmetoden din har utløpt."
+      },
+      "update_success": {
+        "title": "Betalingsmetode oppdatert",
+        "done_button": "Fortsett å handle"
       }
     },
     "payment_method_brands": {
