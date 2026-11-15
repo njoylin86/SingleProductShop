@@ -14,7 +14,7 @@
   "parent": "index.json",
   "sections": {
     "aurora_reviews_4FmgtU": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {}
     }
